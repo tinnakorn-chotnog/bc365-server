@@ -30,6 +30,9 @@ node_modules
 !.vscode/launch.json
 !.vscode/extensions.json
 
+
+docker/*
+
 # Generated Source
 
 libs/auth/*
@@ -94,8 +97,8 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/apps/demo1/graphql/src/app/mail/mail-template/node_modules
-/apps/demo1/graphql/src/app/mail/mail-template/dist
+apps/demo1/graphql/src/app/mail/mail-template/node_modules
+apps/demo1/graphql/src/app/mail/mail-template/dist
 
 # System Files
 .DS_Store
