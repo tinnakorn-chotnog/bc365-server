@@ -1,0 +1,827 @@
+[
+  {
+    "_id": "dufo6vQsGnYnFL9kDymqZH",
+    "rtpId": "dufo6vQsGnYnFL9kDymqZH",
+    "assetId": "r4AJjt3dBKGnqtyVr1BXrj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 2.8,
+    "grtAmt": 50,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.5,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "hLnmekzFTpj7ASv2dbfN38",
+    "rtpId": "hLnmekzFTpj7ASv2dbfN38",
+    "assetId": "1G3kyDo5aCBz6tYuh5TXcj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 2.9,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.6,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "hWLmEewwPDfAjGbZ9b3CjD",
+    "rtpId": "hWLmEewwPDfAjGbZ9b3CjD",
+    "assetId": "4HeNXmYVFiQ1Qh7woVoMwu",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.8,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "mg3Q1N4VPkobbxFxixd9So",
+    "rtpId": "mg3Q1N4VPkobbxFxixd9So",
+    "assetId": "bXudSUd2rYku4fkNfWykAj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 2.8,
+    "grtAmt": 50,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.5,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "rb9p3JoLeB9KZVaadhUjK4",
+    "rtpId": "rb9p3JoLeB9KZVaadhUjK4",
+    "assetId": "7A29ycFAo8mnYC4UBgYQ3W",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3,
+    "grtAmt": 50,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.8,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "e1pnFjX1BkNtKiWgrpYa5Z",
+    "rtpId": "e1pnFjX1BkNtKiWgrpYa5Z",
+    "assetId": "sZyhshEdSEwJKtEAzQ2wuS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3.4,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.6,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "euNcs1vyhNKeQTQHYDxTCa",
+    "rtpId": "euNcs1vyhNKeQTQHYDxTCa",
+    "assetId": "2drxjSDetdC1L3ArBgEYuT",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3.6,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.8,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "kBLV6HxuGVATRzQs5EFvrM",
+    "rtpId": "kBLV6HxuGVATRzQs5EFvrM",
+    "assetId": "g3ZyDMaDWMu1bE9gSPq2D4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 2.8,
+    "grtAmt": 50,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 2.5,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "xbk4xGEshYvweQVeyEePHP",
+    "rtpId": "xbk4xGEshYvweQVeyEePHP",
+    "assetId": "2Tp2K7gG4cHv92MMeWDXsj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3.2,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "f5fG4HpiZ9s2MpJEzDcA3u",
+    "rtpId": "f5fG4HpiZ9s2MpJEzDcA3u",
+    "assetId": "3k3oAuGQ1N2m6S9j18LCFz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3.6,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3.2,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "xagfcR7vvo87dmLdRVmBn4",
+    "rtpId": "xagfcR7vvo87dmLdRVmBn4",
+    "assetId": "i4VEj587XKXbRVH6ia67UM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 4,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "t9qs3ZqSFAKC6iAqmcW3Um",
+    "rtpId": "t9qs3ZqSFAKC6iAqmcW3Um",
+    "assetId": "qJX5ubYfFMPvZfgUwLAx2D",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 4.4,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3.6,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "qFuTrboXysJui8Av6j88Qc",
+    "rtpId": "qFuTrboXysJui8Av6j88Qc",
+    "assetId": "mYWhR3NmyAHLwVzHAEkRR4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3.4,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "64mJB37cbFhymg6wvGY6sE",
+    "rtpId": "64mJB37cbFhymg6wvGY6sE",
+    "assetId": "1gEGN8NcX8pxtpqqoTaJCM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 3.8,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3.4,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "dvJCqEFs9NGWvDSKXB7DoB",
+    "rtpId": "dvJCqEFs9NGWvDSKXB7DoB",
+    "assetId": "g44omXRjxX3iD2Dx3LHRkE",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 4.2,
+    "grtAmt": 120,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 4,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "5aSspsW2p8RAp7uXafxJyX",
+    "rtpId": "5aSspsW2p8RAp7uXafxJyX",
+    "assetId": "6g4KFk4LWuL5pfURgfPBJV",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 4.6,
+    "grtAmt": 120,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 4.2,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "fRRSLqYprC6KRwgYmsytU1",
+    "rtpId": "fRRSLqYprC6KRwgYmsytU1",
+    "assetId": "msTe9aV3uZWcNNcSyeqzga",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 4,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 3.6,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "6GpUJKuuKU3mEnjeUunoCu",
+    "rtpId": "6GpUJKuuKU3mEnjeUunoCu",
+    "assetId": "hqZTHGVUW3S5MtFvMGkYmi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 5.5,
+    "grtAmt": 120,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 4.5,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "uccRRpw43fXacNEGyGXPuW",
+    "rtpId": "uccRRpw43fXacNEGyGXPuW",
+    "assetId": "1pZd6dbABrDQYy5eMe55KG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 6.2,
+    "grtAmt": 120,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 5,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "nfmhZUrvYFPwxB4SSe3X6x",
+    "rtpId": "nfmhZUrvYFPwxB4SSe3X6x",
+    "assetId": "prK8ZPW7fuKHNySnNnMbK1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 25,
+    "grtAmt": 400,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 23,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "36Naq5k1tqxjNGEPPeBzkT",
+    "rtpId": "36Naq5k1tqxjNGEPPeBzkT",
+    "assetId": "bzQkJMv4TyMrLaosRGhCQt",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 18,
+    "grtAmt": 400,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 16,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "1LLDcLWTJyvVECJ38fwwoJ",
+    "rtpId": "1LLDcLWTJyvVECJ38fwwoJ",
+    "assetId": "qJBH4REKp8TkTAvMgeb1Ex",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 32,
+    "grtAmt": 600,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 27,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "jj9qHePfoyKJx1T8a6GXg3",
+    "rtpId": "jj9qHePfoyKJx1T8a6GXg3",
+    "assetId": "pi4Q8xQ4m1MKcofQ3CkU11",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 22,
+    "grtAmt": 400,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 20,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "2eSzSroVhTAeHsuMFtvS16",
+    "rtpId": "2eSzSroVhTAeHsuMFtvS16",
+    "assetId": "5e2MEQGLTv9dT7ebXyLAcW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 40,
+    "grtAmt": 600,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 35,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "ttgcBA4ETSNCGvjmPXS7iG",
+    "rtpId": "ttgcBA4ETSNCGvjmPXS7iG",
+    "assetId": "3666JuDZXoPuSkkNKMBSi5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 50,
+    "grtAmt": 600,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 40,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "f1LHEj2jDdMT4415fAuPfk",
+    "rtpId": "f1LHEj2jDdMT4415fAuPfk",
+    "assetId": "74Hvgbd1TV6JJPx4nKLidx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 1,
+    "grtAmt": 20,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 1,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "1F8v6RuptnfTdf6xtDhe8U",
+    "rtpId": "1F8v6RuptnfTdf6xtDhe8U",
+    "assetId": "9M1EmgovutWMStAujyojWY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 1.5,
+    "grtAmt": 30,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 1.5,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "kuJRiGoiogQhEW3bBFad5S",
+    "rtpId": "kuJRiGoiogQhEW3bBFad5S",
+    "assetId": "aKWnPbAYoQJqTwpvt3rSi9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 1.8,
+    "grtAmt": 40,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 1.8,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "dbLermX7Gv3MTR69B3ebyB",
+    "rtpId": "dbLermX7Gv3MTR69B3ebyB",
+    "assetId": "xeYViYjWexXtLEcwcSWo8U",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 8,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 7,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "1FWU6nuedD5i2kLzXyT4ak",
+    "rtpId": "1FWU6nuedD5i2kLzXyT4ak",
+    "assetId": "oMUYVxRssnWWnt9ZZJRBj4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 9,
+    "grtAmt": 100,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 8,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "7aj2ydnV9U28tHEusfNx1H",
+    "rtpId": "7aj2ydnV9U28tHEusfNx1H",
+    "assetId": "vcci5Ys5Zub6a2Q1W5wicx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 0.75,
+    "grtAmt": 80,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 0.75,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "gi86grEt278WFP13v6JzMv",
+    "rtpId": "gi86grEt278WFP13v6JzMv",
+    "assetId": "kYoiTKLrN3hK9Wuf2EVwTr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 0.07,
+    "grtAmt": 3,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 0.06,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  },
+  {
+    "_id": "dkyzoQpdMBsreyXXKqmZ68",
+    "rtpId": "dkyzoQpdMBsreyXXKqmZ68",
+    "assetId": "sCm7zbknZzYCzEgxbx9Yo5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "priceIncludeTax": false,
+    "rtp": 14,
+    "grtAmt": 300,
+    "price1": 0,
+    "price2": 0,
+    "price3": 0,
+    "price4": 0,
+    "price5": 0,
+    "cascadedRtp": [
+      {
+        "numOfPeriods": 30,
+        "rtp": 10,
+        "price1": 0,
+        "price2": 0,
+        "price3": 0,
+        "price4": 0,
+        "price5": 0
+      }
+    ]
+  }
+]

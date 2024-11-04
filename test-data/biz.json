@@ -1,0 +1,244 @@
+[
+  {
+    "_id": "mnuz6SU4ncbMmBrutWioae",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "biz": "000000",
+    "bizName": "Default Biz",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    }
+  },
+  {
+    "_id": "t7W3ZqGJDGB46gD2Spy3ui",
+    "bizId": "t7W3ZqGJDGB46gD2Spy3ui",
+    "biz": "000001",
+    "bizName": "Biz 1",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    }
+  },
+  {
+    "_id": "q193Dorfmyqj9zXSDiYnBL",
+    "bizId": "q193Dorfmyqj9zXSDiYnBL",
+    "biz": "000002",
+    "bizName": "Biz 2",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    }
+  },
+  {
+    "_id": "3uyuJUqB3ZuUNwpu9iwfmr",
+    "bizId": "3uyuJUqB3ZuUNwpu9iwfmr",
+    "biz": "000003",
+    "bizName": "Biz 3",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    }
+  },
+  {
+    "_id": "sXbhPrtmm9obsxaEoDqDEH",
+    "bizId": "sXbhPrtmm9obsxaEoDqDEH",
+    "biz": "000004",
+    "bizName": "Biz 4",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    }
+  },
+  {
+    "_id": "57vXS5pybdgoEzGRKJrgkb",
+    "biz": "000005",
+    "bizName": "Biz 5",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    },
+    "bizId": "57vXS5pybdgoEzGRKJrgkb"
+  },
+  {
+    "_id": "f0sj4QWFS8FJrGoR6u3K9x",
+    "biz": "000006",
+    "bizName": "Biz 6",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000007",
+    "taxid": "Biz 7",
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    },
+    "bizId": "f0sj4QWFS8FJrGoR6u3K9x"
+  },
+  {
+    "_id": "fWWQJpLNQdnNyKU2J8RhGu",
+    "bizId": "fWWQJpLNQdnNyKU2J8RhGu",
+    "biz": "000008",
+    "bizName": "Biz 8",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    }
+  },
+  {
+    "_id": "0MqBrqmAY531h3QHEjWosX",
+    "biz": "000009",
+    "bizName": "Biz 9",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    },
+    "bizId": "0MqBrqmAY531h3QHEjWosX"
+  },
+  {
+    "_id": "4GQLv5sYJEYhnUWzkVPeHg",
+    "biz": "000010",
+    "bizName": "Biz 10",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    },
+    "bizId": "4GQLv5sYJEYhnUWzkVPeHg"
+  },
+  {
+    "_id": "fzVUpha4ho9ZSgf6QPWZp8",
+    "biz": "000011",
+    "bizName": "Biz 11",
+    "addr": {
+      "locationName": null,
+      "address": null,
+      "country": null,
+      "province": null,
+      "district": null,
+      "town": null,
+      "zip": null
+    },
+    "branch": "000000",
+    "taxid": null,
+    "contact": {
+      "telephone": null,
+      "mobile": null,
+      "email": null
+    },
+    "bizId": "fzVUpha4ho9ZSgf6QPWZp8"
+  }
+]

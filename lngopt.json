@@ -1,0 +1,6557 @@
+{
+  "translationOptionId": "pFfxReRE85JjUixsX49Lic",
+  "name": "English",
+  "languageId": "g9wHXNaFjW3s2xKzUWZeYg",
+  "labels": [
+    {
+      "translationKey": "BASIC_INFO",
+      "translationBase": "Basic Info",
+      "translate": "Basic Info"
+    },
+    {
+      "translationKey": "GENERAL_INFO",
+      "translationBase": "General Info",
+      "translate": "General Info"
+    },
+    {
+      "translationKey": "SEQ",
+      "translationBase": "Seq.",
+      "translate": "Seq."
+    },
+    {
+      "translationKey": "FILTER",
+      "translationBase": "Filter",
+      "translate": "Filter"
+    },
+    {
+      "translationKey": "FILTER_WORD",
+      "translationBase": "Filter word",
+      "translate": "Filter word"
+    },
+    {
+      "translationKey": "NEW",
+      "translationBase": "New",
+      "translate": "New"
+    },
+    {
+      "translationKey": "ADD",
+      "translationBase": "Add",
+      "translate": "Add"
+    },
+    {
+      "translationKey": "ADD_NEW",
+      "translationBase": "Add new",
+      "translate": "Add new"
+    },
+    {
+      "translationKey": "CREATE",
+      "translationBase": "Create",
+      "translate": "Create"
+    },
+    {
+      "translationKey": "CANCEL",
+      "translationBase": "Cancel",
+      "translate": "Cancel"
+    },
+    {
+      "translationKey": "REMOVE",
+      "translationBase": "Remove",
+      "translate": "Remove"
+    },
+    {
+      "translationKey": "SAVE",
+      "translationBase": "Save",
+      "translate": "Save"
+    },
+    {
+      "translationKey": "SAVE_DATA",
+      "translationBase": "Save data",
+      "translate": "Save data"
+    },
+    {
+      "translationKey": "SAVE_FORM",
+      "translationBase": "Save form",
+      "translate": "Save form"
+    },
+    {
+      "translationKey": "SUBMIT_FORM",
+      "translationBase": "Submit form",
+      "translate": "Submit form"
+    },
+    {
+      "translationKey": "DONE",
+      "translationBase": "Done",
+      "translate": "Done"
+    },
+    {
+      "translationKey": "COPY",
+      "translationBase": "Copy",
+      "translate": "Copy"
+    },
+    {
+      "translationKey": "PASTE",
+      "translationBase": "Paste",
+      "translate": "Paste"
+    },
+    {
+      "translationKey": "IMPORT",
+      "translationBase": "Import",
+      "translate": "Import"
+    },
+    {
+      "translationKey": "EXPORT",
+      "translationBase": "Export",
+      "translate": "Export"
+    },
+    {
+      "translationKey": "DUPLICATE",
+      "translationBase": "Duplicate",
+      "translate": "Duplicate"
+    },
+    {
+      "translationKey": "CLONE",
+      "translationBase": "Clone",
+      "translate": "Clone"
+    },
+    {
+      "translationKey": "EDIT",
+      "translationBase": "Edit",
+      "translate": "Edit"
+    },
+    {
+      "translationKey": "DELETE",
+      "translationBase": "Delete",
+      "translate": "Delete"
+    },
+    {
+      "translationKey": "SELECT",
+      "translationBase": "Select",
+      "translate": "Select"
+    },
+    {
+      "translationKey": "SETTING",
+      "translationBase": "Setting",
+      "translate": "Setting"
+    },
+    {
+      "translationKey": "LAYOUT_SETTING",
+      "translationBase": "Layout Setting",
+      "translate": "Layout Setting"
+    },
+    {
+      "translationKey": "FORM_SETTING",
+      "translationBase": "Form Setting",
+      "translate": "Form Setting"
+    },
+    {
+      "translationKey": "QUERY_SETTING",
+      "translationBase": "Query Setting",
+      "translate": "Query Setting"
+    },
+    {
+      "translationKey": "FIELD_SETTING",
+      "translationBase": "Field Setting",
+      "translate": "Field Setting"
+    },
+    {
+      "translationKey": "VIEW",
+      "translationBase": "View",
+      "translate": "View"
+    },
+    {
+      "translationKey": "INFO",
+      "translationBase": "Info",
+      "translate": "Info"
+    },
+    {
+      "translationKey": "WARNING",
+      "translationBase": "Warning",
+      "translate": "Warning"
+    },
+    {
+      "translationKey": "ERROR",
+      "translationBase": "Error",
+      "translate": "Error"
+    },
+    {
+      "translationKey": "SEARCH_WORD",
+      "translationBase": "Search Word",
+      "translate": "Search Word"
+    },
+    {
+      "translationKey": "HEADERS",
+      "translationBase": "Headers",
+      "translate": "Headers"
+    },
+    {
+      "translationKey": "MASTER",
+      "translationBase": "Master",
+      "translate": "Master"
+    },
+    {
+      "translationKey": "DETAIL",
+      "translationBase": "Detail",
+      "translate": "Detail"
+    },
+    {
+      "translationKey": "ITEMS",
+      "translationBase": "Items",
+      "translate": "Items"
+    },
+    {
+      "translationKey": "MESSAGES",
+      "translationBase": "Messages",
+      "translate": "Messages"
+    },
+    {
+      "translationKey": "SHORTCUTS",
+      "translationBase": "Shortcuts",
+      "translate": "Shortcuts"
+    },
+    {
+      "translationKey": "TOGGLE_FULLSCREEN",
+      "translationBase": "Toggle Fullscreen",
+      "translate": "Toggle Fullscreen"
+    },
+    {
+      "translationKey": "BACK_TO_LIST",
+      "translationBase": "Back to list",
+      "translate": "Back to list"
+    },
+    {
+      "translationKey": "ADDITIONAL_CHARGE",
+      "translationBase": "Additional Charge",
+      "translate": "Additional Charge"
+    },
+    {
+      "translationKey": "STOTAL_PAY_BACK",
+      "translationBase": "Subtotal Pay Back",
+      "translate": "Subtotal Pay Back"
+    },
+    {
+      "translationKey": "TOTAL_PAY_BACK",
+      "translationBase": "Total Pay Back",
+      "translate": "Total Pay Back"
+    },
+    {
+      "translationKey": "GTOTAL_PAY_BACK",
+      "translationBase": "Grand Total Pay Back",
+      "translate": "Grand Total Pay Back"
+    },
+    {
+      "translationKey": "CONSTRUCTION_MOLD_RENTAL",
+      "translationBase": "Construction Mold Rental",
+      "translate": "Construction Mold Rental"
+    },
+    {
+      "translationKey": "PROPERTY_RENTAL",
+      "translationBase": "Property Rental",
+      "translate": "Property Rental"
+    },
+    {
+      "translationKey": "VEHICLE_RENTAL",
+      "translationBase": "Vehicle Rental",
+      "translate": "Vehicle Rental"
+    },
+    {
+      "translationKey": "INVENTORY_MANAGEMENT",
+      "translationBase": "Inventory Management",
+      "translate": "Inventory Management"
+    },
+    {
+      "translationKey": "PURCHASE_MANAGEMENT",
+      "translationBase": "Purchase Management",
+      "translate": "Purchase Management"
+    },
+    {
+      "translationKey": "SALES_MANAGEMENT",
+      "translationBase": "Sales Management",
+      "translate": "Sales Management"
+    },
+    {
+      "translationKey": "ACCOUNTING_MANAGEMENT",
+      "translationBase": "AcolumnMapounting Management",
+      "translate": "AcolumnMapounting Management"
+    },
+    {
+      "translationKey": "AR_MANAGEMENT",
+      "translationBase": "AcolumnMapounting Receivable Management",
+      "translate": "AcolumnMapounting Receivable Management"
+    },
+    {
+      "translationKey": "AP_MANAGEMENT",
+      "translationBase": "AcolumnMapounting Payable Management",
+      "translate": "AcolumnMapounting Payable Management"
+    },
+    {
+      "translationKey": "FINANCIAL_MANAGEMENT",
+      "translationBase": "Financial Management",
+      "translate": "Financial Management"
+    },
+    {
+      "translationKey": "CASH_MANAGEMENT",
+      "translationBase": "Cash Management",
+      "translate": "Cash Management"
+    },
+    {
+      "translationKey": "CASH_FLOW_MANAGEMENT",
+      "translationBase": "Cash Flow Management",
+      "translate": "Cash Flow Management"
+    },
+    {
+      "translationKey": "BIZ",
+      "translationBase": "Business",
+      "translate": "Business"
+    },
+    {
+      "translationKey": "BIZ_ID",
+      "translationBase": "Business",
+      "translate": "Business"
+    },
+    {
+      "translationKey": "BIZ_NO",
+      "translationBase": "Business Number",
+      "translate": "Business Number"
+    },
+    {
+      "translationKey": "BIZ_NAME",
+      "translationBase": "Business Name",
+      "translate": "Business Name"
+    },
+    {
+      "translationKey": "ADDR",
+      "translationBase": "Address",
+      "translate": "Address"
+    },
+    {
+      "translationKey": "BRANCH_NO",
+      "translationBase": "Branch Number",
+      "translate": "Branch Number"
+    },
+    {
+      "translationKey": "TAXID",
+      "translationBase": "Tax ID.",
+      "translate": "Tax ID."
+    },
+    {
+      "translationKey": "CONTACT",
+      "translationBase": "Contact",
+      "translate": "Contact"
+    },
+    {
+      "translationKey": "PREFERENCE",
+      "translationBase": "Preference",
+      "translate": "Preference"
+    },
+    {
+      "translationKey": "USER",
+      "translationBase": "User",
+      "translate": "User"
+    },
+    {
+      "translationKey": "USER_ID",
+      "translationBase": "User",
+      "translate": "User"
+    },
+    {
+      "translationKey": "NAME",
+      "translationBase": "Name",
+      "translate": "Name"
+    },
+    {
+      "translationKey": "EMAIL",
+      "translationBase": "Email",
+      "translate": "Email"
+    },
+    {
+      "translationKey": "PASSWORD",
+      "translationBase": "Password",
+      "translate": "Password"
+    },
+    {
+      "translationKey": "COMPANY",
+      "translationBase": "Company",
+      "translate": "Company"
+    },
+    {
+      "translationKey": "TFA_ENABLED",
+      "translationBase": "Tfa Enabled",
+      "translate": "Tfa Enabled"
+    },
+    {
+      "translationKey": "TFA_SECRET",
+      "translationBase": "Tfa Secret",
+      "translate": "Tfa Secret"
+    },
+    {
+      "translationKey": "AGREEMENTS",
+      "translationBase": "Agreements",
+      "translate": "Agreements"
+    },
+    {
+      "translationKey": "AVATAR",
+      "translationBase": "Avatar",
+      "translate": "Avatar"
+    },
+    {
+      "translationKey": "PROFILE",
+      "translationBase": "Profile",
+      "translate": "Profile"
+    },
+    {
+      "translationKey": "PREFER_LANG",
+      "translationBase": "Prefer Language",
+      "translate": "Prefer Language"
+    },
+    {
+      "translationKey": "BIZ_USER",
+      "translationBase": "Business User",
+      "translate": "Business User"
+    },
+    {
+      "translationKey": "BIZ_USER_ID",
+      "translationBase": "Business User",
+      "translate": "Business User"
+    },
+    {
+      "translationKey": "BIZ_USER_GRP_ID",
+      "translationBase": "Business User Group",
+      "translate": "Business User Group"
+    },
+    {
+      "translationKey": "PREFER_LANGUAGE_ID",
+      "translationBase": "Prefer Language",
+      "translate": "Prefer Language"
+    },
+    {
+      "translationKey": "ALLOWED_BRANCHES",
+      "translationBase": "Allowed Branches",
+      "translate": "Allowed Branches"
+    },
+    {
+      "translationKey": "ALLOW_ALL_BRANCHES",
+      "translationBase": "Allow All Branches",
+      "translate": "Allow All Branches"
+    },
+    {
+      "translationKey": "ACTIVE",
+      "translationBase": "Active",
+      "translate": "Active"
+    },
+    {
+      "translationKey": "PAYMENT_METHOD",
+      "translationBase": "Payment Method",
+      "translate": "Payment Method"
+    },
+    {
+      "translationKey": "PAYMENT_METHOD_ID",
+      "translationBase": "Payment Method",
+      "translate": "Payment Method"
+    },
+    {
+      "translationKey": "PAYMENT_METHOD_NO",
+      "translationBase": "Payment Method Number",
+      "translate": "Payment Method Number"
+    },
+    {
+      "translationKey": "PAYMENT_METHOD_NAME",
+      "translationBase": "Payment Method Name",
+      "translate": "Payment Method Name"
+    },
+    {
+      "translationKey": "APPLY_IMMEDIATELY",
+      "translationBase": "Apply Immediately",
+      "translate": "Apply Immediately"
+    },
+    {
+      "translationKey": "CUST",
+      "translationBase": "Customer",
+      "translate": "Customer"
+    },
+    {
+      "translationKey": "CUST_ID",
+      "translationBase": "Customer",
+      "translate": "Customer"
+    },
+    {
+      "translationKey": "CUST_NO",
+      "translationBase": "Customer Number",
+      "translate": "Customer Number"
+    },
+    {
+      "translationKey": "CUST_NAME",
+      "translationBase": "Customer Name",
+      "translate": "Customer Name"
+    },
+    {
+      "translationKey": "CUST_GROUP_ID",
+      "translationBase": "Customer Group",
+      "translate": "Customer Group"
+    },
+    {
+      "translationKey": "DISC_GROUP_ID",
+      "translationBase": "Discount Group",
+      "translate": "Discount Group"
+    },
+    {
+      "translationKey": "LOGO_URL",
+      "translationBase": "Logo Url",
+      "translate": "Logo Url"
+    },
+    {
+      "translationKey": "LOT_NO_PART",
+      "translationBase": "Lot Number Number Part",
+      "translate": "Lot Number Number Part"
+    },
+    {
+      "translationKey": "SN_NO_PART",
+      "translationBase": "Serial Number Number Part",
+      "translate": "Serial Number Number Part"
+    },
+    {
+      "translationKey": "COUNTRY",
+      "translationBase": "Country",
+      "translate": "Country"
+    },
+    {
+      "translationKey": "COUNTRY_ID",
+      "translationBase": "Country",
+      "translate": "Country"
+    },
+    {
+      "translationKey": "COUNTRY_CODE",
+      "translationBase": "Country Code",
+      "translate": "Country Code"
+    },
+    {
+      "translationKey": "COUNTRY_NAME",
+      "translationBase": "Country Name",
+      "translate": "Country Name"
+    },
+    {
+      "translationKey": "ISO3",
+      "translationBase": "Iso3",
+      "translate": "Iso3"
+    },
+    {
+      "translationKey": "ISO2",
+      "translationBase": "Iso2",
+      "translate": "Iso2"
+    },
+    {
+      "translationKey": "NUMERIC_NO",
+      "translationBase": "Numeric Number",
+      "translate": "Numeric Number"
+    },
+    {
+      "translationKey": "PHONE_NO",
+      "translationBase": "Phone Number",
+      "translate": "Phone Number"
+    },
+    {
+      "translationKey": "CAPTITAL",
+      "translationBase": "Captital",
+      "translate": "Captital"
+    },
+    {
+      "translationKey": "CURRENCY",
+      "translationBase": "Currency",
+      "translate": "Currency"
+    },
+    {
+      "translationKey": "CURRENCY_NAME",
+      "translationBase": "Currency Name",
+      "translate": "Currency Name"
+    },
+    {
+      "translationKey": "CURRENCY_SYMBOL",
+      "translationBase": "Currency Symbol",
+      "translate": "Currency Symbol"
+    },
+    {
+      "translationKey": "TLD",
+      "translationBase": "Tld",
+      "translate": "Tld"
+    },
+    {
+      "translationKey": "NATIVE",
+      "translationBase": "Native",
+      "translate": "Native"
+    },
+    {
+      "translationKey": "REGION",
+      "translationBase": "Region",
+      "translate": "Region"
+    },
+    {
+      "translationKey": "SUBREGION",
+      "translationBase": "Subregion",
+      "translate": "Subregion"
+    },
+    {
+      "translationKey": "TIMEWH_ZONES",
+      "translationBase": "Timewh Zones",
+      "translate": "Timewh Zones"
+    },
+    {
+      "translationKey": "LATITUDE",
+      "translationBase": "Latitude",
+      "translate": "Latitude"
+    },
+    {
+      "translationKey": "LONGITUDE",
+      "translationBase": "Longitude",
+      "translate": "Longitude"
+    },
+    {
+      "translationKey": "EMOJI",
+      "translationBase": "Emoji",
+      "translate": "Emoji"
+    },
+    {
+      "translationKey": "EMOJIU",
+      "translationBase": "Emojiu",
+      "translate": "Emojiu"
+    },
+    {
+      "translationKey": "PROVINCE",
+      "translationBase": "Province",
+      "translate": "Province"
+    },
+    {
+      "translationKey": "PROVINCE_ID",
+      "translationBase": "Province",
+      "translate": "Province"
+    },
+    {
+      "translationKey": "PROVINCE_NO",
+      "translationBase": "Province Number",
+      "translate": "Province Number"
+    },
+    {
+      "translationKey": "PROVINCE_NAME",
+      "translationBase": "Province Name",
+      "translate": "Province Name"
+    },
+    {
+      "translationKey": "TYPE",
+      "translationBase": "Type",
+      "translate": "Type"
+    },
+    {
+      "translationKey": "DISTRICTS",
+      "translationBase": "Districts",
+      "translate": "Districts"
+    },
+    {
+      "translationKey": "DISTRICTS_ID",
+      "translationBase": "Districts",
+      "translate": "Districts"
+    },
+    {
+      "translationKey": "DISTRICTS_NO",
+      "translationBase": "Districts Number",
+      "translate": "Districts Number"
+    },
+    {
+      "translationKey": "DISTRICTS_NAME",
+      "translationBase": "Districts Name",
+      "translate": "Districts Name"
+    },
+    {
+      "translationKey": "WIKI_DATA_ID",
+      "translationBase": "Wiki Data",
+      "translate": "Wiki Data"
+    },
+    {
+      "translationKey": "TOWN",
+      "translationBase": "Town",
+      "translate": "Town"
+    },
+    {
+      "translationKey": "TOWN_ID",
+      "translationBase": "Town",
+      "translate": "Town"
+    },
+    {
+      "translationKey": "TOWN_NO",
+      "translationBase": "Town Number",
+      "translate": "Town Number"
+    },
+    {
+      "translationKey": "TOWN_NAME",
+      "translationBase": "Town Name",
+      "translate": "Town Name"
+    },
+    {
+      "translationKey": "LANGUAGE",
+      "translationBase": "Language",
+      "translate": "Language"
+    },
+    {
+      "translationKey": "LANGUAGE_ID",
+      "translationBase": "Language",
+      "translate": "Language"
+    },
+    {
+      "translationKey": "LANGUAGE_CODE",
+      "translationBase": "Language Code",
+      "translate": "Language Code"
+    },
+    {
+      "translationKey": "LANGUAGE_NAME",
+      "translationBase": "Language Name",
+      "translate": "Language Name"
+    },
+    {
+      "translationKey": "NATIVE_NAME",
+      "translationBase": "Native Name",
+      "translate": "Native Name"
+    },
+    {
+      "translationKey": "RTL",
+      "translationBase": "Rtl-to-left",
+      "translate": "Rtl-to-left"
+    },
+    {
+      "translationKey": "TITLE",
+      "translationBase": "Title",
+      "translate": "Title"
+    },
+    {
+      "translationKey": "TITLE_ID",
+      "translationBase": "Title",
+      "translate": "Title"
+    },
+    {
+      "translationKey": "TITLE_NO",
+      "translationBase": "Title Number",
+      "translate": "Title Number"
+    },
+    {
+      "translationKey": "TITLE_NAME",
+      "translationBase": "Title Name",
+      "translate": "Title Name"
+    },
+    {
+      "translationKey": "DATA_TYPE",
+      "translationBase": "Data Type",
+      "translate": "Data Type"
+    },
+    {
+      "translationKey": "DATA_TYPE_ID",
+      "translationBase": "Data Type",
+      "translate": "Data Type"
+    },
+    {
+      "translationKey": "TYPE_NO",
+      "translationBase": "Type Number",
+      "translate": "Type Number"
+    },
+    {
+      "translationKey": "TYPE_NAME",
+      "translationBase": "Type Name",
+      "translate": "Type Name"
+    },
+    {
+      "translationKey": "STANDARD_TYPE",
+      "translationBase": "Standard Type",
+      "translate": "Standard Type"
+    },
+    {
+      "translationKey": "PD",
+      "translationBase": "Product",
+      "translate": "Product"
+    },
+    {
+      "translationKey": "PD_ID",
+      "translationBase": "Product",
+      "translate": "Product"
+    },
+    {
+      "translationKey": "PD_NO",
+      "translationBase": "Product Number",
+      "translate": "Product Number"
+    },
+    {
+      "translationKey": "PD_NAME",
+      "translationBase": "Product Name",
+      "translate": "Product Name"
+    },
+    {
+      "translationKey": "OH_QTY",
+      "translationBase": "On Hand Quantity",
+      "translate": "On Hand Quantity"
+    },
+    {
+      "translationKey": "ROP",
+      "translationBase": "Reorder Point",
+      "translate": "Reorder Point"
+    },
+    {
+      "translationKey": "PD_TYPE_ID",
+      "translationBase": "Product Type",
+      "translate": "Product Type"
+    },
+    {
+      "translationKey": "PD_GROUP_ID",
+      "translationBase": "Product Group",
+      "translate": "Product Group"
+    },
+    {
+      "translationKey": "PD_CATE_ID",
+      "translationBase": "Product Category",
+      "translate": "Product Category"
+    },
+    {
+      "translationKey": "PD_SUBCATE_ID",
+      "translationBase": "Product Subcategory",
+      "translate": "Product Subcategory"
+    },
+    {
+      "translationKey": "PRICE_GROUP_ID",
+      "translationBase": "Price Group",
+      "translate": "Price Group"
+    },
+    {
+      "translationKey": "CATE_ID",
+      "translationBase": "Category",
+      "translate": "Category"
+    },
+    {
+      "translationKey": "SUBCATE_ID",
+      "translationBase": "Subcategory",
+      "translate": "Subcategory"
+    },
+    {
+      "translationKey": "VARIANT_PARENT_ID",
+      "translationBase": "Variant Parent",
+      "translate": "Variant Parent"
+    },
+    {
+      "translationKey": "ALLOCATED_QTY",
+      "translationBase": "Allocated Quantity",
+      "translate": "Allocated Quantity"
+    },
+    {
+      "translationKey": "ON_ORDER_QTY",
+      "translationBase": "On Order Quantity",
+      "translate": "On Order Quantity"
+    },
+    {
+      "translationKey": "ATTRIBUTE",
+      "translationBase": "Attribute",
+      "translate": "Attribute"
+    },
+    {
+      "translationKey": "LOT_SN",
+      "translationBase": "Lot Number Serial Number",
+      "translate": "Lot Number Serial Number"
+    },
+    {
+      "translationKey": "PACKAGE",
+      "translationBase": "Package",
+      "translate": "Package"
+    },
+    {
+      "translationKey": "BUNDLE",
+      "translationBase": "Bundle",
+      "translate": "Bundle"
+    },
+    {
+      "translationKey": "STD_PRICE",
+      "translationBase": "Standard Price",
+      "translate": "Standard Price"
+    },
+    {
+      "translationKey": "STD_COST",
+      "translationBase": "Standard Cost",
+      "translate": "Standard Cost"
+    },
+    {
+      "translationKey": "NONE_STOCK",
+      "translationBase": "None Stock",
+      "translate": "None Stock"
+    },
+    {
+      "translationKey": "PREFERRED_SUPP_ID",
+      "translationBase": "Preferred Supplier",
+      "translate": "Preferred Supplier"
+    },
+    {
+      "translationKey": "USE_LOT",
+      "translationBase": "Use Lot Number",
+      "translate": "Use Lot Number"
+    },
+    {
+      "translationKey": "USE_SN",
+      "translationBase": "Use Serial Number",
+      "translate": "Use Serial Number"
+    },
+    {
+      "translationKey": "ALLOW_NEGATIVE_QTY",
+      "translationBase": "Allow Negative Quantity",
+      "translate": "Allow Negative Quantity"
+    },
+    {
+      "translationKey": "UOM_ID",
+      "translationBase": "Unit Of Measure",
+      "translate": "Unit Of Measure"
+    },
+    {
+      "translationKey": "WH_STORAGE",
+      "translationBase": "Warehouse Storage",
+      "translate": "Warehouse Storage"
+    },
+    {
+      "translationKey": "WH_STORAGE_ID",
+      "translationBase": "Warehouse Storage",
+      "translate": "Warehouse Storage"
+    },
+    {
+      "translationKey": "BRANCH_ID",
+      "translationBase": "Branch",
+      "translate": "Branch"
+    },
+    {
+      "translationKey": "WH_ID",
+      "translationBase": "Warehouse",
+      "translate": "Warehouse"
+    },
+    {
+      "translationKey": "STORAGE_NO",
+      "translationBase": "Storage Number",
+      "translate": "Storage Number"
+    },
+    {
+      "translationKey": "STORAGE_NAME",
+      "translationBase": "Storage Name",
+      "translate": "Storage Name"
+    },
+    {
+      "translationKey": "SUPP_ID",
+      "translationBase": "Supplier",
+      "translate": "Supplier"
+    },
+    {
+      "translationKey": "WH_STORAGE_TYPE_ID",
+      "translationBase": "Warehouse Storage Type",
+      "translate": "Warehouse Storage Type"
+    },
+    {
+      "translationKey": "WH_ZONE_ID",
+      "translationBase": "Warehouse Zone",
+      "translate": "Warehouse Zone"
+    },
+    {
+      "translationKey": "WH_AISLE_ID",
+      "translationBase": "Warehouse Aisle",
+      "translate": "Warehouse Aisle"
+    },
+    {
+      "translationKey": "WH_RACK_ID",
+      "translationBase": "Warehouse Rack",
+      "translate": "Warehouse Rack"
+    },
+    {
+      "translationKey": "WH_SHELF_ID",
+      "translationBase": "Warehouse Shelf",
+      "translate": "Warehouse Shelf"
+    },
+    {
+      "translationKey": "NEIGHBOURHOOD_ID",
+      "translationBase": "Neighbourhood",
+      "translate": "Neighbourhood"
+    },
+    {
+      "translationKey": "OCCUPIED_TYPE",
+      "translationBase": "Occupied Type",
+      "translate": "Occupied Type"
+    },
+    {
+      "translationKey": "OCCUPIED_DOC_ID",
+      "translationBase": "Occupied Document",
+      "translate": "Occupied Document"
+    },
+    {
+      "translationKey": "OCCUPIED_DOC_NO",
+      "translationBase": "Occupied Document Number",
+      "translate": "Occupied Document Number"
+    },
+    {
+      "translationKey": "WH_EQM_ID",
+      "translationBase": "Warehouse Eqm",
+      "translate": "Warehouse Eqm"
+    },
+    {
+      "translationKey": "WH_STORAGE_RESTRICTION_ID",
+      "translationBase": "Warehouse Storage Restriction",
+      "translate": "Warehouse Storage Restriction"
+    },
+    {
+      "translationKey": "PICKABLE",
+      "translationBase": "Pickable",
+      "translate": "Pickable"
+    },
+    {
+      "translationKey": "PD_STORAGE",
+      "translationBase": "Product Storage",
+      "translate": "Product Storage"
+    },
+    {
+      "translationKey": "PD_STORAGE_ID",
+      "translationBase": "Product Storage",
+      "translate": "Product Storage"
+    },
+    {
+      "translationKey": "PD_WH_ID",
+      "translationBase": "Product Warehouse",
+      "translate": "Product Warehouse"
+    },
+    {
+      "translationKey": "PD_BRANCH_ID",
+      "translationBase": "Product Branch",
+      "translate": "Product Branch"
+    },
+    {
+      "translationKey": "STATUS",
+      "translationBase": "Status",
+      "translate": "Status"
+    },
+    {
+      "translationKey": "REF_PD_NO",
+      "translationBase": "Reference Product Number",
+      "translate": "Reference Product Number"
+    },
+    {
+      "translationKey": "REF_PD_NAME",
+      "translationBase": "Reference Product Name",
+      "translate": "Reference Product Name"
+    },
+    {
+      "translationKey": "REF_STORAGE_NO",
+      "translationBase": "Reference Storage Number",
+      "translate": "Reference Storage Number"
+    },
+    {
+      "translationKey": "REF_STORAGE_NAME",
+      "translationBase": "Reference Storage Name",
+      "translate": "Reference Storage Name"
+    },
+    {
+      "translationKey": "QTY_TO_PICK",
+      "translationBase": "Quantity To Pick",
+      "translate": "Quantity To Pick"
+    },
+    {
+      "translationKey": "ALLOCATION",
+      "translationBase": "Allocation",
+      "translate": "Allocation"
+    },
+    {
+      "translationKey": "RPN_PREF",
+      "translationBase": "Replenishment Preference",
+      "translate": "Replenishment Preference"
+    },
+    {
+      "translationKey": "ALLOW_ONLY_SU",
+      "translationBase": "Allow Only Storage Unit",
+      "translate": "Allow Only Storage Unit"
+    },
+    {
+      "translationKey": "SUB_QTY",
+      "translationBase": "Sub Quantity",
+      "translate": "Sub Quantity"
+    },
+    {
+      "translationKey": "CREDIT_TERM",
+      "translationBase": "Credit Term",
+      "translate": "Credit Term"
+    },
+    {
+      "translationKey": "CREDIT_TERM_ID",
+      "translationBase": "Credit Term",
+      "translate": "Credit Term"
+    },
+    {
+      "translationKey": "CREDIT_TERM_NO",
+      "translationBase": "Credit Term Number",
+      "translate": "Credit Term Number"
+    },
+    {
+      "translationKey": "CREDIT_TERM_NAME",
+      "translationBase": "Credit Term Name",
+      "translate": "Credit Term Name"
+    },
+    {
+      "translationKey": "CREDIT_TERM_DAY",
+      "translationBase": "Credit Term Day",
+      "translate": "Credit Term Day"
+    },
+    {
+      "translationKey": "UOM",
+      "translationBase": "Unit Of Measure",
+      "translate": "Unit Of Measure"
+    },
+    {
+      "translationKey": "UOM_NO",
+      "translationBase": "Unit Of Measure Number",
+      "translate": "Unit Of Measure Number"
+    },
+    {
+      "translationKey": "UOM_NAME",
+      "translationBase": "Unit Of Measure Name",
+      "translate": "Unit Of Measure Name"
+    },
+    {
+      "translationKey": "TAX",
+      "translationBase": "Tax",
+      "translate": "Tax"
+    },
+    {
+      "translationKey": "TAX_ID",
+      "translationBase": "Tax",
+      "translate": "Tax"
+    },
+    {
+      "translationKey": "TAX_NO",
+      "translationBase": "Tax Number",
+      "translate": "Tax Number"
+    },
+    {
+      "translationKey": "TAX_NAME",
+      "translationBase": "Tax Name",
+      "translate": "Tax Name"
+    },
+    {
+      "translationKey": "TAX_RATE",
+      "translationBase": "Tax Rate",
+      "translate": "Tax Rate"
+    },
+    {
+      "translationKey": "CUST_GROUP",
+      "translationBase": "Customer Group",
+      "translate": "Customer Group"
+    },
+    {
+      "translationKey": "CUST_GROUP_NO",
+      "translationBase": "Customer Group Number",
+      "translate": "Customer Group Number"
+    },
+    {
+      "translationKey": "CUST_GROUP_NAME",
+      "translationBase": "Customer Group Name",
+      "translate": "Customer Group Name"
+    },
+    {
+      "translationKey": "SUPP_GROUP",
+      "translationBase": "Supplier Group",
+      "translate": "Supplier Group"
+    },
+    {
+      "translationKey": "SUPP_GROUP_ID",
+      "translationBase": "Supplier Group",
+      "translate": "Supplier Group"
+    },
+    {
+      "translationKey": "SUPP_GROUP_NO",
+      "translationBase": "Supplier Group Number",
+      "translate": "Supplier Group Number"
+    },
+    {
+      "translationKey": "SUPP_GROUP_NAME",
+      "translationBase": "Supplier Group Name",
+      "translate": "Supplier Group Name"
+    },
+    {
+      "translationKey": "PD_CUST",
+      "translationBase": "Product Customer",
+      "translate": "Product Customer"
+    },
+    {
+      "translationKey": "PD_CUST_ID",
+      "translationBase": "Product Customer",
+      "translate": "Product Customer"
+    },
+    {
+      "translationKey": "CUST_PD_NO",
+      "translationBase": "Customer Product Number",
+      "translate": "Customer Product Number"
+    },
+    {
+      "translationKey": "CUST_PD_NAME",
+      "translationBase": "Customer Product Name",
+      "translate": "Customer Product Name"
+    },
+    {
+      "translationKey": "UNIT_PRICE",
+      "translationBase": "Unit Price",
+      "translate": "Unit Price"
+    },
+    {
+      "translationKey": "USE_PRICE_INCLUDE_TAX",
+      "translationBase": "Use Price Include Tax",
+      "translate": "Use Price Include Tax"
+    },
+    {
+      "translationKey": "SKILL",
+      "translationBase": "Skill",
+      "translate": "Skill"
+    },
+    {
+      "translationKey": "SKILL_ID",
+      "translationBase": "Skill",
+      "translate": "Skill"
+    },
+    {
+      "translationKey": "SKILL_NO",
+      "translationBase": "Skill Number",
+      "translate": "Skill Number"
+    },
+    {
+      "translationKey": "SKILL_NAME",
+      "translationBase": "Skill Name",
+      "translate": "Skill Name"
+    },
+    {
+      "translationKey": "BIZ_USER_GRP",
+      "translationBase": "Business User Group",
+      "translate": "Business User Group"
+    },
+    {
+      "translationKey": "GRP_NO",
+      "translationBase": "Group Number",
+      "translate": "Group Number"
+    },
+    {
+      "translationKey": "GRP_NAME",
+      "translationBase": "Group Name",
+      "translate": "Group Name"
+    },
+    {
+      "translationKey": "BIZ_USER_ROLE",
+      "translationBase": "Business User Role",
+      "translate": "Business User Role"
+    },
+    {
+      "translationKey": "BIZ_USER_ROLE_ID",
+      "translationBase": "Business User Role",
+      "translate": "Business User Role"
+    },
+    {
+      "translationKey": "ROLE_NO",
+      "translationBase": "Role Number",
+      "translate": "Role Number"
+    },
+    {
+      "translationKey": "ROLE_NAME",
+      "translationBase": "Role Name",
+      "translate": "Role Name"
+    },
+    {
+      "translationKey": "DOC_ARIV",
+      "translationBase": "Ar Invoice",
+      "translate": "Ar Invoice"
+    },
+    {
+      "translationKey": "DOC_ARIV_ID",
+      "translationBase": "Ar Invoice",
+      "translate": "Ar Invoice"
+    },
+    {
+      "translationKey": "DOC_NO",
+      "translationBase": "Document Number",
+      "translate": "Document Number"
+    },
+    {
+      "translationKey": "DOC_DATE",
+      "translationBase": "Document Date",
+      "translate": "Document Date"
+    },
+    {
+      "translationKey": "BILLTO_ADDR",
+      "translationBase": "Bill-to Address",
+      "translate": "Bill-to Address"
+    },
+    {
+      "translationKey": "SHIPTO_ADDR",
+      "translationBase": "Ship-to Address",
+      "translate": "Ship-to Address"
+    },
+    {
+      "translationKey": "SUBTOTAL_AMT",
+      "translationBase": "Subtotal Amount",
+      "translate": "Subtotal Amount"
+    },
+    {
+      "translationKey": "DISC_AMT",
+      "translationBase": "Discount Amount",
+      "translate": "Discount Amount"
+    },
+    {
+      "translationKey": "WHT_AMT",
+      "translationBase": "Withholding Tax Amount",
+      "translate": "Withholding Tax Amount"
+    },
+    {
+      "translationKey": "TAX_AMT",
+      "translationBase": "Tax Amount",
+      "translate": "Tax Amount"
+    },
+    {
+      "translationKey": "TOTAL_AMT",
+      "translationBase": "Total Amount",
+      "translate": "Total Amount"
+    },
+    {
+      "translationKey": "DOC_SHIP_ID",
+      "translationBase": "Ship",
+      "translate": "Ship"
+    },
+    {
+      "translationKey": "WF_STATUS",
+      "translationBase": "Workflow Status",
+      "translate": "Workflow Status"
+    },
+    {
+      "translationKey": "DISC_GROUP",
+      "translationBase": "Discount Group",
+      "translate": "Discount Group"
+    },
+    {
+      "translationKey": "CODE",
+      "translationBase": "Code",
+      "translate": "Code"
+    },
+    {
+      "translationKey": "PRICE_TYPE",
+      "translationBase": "Price Type",
+      "translate": "Price Type"
+    },
+    {
+      "translationKey": "DISC_RATE",
+      "translationBase": "Discount Rate",
+      "translate": "Discount Rate"
+    },
+    {
+      "translationKey": "ROUNDED",
+      "translationBase": "Rounded",
+      "translate": "Rounded"
+    },
+    {
+      "translationKey": "DOC_PO",
+      "translationBase": "Purchase Order",
+      "translate": "Purchase Order"
+    },
+    {
+      "translationKey": "DOC_PO_ID",
+      "translationBase": "Purchase Order",
+      "translate": "Purchase Order"
+    },
+    {
+      "translationKey": "DUE_DATE",
+      "translationBase": "Due Date",
+      "translate": "Due Date"
+    },
+    {
+      "translationKey": "REF_SUPP_NAME",
+      "translationBase": "Reference Supplier Name",
+      "translate": "Reference Supplier Name"
+    },
+    {
+      "translationKey": "ITEMS",
+      "translationBase": "Items",
+      "translate": "Items"
+    },
+    {
+      "translationKey": "REF_DOC",
+      "translationBase": "Reference Document",
+      "translate": "Reference Document"
+    },
+    {
+      "translationKey": "REF_DOC_ID",
+      "translationBase": "Reference Document",
+      "translate": "Reference Document"
+    },
+    {
+      "translationKey": "REF_DOC_NO",
+      "translationBase": "Reference Document Number",
+      "translate": "Reference Document Number"
+    },
+    {
+      "translationKey": "REF_DOC_NAME",
+      "translationBase": "Reference Document Name",
+      "translate": "Reference Document Name"
+    },
+    {
+      "translationKey": "CHEQUE_DISBURSED",
+      "translationBase": "Cheque Disbursed",
+      "translate": "Cheque Disbursed"
+    },
+    {
+      "translationKey": "CHEQUE_DISBURSED_ID",
+      "translationBase": "Cheque Disbursed",
+      "translate": "Cheque Disbursed"
+    },
+    {
+      "translationKey": "CHEQUE_NO",
+      "translationBase": "Cheque Number",
+      "translate": "Cheque Number"
+    },
+    {
+      "translationKey": "CHEQUE_DATE",
+      "translationBase": "Cheque Date",
+      "translate": "Cheque Date"
+    },
+    {
+      "translationKey": "CHEQUE_AMT",
+      "translationBase": "Cheque Amount",
+      "translate": "Cheque Amount"
+    },
+    {
+      "translationKey": "CHEQUE_TYPE_ID",
+      "translationBase": "Cheque Type",
+      "translate": "Cheque Type"
+    },
+    {
+      "translationKey": "BANK_ID",
+      "translationBase": "Bank",
+      "translate": "Bank"
+    },
+    {
+      "translationKey": "DOC_PAYMENT_ITEM_ID",
+      "translationBase": "Payment Item",
+      "translate": "Payment Item"
+    },
+    {
+      "translationKey": "PAYEE_NAME",
+      "translationBase": "Payee Name",
+      "translate": "Payee Name"
+    },
+    {
+      "translationKey": "NOTE",
+      "translationBase": "Note",
+      "translate": "Note"
+    },
+    {
+      "translationKey": "BANK",
+      "translationBase": "Bank",
+      "translate": "Bank"
+    },
+    {
+      "translationKey": "BANK_NO",
+      "translationBase": "Bank Number",
+      "translate": "Bank Number"
+    },
+    {
+      "translationKey": "BANK_NAME",
+      "translationBase": "Bank Name",
+      "translate": "Bank Name"
+    },
+    {
+      "translationKey": "CHEQUE_RECEIVED",
+      "translationBase": "Cheque Received",
+      "translate": "Cheque Received"
+    },
+    {
+      "translationKey": "CHEQUE_RECEIVED_ID",
+      "translationBase": "Cheque Received",
+      "translate": "Cheque Received"
+    },
+    {
+      "translationKey": "BANK_BRANCH",
+      "translationBase": "Bank Branch",
+      "translate": "Bank Branch"
+    },
+    {
+      "translationKey": "PAYER_NAME",
+      "translationBase": "Payer Name",
+      "translate": "Payer Name"
+    },
+    {
+      "translationKey": "RECEIVE_DATE",
+      "translationBase": "Receive Date",
+      "translate": "Receive Date"
+    },
+    {
+      "translationKey": "DEPOSIT_DATE",
+      "translationBase": "Deposit Date",
+      "translate": "Deposit Date"
+    },
+    {
+      "translationKey": "RETURN_DATE",
+      "translationBase": "Return Date",
+      "translate": "Return Date"
+    },
+    {
+      "translationKey": "REDEPOSIT_DATE",
+      "translationBase": "Redeposit Date",
+      "translate": "Redeposit Date"
+    },
+    {
+      "translationKey": "VOID_DATE",
+      "translationBase": "Void Date",
+      "translate": "Void Date"
+    },
+    {
+      "translationKey": "CHEQUE_TYPE",
+      "translationBase": "Cheque Type",
+      "translate": "Cheque Type"
+    },
+    {
+      "translationKey": "CHEQUE_TYPE_NO",
+      "translationBase": "Cheque Type Number",
+      "translate": "Cheque Type Number"
+    },
+    {
+      "translationKey": "CHEQUE_TYPE_NAME",
+      "translationBase": "Cheque Type Name",
+      "translate": "Cheque Type Name"
+    },
+    {
+      "translationKey": "DOC_GRN",
+      "translationBase": "Goods Receive Note",
+      "translate": "Goods Receive Note"
+    },
+    {
+      "translationKey": "DOC_GRN_ID",
+      "translationBase": "Goods Receive Note",
+      "translate": "Goods Receive Note"
+    },
+    {
+      "translationKey": "DOC_SUFFIX",
+      "translationBase": "Suffix",
+      "translate": "Suffix"
+    },
+    {
+      "translationKey": "REF_NAME",
+      "translationBase": "Reference Name",
+      "translate": "Reference Name"
+    },
+    {
+      "translationKey": "REF_NO",
+      "translationBase": "Reference Number",
+      "translate": "Reference Number"
+    },
+    {
+      "translationKey": "DOC_RUNNING_GROUP",
+      "translationBase": "Running Group",
+      "translate": "Running Group"
+    },
+    {
+      "translationKey": "DOC_RUNNING_GROUP_ID",
+      "translationBase": "Running Group",
+      "translate": "Running Group"
+    },
+    {
+      "translationKey": "RUNNING_GROUP_NAME",
+      "translationBase": "Running Group Name",
+      "translate": "Running Group Name"
+    },
+    {
+      "translationKey": "DEFAULT_SEQ",
+      "translationBase": "Default Sequence",
+      "translate": "Default Sequence"
+    },
+    {
+      "translationKey": "SELECTION_JS",
+      "translationBase": "Selection Javascript",
+      "translate": "Selection Javascript"
+    },
+    {
+      "translationKey": "CONTEXT_JS",
+      "translationBase": "Context Javascript",
+      "translate": "Context Javascript"
+    },
+    {
+      "translationKey": "RUNNING_ITEM",
+      "translationBase": "Running Item",
+      "translate": "Running Item"
+    },
+    {
+      "translationKey": "TRANSLATION_OPTION",
+      "translationBase": "Translation Option",
+      "translate": "Translation Option"
+    },
+    {
+      "translationKey": "TRANSLATION_OPTION_ID",
+      "translationBase": "Translation Option",
+      "translate": "Translation Option"
+    },
+    {
+      "translationKey": "BASE_LANGUAGE_ID",
+      "translationBase": "Base Language",
+      "translate": "Base Language"
+    },
+    {
+      "translationKey": "LABELS",
+      "translationBase": "Labels",
+      "translate": "Labels"
+    },
+    {
+      "translationKey": "MESSAGES",
+      "translationBase": "Messages",
+      "translate": "Messages"
+    },
+    {
+      "translationKey": "COUNTRIES",
+      "translationBase": "Countries",
+      "translate": "Countries"
+    },
+    {
+      "translationKey": "PROVINCES",
+      "translationBase": "Provinces",
+      "translate": "Provinces"
+    },
+    {
+      "translationKey": "VERSION",
+      "translationBase": "Version",
+      "translate": "Version"
+    },
+    {
+      "translationKey": "RELEASE_DATE",
+      "translationBase": "Release Date",
+      "translate": "Release Date"
+    },
+    {
+      "translationKey": "RELEASE_NOTE",
+      "translationBase": "Release Note",
+      "translate": "Release Note"
+    },
+    {
+      "translationKey": "CREDIT",
+      "translationBase": "Credit",
+      "translate": "Credit"
+    },
+    {
+      "translationKey": "BIZ_LANGUAGE",
+      "translationBase": "Business Language",
+      "translate": "Business Language"
+    },
+    {
+      "translationKey": "BIZ_LANGUAGE_ID",
+      "translationBase": "Business Language",
+      "translate": "Business Language"
+    },
+    {
+      "translationKey": "USE_CUSTOM_TRANSLATION",
+      "translationBase": "Use Custom Translation",
+      "translate": "Use Custom Translation"
+    },
+    {
+      "translationKey": "USE_AS_DEFAULT",
+      "translationBase": "Use As Default",
+      "translate": "Use As Default"
+    },
+    {
+      "translationKey": "PD_TYPE",
+      "translationBase": "Product Type",
+      "translate": "Product Type"
+    },
+    {
+      "translationKey": "PD_TYPE_NO",
+      "translationBase": "Product Type Number",
+      "translate": "Product Type Number"
+    },
+    {
+      "translationKey": "PD_TYPE_NAME",
+      "translationBase": "Product Type Name",
+      "translate": "Product Type Name"
+    },
+    {
+      "translationKey": "PD_GROUP",
+      "translationBase": "Product Group",
+      "translate": "Product Group"
+    },
+    {
+      "translationKey": "PD_GROUP_NO",
+      "translationBase": "Product Group Number",
+      "translate": "Product Group Number"
+    },
+    {
+      "translationKey": "PD_GROUP_NAME",
+      "translationBase": "Product Group Name",
+      "translate": "Product Group Name"
+    },
+    {
+      "translationKey": "DOC_GIN",
+      "translationBase": "Goods Issue Note",
+      "translate": "Goods Issue Note"
+    },
+    {
+      "translationKey": "DOC_GIN_ID",
+      "translationBase": "Goods Issue Note",
+      "translate": "Goods Issue Note"
+    },
+    {
+      "translationKey": "DATA_FORM_CONFIG",
+      "translationBase": "Data Form Config",
+      "translate": "Data Form Config"
+    },
+    {
+      "translationKey": "DATA_FORM_CONFIG_ID",
+      "translationBase": "Data Form Config",
+      "translate": "Data Form Config"
+    },
+    {
+      "translationKey": "FORM_NO",
+      "translationBase": "Form Number",
+      "translate": "Form Number"
+    },
+    {
+      "translationKey": "FORM_NAME",
+      "translationBase": "Form Name",
+      "translate": "Form Name"
+    },
+    {
+      "translationKey": "FORM_TPL",
+      "translationBase": "Form Template",
+      "translate": "Form Template"
+    },
+    {
+      "translationKey": "FORM_FILTER",
+      "translationBase": "Form Filter",
+      "translate": "Form Filter"
+    },
+    {
+      "translationKey": "FORM_TAG",
+      "translationBase": "Form Tag",
+      "translate": "Form Tag"
+    },
+    {
+      "translationKey": "FORM_WF_STATUS",
+      "translationBase": "Form Workflow Status",
+      "translate": "Form Workflow Status"
+    },
+    {
+      "translationKey": "DISPLAY_AS_TAB",
+      "translationBase": "Display As Tab",
+      "translate": "Display As Tab"
+    },
+    {
+      "translationKey": "TAB_POSITION",
+      "translationBase": "Tab Position",
+      "translate": "Tab Position"
+    },
+    {
+      "translationKey": "TABLE_AS_LIST",
+      "translationBase": "Table As List",
+      "translate": "Table As List"
+    },
+    {
+      "translationKey": "PD_UOM",
+      "translationBase": "Product Unit Of Measure",
+      "translate": "Product Unit Of Measure"
+    },
+    {
+      "translationKey": "PD_UOM_ID",
+      "translationBase": "Product Unit Of Measure",
+      "translate": "Product Unit Of Measure"
+    },
+    {
+      "translationKey": "PD_UNIT_NO",
+      "translationBase": "Product Unit Number",
+      "translate": "Product Unit Number"
+    },
+    {
+      "translationKey": "PD_UNIT_NAME",
+      "translationBase": "Product Unit Name",
+      "translate": "Product Unit Name"
+    },
+    {
+      "translationKey": "PRINT_UNIT",
+      "translationBase": "Print Unit",
+      "translate": "Print Unit"
+    },
+    {
+      "translationKey": "CNV_FACTOR",
+      "translationBase": "Conversion Factor",
+      "translate": "Conversion Factor"
+    },
+    {
+      "translationKey": "PACKAGING_TYPE_ID",
+      "translationBase": "Packaging Type",
+      "translate": "Packaging Type"
+    },
+    {
+      "translationKey": "DOC_IVA",
+      "translationBase": "Inventory Adjustment",
+      "translate": "Inventory Adjustment"
+    },
+    {
+      "translationKey": "DOC_IVA_ID",
+      "translationBase": "Inventory Adjustment",
+      "translate": "Inventory Adjustment"
+    },
+    {
+      "translationKey": "DOC_APIV",
+      "translationBase": "Ap Invoice",
+      "translate": "Ap Invoice"
+    },
+    {
+      "translationKey": "DOC_APIV_ID",
+      "translationBase": "Ap Invoice",
+      "translate": "Ap Invoice"
+    },
+    {
+      "translationKey": "SUPP_NAME",
+      "translationBase": "Supplier Name",
+      "translate": "Supplier Name"
+    },
+    {
+      "translationKey": "CURRENCY_ID",
+      "translationBase": "Currency",
+      "translate": "Currency"
+    },
+    {
+      "translationKey": "CURRENCY_NO",
+      "translationBase": "Currency Number",
+      "translate": "Currency Number"
+    },
+    {
+      "translationKey": "SYMBOL",
+      "translationBase": "Symbol",
+      "translate": "Symbol"
+    },
+    {
+      "translationKey": "PD_BAL",
+      "translationBase": "Product Bal",
+      "translate": "Product Bal"
+    },
+    {
+      "translationKey": "PD_BAL_ID",
+      "translationBase": "Product Bal",
+      "translate": "Product Bal"
+    },
+    {
+      "translationKey": "BEGINING_OH_QTY",
+      "translationBase": "Begining On Hand Quantity",
+      "translate": "Begining On Hand Quantity"
+    },
+    {
+      "translationKey": "ENDING_OH_QTY",
+      "translationBase": "Ending On Hand Quantity",
+      "translate": "Ending On Hand Quantity"
+    },
+    {
+      "translationKey": "PD_STORAGE_BAL",
+      "translationBase": "Product Storage Bal",
+      "translate": "Product Storage Bal"
+    },
+    {
+      "translationKey": "PD_STORAGE_BAL_ID",
+      "translationBase": "Product Storage Bal",
+      "translate": "Product Storage Bal"
+    },
+    {
+      "translationKey": "DOC_SHIP",
+      "translationBase": "Ship",
+      "translate": "Ship"
+    },
+    {
+      "translationKey": "DOC_SO_ID",
+      "translationBase": "Sales Order",
+      "translate": "Sales Order"
+    },
+    {
+      "translationKey": "POS_DEVICE",
+      "translationBase": "Point Of Sales Device",
+      "translate": "Point Of Sales Device"
+    },
+    {
+      "translationKey": "POS_DEVICE_ID",
+      "translationBase": "Point Of Sales Device",
+      "translate": "Point Of Sales Device"
+    },
+    {
+      "translationKey": "POS_DEVICE_NO",
+      "translationBase": "Point Of Sales Device Number",
+      "translate": "Point Of Sales Device Number"
+    },
+    {
+      "translationKey": "POS_DEVICE_NAME",
+      "translationBase": "Point Of Sales Device Name",
+      "translate": "Point Of Sales Device Name"
+    },
+    {
+      "translationKey": "BRAND",
+      "translationBase": "Brand",
+      "translate": "Brand"
+    },
+    {
+      "translationKey": "MODEL",
+      "translationBase": "Model",
+      "translate": "Model"
+    },
+    {
+      "translationKey": "SN",
+      "translationBase": "Serial Number",
+      "translate": "Serial Number"
+    },
+    {
+      "translationKey": "POS_TYPE",
+      "translationBase": "Point Of Sales Type",
+      "translate": "Point Of Sales Type"
+    },
+    {
+      "translationKey": "BRANCH",
+      "translationBase": "Branch",
+      "translate": "Branch"
+    },
+    {
+      "translationKey": "BRANCH_NAME",
+      "translationBase": "Branch Name",
+      "translate": "Branch Name"
+    },
+    {
+      "translationKey": "VIRTUAL_BRANCH",
+      "translationBase": "Virtual Branch",
+      "translate": "Virtual Branch"
+    },
+    {
+      "translationKey": "INVENTORY_PREFERENCE",
+      "translationBase": "Inventory Preference",
+      "translate": "Inventory Preference"
+    },
+    {
+      "translationKey": "SALES_PREFERENCE",
+      "translationBase": "Sales Preference",
+      "translate": "Sales Preference"
+    },
+    {
+      "translationKey": "PURCHASE_PREFERENCE",
+      "translationBase": "Purchase Preference",
+      "translate": "Purchase Preference"
+    },
+    {
+      "translationKey": "FFM_BRANCH_ID",
+      "translationBase": "Ffm Branch",
+      "translate": "Ffm Branch"
+    },
+    {
+      "translationKey": "FFM_WH_ID",
+      "translationBase": "Ffm Warehouse",
+      "translate": "Ffm Warehouse"
+    },
+    {
+      "translationKey": "PD_CATE",
+      "translationBase": "Product Category",
+      "translate": "Product Category"
+    },
+    {
+      "translationKey": "PD_CATE_NO",
+      "translationBase": "Product Category Number",
+      "translate": "Product Category Number"
+    },
+    {
+      "translationKey": "PD_CATE_NAME",
+      "translationBase": "Product Category Name",
+      "translate": "Product Category Name"
+    },
+    {
+      "translationKey": "PD_SUBCATE",
+      "translationBase": "Product Subcategory",
+      "translate": "Product Subcategory"
+    },
+    {
+      "translationKey": "PD_SUBCATE_NO",
+      "translationBase": "Product Subcategory Number",
+      "translate": "Product Subcategory Number"
+    },
+    {
+      "translationKey": "PD_SUBCATE_NAME",
+      "translationBase": "Product Subcategory Name",
+      "translate": "Product Subcategory Name"
+    },
+    {
+      "translationKey": "PRICE_GROUP",
+      "translationBase": "Price Group",
+      "translate": "Price Group"
+    },
+    {
+      "translationKey": "PRICE_GROUP_NO",
+      "translationBase": "Price Group Number",
+      "translate": "Price Group Number"
+    },
+    {
+      "translationKey": "PRICE_GROUP_NAME",
+      "translationBase": "Price Group Name",
+      "translate": "Price Group Name"
+    },
+    {
+      "translationKey": "PRICE_BOOK",
+      "translationBase": "Price Book",
+      "translate": "Price Book"
+    },
+    {
+      "translationKey": "PRICE_BOOK_ID",
+      "translationBase": "Price Book",
+      "translate": "Price Book"
+    },
+    {
+      "translationKey": "PRICE_BOOK_NO",
+      "translationBase": "Price Book Number",
+      "translate": "Price Book Number"
+    },
+    {
+      "translationKey": "PRICE_BOOK_NAME",
+      "translationBase": "Price Book Name",
+      "translate": "Price Book Name"
+    },
+    {
+      "translationKey": "IN_EFFECTIVE_DATE",
+      "translationBase": "In Effective Date",
+      "translate": "In Effective Date"
+    },
+    {
+      "translationKey": "OUT_EFFECTIVE_DATE",
+      "translationBase": "Out Effective Date",
+      "translate": "Out Effective Date"
+    },
+    {
+      "translationKey": "CUST_SUBGROUP_ID",
+      "translationBase": "Customer Subgroup",
+      "translate": "Customer Subgroup"
+    },
+    {
+      "translationKey": "PRICE_BOOK_ITEM",
+      "translationBase": "Price Book Item",
+      "translate": "Price Book Item"
+    },
+    {
+      "translationKey": "PRICE_BOOK_ITEM_ID",
+      "translationBase": "Price Book Item",
+      "translate": "Price Book Item"
+    },
+    {
+      "translationKey": "PRICE_BOOK_CASCADE",
+      "translationBase": "Price Book Cascade",
+      "translate": "Price Book Cascade"
+    },
+    {
+      "translationKey": "PRICE_BOOK_CASCADE_ID",
+      "translationBase": "Price Book Cascade",
+      "translate": "Price Book Cascade"
+    },
+    {
+      "translationKey": "FROM_QTY",
+      "translationBase": "From Quantity",
+      "translate": "From Quantity"
+    },
+    {
+      "translationKey": "TO_QTY",
+      "translationBase": "To Quantity",
+      "translate": "To Quantity"
+    },
+    {
+      "translationKey": "USE_TYPE",
+      "translationBase": "Use Type",
+      "translate": "Use Type"
+    },
+    {
+      "translationKey": "CATE",
+      "translationBase": "Category",
+      "translate": "Category"
+    },
+    {
+      "translationKey": "CATE_NO",
+      "translationBase": "Category Number",
+      "translate": "Category Number"
+    },
+    {
+      "translationKey": "CATE_NAME",
+      "translationBase": "Category Name",
+      "translate": "Category Name"
+    },
+    {
+      "translationKey": "SUBCATE",
+      "translationBase": "Subcategory",
+      "translate": "Subcategory"
+    },
+    {
+      "translationKey": "SUBCATE_NO",
+      "translationBase": "Subcategory Number",
+      "translate": "Subcategory Number"
+    },
+    {
+      "translationKey": "SUBCATE_NAME",
+      "translationBase": "Subcategory Name",
+      "translate": "Subcategory Name"
+    },
+    {
+      "translationKey": "STATUS_TYPE",
+      "translationBase": "Status Type",
+      "translate": "Status Type"
+    },
+    {
+      "translationKey": "STATUS_ID",
+      "translationBase": "Status",
+      "translate": "Status"
+    },
+    {
+      "translationKey": "STATUS_NAME",
+      "translationBase": "Status Name",
+      "translate": "Status Name"
+    },
+    {
+      "translationKey": "STATUSES",
+      "translationBase": "Statuses",
+      "translate": "Statuses"
+    },
+    {
+      "translationKey": "DEFAULT_STATUS",
+      "translationBase": "Default Status",
+      "translate": "Default Status"
+    },
+    {
+      "translationKey": "STATUS_NO",
+      "translationBase": "Status Number",
+      "translate": "Status Number"
+    },
+    {
+      "translationKey": "DOC_ARC",
+      "translationBase": "Asset Rental Contract",
+      "translate": "Asset Rental Contract"
+    },
+    {
+      "translationKey": "DOC_ARC_ID",
+      "translationBase": "Asset Rental Contract",
+      "translate": "Asset Rental Contract"
+    },
+    {
+      "translationKey": "RENTAL_TYPE_ID",
+      "translationBase": "Rental Type",
+      "translate": "Rental Type"
+    },
+    {
+      "translationKey": "PERIOD_ID",
+      "translationBase": "Period",
+      "translate": "Period"
+    },
+    {
+      "translationKey": "RENTAL_PERIOD",
+      "translationBase": "Rental Period",
+      "translate": "Rental Period"
+    },
+    {
+      "translationKey": "DELIVERY_METHOD_ID",
+      "translationBase": "Delivery Method",
+      "translate": "Delivery Method"
+    },
+    {
+      "translationKey": "PAYMENT_CONDITION_ID",
+      "translationBase": "Payment Condition",
+      "translate": "Payment Condition"
+    },
+    {
+      "translationKey": "RENTER_ADDR",
+      "translationBase": "Renter Address",
+      "translate": "Renter Address"
+    },
+    {
+      "translationKey": "WORK_SITE",
+      "translationBase": "Work Site",
+      "translate": "Work Site"
+    },
+    {
+      "translationKey": "ATTACHED_DOC",
+      "translationBase": "Attached Document",
+      "translate": "Attached Document"
+    },
+    {
+      "translationKey": "RENTAL_PURPOSE",
+      "translationBase": "Rental Purpose",
+      "translate": "Rental Purpose"
+    },
+    {
+      "translationKey": "START_DATE",
+      "translationBase": "Start Date",
+      "translate": "Start Date"
+    },
+    {
+      "translationKey": "END_DATE",
+      "translationBase": "End Date",
+      "translate": "End Date"
+    },
+    {
+      "translationKey": "STOTAL_RTP",
+      "translationBase": "Subtotal Rental Price",
+      "translate": "Subtotal Rental Price"
+    },
+    {
+      "translationKey": "STOTAL_AFD",
+      "translationBase": "Subtotal After Discount",
+      "translate": "Subtotal After Discount"
+    },
+    {
+      "translationKey": "GTOTAL_RTP",
+      "translationBase": "Grand Total Rental Price",
+      "translate": "Grand Total Rental Price"
+    },
+    {
+      "translationKey": "GTOTAL_GRT_AMT",
+      "translationBase": "Grand Total Guarantee Amount",
+      "translate": "Grand Total Guarantee Amount"
+    },
+    {
+      "translationKey": "ASSESSED_GRT_AMT",
+      "translationBase": "Assessed Guarantee Amount",
+      "translate": "Assessed Guarantee Amount"
+    },
+    {
+      "translationKey": "RECEIVE_GRT_AMT",
+      "translationBase": "Receive Guarantee Amount",
+      "translate": "Receive Guarantee Amount"
+    },
+    {
+      "translationKey": "DELIVERY_CHARGES",
+      "translationBase": "Delivery Charges",
+      "translate": "Delivery Charges"
+    },
+    {
+      "translationKey": "APPLY_VAT",
+      "translationBase": "Apply VAT.",
+      "translate": "Apply VAT."
+    },
+    {
+      "translationKey": "EXCLUDE_VAT",
+      "translationBase": "Exclude VAT.",
+      "translate": "Exclude VAT."
+    },
+    {
+      "translationKey": "DOC_ARC_ITEM",
+      "translationBase": "Asset Rental Contract Item",
+      "translate": "Asset Rental Contract Item"
+    },
+    {
+      "translationKey": "DOC_ARC_ITEM_ID",
+      "translationBase": "Asset Rental Contract Item",
+      "translate": "Asset Rental Contract Item"
+    },
+    {
+      "translationKey": "ASSET_ID",
+      "translationBase": "Asset",
+      "translate": "Asset"
+    },
+    {
+      "translationKey": "RENTED_QTY",
+      "translationBase": "Rented Quantity",
+      "translate": "Rented Quantity"
+    },
+    {
+      "translationKey": "RTP",
+      "translationBase": "Rental Price",
+      "translate": "Rental Price"
+    },
+    {
+      "translationKey": "TOTAL_RTP",
+      "translationBase": "Total Rental Price",
+      "translate": "Total Rental Price"
+    },
+    {
+      "translationKey": "GRT_AMT",
+      "translationBase": "Guarantee Amount",
+      "translate": "Guarantee Amount"
+    },
+    {
+      "translationKey": "TOTAL_GRT_AMT",
+      "translationBase": "Total Guarantee Amount",
+      "translate": "Total Guarantee Amount"
+    },
+    {
+      "translationKey": "SHIPPED_QTY",
+      "translationBase": "Shipped Quantity",
+      "translate": "Shipped Quantity"
+    },
+    {
+      "translationKey": "ASSET_WH_STORAGE_ID",
+      "translationBase": "Asset Warehouse Storage",
+      "translate": "Asset Warehouse Storage"
+    },
+    {
+      "translationKey": "SCHDRD",
+      "translationBase": "Scheduled Returns Date",
+      "translate": "Scheduled Returns Date"
+    },
+    {
+      "translationKey": "RETURNED_DATE",
+      "translationBase": "Returned Date",
+      "translate": "Returned Date"
+    },
+    {
+      "translationKey": "RETURNED_QTY",
+      "translationBase": "Returned Quantity",
+      "translate": "Returned Quantity"
+    },
+    {
+      "translationKey": "DAY_DELAYED",
+      "translationBase": "Day Delayed",
+      "translate": "Day Delayed"
+    },
+    {
+      "translationKey": "PCF_DELAYED",
+      "translationBase": "Penalty Cost For Delayed",
+      "translate": "Penalty Cost For Delayed"
+    },
+    {
+      "translationKey": "DELAYED_TOTAL_AMT",
+      "translationBase": "Delayed Total Amount",
+      "translate": "Delayed Total Amount"
+    },
+    {
+      "translationKey": "LOST_QTY",
+      "translationBase": "Lost Quantity",
+      "translate": "Lost Quantity"
+    },
+    {
+      "translationKey": "PCF_LOST",
+      "translationBase": "Penalty Cost For Lost",
+      "translate": "Penalty Cost For Lost"
+    },
+    {
+      "translationKey": "LOST_TOTAL_AMT",
+      "translationBase": "Lost Total Amount",
+      "translate": "Lost Total Amount"
+    },
+    {
+      "translationKey": "DAMAGED_QTY",
+      "translationBase": "Damaged Quantity",
+      "translate": "Damaged Quantity"
+    },
+    {
+      "translationKey": "PCF_DAMAGED",
+      "translationBase": "Penalty Cost For Damaged",
+      "translate": "Penalty Cost For Damaged"
+    },
+    {
+      "translationKey": "DAMAGED_TOTAL_AMT",
+      "translationBase": "Damaged Total Amount",
+      "translate": "Damaged Total Amount"
+    },
+    {
+      "translationKey": "PERIOD",
+      "translationBase": "Period",
+      "translate": "Period"
+    },
+    {
+      "translationKey": "PERIOD_NO",
+      "translationBase": "Period Number",
+      "translate": "Period Number"
+    },
+    {
+      "translationKey": "PERIOD_NAME",
+      "translationBase": "Period Name",
+      "translate": "Period Name"
+    },
+    {
+      "translationKey": "RTP_ID",
+      "translationBase": "Rental Price",
+      "translate": "Rental Price"
+    },
+    {
+      "translationKey": "PRICE_INCLUDE_TAX",
+      "translationBase": "Price Include Tax",
+      "translate": "Price Include Tax"
+    },
+    {
+      "translationKey": "PRICE_1",
+      "translationBase": "Price 1",
+      "translate": "Price 1"
+    },
+    {
+      "translationKey": "PRICE_2",
+      "translationBase": "Price 2",
+      "translate": "Price 2"
+    },
+    {
+      "translationKey": "PRICE_3",
+      "translationBase": "Price 3",
+      "translate": "Price 3"
+    },
+    {
+      "translationKey": "PRICE_4",
+      "translationBase": "Price 4",
+      "translate": "Price 4"
+    },
+    {
+      "translationKey": "PRICE_5",
+      "translationBase": "Price 5",
+      "translate": "Price 5"
+    },
+    {
+      "translationKey": "REMARK",
+      "translationBase": "Remark",
+      "translate": "Remark"
+    },
+    {
+      "translationKey": "CASCADED_RTP",
+      "translationBase": "Cascaded Rental Price",
+      "translate": "Cascaded Rental Price"
+    },
+    {
+      "translationKey": "COUNTRY_TRANSLATION_OPTION",
+      "translationBase": "Country Translation Option",
+      "translate": "Country Translation Option"
+    },
+    {
+      "translationKey": "COUNTRY_TRANSLATION_OPTION_ID",
+      "translationBase": "Country Translation Option",
+      "translate": "Country Translation Option"
+    },
+    {
+      "translationKey": "BIZ_TRANSLATION_OPTION",
+      "translationBase": "Business Translation Option",
+      "translate": "Business Translation Option"
+    },
+    {
+      "translationKey": "BIZ_TRANSLATION_OPTION_ID",
+      "translationBase": "Business Translation Option",
+      "translate": "Business Translation Option"
+    },
+    {
+      "translationKey": "APP_MENU",
+      "translationBase": "Application Menu",
+      "translate": "Application Menu"
+    },
+    {
+      "translationKey": "APP_MENU_ID",
+      "translationBase": "Application Menu",
+      "translate": "Application Menu"
+    },
+    {
+      "translationKey": "SUBTITLE",
+      "translationBase": "Subtitle",
+      "translate": "Subtitle"
+    },
+    {
+      "translationKey": "ICON",
+      "translationBase": "Icon",
+      "translate": "Icon"
+    },
+    {
+      "translationKey": "CHILDREN",
+      "translationBase": "Children",
+      "translate": "Children"
+    },
+    {
+      "translationKey": "LINK",
+      "translationBase": "Link",
+      "translate": "Link"
+    },
+    {
+      "translationKey": "APP_MODULE_ID",
+      "translationBase": "Application Module",
+      "translate": "Application Module"
+    },
+    {
+      "translationKey": "USER_TOKEN",
+      "translationBase": "User Token",
+      "translate": "User Token"
+    },
+    {
+      "translationKey": "USER_TOKEN_ID",
+      "translationBase": "User Token",
+      "translate": "User Token"
+    },
+    {
+      "translationKey": "REFRESH_TOKEN",
+      "translationBase": "Refresh Token",
+      "translate": "Refresh Token"
+    },
+    {
+      "translationKey": "BID",
+      "translationBase": "Business Id",
+      "translate": "Business Id"
+    },
+    {
+      "translationKey": "BRID",
+      "translationBase": "Brid",
+      "translate": "Brid"
+    },
+    {
+      "translationKey": "DEVICE_INFO",
+      "translationBase": "Device Info",
+      "translate": "Device Info"
+    },
+    {
+      "translationKey": "ASSET",
+      "translationBase": "Asset",
+      "translate": "Asset"
+    },
+    {
+      "translationKey": "ASSET_NO",
+      "translationBase": "Asset Number",
+      "translate": "Asset Number"
+    },
+    {
+      "translationKey": "ASSET_NAME",
+      "translationBase": "Asset Name",
+      "translate": "Asset Name"
+    },
+    {
+      "translationKey": "OR_QTY",
+      "translationBase": "On Rented Quantity",
+      "translate": "On Rented Quantity"
+    },
+    {
+      "translationKey": "BRAND_ID",
+      "translationBase": "Brand",
+      "translate": "Brand"
+    },
+    {
+      "translationKey": "COLOR_ID",
+      "translationBase": "Color",
+      "translate": "Color"
+    },
+    {
+      "translationKey": "DEFAULT_IMG_URL",
+      "translationBase": "Default Img Url",
+      "translate": "Default Img Url"
+    },
+    {
+      "translationKey": "DEFAULT_WH_ID",
+      "translationBase": "Default Warehouse",
+      "translate": "Default Warehouse"
+    },
+    {
+      "translationKey": "DEFAULT_WH_STORAGE_ID",
+      "translationBase": "Default Warehouse Storage",
+      "translate": "Default Warehouse Storage"
+    },
+    {
+      "translationKey": "ASSET_STORAGE",
+      "translationBase": "Asset Storage",
+      "translate": "Asset Storage"
+    },
+    {
+      "translationKey": "ASSET_STORAGE_ID",
+      "translationBase": "Asset Storage",
+      "translate": "Asset Storage"
+    },
+    {
+      "translationKey": "APP_TYPE",
+      "translationBase": "Application Type",
+      "translate": "Application Type"
+    },
+    {
+      "translationKey": "APP_TYPE_ID",
+      "translationBase": "Application Type",
+      "translate": "Application Type"
+    },
+    {
+      "translationKey": "APP_TYPE_NO",
+      "translationBase": "Application Type Number",
+      "translate": "Application Type Number"
+    },
+    {
+      "translationKey": "APP_TYPE_NAME",
+      "translationBase": "Application Type Name",
+      "translate": "Application Type Name"
+    },
+    {
+      "translationKey": "MONTHLY_RATE",
+      "translationBase": "Monthly Rate",
+      "translate": "Monthly Rate"
+    },
+    {
+      "translationKey": "YEARLY_RATE",
+      "translationBase": "Yearly Rate",
+      "translate": "Yearly Rate"
+    },
+    {
+      "translationKey": "DOC_POS",
+      "translationBase": "Point Of Sales",
+      "translate": "Point Of Sales"
+    },
+    {
+      "translationKey": "DOC_POS_ID",
+      "translationBase": "Point Of Sales",
+      "translate": "Point Of Sales"
+    },
+    {
+      "translationKey": "SUPP",
+      "translationBase": "Supplier",
+      "translate": "Supplier"
+    },
+    {
+      "translationKey": "SUPP_NO",
+      "translationBase": "Supplier Number",
+      "translate": "Supplier Number"
+    },
+    {
+      "translationKey": "PD_SUPP",
+      "translationBase": "Product Supplier",
+      "translate": "Product Supplier"
+    },
+    {
+      "translationKey": "PD_SUPP_ID",
+      "translationBase": "Product Supplier",
+      "translate": "Product Supplier"
+    },
+    {
+      "translationKey": "MIN_ORDER",
+      "translationBase": "Minimum Order",
+      "translate": "Minimum Order"
+    },
+    {
+      "translationKey": "APPLY_SU",
+      "translationBase": "Apply Storage Unit",
+      "translate": "Apply Storage Unit"
+    },
+    {
+      "translationKey": "SU_TYPE_ID",
+      "translationBase": "Storage Unit Type",
+      "translate": "Storage Unit Type"
+    },
+    {
+      "translationKey": "QTY_PER_SU",
+      "translationBase": "Quantity Per Storage Unit",
+      "translate": "Quantity Per Storage Unit"
+    },
+    {
+      "translationKey": "STAIRSTEP_PRICE",
+      "translationBase": "Stairstep Price",
+      "translate": "Stairstep Price"
+    },
+    {
+      "translationKey": "DOC_SO",
+      "translationBase": "Sales Order",
+      "translate": "Sales Order"
+    },
+    {
+      "translationKey": "SALES_CHANNEL_ID",
+      "translationBase": "Sales Channel",
+      "translate": "Sales Channel"
+    },
+    {
+      "translationKey": "ALLOW_PARTIAL_SHIPMENT",
+      "translationBase": "Allow Partial Shipment",
+      "translate": "Allow Partial Shipment"
+    },
+    {
+      "translationKey": "ALLOW_PARTIAL_ITEM_SHIPMENT",
+      "translationBase": "Allow Partial Item Shipment",
+      "translate": "Allow Partial Item Shipment"
+    },
+    {
+      "translationKey": "ALLOCATED",
+      "translationBase": "Allocated",
+      "translate": "Allocated"
+    },
+    {
+      "translationKey": "ALLOCATED_STATUS",
+      "translationBase": "Allocated Status",
+      "translate": "Allocated Status"
+    },
+    {
+      "translationKey": "PRIORITY",
+      "translationBase": "Priority",
+      "translate": "Priority"
+    },
+    {
+      "translationKey": "DSP_ID",
+      "translationBase": "Dsp",
+      "translate": "Dsp"
+    },
+    {
+      "translationKey": "DELIVERABLE",
+      "translationBase": "Deliverable",
+      "translate": "Deliverable"
+    },
+    {
+      "translationKey": "SHIPPING_CARRIER_ID",
+      "translationBase": "Shipping Carrier",
+      "translate": "Shipping Carrier"
+    },
+    {
+      "translationKey": "NUM_OF_ITEM",
+      "translationBase": "Num Of Item",
+      "translate": "Num Of Item"
+    },
+    {
+      "translationKey": "NUM_OF_CATE",
+      "translationBase": "Num Of Category",
+      "translate": "Num Of Category"
+    },
+    {
+      "translationKey": "CATE_COUNT",
+      "translationBase": "Category Count",
+      "translate": "Category Count"
+    },
+    {
+      "translationKey": "PAYMENT_STATUS",
+      "translationBase": "Payment Status",
+      "translate": "Payment Status"
+    },
+    {
+      "translationKey": "PARTNER_NAME",
+      "translationBase": "Partner Name",
+      "translate": "Partner Name"
+    },
+    {
+      "translationKey": "DELIVERY_METHOD",
+      "translationBase": "Delivery Method",
+      "translate": "Delivery Method"
+    },
+    {
+      "translationKey": "DELIVERY_METHOD_NO",
+      "translationBase": "Delivery Method Number",
+      "translate": "Delivery Method Number"
+    },
+    {
+      "translationKey": "DELIVERY_METHOD_NAME",
+      "translationBase": "Delivery Method Name",
+      "translate": "Delivery Method Name"
+    },
+    {
+      "translationKey": "RENTAL_TYPE",
+      "translationBase": "Rental Type",
+      "translate": "Rental Type"
+    },
+    {
+      "translationKey": "RENTAL_TYPE_NO",
+      "translationBase": "Rental Type Number",
+      "translate": "Rental Type Number"
+    },
+    {
+      "translationKey": "RENTAL_TYPE_NAME",
+      "translationBase": "Rental Type Name",
+      "translate": "Rental Type Name"
+    },
+    {
+      "translationKey": "PAYMENT_CONDITION",
+      "translationBase": "Payment Condition",
+      "translate": "Payment Condition"
+    },
+    {
+      "translationKey": "PAYMENT_CONDITION_NO",
+      "translationBase": "Payment Condition Number",
+      "translate": "Payment Condition Number"
+    },
+    {
+      "translationKey": "PAYMENT_CONDITION_NAME",
+      "translationBase": "Payment Condition Name",
+      "translate": "Payment Condition Name"
+    },
+    {
+      "translationKey": "BRAND_NO",
+      "translationBase": "Brand Number",
+      "translate": "Brand Number"
+    },
+    {
+      "translationKey": "BRAND_NAME",
+      "translationBase": "Brand Name",
+      "translate": "Brand Name"
+    },
+    {
+      "translationKey": "COLOR",
+      "translationBase": "Color",
+      "translate": "Color"
+    },
+    {
+      "translationKey": "COLOR_NO",
+      "translationBase": "Color Number",
+      "translate": "Color Number"
+    },
+    {
+      "translationKey": "COLOR_NAME",
+      "translationBase": "Color Name",
+      "translate": "Color Name"
+    },
+    {
+      "translationKey": "DOC_CDJ",
+      "translationBase": "Cash Disbursement Journal",
+      "translate": "Cash Disbursement Journal"
+    },
+    {
+      "translationKey": "DOC_CDJ_ID",
+      "translationBase": "Cash Disbursement Journal",
+      "translate": "Cash Disbursement Journal"
+    },
+    {
+      "translationKey": "EXPENSE",
+      "translationBase": "Expense",
+      "translate": "Expense"
+    },
+    {
+      "translationKey": "EXPENSE_ID",
+      "translationBase": "Expense",
+      "translate": "Expense"
+    },
+    {
+      "translationKey": "EXPENSE_NO",
+      "translationBase": "Expense Number",
+      "translate": "Expense Number"
+    },
+    {
+      "translationKey": "EXPENSE_NAME",
+      "translationBase": "Expense Name",
+      "translate": "Expense Name"
+    },
+    {
+      "translationKey": "REVENUE",
+      "translationBase": "Revenue",
+      "translate": "Revenue"
+    },
+    {
+      "translationKey": "REVENUE_ID",
+      "translationBase": "Revenue",
+      "translate": "Revenue"
+    },
+    {
+      "translationKey": "REVENUE_NO",
+      "translationBase": "Revenue Number",
+      "translate": "Revenue Number"
+    },
+    {
+      "translationKey": "REVENUE_NAME",
+      "translationBase": "Revenue Name",
+      "translate": "Revenue Name"
+    },
+    {
+      "translationKey": "DOC_CRJ",
+      "translationBase": "Cash Receipt Journal",
+      "translate": "Cash Receipt Journal"
+    },
+    {
+      "translationKey": "DOC_CRJ_ID",
+      "translationBase": "Cash Receipt Journal",
+      "translate": "Cash Receipt Journal"
+    },
+    {
+      "translationKey": "DOC_ARR",
+      "translationBase": "Asset Rental Return",
+      "translate": "Asset Rental Return"
+    },
+    {
+      "translationKey": "DOC_ARR_ID",
+      "translationBase": "Asset Rental Return",
+      "translate": "Asset Rental Return"
+    },
+    {
+      "translationKey": "DOC_NAR",
+      "translationBase": "New Asset Receive",
+      "translate": "New Asset Receive"
+    },
+    {
+      "translationKey": "DOC_NAR_ID",
+      "translationBase": "New Asset Receive",
+      "translate": "New Asset Receive"
+    },
+    {
+      "translationKey": "DOC_NAME",
+      "translationBase": "Name",
+      "translate": "Name"
+    },
+    {
+      "translationKey": "DOC_NAR_ITEM",
+      "translationBase": "New Asset Receive Item",
+      "translate": "New Asset Receive Item"
+    },
+    {
+      "translationKey": "DOC_NAR_ITEM_ID",
+      "translationBase": "New Asset Receive Item",
+      "translate": "New Asset Receive Item"
+    },
+    {
+      "translationKey": "RECEIVED_QTY",
+      "translationBase": "Received Quantity",
+      "translate": "Received Quantity"
+    },
+    {
+      "translationKey": "PD_BRANCH",
+      "translationBase": "Product Branch",
+      "translate": "Product Branch"
+    },
+    {
+      "translationKey": "ON_TRANSIT_QTY",
+      "translationBase": "On Transit Quantity",
+      "translate": "On Transit Quantity"
+    },
+    {
+      "translationKey": "DEFAULT_PD_WH_ID",
+      "translationBase": "Default Product Warehouse",
+      "translate": "Default Product Warehouse"
+    },
+    {
+      "translationKey": "PICK_FROM_AVAILABLE_STORAGE",
+      "translationBase": "Pick From Available Storage",
+      "translate": "Pick From Available Storage"
+    },
+    {
+      "translationKey": "ASSET_BRANCH",
+      "translationBase": "Asset Branch",
+      "translate": "Asset Branch"
+    },
+    {
+      "translationKey": "ASSET_BRANCH_ID",
+      "translationBase": "Asset Branch",
+      "translate": "Asset Branch"
+    },
+    {
+      "translationKey": "DOC_ARR_ITEM",
+      "translationBase": "Asset Rental Return Item",
+      "translate": "Asset Rental Return Item"
+    },
+    {
+      "translationKey": "DOC_ARR_ITEM_ID",
+      "translationBase": "Asset Rental Return Item",
+      "translate": "Asset Rental Return Item"
+    },
+    {
+      "translationKey": "DOC_RECEIPT",
+      "translationBase": "Receipt",
+      "translate": "Receipt"
+    },
+    {
+      "translationKey": "DOC_RECEIPT_ID",
+      "translationBase": "Receipt",
+      "translate": "Receipt"
+    },
+    {
+      "translationKey": "PAYMENT_CHANNEL_ID",
+      "translationBase": "Payment Channel",
+      "translate": "Payment Channel"
+    },
+    {
+      "translationKey": "REF_SRC",
+      "translationBase": "Reference Source",
+      "translate": "Reference Source"
+    },
+    {
+      "translationKey": "REF_ID",
+      "translationBase": "Reference",
+      "translate": "Reference"
+    },
+    {
+      "translationKey": "BANK_TRANSFER",
+      "translationBase": "Bank Transfer",
+      "translate": "Bank Transfer"
+    },
+    {
+      "translationKey": "PAYMENT_GATEWAY",
+      "translationBase": "Payment Gateway",
+      "translate": "Payment Gateway"
+    },
+    {
+      "translationKey": "CREDIT_CARD",
+      "translationBase": "Credit Card",
+      "translate": "Credit Card"
+    },
+    {
+      "translationKey": "CHEQUE",
+      "translationBase": "Cheque",
+      "translate": "Cheque"
+    },
+    {
+      "translationKey": "CASH_AMT",
+      "translationBase": "Cash Amount",
+      "translate": "Cash Amount"
+    },
+    {
+      "translationKey": "TOTAL_RECEIPT_AMT",
+      "translationBase": "Total Receipt Amount",
+      "translate": "Total Receipt Amount"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_TYPE",
+      "translationBase": "Bank Account Type",
+      "translate": "Bank Account Type"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_TYPE_ID",
+      "translationBase": "Bank Account Type",
+      "translate": "Bank Account Type"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_TYPE_NO",
+      "translationBase": "Bank Account Type Number",
+      "translate": "Bank Account Type Number"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_TYPE_NAME",
+      "translationBase": "Bank Account Type Name",
+      "translate": "Bank Account Type Name"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT",
+      "translationBase": "Bank Account",
+      "translate": "Bank Account"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_ID",
+      "translationBase": "Bank Account",
+      "translate": "Bank Account"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_NO",
+      "translationBase": "Bank Account Number",
+      "translate": "Bank Account Number"
+    },
+    {
+      "translationKey": "BANK_ACCOUNT_NAME",
+      "translationBase": "Bank Account Name",
+      "translate": "Bank Account Name"
+    },
+    {
+      "translationKey": "CARD_TYPE",
+      "translationBase": "Card Type",
+      "translate": "Card Type"
+    },
+    {
+      "translationKey": "CARD_TYPE_ID",
+      "translationBase": "Card Type",
+      "translate": "Card Type"
+    },
+    {
+      "translationKey": "CARD_TYPE_NO",
+      "translationBase": "Card Type Number",
+      "translate": "Card Type Number"
+    },
+    {
+      "translationKey": "CARD_TYPE_NAME",
+      "translationBase": "Card Type Name",
+      "translate": "Card Type Name"
+    },
+    {
+      "translationKey": "PAYMENT_CHANNEL",
+      "translationBase": "Payment Channel",
+      "translate": "Payment Channel"
+    },
+    {
+      "translationKey": "PAYMENT_CHANNEL_NO",
+      "translationBase": "Payment Channel Number",
+      "translate": "Payment Channel Number"
+    },
+    {
+      "translationKey": "PAYMENT_CHANNEL_NAME",
+      "translationBase": "Payment Channel Name",
+      "translate": "Payment Channel Name"
+    },
+    {
+      "translationKey": "CHANNEL_TYPE",
+      "translationBase": "Channel Type",
+      "translate": "Channel Type"
+    },
+    {
+      "translationKey": "APP_ROUTE",
+      "translationBase": "Application Route",
+      "translate": "Application Route"
+    },
+    {
+      "translationKey": "APP_ROUTE_ID",
+      "translationBase": "Application Route",
+      "translate": "Application Route"
+    },
+    {
+      "translationKey": "ROUTE_NO",
+      "translationBase": "Route Number",
+      "translate": "Route Number"
+    },
+    {
+      "translationKey": "PD_ATTRIBUTE",
+      "translationBase": "Product Attribute",
+      "translate": "Product Attribute"
+    },
+    {
+      "translationKey": "ATTRIBUTE_ID",
+      "translationBase": "Attribute",
+      "translate": "Attribute"
+    },
+    {
+      "translationKey": "ATTRIBUTE_NO",
+      "translationBase": "Attribute Number",
+      "translate": "Attribute Number"
+    },
+    {
+      "translationKey": "ATTRIBUTE_NAME",
+      "translationBase": "Attribute Name",
+      "translate": "Attribute Name"
+    },
+    {
+      "translationKey": "WH",
+      "translationBase": "Warehouse",
+      "translate": "Warehouse"
+    },
+    {
+      "translationKey": "WH_NO",
+      "translationBase": "Warehouse Number",
+      "translate": "Warehouse Number"
+    },
+    {
+      "translationKey": "WH_NAME",
+      "translationBase": "Warehouse Name",
+      "translate": "Warehouse Name"
+    },
+    {
+      "translationKey": "VIRTUAL",
+      "translationBase": "Virtual",
+      "translate": "Virtual"
+    },
+    {
+      "translationKey": "SUSPENDED",
+      "translationBase": "Suspended",
+      "translate": "Suspended"
+    },
+    {
+      "translationKey": "RECEIVING_WH_STORAGE_ID",
+      "translationBase": "Receiving Warehouse Storage",
+      "translate": "Receiving Warehouse Storage"
+    },
+    {
+      "translationKey": "PICKING_WH_STORAGE_ID",
+      "translationBase": "Picking Warehouse Storage",
+      "translate": "Picking Warehouse Storage"
+    },
+    {
+      "translationKey": "PACKING_WH_STORAGE_ID",
+      "translationBase": "Packing Warehouse Storage",
+      "translate": "Packing Warehouse Storage"
+    },
+    {
+      "translationKey": "SHIPPING_WH_STORAGE_ID",
+      "translationBase": "Shipping Warehouse Storage",
+      "translate": "Shipping Warehouse Storage"
+    },
+    {
+      "translationKey": "PICKING_CONTROLLER_ID",
+      "translationBase": "Picking Controller",
+      "translate": "Picking Controller"
+    },
+    {
+      "translationKey": "RPN_CONTROLLER_ID",
+      "translationBase": "Replenishment Controller",
+      "translate": "Replenishment Controller"
+    },
+    {
+      "translationKey": "RPN_BRANCH_ID",
+      "translationBase": "Replenishment Branch",
+      "translate": "Replenishment Branch"
+    },
+    {
+      "translationKey": "RPN_WH_ID",
+      "translationBase": "Replenishment Warehouse",
+      "translate": "Replenishment Warehouse"
+    },
+    {
+      "translationKey": "PD_WH",
+      "translationBase": "Product Warehouse",
+      "translate": "Product Warehouse"
+    },
+    {
+      "translationKey": "IN_TRANSIT_OUT_QTY",
+      "translationBase": "In Transit Out Quantity",
+      "translate": "In Transit Out Quantity"
+    },
+    {
+      "translationKey": "IN_TRANSIT_IN_QTY",
+      "translationBase": "In Transit In Quantity",
+      "translate": "In Transit In Quantity"
+    },
+    {
+      "translationKey": "ROP_QTY",
+      "translationBase": "Reorder Point Quantity",
+      "translate": "Reorder Point Quantity"
+    },
+    {
+      "translationKey": "ROP_SWITCH",
+      "translationBase": "Reorder Point Switch",
+      "translate": "Reorder Point Switch"
+    },
+    {
+      "translationKey": "MIN_QTY",
+      "translationBase": "Minimum Quantity",
+      "translate": "Minimum Quantity"
+    },
+    {
+      "translationKey": "MAX_QTY",
+      "translationBase": "Maximum Quantity",
+      "translate": "Maximum Quantity"
+    },
+    {
+      "translationKey": "REF_WH_NO",
+      "translationBase": "Reference Warehouse Number",
+      "translate": "Reference Warehouse Number"
+    },
+    {
+      "translationKey": "REF_WH_NAME",
+      "translationBase": "Reference Warehouse Name",
+      "translate": "Reference Warehouse Name"
+    },
+    {
+      "translationKey": "WH_PREF",
+      "translationBase": "Warehouse Preference",
+      "translate": "Warehouse Preference"
+    },
+    {
+      "translationKey": "SALES_CHANNEL",
+      "translationBase": "Sales Channel",
+      "translate": "Sales Channel"
+    },
+    {
+      "translationKey": "SALES_CHANNEL_NO",
+      "translationBase": "Sales Channel Number",
+      "translate": "Sales Channel Number"
+    },
+    {
+      "translationKey": "SALES_CHANNEL_NAME",
+      "translationBase": "Sales Channel Name",
+      "translate": "Sales Channel Name"
+    },
+    {
+      "translationKey": "PD_LOT",
+      "translationBase": "Product Lot Number",
+      "translate": "Product Lot Number"
+    },
+    {
+      "translationKey": "PD_LOT_ID",
+      "translationBase": "Product Lot Number",
+      "translate": "Product Lot Number"
+    },
+    {
+      "translationKey": "LOT_NO",
+      "translationBase": "Lot Number Number",
+      "translate": "Lot Number Number"
+    },
+    {
+      "translationKey": "MFG_DATE",
+      "translationBase": "Manufacturing Date",
+      "translate": "Manufacturing Date"
+    },
+    {
+      "translationKey": "EXPIRE_DATE",
+      "translationBase": "Expire Date",
+      "translate": "Expire Date"
+    },
+    {
+      "translationKey": "SUPP_LOT_NO",
+      "translationBase": "Supplier Lot Number Number",
+      "translate": "Supplier Lot Number Number"
+    },
+    {
+      "translationKey": "PD_LOT_STORAGE",
+      "translationBase": "Product Lot Number Storage",
+      "translate": "Product Lot Number Storage"
+    },
+    {
+      "translationKey": "PD_LOT_STORAGE_ID",
+      "translationBase": "Product Lot Number Storage",
+      "translate": "Product Lot Number Storage"
+    },
+    {
+      "translationKey": "REF_LOT_NO",
+      "translationBase": "Reference Lot Number Number",
+      "translate": "Reference Lot Number Number"
+    },
+    {
+      "translationKey": "PD_SN",
+      "translationBase": "Product Serial Number",
+      "translate": "Product Serial Number"
+    },
+    {
+      "translationKey": "PD_SN_ID",
+      "translationBase": "Product Serial Number",
+      "translate": "Product Serial Number"
+    },
+    {
+      "translationKey": "PD_VARIANT",
+      "translationBase": "Product Variant",
+      "translate": "Product Variant"
+    },
+    {
+      "translationKey": "PD_VARIANT_ID",
+      "translationBase": "Product Variant",
+      "translate": "Product Variant"
+    },
+    {
+      "translationKey": "PD_VARIANT_NO",
+      "translationBase": "Product Variant Number",
+      "translate": "Product Variant Number"
+    },
+    {
+      "translationKey": "PD_VARIANT_NAME",
+      "translationBase": "Product Variant Name",
+      "translate": "Product Variant Name"
+    },
+    {
+      "translationKey": "PD_VARIANT_GROUP_ID",
+      "translationBase": "Product Variant Group",
+      "translate": "Product Variant Group"
+    },
+    {
+      "translationKey": "PD_VARIANT_GROUP",
+      "translationBase": "Product Variant Group",
+      "translate": "Product Variant Group"
+    },
+    {
+      "translationKey": "PD_VARIANT_GROUP_NO",
+      "translationBase": "Product Variant Group Number",
+      "translate": "Product Variant Group Number"
+    },
+    {
+      "translationKey": "PD_VARIANT_GROUP_NAME",
+      "translationBase": "Product Variant Group Name",
+      "translate": "Product Variant Group Name"
+    },
+    {
+      "translationKey": "PD_CUST_STORAGE",
+      "translationBase": "Product Customer Storage",
+      "translate": "Product Customer Storage"
+    },
+    {
+      "translationKey": "PD_CUST_STORAGE_ID",
+      "translationBase": "Product Customer Storage",
+      "translate": "Product Customer Storage"
+    },
+    {
+      "translationKey": "PD_SUPP_STORAGE",
+      "translationBase": "Product Supplier Storage",
+      "translate": "Product Supplier Storage"
+    },
+    {
+      "translationKey": "PD_SUPP_STORAGE_ID",
+      "translationBase": "Product Supplier Storage",
+      "translate": "Product Supplier Storage"
+    },
+    {
+      "translationKey": "DOC_DSO",
+      "translationBase": "Dropship Order",
+      "translate": "Dropship Order"
+    },
+    {
+      "translationKey": "DOC_DSO_ID",
+      "translationBase": "Dropship Order",
+      "translate": "Dropship Order"
+    },
+    {
+      "translationKey": "BIZ_ALLOWED",
+      "translationBase": "Business Allowed",
+      "translate": "Business Allowed"
+    },
+    {
+      "translationKey": "BIZ_ALLOWED_ID",
+      "translationBase": "Business Allowed",
+      "translate": "Business Allowed"
+    },
+    {
+      "translationKey": "REF_BIZ_ID",
+      "translationBase": "Reference Business",
+      "translate": "Reference Business"
+    },
+    {
+      "translationKey": "INV_TRN",
+      "translationBase": "Inventory Trn",
+      "translate": "Inventory Trn"
+    },
+    {
+      "translationKey": "INV_TRN_ID",
+      "translationBase": "Inventory Trn",
+      "translate": "Inventory Trn"
+    },
+    {
+      "translationKey": "TRN_DATE",
+      "translationBase": "Trn Date",
+      "translate": "Trn Date"
+    },
+    {
+      "translationKey": "TRN_SRC",
+      "translationBase": "Trn Source",
+      "translate": "Trn Source"
+    },
+    {
+      "translationKey": "TRN_TYPE",
+      "translationBase": "Trn Type",
+      "translate": "Trn Type"
+    },
+    {
+      "translationKey": "REF_ITEM_ID",
+      "translationBase": "Reference Item",
+      "translate": "Reference Item"
+    },
+    {
+      "translationKey": "QTY",
+      "translationBase": "Quantity",
+      "translate": "Quantity"
+    },
+    {
+      "translationKey": "PREV_QTY",
+      "translationBase": "Previous Quantity",
+      "translate": "Previous Quantity"
+    },
+    {
+      "translationKey": "TRN_QTY",
+      "translationBase": "Trn Quantity",
+      "translate": "Trn Quantity"
+    },
+    {
+      "translationKey": "REF_SU_NO",
+      "translationBase": "Reference Storage Unit Number",
+      "translate": "Reference Storage Unit Number"
+    },
+    {
+      "translationKey": "RED_DOC_NO",
+      "translationBase": "Red Document Number",
+      "translate": "Red Document Number"
+    },
+    {
+      "translationKey": "PD_SU_ID",
+      "translationBase": "Product Storage Unit",
+      "translate": "Product Storage Unit"
+    },
+    {
+      "translationKey": "APP_MODULE",
+      "translationBase": "Application Module",
+      "translate": "Application Module"
+    },
+    {
+      "translationKey": "APP_MODULE_NO",
+      "translationBase": "Application Module Number",
+      "translate": "Application Module Number"
+    },
+    {
+      "translationKey": "APP_MODULE_NAME",
+      "translationBase": "Application Module Name",
+      "translate": "Application Module Name"
+    },
+    {
+      "translationKey": "ASSET_WH",
+      "translationBase": "Asset Warehouse",
+      "translate": "Asset Warehouse"
+    },
+    {
+      "translationKey": "ASSET_WH_ID",
+      "translationBase": "Asset Warehouse",
+      "translate": "Asset Warehouse"
+    },
+    {
+      "translationKey": "PD_COST_STACK",
+      "translationBase": "Product Cost Stack",
+      "translate": "Product Cost Stack"
+    },
+    {
+      "translationKey": "PD_COST_STACK_ID",
+      "translationBase": "Product Cost Stack",
+      "translate": "Product Cost Stack"
+    },
+    {
+      "translationKey": "RECEIVED_DATE",
+      "translationBase": "Received Date",
+      "translate": "Received Date"
+    },
+    {
+      "translationKey": "SOLD_QTY",
+      "translationBase": "Sold Quantity",
+      "translate": "Sold Quantity"
+    },
+    {
+      "translationKey": "UNIT_COST",
+      "translationBase": "Unit Cost",
+      "translate": "Unit Cost"
+    },
+    {
+      "translationKey": "TOTAL_COST",
+      "translationBase": "Total Cost",
+      "translate": "Total Cost"
+    },
+    {
+      "translationKey": "COMPLETED",
+      "translationBase": "Completed",
+      "translate": "Completed"
+    },
+    {
+      "translationKey": "WH_STORAGE_TYPE",
+      "translationBase": "Warehouse Storage Type",
+      "translate": "Warehouse Storage Type"
+    },
+    {
+      "translationKey": "STORAGE_TYPE_NO",
+      "translationBase": "Storage Type Number",
+      "translate": "Storage Type Number"
+    },
+    {
+      "translationKey": "STORAGE_TYPE_NAME",
+      "translationBase": "Storage Type Name",
+      "translate": "Storage Type Name"
+    },
+    {
+      "translationKey": "MOVABLE",
+      "translationBase": "Movable",
+      "translate": "Movable"
+    },
+    {
+      "translationKey": "DIMENSION",
+      "translationBase": "Dimension",
+      "translate": "Dimension"
+    },
+    {
+      "translationKey": "WH_ZONE",
+      "translationBase": "Warehouse Zone",
+      "translate": "Warehouse Zone"
+    },
+    {
+      "translationKey": "WH_ZONE_NO",
+      "translationBase": "Warehouse Zone Number",
+      "translate": "Warehouse Zone Number"
+    },
+    {
+      "translationKey": "WH_ZONE_NAME",
+      "translationBase": "Warehouse Zone Name",
+      "translate": "Warehouse Zone Name"
+    },
+    {
+      "translationKey": "WH_AISLE_QTY",
+      "translationBase": "Warehouse Aisle Quantity",
+      "translate": "Warehouse Aisle Quantity"
+    },
+    {
+      "translationKey": "WH_AISLE_PREFIX",
+      "translationBase": "Warehouse Aisle Prefix",
+      "translate": "Warehouse Aisle Prefix"
+    },
+    {
+      "translationKey": "WH_RACK_PER_WH_AISLE_QTY",
+      "translationBase": "Warehouse Rack Per Warehouse Aisle Quantity",
+      "translate": "Warehouse Rack Per Warehouse Aisle Quantity"
+    },
+    {
+      "translationKey": "WH_SHELF_PER_WH_RACK_QTY",
+      "translationBase": "Warehouse Shelf Per Warehouse Rack Quantity",
+      "translate": "Warehouse Shelf Per Warehouse Rack Quantity"
+    },
+    {
+      "translationKey": "BIN_PER_SELF_QTY",
+      "translationBase": "Bin Per Self Quantity",
+      "translate": "Bin Per Self Quantity"
+    },
+    {
+      "translationKey": "WH_AISLE",
+      "translationBase": "Warehouse Aisle",
+      "translate": "Warehouse Aisle"
+    },
+    {
+      "translationKey": "WH_AISLE_NO",
+      "translationBase": "Warehouse Aisle Number",
+      "translate": "Warehouse Aisle Number"
+    },
+    {
+      "translationKey": "WH_AISLE_NAME",
+      "translationBase": "Warehouse Aisle Name",
+      "translate": "Warehouse Aisle Name"
+    },
+    {
+      "translationKey": "WH_RACK_QTY",
+      "translationBase": "Warehouse Rack Quantity",
+      "translate": "Warehouse Rack Quantity"
+    },
+    {
+      "translationKey": "WH_RACK_PREFIX",
+      "translationBase": "Warehouse Rack Prefix",
+      "translate": "Warehouse Rack Prefix"
+    },
+    {
+      "translationKey": "WH_RACK",
+      "translationBase": "Warehouse Rack",
+      "translate": "Warehouse Rack"
+    },
+    {
+      "translationKey": "WH_RACK_NO",
+      "translationBase": "Warehouse Rack Number",
+      "translate": "Warehouse Rack Number"
+    },
+    {
+      "translationKey": "WH_RACK_NAME",
+      "translationBase": "Warehouse Rack Name",
+      "translate": "Warehouse Rack Name"
+    },
+    {
+      "translationKey": "WH_SHELF_QTY",
+      "translationBase": "Warehouse Shelf Quantity",
+      "translate": "Warehouse Shelf Quantity"
+    },
+    {
+      "translationKey": "WH_SHELF_PREFIX",
+      "translationBase": "Warehouse Shelf Prefix",
+      "translate": "Warehouse Shelf Prefix"
+    },
+    {
+      "translationKey": "BIN_PER_WH_SHELF_QTY",
+      "translationBase": "Bin Per Warehouse Shelf Quantity",
+      "translate": "Bin Per Warehouse Shelf Quantity"
+    },
+    {
+      "translationKey": "WH_SHELF",
+      "translationBase": "Warehouse Shelf",
+      "translate": "Warehouse Shelf"
+    },
+    {
+      "translationKey": "WH_SHELF_NO",
+      "translationBase": "Warehouse Shelf Number",
+      "translate": "Warehouse Shelf Number"
+    },
+    {
+      "translationKey": "WH_SHELF_NAME",
+      "translationBase": "Warehouse Shelf Name",
+      "translate": "Warehouse Shelf Name"
+    },
+    {
+      "translationKey": "RACK_SHELF_NO",
+      "translationBase": "Rack Shelf Number",
+      "translate": "Rack Shelf Number"
+    },
+    {
+      "translationKey": "BIN_QTY",
+      "translationBase": "Bin Quantity",
+      "translate": "Bin Quantity"
+    },
+    {
+      "translationKey": "BIN_PREFIX",
+      "translationBase": "Bin Prefix",
+      "translate": "Bin Prefix"
+    },
+    {
+      "translationKey": "NEIGHBOURHOOD",
+      "translationBase": "Neighbourhood",
+      "translate": "Neighbourhood"
+    },
+    {
+      "translationKey": "NEIGHBOURHOOD_NO",
+      "translationBase": "Neighbourhood Number",
+      "translate": "Neighbourhood Number"
+    },
+    {
+      "translationKey": "NEIGHBOURHOOD_NAME",
+      "translationBase": "Neighbourhood Name",
+      "translate": "Neighbourhood Name"
+    },
+    {
+      "translationKey": "WH_STAFF",
+      "translationBase": "Warehouse Staff",
+      "translate": "Warehouse Staff"
+    },
+    {
+      "translationKey": "WH_STAFF_ID",
+      "translationBase": "Warehouse Staff",
+      "translate": "Warehouse Staff"
+    },
+    {
+      "translationKey": "STAFF_NO",
+      "translationBase": "Staff Number",
+      "translate": "Staff Number"
+    },
+    {
+      "translationKey": "STAFF_NAME",
+      "translationBase": "Staff Name",
+      "translate": "Staff Name"
+    },
+    {
+      "translationKey": "WORK_SHIFT_ID",
+      "translationBase": "Work Shift",
+      "translate": "Work Shift"
+    },
+    {
+      "translationKey": "WH_EQM",
+      "translationBase": "Warehouse Eqm",
+      "translate": "Warehouse Eqm"
+    },
+    {
+      "translationKey": "EQM_NO",
+      "translationBase": "Eqm Number",
+      "translate": "Eqm Number"
+    },
+    {
+      "translationKey": "EQM_NAME",
+      "translationBase": "Eqm Name",
+      "translate": "Eqm Name"
+    },
+    {
+      "translationKey": "WORK_SHIFT",
+      "translationBase": "Work Shift",
+      "translate": "Work Shift"
+    },
+    {
+      "translationKey": "SHIFT_NO",
+      "translationBase": "Shift Number",
+      "translate": "Shift Number"
+    },
+    {
+      "translationKey": "SHIFT_NAME",
+      "translationBase": "Shift Name",
+      "translate": "Shift Name"
+    },
+    {
+      "translationKey": "START_TIME",
+      "translationBase": "Start Time",
+      "translate": "Start Time"
+    },
+    {
+      "translationKey": "END_TIME",
+      "translationBase": "End Time",
+      "translate": "End Time"
+    },
+    {
+      "translationKey": "DSP",
+      "translationBase": "Dsp",
+      "translate": "Dsp"
+    },
+    {
+      "translationKey": "DSP_NO",
+      "translationBase": "Dsp Number",
+      "translate": "Dsp Number"
+    },
+    {
+      "translationKey": "DSP_NAME",
+      "translationBase": "Dsp Name",
+      "translate": "Dsp Name"
+    },
+    {
+      "translationKey": "WH_STORAGE_RESTRICTION",
+      "translationBase": "Warehouse Storage Restriction",
+      "translate": "Warehouse Storage Restriction"
+    },
+    {
+      "translationKey": "RESTRICTION_NO",
+      "translationBase": "Restriction Number",
+      "translate": "Restriction Number"
+    },
+    {
+      "translationKey": "RESTRICTION_NAME",
+      "translationBase": "Restriction Name",
+      "translate": "Restriction Name"
+    },
+    {
+      "translationKey": "ALLOW_ISSUE",
+      "translationBase": "Allow Issue",
+      "translate": "Allow Issue"
+    },
+    {
+      "translationKey": "ALLOW_RECEIVE",
+      "translationBase": "Allow Receive",
+      "translate": "Allow Receive"
+    },
+    {
+      "translationKey": "ALLOW_PICK",
+      "translationBase": "Allow Pick",
+      "translate": "Allow Pick"
+    },
+    {
+      "translationKey": "ALLOW_TRANSFER",
+      "translationBase": "Allow Transfer",
+      "translate": "Allow Transfer"
+    },
+    {
+      "translationKey": "PACKAGING_TYPE",
+      "translationBase": "Packaging Type",
+      "translate": "Packaging Type"
+    },
+    {
+      "translationKey": "PACKAGING_TYPE_NO",
+      "translationBase": "Packaging Type Number",
+      "translate": "Packaging Type Number"
+    },
+    {
+      "translationKey": "PACKAGING_TYPE_NAME",
+      "translationBase": "Packaging Type Name",
+      "translate": "Packaging Type Name"
+    },
+    {
+      "translationKey": "HU_TYPE",
+      "translationBase": "Handling Unit Type",
+      "translate": "Handling Unit Type"
+    },
+    {
+      "translationKey": "HU_TYPE_ID",
+      "translationBase": "Handling Unit Type",
+      "translate": "Handling Unit Type"
+    },
+    {
+      "translationKey": "HU_TYPE_NO",
+      "translationBase": "Handling Unit Type Number",
+      "translate": "Handling Unit Type Number"
+    },
+    {
+      "translationKey": "HU_TYPE_NAME",
+      "translationBase": "Handling Unit Type Name",
+      "translate": "Handling Unit Type Name"
+    },
+    {
+      "translationKey": "WH_HU",
+      "translationBase": "Warehouse Handling Unit",
+      "translate": "Warehouse Handling Unit"
+    },
+    {
+      "translationKey": "WH_HU_ID",
+      "translationBase": "Warehouse Handling Unit",
+      "translate": "Warehouse Handling Unit"
+    },
+    {
+      "translationKey": "HU_NO",
+      "translationBase": "Handling Unit Number",
+      "translate": "Handling Unit Number"
+    },
+    {
+      "translationKey": "PARENT_HU_ID",
+      "translationBase": "Parent Handling Unit",
+      "translate": "Parent Handling Unit"
+    },
+    {
+      "translationKey": "PD_HU",
+      "translationBase": "Product Handling Unit",
+      "translate": "Product Handling Unit"
+    },
+    {
+      "translationKey": "PD_HU_ID",
+      "translationBase": "Product Handling Unit",
+      "translate": "Product Handling Unit"
+    },
+    {
+      "translationKey": "SU_QTY",
+      "translationBase": "Storage Unit Quantity",
+      "translate": "Storage Unit Quantity"
+    },
+    {
+      "translationKey": "PD_HU_PROFILE",
+      "translationBase": "Product Handling Unit Profile",
+      "translate": "Product Handling Unit Profile"
+    },
+    {
+      "translationKey": "PD_HU_PROFILE_ID",
+      "translationBase": "Product Handling Unit Profile",
+      "translate": "Product Handling Unit Profile"
+    },
+    {
+      "translationKey": "QTY_PER_HU",
+      "translationBase": "Quantity Per Handling Unit",
+      "translate": "Quantity Per Handling Unit"
+    },
+    {
+      "translationKey": "STRICT_STORAGE_TYPE",
+      "translationBase": "Strict Storage Type",
+      "translate": "Strict Storage Type"
+    },
+    {
+      "translationKey": "SU_TYPE",
+      "translationBase": "Storage Unit Type",
+      "translate": "Storage Unit Type"
+    },
+    {
+      "translationKey": "SU_TYPE_NO",
+      "translationBase": "Storage Unit Type Number",
+      "translate": "Storage Unit Type Number"
+    },
+    {
+      "translationKey": "SU_TYPE_NAME",
+      "translationBase": "Storage Unit Type Name",
+      "translate": "Storage Unit Type Name"
+    },
+    {
+      "translationKey": "PD_SU_PROFILE",
+      "translationBase": "Product Storage Unit Profile",
+      "translate": "Product Storage Unit Profile"
+    },
+    {
+      "translationKey": "PD_SU_PROFILE_ID",
+      "translationBase": "Product Storage Unit Profile",
+      "translate": "Product Storage Unit Profile"
+    },
+    {
+      "translationKey": "WH_SU",
+      "translationBase": "Warehouse Storage Unit",
+      "translate": "Warehouse Storage Unit"
+    },
+    {
+      "translationKey": "WH_SU_ID",
+      "translationBase": "Warehouse Storage Unit",
+      "translate": "Warehouse Storage Unit"
+    },
+    {
+      "translationKey": "SU_NO",
+      "translationBase": "Storage Unit Number",
+      "translate": "Storage Unit Number"
+    },
+    {
+      "translationKey": "PARENT_ID",
+      "translationBase": "Parent",
+      "translate": "Parent"
+    },
+    {
+      "translationKey": "IN_PICKING",
+      "translationBase": "In Picking",
+      "translate": "In Picking"
+    },
+    {
+      "translationKey": "MULTIPLE_ORDER",
+      "translationBase": "Multiple Order",
+      "translate": "Multiple Order"
+    },
+    {
+      "translationKey": "PD_SU",
+      "translationBase": "Product Storage Unit",
+      "translate": "Product Storage Unit"
+    },
+    {
+      "translationKey": "PAYMENT_GATEWAY_ID",
+      "translationBase": "Payment Gateway",
+      "translate": "Payment Gateway"
+    },
+    {
+      "translationKey": "PAYMENT_GATEWAY_NO",
+      "translationBase": "Payment Gateway Number",
+      "translate": "Payment Gateway Number"
+    },
+    {
+      "translationKey": "PAYMENT_GATEWAY_NAME",
+      "translationBase": "Payment Gateway Name",
+      "translate": "Payment Gateway Name"
+    },
+    {
+      "translationKey": "DOC_PICK",
+      "translationBase": "Pick",
+      "translate": "Pick"
+    },
+    {
+      "translationKey": "DOC_PICK_ID",
+      "translationBase": "Pick",
+      "translate": "Pick"
+    },
+    {
+      "translationKey": "PICKING_TYPE",
+      "translationBase": "Picking Type",
+      "translate": "Picking Type"
+    },
+    {
+      "translationKey": "WH_CONTROLLER_ID",
+      "translationBase": "Warehouse Controller",
+      "translate": "Warehouse Controller"
+    },
+    {
+      "translationKey": "DOC_PFFM_ID",
+      "translationBase": "Prefulfillment",
+      "translate": "Prefulfillment"
+    },
+    {
+      "translationKey": "ORD",
+      "translationBase": "Order",
+      "translate": "Order"
+    },
+    {
+      "translationKey": "DOC_TASK",
+      "translationBase": "Task",
+      "translate": "Task"
+    },
+    {
+      "translationKey": "DOC_TASK_ID",
+      "translationBase": "Task",
+      "translate": "Task"
+    },
+    {
+      "translationKey": "FINAL_SU_ID",
+      "translationBase": "Final Storage Unit",
+      "translate": "Final Storage Unit"
+    },
+    {
+      "translationKey": "TRANSPORT_SU_ID",
+      "translationBase": "Transport Storage Unit",
+      "translate": "Transport Storage Unit"
+    },
+    {
+      "translationKey": "ROUTE_LEVEL",
+      "translationBase": "Route Level",
+      "translate": "Route Level"
+    },
+    {
+      "translationKey": "ROUTE",
+      "translationBase": "Route",
+      "translate": "Route"
+    },
+    {
+      "translationKey": "STORAGE",
+      "translationBase": "Storage",
+      "translate": "Storage"
+    },
+    {
+      "translationKey": "DOC_PACK_SU",
+      "translationBase": "Pack Storage Unit",
+      "translate": "Pack Storage Unit"
+    },
+    {
+      "translationKey": "DOC_PACK_SU_ID",
+      "translationBase": "Pack Storage Unit",
+      "translate": "Pack Storage Unit"
+    },
+    {
+      "translationKey": "DOC_PICK_ORD_ID",
+      "translationBase": "Pick Order",
+      "translate": "Pick Order"
+    },
+    {
+      "translationKey": "SHIPPING_CARRIER",
+      "translationBase": "Shipping Carrier",
+      "translate": "Shipping Carrier"
+    },
+    {
+      "translationKey": "CARRIER_NO",
+      "translationBase": "Carrier Number",
+      "translate": "Carrier Number"
+    },
+    {
+      "translationKey": "CARRIER_NAME",
+      "translationBase": "Carrier Name",
+      "translate": "Carrier Name"
+    },
+    {
+      "translationKey": "SHIPPING_ZONE",
+      "translationBase": "Shipping Zone",
+      "translate": "Shipping Zone"
+    },
+    {
+      "translationKey": "SHIPPING_ZONE_ID",
+      "translationBase": "Shipping Zone",
+      "translate": "Shipping Zone"
+    },
+    {
+      "translationKey": "SHIPPING_ZONE_NO",
+      "translationBase": "Shipping Zone Number",
+      "translate": "Shipping Zone Number"
+    },
+    {
+      "translationKey": "SHIPPING_ZONE_NAME",
+      "translationBase": "Shipping Zone Name",
+      "translate": "Shipping Zone Name"
+    },
+    {
+      "translationKey": "RPN_PLAN",
+      "translationBase": "Replenishment Plan",
+      "translate": "Replenishment Plan"
+    },
+    {
+      "translationKey": "RPN_PLAN_ID",
+      "translationBase": "Replenishment Plan",
+      "translate": "Replenishment Plan"
+    },
+    {
+      "translationKey": "RPN_QTY",
+      "translationBase": "Replenishment Quantity",
+      "translate": "Replenishment Quantity"
+    },
+    {
+      "translationKey": "RPN_SRC",
+      "translationBase": "Replenishment Source",
+      "translate": "Replenishment Source"
+    },
+    {
+      "translationKey": "RPN_TYPE",
+      "translationBase": "Replenishment Type",
+      "translate": "Replenishment Type"
+    },
+    {
+      "translationKey": "DUE_TIME",
+      "translationBase": "Due Time",
+      "translate": "Due Time"
+    },
+    {
+      "translationKey": "TASK_TYPE",
+      "translationBase": "Task Type",
+      "translate": "Task Type"
+    },
+    {
+      "translationKey": "RPN_ZONE_ID",
+      "translationBase": "Replenishment Zone",
+      "translate": "Replenishment Zone"
+    },
+    {
+      "translationKey": "RPN_AISLE_ID",
+      "translationBase": "Replenishment Aisle",
+      "translate": "Replenishment Aisle"
+    },
+    {
+      "translationKey": "RPN_RACK_ID",
+      "translationBase": "Replenishment Rack",
+      "translate": "Replenishment Rack"
+    },
+    {
+      "translationKey": "RPN_SHELF_ID",
+      "translationBase": "Replenishment Shelf",
+      "translate": "Replenishment Shelf"
+    },
+    {
+      "translationKey": "RPN_STORAGE_ID",
+      "translationBase": "Replenishment Storage",
+      "translate": "Replenishment Storage"
+    },
+    {
+      "translationKey": "REF_PD_STORAGE_ID",
+      "translationBase": "Reference Product Storage",
+      "translate": "Reference Product Storage"
+    },
+    {
+      "translationKey": "REF_PD_WH_ID",
+      "translationBase": "Reference Product Warehouse",
+      "translate": "Reference Product Warehouse"
+    },
+    {
+      "translationKey": "REF_PD_BRANCH_ID",
+      "translationBase": "Reference Product Branch",
+      "translate": "Reference Product Branch"
+    },
+    {
+      "translationKey": "WH_CONTROLLER",
+      "translationBase": "Warehouse Controller",
+      "translate": "Warehouse Controller"
+    },
+    {
+      "translationKey": "WH_CONTROLLER_NO",
+      "translationBase": "Warehouse Controller Number",
+      "translate": "Warehouse Controller Number"
+    },
+    {
+      "translationKey": "WH_CONTROLLER_NAME",
+      "translationBase": "Warehouse Controller Name",
+      "translate": "Warehouse Controller Name"
+    },
+    {
+      "translationKey": "DOC_TFO",
+      "translationBase": "Transfer Order",
+      "translate": "Transfer Order"
+    },
+    {
+      "translationKey": "DOC_TFO_ID",
+      "translationBase": "Transfer Order",
+      "translate": "Transfer Order"
+    },
+    {
+      "translationKey": "TRANSFER_TYPE",
+      "translationBase": "Transfer Type",
+      "translate": "Transfer Type"
+    },
+    {
+      "translationKey": "DST_BRANCH_ID",
+      "translationBase": "Destination Branch",
+      "translate": "Destination Branch"
+    },
+    {
+      "translationKey": "DST_WH_ID",
+      "translationBase": "Destination Warehouse",
+      "translate": "Destination Warehouse"
+    },
+    {
+      "translationKey": "DOC_TFR",
+      "translationBase": "Transfer Requisition",
+      "translate": "Transfer Requisition"
+    },
+    {
+      "translationKey": "DOC_TFR_ID",
+      "translationBase": "Transfer Requisition",
+      "translate": "Transfer Requisition"
+    },
+    {
+      "translationKey": "DOC_PFFM",
+      "translationBase": "Prefulfillment",
+      "translate": "Prefulfillment"
+    },
+    {
+      "translationKey": "ORDER",
+      "translationBase": "Order",
+      "translate": "Order"
+    },
+    {
+      "translationKey": "SDAL",
+      "translationBase": "Sdal",
+      "translate": "Sdal"
+    },
+    {
+      "translationKey": "SDAL_ID",
+      "translationBase": "Sdal",
+      "translate": "Sdal"
+    },
+    {
+      "translationKey": "ITEM_TYPE",
+      "translationBase": "Item Type",
+      "translate": "Item Type"
+    },
+    {
+      "translationKey": "ORDERED_QTY",
+      "translationBase": "Ordered Quantity",
+      "translate": "Ordered Quantity"
+    },
+    {
+      "translationKey": "PROJECTED_QTY",
+      "translationBase": "Projected Quantity",
+      "translate": "Projected Quantity"
+    },
+    {
+      "translationKey": "DOC_TYPE",
+      "translationBase": "Type",
+      "translate": "Type"
+    },
+    {
+      "translationKey": "DOC_ID",
+      "translationBase": "",
+      "translate": ""
+    },
+    {
+      "translationKey": "ITEM_IDX",
+      "translationBase": "Item Index",
+      "translate": "Item Index"
+    },
+    {
+      "translationKey": "ITEM_ID",
+      "translationBase": "Item",
+      "translate": "Item"
+    },
+    {
+      "translationKey": "DOC_ORESV",
+      "translationBase": "Order Reservation",
+      "translate": "Order Reservation"
+    },
+    {
+      "translationKey": "DOC_RESV_ID",
+      "translationBase": "Reservation",
+      "translate": "Reservation"
+    },
+    {
+      "translationKey": "RESV_TYPE_ID",
+      "translationBase": "Reservation Type",
+      "translate": "Reservation Type"
+    },
+    {
+      "translationKey": "REF_DOC_TYPE",
+      "translationBase": "Reference Document Type",
+      "translate": "Reference Document Type"
+    },
+    {
+      "translationKey": "REF_PARTNER_NAME",
+      "translationBase": "Reference Partner Name",
+      "translate": "Reference Partner Name"
+    },
+    {
+      "translationKey": "IN_EFFECTIVE",
+      "translationBase": "In Effective",
+      "translate": "In Effective"
+    },
+    {
+      "translationKey": "OUT_EFFECTIVE",
+      "translationBase": "Out Effective",
+      "translate": "Out Effective"
+    },
+    {
+      "translationKey": "RESV_TYPE",
+      "translationBase": "Reservation Type",
+      "translate": "Reservation Type"
+    },
+    {
+      "translationKey": "RESV_TYPE_NO",
+      "translationBase": "Reservation Type Number",
+      "translate": "Reservation Type Number"
+    },
+    {
+      "translationKey": "RESV_TYPE_NAME",
+      "translationBase": "Reservation Type Name",
+      "translate": "Reservation Type Name"
+    },
+    {
+      "translationKey": "PD_RESV",
+      "translationBase": "Product Reservation",
+      "translate": "Product Reservation"
+    },
+    {
+      "translationKey": "PD_RESV_ID",
+      "translationBase": "Product Reservation",
+      "translate": "Product Reservation"
+    },
+    {
+      "translationKey": "RESV_QTY",
+      "translationBase": "Reservation Quantity",
+      "translate": "Reservation Quantity"
+    },
+    {
+      "translationKey": "PROP_CONFIG",
+      "translationBase": "Property Config",
+      "translate": "Property Config"
+    },
+    {
+      "translationKey": "PROP_CONFIG_ID",
+      "translationBase": "Property Config",
+      "translate": "Property Config"
+    },
+    {
+      "translationKey": "PROP_CONFIG_NO",
+      "translationBase": "Property Config Number",
+      "translate": "Property Config Number"
+    },
+    {
+      "translationKey": "PROP_CONFIG_NAME",
+      "translationBase": "Property Config Name",
+      "translate": "Property Config Name"
+    },
+    {
+      "translationKey": "PROP_TYPE_ID",
+      "translationBase": "Property Type",
+      "translate": "Property Type"
+    },
+    {
+      "translationKey": "NUM_OF_UNIT",
+      "translationBase": "Num Of Unit",
+      "translate": "Num Of Unit"
+    },
+    {
+      "translationKey": "PROP_TYPE",
+      "translationBase": "Property Type",
+      "translate": "Property Type"
+    },
+    {
+      "translationKey": "PROP_TYPE_NO",
+      "translationBase": "Property Type Number",
+      "translate": "Property Type Number"
+    },
+    {
+      "translationKey": "PROP_TYPE_NAME",
+      "translationBase": "Property Type Name",
+      "translate": "Property Type Name"
+    },
+    {
+      "translationKey": "PROP_UNIT_TYPE",
+      "translationBase": "Property Unit Type",
+      "translate": "Property Unit Type"
+    },
+    {
+      "translationKey": "PROP_UNIT_TYPE_ID",
+      "translationBase": "Property Unit Type",
+      "translate": "Property Unit Type"
+    },
+    {
+      "translationKey": "PROP_UNIT_TYPE_NO",
+      "translationBase": "Property Unit Type Number",
+      "translate": "Property Unit Type Number"
+    },
+    {
+      "translationKey": "PROP_UNIT_TYPE_NAME",
+      "translationBase": "Property Unit Type Name",
+      "translate": "Property Unit Type Name"
+    },
+    {
+      "translationKey": "PROP_UNIT",
+      "translationBase": "Property Unit",
+      "translate": "Property Unit"
+    },
+    {
+      "translationKey": "PROP_UNIT_ID",
+      "translationBase": "Property Unit",
+      "translate": "Property Unit"
+    },
+    {
+      "translationKey": "PROP_UNIT_NO",
+      "translationBase": "Property Unit Number",
+      "translate": "Property Unit Number"
+    },
+    {
+      "translationKey": "PROP_UNIT_NAME",
+      "translationBase": "Property Unit Name",
+      "translate": "Property Unit Name"
+    },
+    {
+      "translationKey": "PROP_FACILITY",
+      "translationBase": "Property Facility",
+      "translate": "Property Facility"
+    },
+    {
+      "translationKey": "PROP_FACILITY_ID",
+      "translationBase": "Property Facility",
+      "translate": "Property Facility"
+    },
+    {
+      "translationKey": "PROP_FACILITY_NO",
+      "translationBase": "Property Facility Number",
+      "translate": "Property Facility Number"
+    },
+    {
+      "translationKey": "PROP_FACILITY_NAME",
+      "translationBase": "Property Facility Name",
+      "translate": "Property Facility Name"
+    },
+    {
+      "translationKey": "PROP_UNIT_FACILITY",
+      "translationBase": "Property Unit Facility",
+      "translate": "Property Unit Facility"
+    },
+    {
+      "translationKey": "PROP_UNIT_FACILITY_ID",
+      "translationBase": "Property Unit Facility",
+      "translate": "Property Unit Facility"
+    },
+    {
+      "translationKey": "PROP_UNIT_FACILITY_NO",
+      "translationBase": "Property Unit Facility Number",
+      "translate": "Property Unit Facility Number"
+    },
+    {
+      "translationKey": "PROP_UNIT_FACILITY_NAME",
+      "translationBase": "Property Unit Facility Name",
+      "translate": "Property Unit Facility Name"
+    },
+    {
+      "translationKey": "PROP_BILL",
+      "translationBase": "Property Bill",
+      "translate": "Property Bill"
+    },
+    {
+      "translationKey": "PROP_BILL_ID",
+      "translationBase": "Property Bill",
+      "translate": "Property Bill"
+    },
+    {
+      "translationKey": "BILL_NO",
+      "translationBase": "Bill Number",
+      "translate": "Bill Number"
+    },
+    {
+      "translationKey": "BILL_DATE",
+      "translationBase": "Bill Date",
+      "translate": "Bill Date"
+    },
+    {
+      "translationKey": "MULTI_UNIT_BILL",
+      "translationBase": "Multi Unit Bill",
+      "translate": "Multi Unit Bill"
+    },
+    {
+      "translationKey": "PROP_SERVICE_ITEM",
+      "translationBase": "Property Service Item",
+      "translate": "Property Service Item"
+    },
+    {
+      "translationKey": "PROP_SERVICE_ITEM_ID",
+      "translationBase": "Property Service Item",
+      "translate": "Property Service Item"
+    },
+    {
+      "translationKey": "ITEM_NO",
+      "translationBase": "Item Number",
+      "translate": "Item Number"
+    },
+    {
+      "translationKey": "ITEM_NAME",
+      "translationBase": "Item Name",
+      "translate": "Item Name"
+    },
+    {
+      "translationKey": "PROP_SERVICE_TYPE_ID",
+      "translationBase": "Property Service Type",
+      "translate": "Property Service Type"
+    },
+    {
+      "translationKey": "PROP_SERVICE_UNIT",
+      "translationBase": "Property Service Unit",
+      "translate": "Property Service Unit"
+    },
+    {
+      "translationKey": "PROP_SERVICE_UNIT_ID",
+      "translationBase": "Property Service Unit",
+      "translate": "Property Service Unit"
+    },
+    {
+      "translationKey": "PROP_SERVICE_UNIT_NO",
+      "translationBase": "Property Service Unit Number",
+      "translate": "Property Service Unit Number"
+    },
+    {
+      "translationKey": "PROP_SERVICE_UNIT_NAME",
+      "translationBase": "Property Service Unit Name",
+      "translate": "Property Service Unit Name"
+    },
+    {
+      "translationKey": "PROP_SERVICE_TYPE",
+      "translationBase": "Property Service Type",
+      "translate": "Property Service Type"
+    },
+    {
+      "translationKey": "SERVICE_TYPE_NO",
+      "translationBase": "Service Type Number",
+      "translate": "Service Type Number"
+    },
+    {
+      "translationKey": "SERVICE_TYPE_NAME",
+      "translationBase": "Service Type Name",
+      "translate": "Service Type Name"
+    },
+    {
+      "translationKey": "PROP_SERVICE_UNIT_ITEM",
+      "translationBase": "Property Service Unit Item",
+      "translate": "Property Service Unit Item"
+    },
+    {
+      "translationKey": "PROP_SERVICE_UNIT_ITEM_ID",
+      "translationBase": "Property Service Unit Item",
+      "translate": "Property Service Unit Item"
+    },
+    {
+      "translationKey": "KITCHEN",
+      "translationBase": "Kitchen",
+      "translate": "Kitchen"
+    },
+    {
+      "translationKey": "KITCHEN_ID",
+      "translationBase": "Kitchen",
+      "translate": "Kitchen"
+    },
+    {
+      "translationKey": "KITCHEN_NO",
+      "translationBase": "Kitchen Number",
+      "translate": "Kitchen Number"
+    },
+    {
+      "translationKey": "KITCHEN_NAME",
+      "translationBase": "Kitchen Name",
+      "translate": "Kitchen Name"
+    },
+    {
+      "translationKey": "KITCHEN_ORD",
+      "translationBase": "Kitchen Order",
+      "translate": "Kitchen Order"
+    },
+    {
+      "translationKey": "KITCHEN_ORD_ID",
+      "translationBase": "Kitchen Order",
+      "translate": "Kitchen Order"
+    },
+    {
+      "translationKey": "KITCHEN_ORD_NO",
+      "translationBase": "Kitchen Order Number",
+      "translate": "Kitchen Order Number"
+    },
+    {
+      "translationKey": "KITCHEN_ORD_DATE",
+      "translationBase": "Kitchen Order Date",
+      "translate": "Kitchen Order Date"
+    },
+    {
+      "translationKey": "RESTA_MENU_ID",
+      "translationBase": "Restaurant Menu",
+      "translate": "Restaurant Menu"
+    },
+    {
+      "translationKey": "DOC_RESTA_ORD_ID",
+      "translationBase": "Restaurant Order",
+      "translate": "Restaurant Order"
+    },
+    {
+      "translationKey": "MENU_NAME",
+      "translationBase": "Menu Name",
+      "translate": "Menu Name"
+    },
+    {
+      "translationKey": "OPTION_GROUPS",
+      "translationBase": "Option Groups",
+      "translate": "Option Groups"
+    },
+    {
+      "translationKey": "RESTA_TABLE_ID",
+      "translationBase": "Restaurant Table",
+      "translate": "Restaurant Table"
+    },
+    {
+      "translationKey": "RESTA_MENU",
+      "translationBase": "Restaurant Menu",
+      "translate": "Restaurant Menu"
+    },
+    {
+      "translationKey": "RESTA_MENU_NO",
+      "translationBase": "Restaurant Menu Number",
+      "translate": "Restaurant Menu Number"
+    },
+    {
+      "translationKey": "RESTA_MENU_NAME",
+      "translationBase": "Restaurant Menu Name",
+      "translate": "Restaurant Menu Name"
+    },
+    {
+      "translationKey": "DOC_RESTA_ORD",
+      "translationBase": "Restaurant Order",
+      "translate": "Restaurant Order"
+    },
+    {
+      "translationKey": "SEAT_NO",
+      "translationBase": "Seat Number",
+      "translate": "Seat Number"
+    },
+    {
+      "translationKey": "RESTA_TABLE",
+      "translationBase": "Restaurant Table",
+      "translate": "Restaurant Table"
+    },
+    {
+      "translationKey": "TABLE_NO",
+      "translationBase": "Table Number",
+      "translate": "Table Number"
+    },
+    {
+      "translationKey": "TABLE_NAME",
+      "translationBase": "Table Name",
+      "translate": "Table Name"
+    },
+    {
+      "translationKey": "RESTA_TABLE_TYPE_ID",
+      "translationBase": "Restaurant Table Type",
+      "translate": "Restaurant Table Type"
+    },
+    {
+      "translationKey": "RESTA_AREA_ID",
+      "translationBase": "Restaurant Area",
+      "translate": "Restaurant Area"
+    },
+    {
+      "translationKey": "RESTA_AREA",
+      "translationBase": "Restaurant Area",
+      "translate": "Restaurant Area"
+    },
+    {
+      "translationKey": "RESTA_AREA_NO",
+      "translationBase": "Restaurant Area Number",
+      "translate": "Restaurant Area Number"
+    },
+    {
+      "translationKey": "RESTA_AREA_NAME",
+      "translationBase": "Restaurant Area Name",
+      "translate": "Restaurant Area Name"
+    },
+    {
+      "translationKey": "RESTA_TABLE_TYPE",
+      "translationBase": "Restaurant Table Type",
+      "translate": "Restaurant Table Type"
+    },
+    {
+      "translationKey": "TABLE_TYPE_NO",
+      "translationBase": "Table Type Number",
+      "translate": "Table Type Number"
+    },
+    {
+      "translationKey": "TABLE_TYPE_NAME",
+      "translationBase": "Table Type Name",
+      "translate": "Table Type Name"
+    },
+    {
+      "translationKey": "NUM_OF_SEAT",
+      "translationBase": "Num Of Seat",
+      "translate": "Num Of Seat"
+    },
+    {
+      "translationKey": "RESTA_OPTION_GROUP",
+      "translationBase": "Restaurant Option Group",
+      "translate": "Restaurant Option Group"
+    },
+    {
+      "translationKey": "RESTA_OPTION_GROUP_ID",
+      "translationBase": "Restaurant Option Group",
+      "translate": "Restaurant Option Group"
+    },
+    {
+      "translationKey": "OPTION_GROUP_NO",
+      "translationBase": "Option Group Number",
+      "translate": "Option Group Number"
+    },
+    {
+      "translationKey": "OPTION_GROUP_NAME",
+      "translationBase": "Option Group Name",
+      "translate": "Option Group Name"
+    },
+    {
+      "translationKey": "OPTION_ITEMS",
+      "translationBase": "Option Items",
+      "translate": "Option Items"
+    },
+    {
+      "translationKey": "RESTA_BRANCH_MENU",
+      "translationBase": "Restaurant Branch Menu",
+      "translate": "Restaurant Branch Menu"
+    },
+    {
+      "translationKey": "RESTA_BRANCH_MENU_ID",
+      "translationBase": "Restaurant Branch Menu",
+      "translate": "Restaurant Branch Menu"
+    },
+    {
+      "translationKey": "MENU_NO",
+      "translationBase": "Menu Number",
+      "translate": "Menu Number"
+    },
+    {
+      "translationKey": "ADDR_1",
+      "translationBase": "Address 1",
+      "translate": "Address 1"
+    },
+    {
+      "translationKey": "ADDR_2",
+      "translationBase": "Address 2",
+      "translate": "Address 2"
+    },
+    {
+      "translationKey": "DISTRICT",
+      "translationBase": "District",
+      "translate": "District"
+    },
+    {
+      "translationKey": "ZIP",
+      "translationBase": "Zip Code",
+      "translate": "Zip Code"
+    },
+    {
+      "translationKey": "TELEPHONE",
+      "translationBase": "Telephone",
+      "translate": "Telephone"
+    },
+    {
+      "translationKey": "MOBILE",
+      "translationBase": "Mobile",
+      "translate": "Mobile"
+    },
+    {
+      "translationKey": "FILTER_NAME",
+      "translationBase": "Filter Name",
+      "translate": "Filter Name"
+    },
+    {
+      "translationKey": "FILTER_PARAMS",
+      "translationBase": "Filter Params",
+      "translate": "Filter Params"
+    },
+    {
+      "translationKey": "SORT_DIRECTION",
+      "translationBase": "Sort Direction",
+      "translate": "Sort Direction"
+    },
+    {
+      "translationKey": "SORT_BY",
+      "translationBase": "Sort By",
+      "translate": "Sort By"
+    },
+    {
+      "translationKey": "DEFAULT_VALUE",
+      "translationBase": "Default Value",
+      "translate": "Default Value"
+    },
+    {
+      "translationKey": "TAG_NAME",
+      "translationBase": "Tag Name",
+      "translate": "Tag Name"
+    },
+    {
+      "translationKey": "TAG_VALUE",
+      "translationBase": "Tag Value",
+      "translate": "Tag Value"
+    },
+    {
+      "translationKey": "TAG_COLOR",
+      "translationBase": "Tag Color",
+      "translate": "Tag Color"
+    },
+    {
+      "translationKey": "TPL_NAME",
+      "translationBase": "Template Name",
+      "translate": "Template Name"
+    },
+    {
+      "translationKey": "TPL_VALUES",
+      "translationBase": "Template Values",
+      "translate": "Template Values"
+    },
+    {
+      "translationKey": "WF_STATUS_NAME",
+      "translationBase": "Workflow Status Name",
+      "translate": "Workflow Status Name"
+    },
+    {
+      "translationKey": "WF_STATUS_VALUE",
+      "translationBase": "Workflow Status Value",
+      "translate": "Workflow Status Value"
+    },
+    {
+      "translationKey": "FIELD0",
+      "translationBase": "Field0",
+      "translate": "Field0"
+    },
+    {
+      "translationKey": "APPLY_WH",
+      "translationBase": "Apply Warehouse",
+      "translate": "Apply Warehouse"
+    },
+    {
+      "translationKey": "APPLY_HU",
+      "translationBase": "Apply Handling Unit",
+      "translate": "Apply Handling Unit"
+    },
+    {
+      "translationKey": "RECEIVING_WH_ID",
+      "translationBase": "Receiving Warehouse",
+      "translate": "Receiving Warehouse"
+    },
+    {
+      "translationKey": "PICKING_WH_ID",
+      "translationBase": "Picking Warehouse",
+      "translate": "Picking Warehouse"
+    },
+    {
+      "translationKey": "SEQ",
+      "translationBase": "Sequence",
+      "translate": "Sequence"
+    },
+    {
+      "translationKey": "DESCRIPTION",
+      "translationBase": "Description",
+      "translate": "Description"
+    },
+    {
+      "translationKey": "PATTERN",
+      "translationBase": "Pattern",
+      "translate": "Pattern"
+    },
+    {
+      "translationKey": "RESET_TYPE",
+      "translationBase": "Reset Type",
+      "translate": "Reset Type"
+    },
+    {
+      "translationKey": "PREV_STATUS",
+      "translationBase": "Previous Status",
+      "translate": "Previous Status"
+    },
+    {
+      "translationKey": "NEXT_STATUS",
+      "translationBase": "Next Status",
+      "translate": "Next Status"
+    },
+    {
+      "translationKey": "SALE_PREFERENCE",
+      "translationBase": "Sale Preference",
+      "translate": "Sale Preference"
+    },
+    {
+      "translationKey": "TRANSLATION_KEY",
+      "translationBase": "Translation Key",
+      "translate": "Translation Key"
+    },
+    {
+      "translationKey": "TRANSLATION_BASE",
+      "translationBase": "Translation Base",
+      "translate": "Translation Base"
+    },
+    {
+      "translationKey": "TRANSLATE",
+      "translationBase": "Translate",
+      "translate": "Translate"
+    },
+    {
+      "translationKey": "INT_1",
+      "translationBase": "Int 1",
+      "translate": "Int 1"
+    },
+    {
+      "translationKey": "INT_2",
+      "translationBase": "Int 2",
+      "translate": "Int 2"
+    },
+    {
+      "translationKey": "INT_3",
+      "translationBase": "Int 3",
+      "translate": "Int 3"
+    },
+    {
+      "translationKey": "INT_4",
+      "translationBase": "Int 4",
+      "translate": "Int 4"
+    },
+    {
+      "translationKey": "INT_5",
+      "translationBase": "Int 5",
+      "translate": "Int 5"
+    },
+    {
+      "translationKey": "NUMERIC_1",
+      "translationBase": "Numeric 1",
+      "translate": "Numeric 1"
+    },
+    {
+      "translationKey": "NUMERIC_2",
+      "translationBase": "Numeric 2",
+      "translate": "Numeric 2"
+    },
+    {
+      "translationKey": "NUMERIC_3",
+      "translationBase": "Numeric 3",
+      "translate": "Numeric 3"
+    },
+    {
+      "translationKey": "NUMERIC_4",
+      "translationBase": "Numeric 4",
+      "translate": "Numeric 4"
+    },
+    {
+      "translationKey": "NUMERIC_5",
+      "translationBase": "Numeric 5",
+      "translate": "Numeric 5"
+    },
+    {
+      "translationKey": "STRING_1",
+      "translationBase": "String 1",
+      "translate": "String 1"
+    },
+    {
+      "translationKey": "STRING_2",
+      "translationBase": "String 2",
+      "translate": "String 2"
+    },
+    {
+      "translationKey": "STRING_3",
+      "translationBase": "String 3",
+      "translate": "String 3"
+    },
+    {
+      "translationKey": "STRING_4",
+      "translationBase": "String 4",
+      "translate": "String 4"
+    },
+    {
+      "translationKey": "STRING_5",
+      "translationBase": "String 5",
+      "translate": "String 5"
+    },
+    {
+      "translationKey": "DATE_1",
+      "translationBase": "Date 1",
+      "translate": "Date 1"
+    },
+    {
+      "translationKey": "DATE_2",
+      "translationBase": "Date 2",
+      "translate": "Date 2"
+    },
+    {
+      "translationKey": "DATE_3",
+      "translationBase": "Date 3",
+      "translate": "Date 3"
+    },
+    {
+      "translationKey": "DATE_4",
+      "translationBase": "Date 4",
+      "translate": "Date 4"
+    },
+    {
+      "translationKey": "DATE_5",
+      "translationBase": "Date 5",
+      "translate": "Date 5"
+    },
+    {
+      "translationKey": "GMT_OFFSET",
+      "translationBase": "Gmt Offset",
+      "translate": "Gmt Offset"
+    },
+    {
+      "translationKey": "GMT_OFFSET_NAME",
+      "translationBase": "Gmt Offset Name",
+      "translate": "Gmt Offset Name"
+    },
+    {
+      "translationKey": "ABBREVIATION",
+      "translationBase": "Abbreviation",
+      "translate": "Abbreviation"
+    },
+    {
+      "translationKey": "TZ_NAME",
+      "translationBase": "Timezone Name",
+      "translate": "Timezone Name"
+    },
+    {
+      "translationKey": "PLATFORM",
+      "translationBase": "Platform",
+      "translate": "Platform"
+    },
+    {
+      "translationKey": "BRANCH_ALLOWED",
+      "translationBase": "Branch Allowed",
+      "translate": "Branch Allowed"
+    },
+    {
+      "translationKey": "WRAPPER",
+      "translationBase": "Wrapper",
+      "translate": "Wrapper"
+    },
+    {
+      "translationKey": "CLASSES",
+      "translationBase": "Classes",
+      "translate": "Classes"
+    },
+    {
+      "translationKey": "CITIZEN_CARD",
+      "translationBase": "Citizen Card",
+      "translate": "Citizen Card"
+    },
+    {
+      "translationKey": "HOUSE_REGISTRATION",
+      "translationBase": "House Registration",
+      "translate": "House Registration"
+    },
+    {
+      "translationKey": "BANK_BOOK",
+      "translationBase": "Bank Book",
+      "translate": "Bank Book"
+    },
+    {
+      "translationKey": "LEGAL_ENTITY_REGISTER",
+      "translationBase": "Legal Entity Register",
+      "translate": "Legal Entity Register"
+    },
+    {
+      "translationKey": "VAT_REGISTER",
+      "translationBase": "VAT. Register",
+      "translate": "VAT. Register"
+    },
+    {
+      "translationKey": "CONSTRUCTION_CONTRACT",
+      "translationBase": "Construction Contract",
+      "translate": "Construction Contract"
+    },
+    {
+      "translationKey": "PURCHASE_CONTRACT",
+      "translationBase": "Purchase Contract",
+      "translate": "Purchase Contract"
+    },
+    {
+      "translationKey": "GRT_CONTRACT",
+      "translationBase": "Guarantee Contract",
+      "translate": "Guarantee Contract"
+    },
+    {
+      "translationKey": "NUM_OF_PERIODS",
+      "translationBase": "Num Of Periods",
+      "translate": "Num Of Periods"
+    },
+    {
+      "translationKey": "FROM_BANK_ID",
+      "translationBase": "From Bank",
+      "translate": "From Bank"
+    },
+    {
+      "translationKey": "TRANSFER_DATE",
+      "translationBase": "Transfer Date",
+      "translate": "Transfer Date"
+    },
+    {
+      "translationKey": "SLIP_IMG_URL",
+      "translationBase": "Slip Img Url",
+      "translate": "Slip Img Url"
+    },
+    {
+      "translationKey": "TRANSFER_AMT",
+      "translationBase": "Transfer Amount",
+      "translate": "Transfer Amount"
+    },
+    {
+      "translationKey": "PAYMENT_DATE",
+      "translationBase": "Payment Date",
+      "translate": "Payment Date"
+    },
+    {
+      "translationKey": "PAID_AMT",
+      "translationBase": "Paid Amount",
+      "translate": "Paid Amount"
+    },
+    {
+      "translationKey": "CARD_NO",
+      "translationBase": "Card Number",
+      "translate": "Card Number"
+    },
+    {
+      "translationKey": "CARD_HOLDER_NAME",
+      "translationBase": "Card Holder Name",
+      "translate": "Card Holder Name"
+    },
+    {
+      "translationKey": "SLIP_NO",
+      "translationBase": "Slip Number",
+      "translate": "Slip Number"
+    },
+    {
+      "translationKey": "PD_ATTRIBUTE_ID",
+      "translationBase": "Product Attribute",
+      "translate": "Product Attribute"
+    },
+    {
+      "translationKey": "PD_VARIANTS",
+      "translationBase": "Product Variants",
+      "translate": "Product Variants"
+    },
+    {
+      "translationKey": "GENERATED",
+      "translationBase": "Generated",
+      "translate": "Generated"
+    },
+    {
+      "translationKey": "LOT_MASK",
+      "translationBase": "Lot Number Mask",
+      "translate": "Lot Number Mask"
+    },
+    {
+      "translationKey": "SN_MASK",
+      "translationBase": "Serial Number Mask",
+      "translate": "Serial Number Mask"
+    },
+    {
+      "translationKey": "WH_SHELF_LIFE",
+      "translationBase": "Warehouse Shelf Life",
+      "translate": "Warehouse Shelf Life"
+    },
+    {
+      "translationKey": "RETEST_INTERVAL",
+      "translationBase": "Retest Interval",
+      "translate": "Retest Interval"
+    },
+    {
+      "translationKey": "HIDDEN",
+      "translationBase": "Hidden",
+      "translate": "Hidden"
+    },
+    {
+      "translationKey": "DISABLED",
+      "translationBase": "Disabled",
+      "translate": "Disabled"
+    },
+    {
+      "translationKey": "TOOLTIP",
+      "translationBase": "Tooltip",
+      "translate": "Tooltip"
+    },
+    {
+      "translationKey": "FRAGMENT",
+      "translationBase": "Fragment",
+      "translate": "Fragment"
+    },
+    {
+      "translationKey": "PRESERVE_FRAGMENT",
+      "translationBase": "Preserve Fragment",
+      "translate": "Preserve Fragment"
+    },
+    {
+      "translationKey": "QUERY_PARAMS",
+      "translationBase": "Query Params",
+      "translate": "Query Params"
+    },
+    {
+      "translationKey": "QUERY_PARAMS_HANDLING",
+      "translationBase": "Query Params Handling",
+      "translate": "Query Params Handling"
+    },
+    {
+      "translationKey": "EXTERNAL_LINK",
+      "translationBase": "External Link",
+      "translate": "External Link"
+    },
+    {
+      "translationKey": "TARGET",
+      "translationBase": "Target",
+      "translate": "Target"
+    },
+    {
+      "translationKey": "EXECT_MATCH",
+      "translationBase": "Exect Match",
+      "translate": "Exect Match"
+    },
+    {
+      "translationKey": "IS_ACTIVE_MATCH_OPTION",
+      "translationBase": "Is Active Match Option",
+      "translate": "Is Active Match Option"
+    },
+    {
+      "translationKey": "FUNCTION",
+      "translationBase": "Function",
+      "translate": "Function"
+    },
+    {
+      "translationKey": "BADGE",
+      "translationBase": "Badge",
+      "translate": "Badge"
+    },
+    {
+      "translationKey": "META",
+      "translationBase": "Meta",
+      "translate": "Meta"
+    },
+    {
+      "translationKey": "QTY_TO_RECEIVE",
+      "translationBase": "Quantity To Receive",
+      "translate": "Quantity To Receive"
+    },
+    {
+      "translationKey": "ISSUED_QTY",
+      "translationBase": "Issued Quantity",
+      "translate": "Issued Quantity"
+    },
+    {
+      "translationKey": "TRANSFERED_QTY",
+      "translationBase": "Transfered Quantity",
+      "translate": "Transfered Quantity"
+    },
+    {
+      "translationKey": "QTY_TO_SHIP",
+      "translationBase": "Quantity To Ship",
+      "translate": "Quantity To Ship"
+    },
+    {
+      "translationKey": "TRANS_DATE",
+      "translationBase": "Transaction Date",
+      "translate": "Transaction Date"
+    },
+    {
+      "translationKey": "TRANS_NAME",
+      "translationBase": "Transaction Name",
+      "translate": "Transaction Name"
+    },
+    {
+      "translationKey": "TRANS_QTY",
+      "translationBase": "Transaction Quantity",
+      "translate": "Transaction Quantity"
+    },
+    {
+      "translationKey": "PICKED_QTY",
+      "translationBase": "Picked Quantity",
+      "translate": "Picked Quantity"
+    },
+    {
+      "translationKey": "RELEASED_QTY",
+      "translationBase": "Released Quantity",
+      "translate": "Released Quantity"
+    },
+    {
+      "translationKey": "TOTAL_PRICE",
+      "translationBase": "Total Price",
+      "translate": "Total Price"
+    },
+    {
+      "translationKey": "NUM_OF_HU",
+      "translationBase": "Num Of Handling Unit",
+      "translate": "Num Of Handling Unit"
+    },
+    {
+      "translationKey": "DELIVERED_QTY",
+      "translationBase": "Delivered Quantity",
+      "translate": "Delivered Quantity"
+    },
+    {
+      "translationKey": "INVOICED_QTY",
+      "translationBase": "Invoiced Quantity",
+      "translate": "Invoiced Quantity"
+    },
+    {
+      "translationKey": "BASE_UNIT_ORDERED_QTY",
+      "translationBase": "Base Unit Ordered Quantity",
+      "translate": "Base Unit Ordered Quantity"
+    },
+    {
+      "translationKey": "REF_ORESV_ID",
+      "translationBase": "Reference Order Reservation",
+      "translate": "Reference Order Reservation"
+    },
+    {
+      "translationKey": "REF_ORESV_NO",
+      "translationBase": "Reference Order Reservation Number",
+      "translate": "Reference Order Reservation Number"
+    },
+    {
+      "translationKey": "REF_ORESV_ITEM_ID",
+      "translationBase": "Reference Order Reservation Item",
+      "translate": "Reference Order Reservation Item"
+    },
+    {
+      "translationKey": "REF_ORESV_STATUS",
+      "translationBase": "Reference Order Reservation Status",
+      "translate": "Reference Order Reservation Status"
+    },
+    {
+      "translationKey": "NUM_OF_SU",
+      "translationBase": "Num Of Storage Unit",
+      "translate": "Num Of Storage Unit"
+    },
+    {
+      "translationKey": "LOT_ID",
+      "translationBase": "Lot Number",
+      "translate": "Lot Number"
+    },
+    {
+      "translationKey": "SU_LIST",
+      "translationBase": "Storage Unit List",
+      "translate": "Storage Unit List"
+    },
+    {
+      "translationKey": "REF_DOC_ITEM_ID",
+      "translationBase": "Reference Document Item",
+      "translate": "Reference Document Item"
+    },
+    {
+      "translationKey": "SU_RECEIVE",
+      "translationBase": "Storage Unit Receive",
+      "translate": "Storage Unit Receive"
+    },
+    {
+      "translationKey": "SU_ISSUE",
+      "translationBase": "Storage Unit Issue",
+      "translate": "Storage Unit Issue"
+    },
+    {
+      "translationKey": "APPY_SU",
+      "translationBase": "Appy Storage Unit",
+      "translate": "Appy Storage Unit"
+    },
+    {
+      "translationKey": "ADJUSTED_QTY",
+      "translationBase": "Adjusted Quantity",
+      "translate": "Adjusted Quantity"
+    },
+    {
+      "translationKey": "FROM_STORAGE_ID",
+      "translationBase": "From Storage",
+      "translate": "From Storage"
+    },
+    {
+      "translationKey": "TO_STORAGE_ID",
+      "translationBase": "To Storage",
+      "translate": "To Storage"
+    },
+    {
+      "translationKey": "FROM_HU_ID",
+      "translationBase": "From Handling Unit",
+      "translate": "From Handling Unit"
+    },
+    {
+      "translationKey": "LOT_STORAGE_ID",
+      "translationBase": "Lot Number Storage",
+      "translate": "Lot Number Storage"
+    },
+    {
+      "translationKey": "TO_HU_ID",
+      "translationBase": "To Handling Unit",
+      "translate": "To Handling Unit"
+    },
+    {
+      "translationKey": "FIELD1",
+      "translationBase": "Field1",
+      "translate": "Field1"
+    },
+    {
+      "translationKey": "FIELD2",
+      "translationBase": "Field2",
+      "translate": "Field2"
+    },
+    {
+      "translationKey": "FIELD3",
+      "translationBase": "Field3",
+      "translate": "Field3"
+    },
+    {
+      "translationKey": "QTY_TO_TRANSFER",
+      "translationBase": "Quantity To Transfer",
+      "translate": "Quantity To Transfer"
+    },
+    {
+      "translationKey": "DST_STORAGE_ID",
+      "translationBase": "Destination Storage",
+      "translate": "Destination Storage"
+    },
+    {
+      "translationKey": "EXCEPTION_CODE",
+      "translationBase": "Exception Code",
+      "translate": "Exception Code"
+    },
+    {
+      "translationKey": "EXCEPTION_MESSAGE",
+      "translationBase": "Exception Message",
+      "translate": "Exception Message"
+    },
+    {
+      "translationKey": "EXCEPTION_QTY",
+      "translationBase": "Exception Quantity",
+      "translate": "Exception Quantity"
+    },
+    {
+      "translationKey": "EXCEPTION_RESOLVED",
+      "translationBase": "Exception Resolved",
+      "translate": "Exception Resolved"
+    },
+    {
+      "translationKey": "ITEM_INDEX",
+      "translationBase": "Item Index",
+      "translate": "Item Index"
+    },
+    {
+      "translationKey": "ORDER_VALUE",
+      "translationBase": "Order Value",
+      "translate": "Order Value"
+    },
+    {
+      "translationKey": "SRC_COUNT",
+      "translationBase": "Source Count",
+      "translate": "Source Count"
+    },
+    {
+      "translationKey": "SRC_DOC",
+      "translationBase": "Source Document",
+      "translate": "Source Document"
+    },
+    {
+      "translationKey": "EXCEPTION",
+      "translationBase": "Exception",
+      "translate": "Exception"
+    },
+    {
+      "translationKey": "FROM_WH_ID",
+      "translationBase": "From Warehouse",
+      "translate": "From Warehouse"
+    },
+    {
+      "translationKey": "FROM_ZONE_ID",
+      "translationBase": "From Zone",
+      "translate": "From Zone"
+    },
+    {
+      "translationKey": "FROM_AISLE_ID",
+      "translationBase": "From Aisle",
+      "translate": "From Aisle"
+    },
+    {
+      "translationKey": "FROM_RACK_ID",
+      "translationBase": "From Rack",
+      "translate": "From Rack"
+    },
+    {
+      "translationKey": "FROM_SHELF_ID",
+      "translationBase": "From Shelf",
+      "translate": "From Shelf"
+    },
+    {
+      "translationKey": "FROM_LOT_ID",
+      "translationBase": "From Lot Number",
+      "translate": "From Lot Number"
+    },
+    {
+      "translationKey": "QTY_PER_KANBAN",
+      "translationBase": "Quantity Per Kanban",
+      "translate": "Quantity Per Kanban"
+    },
+    {
+      "translationKey": "NUM_OF_KANBAN",
+      "translationBase": "Num Of Kanban",
+      "translate": "Num Of Kanban"
+    },
+    {
+      "translationKey": "ZONE_NO",
+      "translationBase": "Zone Number",
+      "translate": "Zone Number"
+    },
+    {
+      "translationKey": "AISLE_NO",
+      "translationBase": "Aisle Number",
+      "translate": "Aisle Number"
+    },
+    {
+      "translationKey": "RACK_NO",
+      "translationBase": "Rack Number",
+      "translate": "Rack Number"
+    },
+    {
+      "translationKey": "SHELF_NO",
+      "translationBase": "Shelf Number",
+      "translate": "Shelf Number"
+    },
+    {
+      "translationKey": "REF_ORDERED_QTY",
+      "translationBase": "Reference Ordered Quantity",
+      "translate": "Reference Ordered Quantity"
+    },
+    {
+      "translationKey": "QTY_TO_RESV",
+      "translationBase": "Quantity To Reservation",
+      "translate": "Quantity To Reservation"
+    },
+    {
+      "translationKey": "RESV_WH_ID",
+      "translationBase": "Reservation Warehouse",
+      "translate": "Reservation Warehouse"
+    },
+    {
+      "translationKey": "RESV_ZONE_ID",
+      "translationBase": "Reservation Zone",
+      "translate": "Reservation Zone"
+    },
+    {
+      "translationKey": "RESV_AISLE_ID",
+      "translationBase": "Reservation Aisle",
+      "translate": "Reservation Aisle"
+    },
+    {
+      "translationKey": "RESV_RACK_ID",
+      "translationBase": "Reservation Rack",
+      "translate": "Reservation Rack"
+    },
+    {
+      "translationKey": "RESV_SHELF_ID",
+      "translationBase": "Reservation Shelf",
+      "translate": "Reservation Shelf"
+    },
+    {
+      "translationKey": "RESV_STORAGE_ID",
+      "translationBase": "Reservation Storage",
+      "translate": "Reservation Storage"
+    },
+    {
+      "translationKey": "RESV_STORAGE",
+      "translationBase": "Reservation Storage",
+      "translate": "Reservation Storage"
+    },
+    {
+      "translationKey": "DEFAULT_ZONE_ID",
+      "translationBase": "Default Zone",
+      "translate": "Default Zone"
+    },
+    {
+      "translationKey": "DEFAULT_AISLE_ID",
+      "translationBase": "Default Aisle",
+      "translate": "Default Aisle"
+    },
+    {
+      "translationKey": "DEFAULT_RACK_ID",
+      "translationBase": "Default Rack",
+      "translate": "Default Rack"
+    },
+    {
+      "translationKey": "DEFAULT_SHELF_ID",
+      "translationBase": "Default Shelf",
+      "translate": "Default Shelf"
+    },
+    {
+      "translationKey": "DEFAULT_STORAGE_ID",
+      "translationBase": "Default Storage",
+      "translate": "Default Storage"
+    },
+    {
+      "translationKey": "RECEIVING_STORAGE_ID",
+      "translationBase": "Receiving Storage",
+      "translate": "Receiving Storage"
+    },
+    {
+      "translationKey": "PICKING_STORAGE_ID",
+      "translationBase": "Picking Storage",
+      "translate": "Picking Storage"
+    },
+    {
+      "translationKey": "PACKING_STORAGE_ID",
+      "translationBase": "Packing Storage",
+      "translate": "Packing Storage"
+    },
+    {
+      "translationKey": "SHIPPING_STORAGE_ID",
+      "translationBase": "Shipping Storage",
+      "translate": "Shipping Storage"
+    },
+    {
+      "translationKey": "ALLOWED_QTY",
+      "translationBase": "Allowed Quantity",
+      "translate": "Allowed Quantity"
+    },
+    {
+      "translationKey": "WHIDTH",
+      "translationBase": "Whidth",
+      "translate": "Whidth"
+    },
+    {
+      "translationKey": "LENGTH",
+      "translationBase": "Length",
+      "translate": "Length"
+    },
+    {
+      "translationKey": "HEIGHT",
+      "translationBase": "Height",
+      "translate": "Height"
+    },
+    {
+      "translationKey": "MAX_UNIT",
+      "translationBase": "Maximum Unit",
+      "translate": "Maximum Unit"
+    },
+    {
+      "translationKey": "NUM_OF_LEFT",
+      "translationBase": "Num Of Left",
+      "translate": "Num Of Left"
+    },
+    {
+      "translationKey": "NUN_OF_RIGHT",
+      "translationBase": "Nun Of Right",
+      "translate": "Nun Of Right"
+    },
+    {
+      "translationKey": "ODD_UNIT_ON",
+      "translationBase": "Odd Unit On",
+      "translate": "Odd Unit On"
+    },
+    {
+      "translationKey": "UNIT_PREFIX",
+      "translationBase": "Unit Prefix",
+      "translate": "Unit Prefix"
+    },
+    {
+      "translationKey": "NUM_OF_FLOOR",
+      "translationBase": "Num Of Floor",
+      "translate": "Num Of Floor"
+    },
+    {
+      "translationKey": "FLOOR",
+      "translationBase": "Floor",
+      "translate": "Floor"
+    },
+    {
+      "translationKey": "OPTION_NAME",
+      "translationBase": "Option Name",
+      "translate": "Option Name"
+    },
+    {
+      "translationKey": "KITCHEN_INSTRUCTION",
+      "translationBase": "Kitchen Instruction",
+      "translate": "Kitchen Instruction"
+    },
+    {
+      "translationKey": "SELECTED",
+      "translationBase": "Selected",
+      "translate": "Selected"
+    },
+    {
+      "translationKey": "ADDR_INFO",
+      "translationBase": "Address Info",
+      "translate": "Address Info"
+    },
+    {
+      "translationKey": "CONTACT_INFO",
+      "translationBase": "Contact Info",
+      "translate": "Contact Info"
+    },
+    {
+      "translationKey": "DATA_FORM_FILTER_INFO",
+      "translationBase": "Data Form Filter Info",
+      "translate": "Data Form Filter Info"
+    },
+    {
+      "translationKey": "DATA_FORM_TAG_INFO",
+      "translationBase": "Data Form Tag Info",
+      "translate": "Data Form Tag Info"
+    },
+    {
+      "translationKey": "DATA_FORM_TPL_INFO",
+      "translationBase": "Data Form Template Info",
+      "translate": "Data Form Template Info"
+    },
+    {
+      "translationKey": "DATA_FORM_WF_STATUS_INFO",
+      "translationBase": "Data Form Workflow Status Info",
+      "translate": "Data Form Workflow Status Info"
+    },
+    {
+      "translationKey": "INVENTORY_PREFERENCE_INFO",
+      "translationBase": "Inventory Preference Info",
+      "translate": "Inventory Preference Info"
+    },
+    {
+      "translationKey": "BRANCH_INVENTORY_PREFERENCE_INFO",
+      "translationBase": "Branch Inventory Preference Info",
+      "translate": "Branch Inventory Preference Info"
+    },
+    {
+      "translationKey": "PURCHASE_PREFERENCE_INFO",
+      "translationBase": "Purchase Preference Info",
+      "translate": "Purchase Preference Info"
+    },
+    {
+      "translationKey": "RUNNING_INFO",
+      "translationBase": "Running Info",
+      "translate": "Running Info"
+    },
+    {
+      "translationKey": "SALE_PREFERENCE_INFO",
+      "translationBase": "Sale Preference Info",
+      "translate": "Sale Preference Info"
+    },
+    {
+      "translationKey": "STATUS_INFO",
+      "translationBase": "Status Info",
+      "translate": "Status Info"
+    },
+    {
+      "translationKey": "SYS_PREFERENCE_INFO",
+      "translationBase": "System Preference Info",
+      "translate": "System Preference Info"
+    },
+    {
+      "translationKey": "TRANSLATION_INFO",
+      "translationBase": "Translation Info",
+      "translate": "Translation Info"
+    },
+    {
+      "translationKey": "UDF_INFO",
+      "translationBase": "Udf Info",
+      "translate": "Udf Info"
+    },
+    {
+      "translationKey": "TIMEWH_ZONE_INFO",
+      "translationBase": "Timewh Zone Info",
+      "translate": "Timewh Zone Info"
+    },
+    {
+      "translationKey": "USER_PROFILE_INFO",
+      "translationBase": "User Profile Info",
+      "translate": "User Profile Info"
+    },
+    {
+      "translationKey": "USER_ALLOWED_BIZ_INFO",
+      "translationBase": "User Allowed Business Info",
+      "translate": "User Allowed Business Info"
+    },
+    {
+      "translationKey": "NAVIGATION_CLASSES_INFO",
+      "translationBase": "Navigation Classes Info",
+      "translate": "Navigation Classes Info"
+    },
+    {
+      "translationKey": "NAVIGATION_BADGE_INFO",
+      "translationBase": "Navigation Badge Info",
+      "translate": "Navigation Badge Info"
+    },
+    {
+      "translationKey": "USER_BRANCH_INFO",
+      "translationBase": "User Branch Info",
+      "translate": "User Branch Info"
+    },
+    {
+      "translationKey": "ATTACHED_DOC_INFO",
+      "translationBase": "Attached Document Info",
+      "translate": "Attached Document Info"
+    },
+    {
+      "translationKey": "ASSET_CASCADE_PRICE_INFO",
+      "translationBase": "Asset Cascade Price Info",
+      "translate": "Asset Cascade Price Info"
+    },
+    {
+      "translationKey": "BANK_TRANSFER_INFO",
+      "translationBase": "Bank Transfer Info",
+      "translate": "Bank Transfer Info"
+    },
+    {
+      "translationKey": "PAYMENT_GATEWAY_INFO",
+      "translationBase": "Payment Gateway Info",
+      "translate": "Payment Gateway Info"
+    },
+    {
+      "translationKey": "CREDIT_CARD_INFO",
+      "translationBase": "Credit Card Info",
+      "translate": "Credit Card Info"
+    },
+    {
+      "translationKey": "CHEQUE_INFO",
+      "translationBase": "Cheque Info",
+      "translate": "Cheque Info"
+    },
+    {
+      "translationKey": "PD_PD_VARIANT_INFO",
+      "translationBase": "Product Product Variant Info",
+      "translate": "Product Product Variant Info"
+    },
+    {
+      "translationKey": "PD_ATTRIBUTE_INFO",
+      "translationBase": "Product Attribute Info",
+      "translate": "Product Attribute Info"
+    },
+    {
+      "translationKey": "PD_LOT_SN_INFO",
+      "translationBase": "Product Lot Number Serial Number Info",
+      "translate": "Product Lot Number Serial Number Info"
+    },
+    {
+      "translationKey": "PD_BUNDLE_INFO",
+      "translationBase": "Product Bundle Info",
+      "translate": "Product Bundle Info"
+    },
+    {
+      "translationKey": "PD_PACKAGE_INFO",
+      "translationBase": "Product Package Info",
+      "translate": "Product Package Info"
+    },
+    {
+      "translationKey": "MENU_INFO",
+      "translationBase": "Menu Info",
+      "translate": "Menu Info"
+    },
+    {
+      "translationKey": "COLLAPSIBLE_MENU_INFO",
+      "translationBase": "Collapsible Menu Info",
+      "translate": "Collapsible Menu Info"
+    },
+    {
+      "translationKey": "RECEIVE_LOT_INFO",
+      "translationBase": "Receive Lot Number Info",
+      "translate": "Receive Lot Number Info"
+    },
+    {
+      "translationKey": "ISSUE_LOT_INFO",
+      "translationBase": "Issue Lot Number Info",
+      "translate": "Issue Lot Number Info"
+    },
+    {
+      "translationKey": "PICK_LOT_INFO",
+      "translationBase": "Pick Lot Number Info",
+      "translate": "Pick Lot Number Info"
+    },
+    {
+      "translationKey": "TRANSFER_LOT_INFO",
+      "translationBase": "Transfer Lot Number Info",
+      "translate": "Transfer Lot Number Info"
+    },
+    {
+      "translationKey": "SHIP_LOT_INFO",
+      "translationBase": "Ship Lot Number Info",
+      "translate": "Ship Lot Number Info"
+    },
+    {
+      "translationKey": "RECEIVE_HISTORY_INFO",
+      "translationBase": "Receive History Info",
+      "translate": "Receive History Info"
+    },
+    {
+      "translationKey": "SORTING_CONTAINER_INFO",
+      "translationBase": "Sorting Container Info",
+      "translate": "Sorting Container Info"
+    },
+    {
+      "translationKey": "WH_EQM_INFO",
+      "translationBase": "Warehouse Eqm Info",
+      "translate": "Warehouse Eqm Info"
+    },
+    {
+      "translationKey": "QUANTITY_BASE_PRICING_INFO",
+      "translationBase": "Quantity Base Pricing Info",
+      "translate": "Quantity Base Pricing Info"
+    },
+    {
+      "translationKey": "PD_RELEASE_INFO",
+      "translationBase": "Product Release Info",
+      "translate": "Product Release Info"
+    },
+    {
+      "translationKey": "PD_SALES_INFO",
+      "translationBase": "Product Sales Info",
+      "translate": "Product Sales Info"
+    },
+    {
+      "translationKey": "PD_PICK_INFO",
+      "translationBase": "Product Pick Info",
+      "translate": "Product Pick Info"
+    },
+    {
+      "translationKey": "PD_PURCHASE_INFO",
+      "translationBase": "Product Purchase Info",
+      "translate": "Product Purchase Info"
+    },
+    {
+      "translationKey": "SU_RECEIVE_INFO",
+      "translationBase": "Storage Unit Receive Info",
+      "translate": "Storage Unit Receive Info"
+    },
+    {
+      "translationKey": "SU_ISSUE_INFO",
+      "translationBase": "Storage Unit Issue Info",
+      "translate": "Storage Unit Issue Info"
+    },
+    {
+      "translationKey": "SU_RECEIVE_ACTION_INFO",
+      "translationBase": "Storage Unit Receive Action Info",
+      "translate": "Storage Unit Receive Action Info"
+    },
+    {
+      "translationKey": "SU_ISSUE_ACTION_INFO",
+      "translationBase": "Storage Unit Issue Action Info",
+      "translate": "Storage Unit Issue Action Info"
+    },
+    {
+      "translationKey": "PD_RECEIVE_INFO",
+      "translationBase": "Product Receive Info",
+      "translate": "Product Receive Info"
+    },
+    {
+      "translationKey": "PD_ISSUE_INFO",
+      "translationBase": "Product Issue Info",
+      "translate": "Product Issue Info"
+    },
+    {
+      "translationKey": "PD_ADJUST_INFO",
+      "translationBase": "Product Adjust Info",
+      "translate": "Product Adjust Info"
+    },
+    {
+      "translationKey": "PD_STORAGE_TRANSFER_INFO",
+      "translationBase": "Product Storage Transfer Info",
+      "translate": "Product Storage Transfer Info"
+    },
+    {
+      "translationKey": "PD_HU_TRANSFER_INFO",
+      "translationBase": "Product Handling Unit Transfer Info",
+      "translate": "Product Handling Unit Transfer Info"
+    },
+    {
+      "translationKey": "SUPP_STAIRSTEP_PRICE_INFO",
+      "translationBase": "Supplier Stairstep Price Info",
+      "translate": "Supplier Stairstep Price Info"
+    },
+    {
+      "translationKey": "BRANCH_SALES_PREFERENCE_INFO",
+      "translationBase": "Branch Sales Preference Info",
+      "translate": "Branch Sales Preference Info"
+    },
+    {
+      "translationKey": "BRANCH_PURCHASE_PREFERENCE_INFO",
+      "translationBase": "Branch Purchase Preference Info",
+      "translate": "Branch Purchase Preference Info"
+    },
+    {
+      "translationKey": "CATE_COUNT_INFO",
+      "translationBase": "Category Count Info",
+      "translate": "Category Count Info"
+    },
+    {
+      "translationKey": "PD_TRANSFER_INFO",
+      "translationBase": "Product Transfer Info",
+      "translate": "Product Transfer Info"
+    },
+    {
+      "translationKey": "INVENTORY_EXCEPTION_INFO",
+      "translationBase": "Inventory Exception Info",
+      "translate": "Inventory Exception Info"
+    },
+    {
+      "translationKey": "PFFM_ORD_INFO",
+      "translationBase": "Prefulfillment Order Info",
+      "translate": "Prefulfillment Order Info"
+    },
+    {
+      "translationKey": "PFFM_PD_ORD_INFO",
+      "translationBase": "Prefulfillment Product Order Info",
+      "translate": "Prefulfillment Product Order Info"
+    },
+    {
+      "translationKey": "PFFM_PD_INFO",
+      "translationBase": "Prefulfillment Product Info",
+      "translate": "Prefulfillment Product Info"
+    },
+    {
+      "translationKey": "PICK_ORD_ITEM_INFO",
+      "translationBase": "Pick Order Item Info",
+      "translate": "Pick Order Item Info"
+    },
+    {
+      "translationKey": "PICK_ORD_INFO",
+      "translationBase": "Pick Order Info",
+      "translate": "Pick Order Info"
+    },
+    {
+      "translationKey": "PICK_PD_ITEM_INFO",
+      "translationBase": "Pick Product Item Info",
+      "translate": "Pick Product Item Info"
+    },
+    {
+      "translationKey": "PICK_PD_INFO",
+      "translationBase": "Pick Product Info",
+      "translate": "Pick Product Info"
+    },
+    {
+      "translationKey": "TASK_PD_ORD_INFO",
+      "translationBase": "Task Product Order Info",
+      "translate": "Task Product Order Info"
+    },
+    {
+      "translationKey": "TASK_PD_INFO",
+      "translationBase": "Task Product Info",
+      "translate": "Task Product Info"
+    },
+    {
+      "translationKey": "TASK_ROUTE_INFO",
+      "translationBase": "Task Route Info",
+      "translate": "Task Route Info"
+    },
+    {
+      "translationKey": "TASK_STORAGE_INFO",
+      "translationBase": "Task Storage Info",
+      "translate": "Task Storage Info"
+    },
+    {
+      "translationKey": "PD_ALLOCATION_INFO",
+      "translationBase": "Product Allocation Info",
+      "translate": "Product Allocation Info"
+    },
+    {
+      "translationKey": "PD_ORESV_ITEM_INFO",
+      "translationBase": "Product Order Reservation Item Info",
+      "translate": "Product Order Reservation Item Info"
+    },
+    {
+      "translationKey": "PD_ORESV_STORAGE_INFO",
+      "translationBase": "Product Order Reservation Storage Info",
+      "translate": "Product Order Reservation Storage Info"
+    },
+    {
+      "translationKey": "WH_PREF_INFO",
+      "translationBase": "Warehouse Preference Info",
+      "translate": "Warehouse Preference Info"
+    },
+    {
+      "translationKey": "WH_RPN_PREF_INFO",
+      "translationBase": "Warehouse Replenishment Preference Info",
+      "translate": "Warehouse Replenishment Preference Info"
+    },
+    {
+      "translationKey": "PD_STORAGE_RPN_PREF_INFO",
+      "translationBase": "Product Storage Replenishment Preference Info",
+      "translate": "Product Storage Replenishment Preference Info"
+    },
+    {
+      "translationKey": "PD_BRANCH_RPN_PREF_INFO",
+      "translationBase": "Product Branch Replenishment Preference Info",
+      "translate": "Product Branch Replenishment Preference Info"
+    },
+    {
+      "translationKey": "STRICT_PD_INFO",
+      "translationBase": "Strict Product Info",
+      "translate": "Strict Product Info"
+    },
+    {
+      "translationKey": "DIMENSION_INFO",
+      "translationBase": "Dimension Info",
+      "translate": "Dimension Info"
+    },
+    {
+      "translationKey": "STRICT_STORAGE_TYPE_INFO",
+      "translationBase": "Strict Storage Type Info",
+      "translate": "Strict Storage Type Info"
+    },
+    {
+      "translationKey": "PROP_UNIT_INFO",
+      "translationBase": "Property Unit Info",
+      "translate": "Property Unit Info"
+    },
+    {
+      "translationKey": "PROP_FLOOR_INFO",
+      "translationBase": "Property Floor Info",
+      "translate": "Property Floor Info"
+    },
+    {
+      "translationKey": "PROP_BUILDING_INFO",
+      "translationBase": "Property Building Info",
+      "translate": "Property Building Info"
+    },
+    {
+      "translationKey": "RESTA_ORD_ITEM_INFO",
+      "translationBase": "Restaurant Order Item Info",
+      "translate": "Restaurant Order Item Info"
+    },
+    {
+      "translationKey": "RESTA_OPTION_ITEM_INFO",
+      "translationBase": "Restaurant Option Item Info",
+      "translate": "Restaurant Option Item Info"
+    },
+    {
+      "translationKey": "RESTA_OPTION_GROUP_INFO",
+      "translationBase": "Restaurant Option Group Info",
+      "translate": "Restaurant Option Group Info"
+    },
+    {
+      "translationKey": "VARIANT",
+      "translationBase": "Variant",
+      "translate": "Variant"
+    },
+    {
+      "translationKey": "VARIANT_NAME",
+      "translationBase": "Variant Name",
+      "translate": "Variant Name"
+    },
+    {
+      "translationKey": "CODE_PART",
+      "translationBase": "Code Part",
+      "translate": "Code Part"
+    },
+    {
+      "translationKey": "DESC_PART",
+      "translationBase": "Description Part",
+      "translate": "Description Part"
+    },
+    {
+      "translationKey": "USE",
+      "translationBase": "Use",
+      "translate": "Use"
+    },
+    {
+      "translationKey": "ATTRIBUTES",
+      "translationBase": "Attributes",
+      "translate": "Attributes"
+    },
+    {
+      "translationKey": "GENERATED_VARIANTS",
+      "translationBase": "Generated Variants",
+      "translate": "Generated Variants"
+    },
+    {
+      "translationKey": "PD_ATTRIBUTE_VARIANT_INFO",
+      "translationBase": "Product Attribute Variant Info",
+      "translate": "Product Attribute Variant Info"
+    },
+    {
+      "translationKey": "PD_GENERATED_VARIANT_INFO",
+      "translationBase": "Product Generated Variant Info",
+      "translate": "Product Generated Variant Info"
+    },
+    {
+      "translationKey": "PD_VARIANT_INFO",
+      "translationBase": "Product Variant Info",
+      "translate": "Product Variant Info"
+    },
+    {
+      "translationKey": "CPD",
+      "translationBase": "Customer Product",
+      "translate": "Customer Product"
+    },
+    {
+      "translationKey": "CPD_ID",
+      "translationBase": "Customer Product",
+      "translate": "Customer Product"
+    },
+    {
+      "translationKey": "CPD_NO",
+      "translationBase": "Customer Product Number",
+      "translate": "Customer Product Number"
+    },
+    {
+      "translationKey": "CPD_NAME",
+      "translationBase": "Customer Product Name",
+      "translate": "Customer Product Name"
+    },
+    {
+      "translationKey": "SPD",
+      "translationBase": "Supplier Product",
+      "translate": "Supplier Product"
+    },
+    {
+      "translationKey": "SPD_ID",
+      "translationBase": "Supplier Product",
+      "translate": "Supplier Product"
+    },
+    {
+      "translationKey": "SPD_NO",
+      "translationBase": "Supplier Product Number",
+      "translate": "Supplier Product Number"
+    },
+    {
+      "translationKey": "SPD_NAME",
+      "translationBase": "Supplier Product Name",
+      "translate": "Supplier Product Name"
+    },
+    {
+      "translationKey": "CPD_STORAGE",
+      "translationBase": "Customer Product Storage",
+      "translate": "Customer Product Storage"
+    },
+    {
+      "translationKey": "CPD_STORAGE_ID",
+      "translationBase": "Customer Product Storage",
+      "translate": "Customer Product Storage"
+    },
+    {
+      "translationKey": "SPD_STORAGE",
+      "translationBase": "Supplier Product Storage",
+      "translate": "Supplier Product Storage"
+    },
+    {
+      "translationKey": "SPD_STORAGE_ID",
+      "translationBase": "Supplier Product Storage",
+      "translate": "Supplier Product Storage"
+    },
+    {
+      "translationKey": "STAIRSTEP_PRICE_INFO",
+      "translationBase": "Stairstep Price Info",
+      "translate": "Stairstep Price Info"
+    },
+    {
+      "translationKey": "MIN_ORDER_QTY",
+      "translationBase": "Minimum Order Quantity",
+      "translate": "Minimum Order Quantity"
+    },
+    {
+      "translationKey": "QTY_TO_INVOICE",
+      "translationBase": "Quantity To Invoice",
+      "translate": "Quantity To Invoice"
+    },
+    {
+      "translationKey": "PO_RECEIVE_STORAGE_INFO",
+      "translationBase": "Purchase Order Receive Storage Info",
+      "translate": "Purchase Order Receive Storage Info"
+    },
+    {
+      "translationKey": "PO_RECEIVE_INFO",
+      "translationBase": "Purchase Order Receive Info",
+      "translate": "Purchase Order Receive Info"
+    },
+    {
+      "translationKey": "PO_INVOICE_INFO",
+      "translationBase": "Purchase Order Invoice Info",
+      "translate": "Purchase Order Invoice Info"
+    },
+    {
+      "translationKey": "QTY_TO_STORE",
+      "translationBase": "Quantity To Store",
+      "translate": "Quantity To Store"
+    },
+    {
+      "translationKey": "TO_STORAGE",
+      "translationBase": "To Storage",
+      "translate": "To Storage"
+    },
+    {
+      "translationKey": "TO_RECEIVE",
+      "translationBase": "To Receive",
+      "translate": "To Receive"
+    },
+    {
+      "translationKey": "TO_INVOICE",
+      "translationBase": "To Invoice",
+      "translate": "To Invoice"
+    },
+    {
+      "translationKey": "A_STORAGE_ID",
+      "translationBase": "A Storage",
+      "translate": "A Storage"
+    },
+    {
+      "translationKey": "A_QTY",
+      "translationBase": "A Quantity",
+      "translate": "A Quantity"
+    },
+    {
+      "translationKey": "B_STORAGE_ID",
+      "translationBase": "B Storage",
+      "translate": "B Storage"
+    },
+    {
+      "translationKey": "B_QTY",
+      "translationBase": "B Quantity",
+      "translate": "B Quantity"
+    },
+    {
+      "translationKey": "C_STORAGE_ID",
+      "translationBase": "C Storage",
+      "translate": "C Storage"
+    },
+    {
+      "translationKey": "C_QTY",
+      "translationBase": "C Quantity",
+      "translate": "C Quantity"
+    },
+    {
+      "translationKey": "SHIP_TO_TYPE",
+      "translationBase": "Ship To Type",
+      "translate": "Ship To Type"
+    },
+    {
+      "translationKey": "SHIP_TO_CUST_ID",
+      "translationBase": "Ship To Customer",
+      "translate": "Ship To Customer"
+    },
+    {
+      "translationKey": "SHIP_TO_BRANCH_ID",
+      "translationBase": "Ship To Branch",
+      "translate": "Ship To Branch"
+    },
+    {
+      "translationKey": "SHIP_TO_WH_ID",
+      "translationBase": "Ship To Warehouse",
+      "translate": "Ship To Warehouse"
+    },
+    {
+      "translationKey": "SHIP_TO_ADDR_INFO",
+      "translationBase": "Ship To Address Info",
+      "translate": "Ship To Address Info"
+    },
+    {
+      "translationKey": "APPLY_SU_OR_HU",
+      "translationBase": "Apply Storage Unit On Rented Handling Unit",
+      "translate": "Apply Storage Unit On Rented Handling Unit"
+    },
+    {
+      "translationKey": "ORDER_IN_HU",
+      "translationBase": "Order In Handling Unit",
+      "translate": "Order In Handling Unit"
+    },
+    {
+      "translationKey": "ORDER_IN_SU",
+      "translationBase": "Order In Storage Unit",
+      "translate": "Order In Storage Unit"
+    },
+    {
+      "translationKey": "SU_UOM_ID",
+      "translationBase": "Storage Unit Unit Of Measure",
+      "translate": "Storage Unit Unit Of Measure"
+    },
+    {
+      "translationKey": "HU_UOM_ID",
+      "translationBase": "Handling Unit Unit Of Measure",
+      "translate": "Handling Unit Unit Of Measure"
+    },
+    {
+      "translationKey": "PD_ORDER_SU_INFO",
+      "translationBase": "Product Order Storage Unit Info",
+      "translate": "Product Order Storage Unit Info"
+    },
+    {
+      "translationKey": "PD_ORDER_HU_INFO",
+      "translationBase": "Product Order Handling Unit Info",
+      "translate": "Product Order Handling Unit Info"
+    },
+    {
+      "translationKey": "SECONDARY_UOM_ID",
+      "translationBase": "Secondary Unit Of Measure",
+      "translate": "Secondary Unit Of Measure"
+    },
+    {
+      "translationKey": "SECONDAY_UOM_ID",
+      "translationBase": "Seconday Unit Of Measure",
+      "translate": "Seconday Unit Of Measure"
+    },
+    {
+      "translationKey": "PARENT_SU_ID",
+      "translationBase": "Parent Storage Unit",
+      "translate": "Parent Storage Unit"
+    },
+    {
+      "translationKey": "BIZ_USER_BY_PREFER_LANGUAGE",
+      "translationBase": "Business User By Prefer Language",
+      "translate": "Business User By Prefer Language"
+    },
+    {
+      "translationKey": "TRANSLATION_OPTION_BY_BASE_LANGUAGE",
+      "translationBase": "Translation Option By Base Language",
+      "translate": "Translation Option By Base Language"
+    },
+    {
+      "translationKey": "COUNTRY_TRANSLATION_OPTION_BY_BASE_LANGUAGE",
+      "translationBase": "Country Translation Option By Base Language",
+      "translate": "Country Translation Option By Base Language"
+    },
+    {
+      "translationKey": "BIZ_TRANSLATION_OPTION_BY_BASE_LANGUAGE",
+      "translationBase": "Business Translation Option By Base Language",
+      "translate": "Business Translation Option By Base Language"
+    },
+    {
+      "translationKey": "DOC_ARC_ITEM_BY_ASSET_WH_STORAGE",
+      "translationBase": "Asset Rental Contract Item By Asset Warehouse Storage",
+      "translate": "Asset Rental Contract Item By Asset Warehouse Storage"
+    },
+    {
+      "translationKey": "DOC_ARR_ITEM_BY_ASSET_WH_STORAGE",
+      "translationBase": "Asset Rental Return Item By Asset Warehouse Storage",
+      "translate": "Asset Rental Return Item By Asset Warehouse Storage"
+    },
+    {
+      "translationKey": "PD_BY_VARIANT_PARENT",
+      "translationBase": "Product By Variant Parent",
+      "translate": "Product By Variant Parent"
+    },
+    {
+      "translationKey": "VARIANTS",
+      "translationBase": "Variants",
+      "translate": "Variants"
+    },
+    {
+      "translationKey": "ASSET_BY_DEFAULT_WH_STORAGE",
+      "translationBase": "Asset By Default Warehouse Storage",
+      "translate": "Asset By Default Warehouse Storage"
+    },
+    {
+      "translationKey": "ASSET_BY_DEFAULT_WH",
+      "translationBase": "Asset By Default Warehouse",
+      "translate": "Asset By Default Warehouse"
+    },
+    {
+      "translationKey": "WH_BY_RECEIVING_WH_STORAGE",
+      "translationBase": "Warehouse By Receiving Warehouse Storage",
+      "translate": "Warehouse By Receiving Warehouse Storage"
+    },
+    {
+      "translationKey": "WH_BY_PICKING_WH_STORAGE",
+      "translationBase": "Warehouse By Picking Warehouse Storage",
+      "translate": "Warehouse By Picking Warehouse Storage"
+    },
+    {
+      "translationKey": "WH_BY_PACKING_WH_STORAGE",
+      "translationBase": "Warehouse By Packing Warehouse Storage",
+      "translate": "Warehouse By Packing Warehouse Storage"
+    },
+    {
+      "translationKey": "WH_BY_SHIPPING_WH_STORAGE",
+      "translationBase": "Warehouse By Shipping Warehouse Storage",
+      "translate": "Warehouse By Shipping Warehouse Storage"
+    },
+    {
+      "translationKey": "WH_BY_DEFAULT_WH_STORAGE",
+      "translationBase": "Warehouse By Default Warehouse Storage",
+      "translate": "Warehouse By Default Warehouse Storage"
+    },
+    {
+      "translationKey": "PD_BY_PREFERRED_SUPP",
+      "translationBase": "Product By Preferred Supplier",
+      "translate": "Product By Preferred Supplier"
+    },
+    {
+      "translationKey": "WH_HU_BY_PARENT_HU",
+      "translationBase": "Warehouse Handling Unit By Parent Handling Unit",
+      "translate": "Warehouse Handling Unit By Parent Handling Unit"
+    },
+    {
+      "translationKey": "CONTAIN_SU",
+      "translationBase": "Contain Storage Unit",
+      "translate": "Contain Storage Unit"
+    },
+    {
+      "translationKey": "DOC_TASK_BY_TRANSPORT_SU",
+      "translationBase": "Task By Transport Storage Unit",
+      "translate": "Task By Transport Storage Unit"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_BRANCH",
+      "translationBase": "Replenishment Plan By Replenishment Branch",
+      "translate": "Replenishment Plan By Replenishment Branch"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_WH",
+      "translationBase": "Replenishment Plan By Replenishment Warehouse",
+      "translate": "Replenishment Plan By Replenishment Warehouse"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_ZONE",
+      "translationBase": "Replenishment Plan By Replenishment Zone",
+      "translate": "Replenishment Plan By Replenishment Zone"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_AISLE",
+      "translationBase": "Replenishment Plan By Replenishment Aisle",
+      "translate": "Replenishment Plan By Replenishment Aisle"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_RACK",
+      "translationBase": "Replenishment Plan By Replenishment Rack",
+      "translate": "Replenishment Plan By Replenishment Rack"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_SHELF",
+      "translationBase": "Replenishment Plan By Replenishment Shelf",
+      "translate": "Replenishment Plan By Replenishment Shelf"
+    },
+    {
+      "translationKey": "RPN_PLAN_BY_RPN_STORAGE",
+      "translationBase": "Replenishment Plan By Replenishment Storage",
+      "translate": "Replenishment Plan By Replenishment Storage"
+    },
+    {
+      "translationKey": "WH_BY_PICKING_CONTROLLER",
+      "translationBase": "Warehouse By Picking Controller",
+      "translate": "Warehouse By Picking Controller"
+    },
+    {
+      "translationKey": "WH_BY_RPN_CONTROLLER",
+      "translationBase": "Warehouse By Replenishment Controller",
+      "translate": "Warehouse By Replenishment Controller"
+    },
+    {
+      "translationKey": "WH_BY_RPN_BRANCH",
+      "translationBase": "Warehouse By Replenishment Branch",
+      "translate": "Warehouse By Replenishment Branch"
+    },
+    {
+      "translationKey": "WH_BY_RPN_WH",
+      "translationBase": "Warehouse By Replenishment Warehouse",
+      "translate": "Warehouse By Replenishment Warehouse"
+    },
+    {
+      "translationKey": "DOC_TFO_BY_DST_WH",
+      "translationBase": "Transfer Order By Destination Warehouse",
+      "translate": "Transfer Order By Destination Warehouse"
+    },
+    {
+      "translationKey": "DOC_TFO_BY_DST_BRANCH",
+      "translationBase": "Transfer Order By Destination Branch",
+      "translate": "Transfer Order By Destination Branch"
+    },
+    {
+      "translationKey": "DOC_TFR_BY_DST_BRANCH",
+      "translationBase": "Transfer Requisition By Destination Branch",
+      "translate": "Transfer Requisition By Destination Branch"
+    },
+    {
+      "translationKey": "DOC_TFR_BY_DST_WH",
+      "translationBase": "Transfer Requisition By Destination Warehouse",
+      "translate": "Transfer Requisition By Destination Warehouse"
+    },
+    {
+      "translationKey": "DOC_TASK_BY_FINAL_SU",
+      "translationBase": "Task By Final Storage Unit",
+      "translate": "Task By Final Storage Unit"
+    },
+    {
+      "translationKey": "BRANCH_BY_FFM_BRANCH",
+      "translationBase": "Branch By Ffm Branch",
+      "translate": "Branch By Ffm Branch"
+    },
+    {
+      "translationKey": "BRANCH_BY_FFM_WH",
+      "translationBase": "Branch By Ffm Warehouse",
+      "translate": "Branch By Ffm Warehouse"
+    },
+    {
+      "translationKey": "PD_BRANCH_BY_FFM_BRANCH",
+      "translationBase": "Product Branch By Ffm Branch",
+      "translate": "Product Branch By Ffm Branch"
+    },
+    {
+      "translationKey": "PD_BRANCH_BY_FFM_WH",
+      "translationBase": "Product Branch By Ffm Warehouse",
+      "translate": "Product Branch By Ffm Warehouse"
+    },
+    {
+      "translationKey": "PD_SU_BY_PARENT",
+      "translationBase": "Product Storage Unit By Parent",
+      "translate": "Product Storage Unit By Parent"
+    },
+    {
+      "translationKey": "PD_HU_PROFILE_BY_SECONDARY_UOM",
+      "translationBase": "Product Handling Unit Profile By Secondary Unit Of Measure",
+      "translate": "Product Handling Unit Profile By Secondary Unit Of Measure"
+    },
+    {
+      "translationKey": "PD_SU_PROFILE_BY_SECONDAY_UOM",
+      "translationBase": "Product Storage Unit Profile By Seconday Unit Of Measure",
+      "translate": "Product Storage Unit Profile By Seconday Unit Of Measure"
+    },
+    {
+      "translationKey": "PD_HU_BY_PARENT",
+      "translationBase": "Product Handling Unit By Parent",
+      "translate": "Product Handling Unit By Parent"
+    },
+    {
+      "translationKey": "HU_QTY",
+      "translationBase": "Handling Unit Quantity",
+      "translate": "Handling Unit Quantity"
+    },
+    {
+      "translationKey": "REF_HU_NO",
+      "translationBase": "Reference Handling Unit Number",
+      "translate": "Reference Handling Unit Number"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accStatementTypeNo": "1",
+    "accStatementTypeName": "Balance Sheet"
+  },
+  {
+    "_id": "gY9RiRJbybBFRa16f48ydC",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accStatementTypeNo": "2",
+    "accStatementTypeName": "Income Statement"
+  }
+]

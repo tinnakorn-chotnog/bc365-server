@@ -1,0 +1,167 @@
+[
+    {
+        "appNavid": "jnFLYJ4snUceL4rkRP8dwd",
+        "title": "Example",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/example",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "6RKDwTdr9UTDowCZKWejsn",
+        "title": "Accounting",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/accounting",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "pgDDueNQMniN4jAft5hZM2",
+        "title": "Apartment",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/apartment",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "s6sQG2X6d9kUgLk12eKXoX",
+        "title": "Authorization",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/authorization",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "jnFLYJ4snUce98vp78jJ1ekaQBoYHbTrqEL4rkRP8dwd",
+        "title": "Clinic",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/clinic",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "nAhQyHhdqYRefHZ5R2xiTi",
+        "title": "Financial",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/financial",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "sNAvZUXjZ7y18rQABbk5D4",
+        "title": "Fulfillment",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/fulfullment",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "g2RpcYsVZ7XhNDEn8YTdvv",
+        "title": "Hotel",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/hotel",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "pXKqpVztcBW3G34xTjcQWh",
+        "title": "Human Resource",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/hr",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "tXc51c2qsJUUNSohGTkxJS",
+        "title": "Production Planning",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/planning",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "j6Bwoj2mBjQHYXoks5GTBm",
+        "title": "Purchase",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/purchase",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "w6fVM8mL9FPeqVgnKkuwcw",
+        "title": "Restaurant",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/restaurant",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "fXMwGwj2WvojGH9dyLXn4P",
+        "title": "Translation",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/translation",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "2peaFUYmk7WSoqJkyf24XS",
+        "title": "Warehouse",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/warehouse",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    },
+    {
+        "appNavid": "omK8jXZ8qaXEsfy5V3Z2j2",
+        "title": "Warranty Claim",
+        "type": "basic",
+        "icon": "heroicons_outline:chart-pie",
+        "link": "/warranty-claim",
+        "hideInCompact": false,
+        "hideInFuturistic": false,
+        "hideInHorizon": false,
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC"
+    }
+]

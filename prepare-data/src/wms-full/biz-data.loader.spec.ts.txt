@@ -1,0 +1,397 @@
+import { Test } from '@nestjs/testing';
+import { RedisLockService, RedisSequenceService } from '../../../../../../../libs/shared/src';
+import { TenantModule, testDS } from '../../tenant/tenant.module'
+import { BizExtService, BIZ_PROVIDER } from 'libs/demo1/src/lib/generated/services/biz'
+
+// Business Partner
+import { BpnExtService, BPN_PROVIDER } from 'libs/demo1/src/lib/generated/services/bpn'
+
+// Make
+import { MakeExtService, MAKE_PROVIDER } from 'libs/demo1/src/lib/generated/services/make'
+// Model
+import { ModelExtService, MODEL_PROVIDER } from 'libs/demo1/src/lib/generated/services/model'
+// Opration Category
+import { OprCateExtService, OPR_CATE_PROVIDER } from 'libs/demo1/src/lib/generated/services/opr-cate'
+// Operation
+import { OprExtService, OPR_PROVIDER } from 'libs/demo1/src/lib/generated/services/opr'
+// Operation Unit
+import { OprUomExtService, OPR_UOM_PROVIDER } from 'libs/demo1/src/lib/generated/services/opr-uom'
+// Vehicle
+import { VehicleExtService, VEHICLE_PROVIDER } from 'libs/demo1/src/lib/generated/services/vehicle'
+
+// Warehouse
+import { WhExtService, WH_PROVIDER } from 'libs/demo1/src/lib/generated/services/wh'
+// Storage Location
+import { SlocExtService, SLOC_PROVIDER } from 'libs/demo1/src/lib/generated/services/sloc'
+// Unit Of Measure
+import { UomExtService, UOM_PROVIDER } from 'libs/demo1/src/lib/generated/services/uom'
+// Product
+import { PdExtService, PD_PROVIDER } from 'libs/demo1/src/lib/generated/services/pd'
+// Product Category
+import { PdCateExtService, PD_CATE_PROVIDER } from 'libs/demo1/src/lib/generated/services/pd-cate'
+// Product Location
+import { PdLocExtService, PD_LOC_PROVIDER } from 'libs/demo1/src/lib/generated/services/pd-loc'
+// Product Lot
+import { PdLotExtService, PD_LOT_PROVIDER } from 'libs/demo1/src/lib/generated/services/pd-lot'
+// Product Subcategory
+import { PdSubcateExtService, PD_SUBCATE_PROVIDER } from 'libs/demo1/src/lib/generated/services/pd-subcate'
+// Product Warehouse
+import { PdWhExtService, PD_WH_PROVIDER } from 'libs/demo1/src/lib/generated/services/pd-wh'
+
+// Account Group
+import { AccGroupExtService, ACC_GROUP_PROVIDER } from 'libs/demo1/src/lib/generated/services/acc-group'
+// Account Statement Type
+import { AccStatementTypeExtService, ACC_STATEMENT_TYPE_PROVIDER } from 'libs/demo1/src/lib/generated/services/acc-statement-type'
+// Account Statement Type
+import { AccSubgroupExtService, ACC_SUBGROUP_PROVIDER } from 'libs/demo1/src/lib/generated/services/acc-subgroup'
+// Account Year
+import { AccYearExtService, ACC_YEAR_PROVIDER } from 'libs/demo1/src/lib/generated/services/acc-year'
+// Account Period
+import { AccPeriodExtService, ACC_PERIOD_PROVIDER } from 'libs/demo1/src/lib/generated/services/acc-period'
+// Account
+import { AccExtService, ACC_PROVIDER } from 'libs/demo1/src/lib/generated/services/acc'
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { entities } from '../../generated/orm/entities';
+import { betterSqliteConfig } from '../../tenant/orm-config.better-sqlite';
+
+const short = require('short-uuid');
+
+describe('Test Dataloader', () => {
+
+    const bid = 'mnuz6SU4ncbMmBrutWioae';
+    // const bid = 't7W3ZqGJDGB46gD2Spy3ui';
+
+    let bizService: BizExtService;
+    // Business Partner
+    let bpnExtService: BpnExtService;
+    // Make
+    let makeExtService: MakeExtService;
+    // Model
+    let modelExtService: ModelExtService; 
+    // Opration Category
+    let oprCateExtService: OprCateExtService
+    // Operation
+    let oprExtService: OprExtService;
+    // Operation Unit
+    let oprUomExtService: OprUomExtService;
+    // Vehicle
+    let vehicleExtService: VehicleExtService;
+    // Warehouse
+    let whExtService: WhExtService;
+    // Storage Location
+    let slocExtService: SlocExtService;
+    // Unit Of Measure
+    let uomExtService: UomExtService;
+    // Product
+    let pdExtService: PdExtService;
+    // Product Category
+    let pdCateExtService: PdCateExtService;
+    // Product Location
+    let pdLocExtService: PdLocExtService;
+    // Product Lot
+    let pdLotExtService: PdLotExtService;
+    // Product Subcategory
+    let pdSubcateExtService: PdSubcateExtService;
+    // Product Warehouse
+    let pdWhExtService: PdWhExtService;
+    // Account Group
+    let accGroupExtService: AccGroupExtService;
+    // Account Statement Type
+    let accStatementTypeExtService: AccStatementTypeExtService;
+    // Account Statement Type
+    let accSubgroupExtService: AccSubgroupExtService;
+    // Account Year
+    let accYearExtService: AccYearExtService;
+    // Account Period
+    let accPeriodExtService: AccPeriodExtService;
+    // Account
+    let accExtService: AccExtService;
+
+    beforeAll(async () => {
+        const moduleRef = await Test.createTestingModule({
+            imports: [
+                TenantModule,
+            ],
+            
+            providers: [
+                RedisSequenceService,
+                RedisLockService,
+                ...BIZ_PROVIDER,
+                ...BPN_PROVIDER,
+                ...MAKE_PROVIDER,
+                ...MODEL_PROVIDER,
+                ...OPR_CATE_PROVIDER,
+                ...OPR_PROVIDER,
+                ...OPR_UOM_PROVIDER,
+                ...VEHICLE_PROVIDER,
+                ...WH_PROVIDER,
+                ...SLOC_PROVIDER,
+                ...UOM_PROVIDER,
+                ...PD_PROVIDER,
+                ...PD_CATE_PROVIDER,
+                ...PD_LOC_PROVIDER,
+                ...PD_LOT_PROVIDER,
+                ...PD_SUBCATE_PROVIDER,
+                ...PD_WH_PROVIDER,
+                ...ACC_GROUP_PROVIDER,
+                ...ACC_STATEMENT_TYPE_PROVIDER,
+                ...ACC_SUBGROUP_PROVIDER,
+                ...ACC_YEAR_PROVIDER,
+                ...ACC_PERIOD_PROVIDER,
+                ...ACC_PROVIDER,                
+            ],
+
+        }).compile();
+
+        const ds =  await testDS(betterSqliteConfig(bid, entities))
+
+        bizService = moduleRef.get<BizExtService>(BizExtService)
+        // Business Partner
+        bpnExtService = moduleRef.get<BpnExtService>(BpnExtService)
+        // Make
+        makeExtService = moduleRef.get<MakeExtService>(MakeExtService)
+        // Model
+        modelExtService = moduleRef.get<ModelExtService>(ModelExtService)
+        // Opration Category
+        oprCateExtService = moduleRef.get<OprCateExtService>(OprCateExtService)
+        // Operation
+        oprExtService = moduleRef.get<OprExtService>(OprExtService)
+        // Operation Unit
+        oprUomExtService = moduleRef.get<OprUomExtService>(OprUomExtService)
+        // Vehicle
+        vehicleExtService = moduleRef.get<VehicleExtService>(VehicleExtService)
+        // Warehouse
+        whExtService = moduleRef.get<WhExtService>(WhExtService)
+        // Storage Location
+        slocExtService = moduleRef.get<SlocExtService>(SlocExtService)
+        // Unit Of Measure
+        uomExtService = moduleRef.get<UomExtService>(UomExtService)
+        // Product
+        pdExtService = moduleRef.get<PdExtService>(PdExtService)
+        // Product Category
+        pdCateExtService = moduleRef.get<PdCateExtService>(PdCateExtService)
+        // Product Location
+        pdLocExtService = moduleRef.get<PdLocExtService>(PdLocExtService)
+        // Product Lot
+        pdLotExtService = moduleRef.get<PdLotExtService>(PdLotExtService)
+        // Product Subcategory
+        pdSubcateExtService = moduleRef.get<PdSubcateExtService>(PdSubcateExtService)
+        // Product Warehouse
+        pdWhExtService = moduleRef.get<PdWhExtService>(PdWhExtService)
+        // Account Group
+        accGroupExtService = moduleRef.get<AccGroupExtService>(AccGroupExtService)
+        // Account Statement Type
+        accStatementTypeExtService = moduleRef.get<AccStatementTypeExtService>(AccStatementTypeExtService)
+        // Account Statement Type
+        accSubgroupExtService = moduleRef.get<AccSubgroupExtService>(AccSubgroupExtService)
+        // Account Year
+        accYearExtService = moduleRef.get<AccYearExtService>(AccYearExtService)
+        // Account Period
+        accPeriodExtService = moduleRef.get<AccPeriodExtService>(AccPeriodExtService)
+        // Account
+        accExtService = moduleRef.get<AccExtService>(AccExtService)
+
+    });
+
+    
+    describe('Load Country State City', () => {
+        it('Business Partner', async () => {
+            try {
+                const items = require('./test-data/bpn.json')
+                await bpnExtService.add(bid, items) 
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Make', async () => {
+            try {
+                const items = require('./test-data/makes.json')
+                await makeExtService.add(bid, items) 
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Model', async () => {
+            try {
+                const items = require('./test-data/models.json')
+                await modelExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Opration Category', async () => {
+            try {
+                const items = require('./test-data/opr-cate.json')
+                await oprCateExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Operation', async () => {
+            try {
+                const items = require('./test-data/opr.json')
+                await oprExtService.add(bid, items) 
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Operation Unit', async () => {
+            try {
+                const items = require('./test-data/opr-uom.json')
+                await oprUomExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Vehicle', async () => {
+            try {
+                const items = require('./test-data/vehicles.json')
+                await vehicleExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Warehouse', async () => {
+            try {
+                const items = require('./test-data/wh.json')
+                await whExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Storage Location', async () => {
+            try {
+                const items = require('./test-data/sloc.json')
+                await slocExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Unit Of Measure', async () => {
+            try {
+                const items = require('./test-data/uom.json')
+                await uomExtService.add(bid, items) 
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Product', async () => {
+            try {
+                const items = require('./test-data/pd.json')
+                await pdExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Product Category', async () => {
+            try {
+                const items = require('./test-data/pd-cate.json')
+                await pdCateExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Product Location', async () => {
+            try {
+                const items = require('./test-data/pd-loc.json')
+                await pdLocExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Product Lot', async () => {
+            try {
+                const items = require('./test-data/pd-lot.json')
+                await pdLotExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Product Subcategory', async () => {
+            try {
+                const items = require('./test-data/pd-subcate.json')
+                await pdSubcateExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Product Warehouse', async () => {
+            try {
+                const items = require('./test-data/pd-wh.json')
+                await pdWhExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Account Group', async () => {
+            try {
+                const items = require('./test-data/acc-group.json')
+                await accGroupExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Account Statement Type', async () => {
+            try {
+                const items = require('./test-data/acc-statement-type.json')
+                await accStatementTypeExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Account Subgroup', async () => {
+            try {
+                const items = require('./test-data/acc-subgroup.json')
+                await accSubgroupExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Account Year', async () => {
+            try {
+                const items = require('./test-data/acc-years.json')
+                await accYearExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Account Period', async () => {
+            try {
+                const items = require('./test-data/acc-period.json')
+                await accPeriodExtService.add(bid, items)
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+        it('Account', async () => {
+            try {
+                const items = require('./test-data/acc.json')
+                await accExtService.add(bid, items) 
+            } catch(e) {
+                console.log(e);
+            }
+            expect(true).toBe(true);
+        })
+    })
+})

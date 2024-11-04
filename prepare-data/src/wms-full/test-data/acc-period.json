@@ -1,0 +1,505 @@
+[{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "nX9Gpb3CFMh217Uo67q5fE",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1641056400000,
+  "periodEndDate": 1643648400000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "7UJAjMwkVDvGnyTHLXKDED",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1643734800000,
+  "periodEndDate": 1646067600000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "3ksbNzatTdetZjDU14i4HW",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1646154000000,
+  "periodEndDate": 1648746000000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "18mAtLbFZNe1N7oiyBFUZ2",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1648832400000,
+  "periodEndDate": 1651338000000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "sR97zRPwwPLRaNykvjctSZ",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1651424400000,
+  "periodEndDate": 1654016400000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "jdF718qFytyUdt2sUrZgfy",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1654102800000,
+  "periodEndDate": 1656608400000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "fkBuLdhPixrcZPZuq5Nwyv",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1656694800000,
+  "periodEndDate": 1659286800000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "56hToPJg1Ld11baJfB7QdV",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1659373200000,
+  "periodEndDate": 1661965200000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "e2GcNNoiED1HkcB7VS6Pa5",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1662051600000,
+  "periodEndDate": 1664557200000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "1m7ohgVAoxATCgbdTbyvdg",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1664643600000,
+  "periodEndDate": 1667235600000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "uavFbSyPkNWcnds5Pi3kk1",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1667322000000,
+  "periodEndDate": 1669827600000,
+  "periodClosed": false
+},{
+  "accYearId": "4iRyGpcWogoYggYCTKRufM",
+  "accPeriodId": "g6NQJwHMP3SyqjiFAL3ji4",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1669914000000,
+  "periodEndDate": 1672506000000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "d3hmsHqcirEQWW8wc4Gpfd",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1672592400000,
+  "periodEndDate": 1675184400000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "d7w8A6Tw7Wi9u4UJP6y5xm",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1675270800000,
+  "periodEndDate": 1677603600000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "hn4d1iZxdLGMvTJUTE4Rz7",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1677690000000,
+  "periodEndDate": 1680282000000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "7E8bN27ErWxbwGxvRhFqpu",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1680368400000,
+  "periodEndDate": 1682874000000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "esAi24E9ve2CpaSombno6x",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1682960400000,
+  "periodEndDate": 1685552400000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "v4R1RLYWJaYm7TLMq972Vn",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1685638800000,
+  "periodEndDate": 1688144400000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "wnUh3HGFQ9HBDNRUjeCxmE",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1688230800000,
+  "periodEndDate": 1690822800000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "jQHEkLaPTfsCD9mjhmtz7t",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1690909200000,
+  "periodEndDate": 1693501200000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "gpKfKbvXbLppjGpqusa7At",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1693587600000,
+  "periodEndDate": 1696093200000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "t3ihpGhmMnTnu3bQyhesTt",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1696179600000,
+  "periodEndDate": 1698771600000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "geVKUrejcANUwUpQwERsPq",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1698858000000,
+  "periodEndDate": 1701363600000,
+  "periodClosed": false
+},{
+  "accYearId": "qknGyiZqDNXd6cHDCTeT2B",
+  "accPeriodId": "ti9Yw7XjyT9MYC2p2ceKDb",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1701450000000,
+  "periodEndDate": 1704042000000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "1htohBwM5iuuPuK8wWb8oD",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1704128400000,
+  "periodEndDate": 1706720400000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "nDaoC8u8sDbB8ReiB9H7kw",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1706806800000,
+  "periodEndDate": 1709226000000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "cbemJ2KEghvFzXoJwyfhM6",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1709312400000,
+  "periodEndDate": 1711904400000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "4arBv8PsWPED69y269poiw",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1711990800000,
+  "periodEndDate": 1714496400000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "tKHW9BkPezFLJysugwqJ97",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1714582800000,
+  "periodEndDate": 1717174800000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "uJRBL4aKuv6krfx597RztL",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1717261200000,
+  "periodEndDate": 1719766800000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "suTkD389MEB5KmpPCiaps1",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1719853200000,
+  "periodEndDate": 1722445200000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "eZMSrWeGKTKRuRJsEoyy1i",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1722531600000,
+  "periodEndDate": 1725123600000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "4qCsv7cbciRMqjWyTvqsNw",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1725210000000,
+  "periodEndDate": 1727715600000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "hGdY87mf4b2zWJiErp1V6G",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1727802000000,
+  "periodEndDate": 1730394000000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "pPSbGMwEEfZ3dPJzCik3Zc",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1730480400000,
+  "periodEndDate": 1732986000000,
+  "periodClosed": false
+},{
+  "accYearId": "e8SN4p1RA3QDYYgDUbS9m3",
+  "accPeriodId": "qXF8bSUBm2EazZJDpXs38R",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1733072400000,
+  "periodEndDate": 1735664400000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "h3P9RVaSbk1ZgEA2jCgxiy",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1735750800000,
+  "periodEndDate": 1738342800000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "cRNRPq7b8HPgfP3cMjJ7pE",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1738429200000,
+  "periodEndDate": 1740762000000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "tNGuxzLgK381xvE6WDAHFw",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1740848400000,
+  "periodEndDate": 1743440400000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "ngZfeAwHxsm9CWUrkNbAtU",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1743526800000,
+  "periodEndDate": 1746032400000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "ntcvcYu6gj7uryHVhPaoKw",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1746118800000,
+  "periodEndDate": 1748710800000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "27NEVSsG6By38Lj173BY6U",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1748797200000,
+  "periodEndDate": 1751302800000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "d8gq5g2FxJASjEF58p4h91",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1751389200000,
+  "periodEndDate": 1753981200000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "sbatiuKoQ6GyRgg8MKLQyZ",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1754067600000,
+  "periodEndDate": 1756659600000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "eedVPURUx1m7HiNTvMsnHy",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1756746000000,
+  "periodEndDate": 1759251600000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "w3jB6QQL9fNC19jCeLVAWc",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1759338000000,
+  "periodEndDate": 1761930000000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "gV1JuNNjHJNK9JyfUKwuK7",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1762016400000,
+  "periodEndDate": 1764522000000,
+  "periodClosed": false
+},{
+  "accYearId": "fo3NkfxfsAzwSniyEUgvXT",
+  "accPeriodId": "seQRU7Hc3dVsBBUc1bRhFF",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1764608400000,
+  "periodEndDate": 1767200400000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "1NCWqWr8rWfP9Y57fa6RBM",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1767286800000,
+  "periodEndDate": 1769878800000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "vo6QWadobZdcPy4cxJCppp",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1769965200000,
+  "periodEndDate": 1772298000000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "wxZtS1rTyo2GyhpzFFyv6F",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1772384400000,
+  "periodEndDate": 1774976400000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "wwyeyLHQz2S6dvHMNqpziW",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1775062800000,
+  "periodEndDate": 1777568400000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "fPWm22HQpHR9iAjWEHPs6z",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1777654800000,
+  "periodEndDate": 1780246800000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "pxULamHJXXDu4tnrcKkbj6",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1780333200000,
+  "periodEndDate": 1782838800000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "7JXRyKbUuPhfhoGW5yffry",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1782925200000,
+  "periodEndDate": 1785517200000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "hLpoTNAcLuqW14fyytfuXc",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1785603600000,
+  "periodEndDate": 1788195600000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "gpXeeb7DRTTpMbRr3jiHFa",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1788282000000,
+  "periodEndDate": 1790787600000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "ccGkLjeLzQBiH2t7AEc7nd",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1790874000000,
+  "periodEndDate": 1793466000000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "tSa1keTXvJThCzn2AetZQb",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1793552400000,
+  "periodEndDate": 1796058000000,
+  "periodClosed": false
+},{
+  "accYearId": "5vWXgJFWkCwqUZvzzE94Z9",
+  "accPeriodId": "9GVmYKJ4ufJvtCmsJQx9Gp",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1796144400000,
+  "periodEndDate": 1798736400000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "2x9NdynDHs7JUVX92YBiib",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1798822800000,
+  "periodEndDate": 1801414800000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "pT714zCBMD9JynyDyHNiYD",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1801501200000,
+  "periodEndDate": 1803834000000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "sBzKbgeogPBQycr99TttSh",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1803920400000,
+  "periodEndDate": 1806512400000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "k9ozT6FKo6WmCRe3Cuc2PA",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1806598800000,
+  "periodEndDate": 1809104400000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "m8ddHuPDQwgvZX68YSMWUY",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1809190800000,
+  "periodEndDate": 1811782800000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "dRadjXcatEZrM2KWEUTfqG",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1811869200000,
+  "periodEndDate": 1814374800000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "8RsgVzwaoadyUQrtPCFyEv",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1814461200000,
+  "periodEndDate": 1817053200000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "efEHnV9MX74YrQCgE5kHLA",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1817139600000,
+  "periodEndDate": 1819731600000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "nPL5PKKJnohSvhrdBKsgay",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1819818000000,
+  "periodEndDate": 1822323600000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "tz2XcBbFdVAZmy6CW4d15d",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1822410000000,
+  "periodEndDate": 1825002000000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "mdafg2tqidudRve18Py2wq",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1825088400000,
+  "periodEndDate": 1827594000000,
+  "periodClosed": false
+},{
+  "accYearId": "aDA58yPyRhpzmqNdMDUDPg",
+  "accPeriodId": "4PVeB1LJyZgdEKX5DifjE4",
+  "bizId": "4GQLv5sYJEYhnUWzkVPeHg",
+  "periodStartDate": 1827680400000,
+  "periodEndDate": 1830272400000,
+  "periodClosed": false
+}]

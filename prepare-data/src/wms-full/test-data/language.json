@@ -1,0 +1,450 @@
+[{
+  "languageCode": "af",
+  "languageName": "Afrikaans",
+  "languageId": "g97cD0tsU0oDCrRaWep3cV",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "sq",
+  "languageName": "Albanian",
+  "languageId": "g9coN94svuBZ8Bn3akL4zX"
+},{
+  "languageCode": "am",
+  "languageName": "Amharic",
+  "languageId": "g9d71BGQQLS891Rc0KfbN7"
+},{
+  "languageCode": "ar",
+  "languageName": "Arabic",
+  "languageId": "g9e0NXuyuBE8gX4AWQGMbw",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "hy",
+  "languageName": "Armenian",
+  "languageId": "g9f599rCu21gt0pkLUtAQM"
+},{
+  "languageCode": "as",
+  "languageName": "Assamese",
+  "languageId": "g9fNnC50PifjRPGhaU6Nbv"
+},{
+  "languageCode": "az",
+  "languageName": "Azerbaijani",
+  "languageId": "g9gG9XSJt93qYSFim6p7H7"
+},{
+  "languageCode": "bn",
+  "languageName": "Bangla",
+  "languageId": "g9hLv9PNsypvCcSiQaD1GP"
+},{
+  "languageCode": "ba",
+  "languageName": "Bashkir",
+  "languageId": "g9itJCsaMQDwCn5kRGs4BD"
+},{
+  "languageCode": "bs",
+  "languageName": "Bosnian (Latin)",
+  "languageId": "g9jbY65y76TzvJKebrH7su"
+},{
+  "languageCode": "bg",
+  "languageName": "Bulgarian",
+  "languageId": "g9k5KqTgLXFCzqen0U2vVx"
+},{
+  "languageCode": "yue",
+  "languageName": "Cantonese (Traditional)",
+  "languageId": "g9mkDuZG5WAHmwVYssb1FV"
+},{
+  "languageCode": "ca",
+  "languageName": "Catalan",
+  "languageId": "g9neqQMpKMoKpr4YUSUa4J"
+},{
+  "languageCode": "lzh",
+  "languageName": "Chinese (Literary)",
+  "languageId": "g9oiM2JtKbKMVCCLU7wZoc"
+},{
+  "languageCode": "zh-Hans",
+  "languageName": "Chinese Simplified",
+  "languageId": "g9pcynwcp2xUnYMhRWBMzg"
+},{
+  "languageCode": "zh-Hant",
+  "languageName": "Chinese Traditional",
+  "languageId": "g9qD1iMY3A23065NNFwx1N"
+},{
+  "languageCode": "hr",
+  "languageName": "Croatian",
+  "languageId": "g9rHmvK230o7roxT1CZfQA"
+},{
+  "languageCode": "cs",
+  "languageName": "Czech",
+  "languageId": "g9sqzZnpngCa8a4j1P2cwe"
+},{
+  "languageCode": "da",
+  "languageName": "Danish",
+  "languageId": "g9tjnja827qfyc4kUZ42Tv"
+},{
+  "languageCode": "prs",
+  "languageName": "Dari",
+  "languageId": "g9u2AMNvmoEfqQdir6bP0N",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "dv",
+  "languageName": "Divehi",
+  "languageId": "g9uWo7Ae1esis51dQrRtNu",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "nl",
+  "languageName": "Dutch",
+  "languageId": "g9vQasnXF5forDu6ittGNT"
+},{
+  "languageCode": "en",
+  "languageName": "English",
+  "languageId": "g9wHXNaFjW3s2xKzUWZeYg"
+},{
+  "languageCode": "et",
+  "languageName": "Estonian",
+  "languageId": "g9xNi07Kjkpv27rLffatur"
+},{
+  "languageCode": "fj",
+  "languageName": "Fijian",
+  "languageId": "g9zzSEHbD20JLx2mbHyWTp"
+},{
+  "languageCode": "fil",
+  "languageName": "Filipino",
+  "languageId": "g9Ai68kyYieGmmQvM420g4"
+},{
+  "languageCode": "fi",
+  "languageName": "Finnish",
+  "languageId": "g9B1jAYXhztQdq8ex2WRJb"
+},{
+  "languageCode": "fr",
+  "languageName": "French",
+  "languageId": "g9By0crZhh9P1JHnqpxpAm"
+},{
+  "languageCode": "fr-ca",
+  "languageName": "French (Canada)",
+  "languageId": "g9CrMxeGX7XS0sGe4EdbQA"
+},{
+  "languageCode": "ka",
+  "languageName": "Georgian",
+  "languageId": "g9DGFBm7g6SUNKnDfe1SpW"
+},{
+  "languageCode": "de",
+  "languageName": "German",
+  "languageId": "g9EpV4ZuAo74E4EHi2PCQJ"
+},{
+  "languageCode": "el",
+  "languageName": "Greek",
+  "languageId": "g9F88xBSVEm9yRKDDvQ2H0"
+},{
+  "languageCode": "gu",
+  "languageName": "Gujarati",
+  "languageId": "g9G1VTpAzv9dtxU76Aqr1G"
+},{
+  "languageCode": "ht",
+  "languageName": "Haitian Creole",
+  "languageId": "g9GVHdcjekXh6SNgCJSFky"
+},{
+  "languageCode": "he",
+  "languageName": "Hebrew",
+  "languageId": "g9HCWFQGyCbcg4JJm6vewr",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "hi",
+  "languageName": "Hindi",
+  "languageId": "g9JwJ1CqdsZkQ2d6LH5Fdw"
+},{
+  "languageCode": "mww",
+  "languageName": "Hmong Daw",
+  "languageId": "g9Kqvmq8TiMqVCkaBWQ0MW"
+},{
+  "languageCode": "hu",
+  "languageName": "Hungarian",
+  "languageId": "g9LjhGcSx9zpWFdBF7P628"
+},{
+  "languageCode": "is",
+  "languageName": "Icelandic",
+  "languageId": "g9M2w9ReSqPyvRgznAc9QT"
+},{
+  "languageCode": "id",
+  "languageName": "Indonesian",
+  "languageId": "g9N6SmNiRRaBPHacMEAA0d"
+},{
+  "languageCode": "ikt",
+  "languageName": "Inuinnaqtun",
+  "languageId": "g9PbcyKnRfwHDKrz6ez5Ro"
+},{
+  "languageCode": "iu",
+  "languageName": "Inuktitut",
+  "languageId": "g9PUr2nLawLE71kfDbJB4e"
+},{
+  "languageCode": "iu-Latn",
+  "languageName": "Inuktitut (Latin)",
+  "languageId": "g9QNdnatQnyJ2oJQY9ScqK"
+},{
+  "languageCode": "ga",
+  "languageName": "Irish",
+  "languageId": "g9RvrQNS9DNNJVL3zhUM03"
+},{
+  "languageCode": "it",
+  "languageName": "Italian",
+  "languageId": "g9SdFiretW2TeQMu0tsbyY"
+},{
+  "languageCode": "ja",
+  "languageName": "Japanese",
+  "languageId": "g9SLkUVgtCHSSMiWTE8eBP"
+},{
+  "languageCode": "kn",
+  "languageName": "Kannada",
+  "languageId": "g9TQG6Skt34YgvZuxps3mH"
+},{
+  "languageCode": "kk",
+  "languageName": "Kazakh",
+  "languageId": "g9UV2iPpssr5XAYYuAJu7a"
+},{
+  "languageCode": "km",
+  "languageName": "Khmer",
+  "languageId": "g9VNPDB87ie6LN9UNmckTK"
+},{
+  "languageCode": "tlh-Latn",
+  "languageName": "Klingon",
+  "languageId": "g9Ww37evrztdemaqQGXgoS"
+},{
+  "languageCode": " (plqaD)tlh-Piqd",
+  "languageName": "Klingon",
+  "languageId": "g9XegzSTLRHgBH46RwKNGh"
+},{
+  "languageCode": "ko",
+  "languageName": "Korean",
+  "languageId": "g9Y83VEBqGvkubVhnBB1DK"
+},{
+  "languageCode": "ku",
+  "languageName": "Kurdish (Central)",
+  "languageId": "g9Z1Rfsk5xipKR5rHiTdxb",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "kmr",
+  "languageName": "Kurdish (Northern)",
+  "languageId": "ga06bspp4XEtS2eYpadZqX",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "ky",
+  "languageName": "Kyrgyz",
+  "languageId": "ga0ZYNc7JNsvxGFJsab2mk"
+},{
+  "languageCode": "lo",
+  "languageName": "Lao",
+  "languageId": "ga1TL7ZRoDfAyAewSdi1Dy"
+},{
+  "languageCode": "lv",
+  "languageName": "Latvian",
+  "languageId": "ga3jd4fB3bJCPrnPMt18Cn"
+},{
+  "languageCode": "lt",
+  "languageName": "Lithuanian",
+  "languageId": "ga56MJR3mTjQHqFL2Ytijr"
+},{
+  "languageCode": "mk",
+  "languageName": "Macedonian",
+  "languageId": "ga74VgzR18tXRqNV4oTHCz"
+},{
+  "languageCode": "mg",
+  "languageName": "Malagasy",
+  "languageId": "ga89ftwV0xR0nfo4JaEgUS"
+},{
+  "languageCode": "ms",
+  "languageName": "Malay",
+  "languageId": "ga932PjCEoD3UvTkXE5yHr",
+  "nativeName": null,
+  "rtl": false
+},{
+  "languageCode": "ml",
+  "languageName": "Malayalam",
+  "languageId": "ga9LggY0ZET7086Uv2EMUy",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "mt",
+  "languageName": "Maltese",
+  "languageId": "gaatuKAoiX7bZ4zSuTCtfN"
+},{
+  "languageCode": "mi",
+  "languageName": "Maori",
+  "languageId": "gab1am4qiDNjyFBFcdef24"
+},{
+  "languageCode": "mr",
+  "languageName": "Marathi",
+  "languageId": "gacCb9uwhLQo3Qs1eZ3QXZ"
+},{
+  "languageCode": "mn-Cyrl",
+  "languageName": "Mongolian (Cyrillic)",
+  "languageId": "gadkpC7UC34qEJfxxJpksF"
+},{
+  "languageCode": "mn-Mong",
+  "languageName": "Mongolian (Traditional)",
+  "languageId": "gaeebXVCgTSwsKjuZp2AYs"
+},{
+  "languageCode": "my",
+  "languageName": "Myanmar",
+  "languageId": "gafu6222ASMEhiyTT7xDkA"
+},{
+  "languageCode": "ne",
+  "languageName": "Nepali",
+  "languageId": "gagcjuEpW91D7TKtftpZ13"
+},{
+  "languageCode": "nb",
+  "languageName": "Norwegian",
+  "languageId": "gagK068rVRGDYdBD6hyEWJ"
+},{
+  "languageCode": "or",
+  "languageName": "Odia",
+  "languageId": "gahZUaeSeQBLhbe1B0NWkz"
+},{
+  "languageCode": "ps",
+  "languageName": "Pashto",
+  "languageId": "gaiTFv2zUFpQJuZFW1HY78",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "fa",
+  "languageName": "Persian",
+  "languageId": "gajAUYEYdXDU0cePyhCbUo",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "pl",
+  "languageName": "Polish",
+  "languageId": "gakj8rikydTZkGo8ZZvfoT"
+},{
+  "languageCode": "pt",
+  "languageName": "Portuguese (Brazil)",
+  "languageId": "gamcVM64d4G4WHz6gYopsC"
+},{
+  "languageCode": "pt-pt",
+  "languageName": "Portuguese (Portugal)",
+  "languageId": "gamKAnz6cMn1YH1MJeLusg"
+},{
+  "languageCode": "pa",
+  "languageName": "Punjabi",
+  "languageId": "gansPRctx3B7XCLqtEB8Hm",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "otq",
+  "languageName": "Queretaro Otomi",
+  "languageId": "gaoxa39xwsY8TsYVY62paC"
+},{
+  "languageCode": "ro",
+  "languageName": "Romanian",
+  "languageId": "gapN47fXRrTmi8m7PdQJcX"
+},{
+  "languageCode": "ru",
+  "languageName": "Russian",
+  "languageId": "gaqvhzUkaJ7kDCgi2Jravq"
+},{
+  "languageCode": "sm",
+  "languageName": "Samoan",
+  "languageId": "gardw3wHv0mopAuVeezjhA"
+},{
+  "languageCode": "sr-Cyrl",
+  "languageName": "Serbian (Cyrillic)",
+  "languageId": "gas7iojr9R9visS2tWg9Qk"
+},{
+  "languageCode": "sr-Latn",
+  "languageName": "Serbian (Latin)",
+  "languageId": "gat15J79PFXtpBay2tJQ90"
+},{
+  "languageCode": "sk",
+  "languageName": "Slovak",
+  "languageId": "gatUT3UTtwKAs4rEfe9Cgh"
+},{
+  "languageCode": "sl",
+  "languageName": "Slovenian",
+  "languageId": "gauZdfRXsX6BPCfiER1uxv"
+},{
+  "languageCode": "es",
+  "languageName": "Spanish",
+  "languageId": "gavT0ADF7MUECwDYVaAgnf"
+},{
+  "languageCode": "sw",
+  "languageName": "Swahili",
+  "languageId": "gawAe4h3s48JHg1Ad2GW1w"
+},{
+  "languageCode": "sv",
+  "languageName": "Swedish",
+  "languageId": "gaxu1p4M6UWTAfiWK18N1p"
+},{
+  "languageCode": "ty",
+  "languageName": "Tahitian",
+  "languageId": "gaynNJSuLKJXZzxzrDG1nD"
+},{
+  "languageCode": "ta",
+  "languageName": "Tamil",
+  "languageId": "gaz62cuT61Z1XMkxaU9rim"
+},{
+  "languageCode": "tt",
+  "languageName": "Tatar",
+  "languageId": "gazPfF8fqicXcJ3p73Kz8q"
+},{
+  "languageCode": "te",
+  "languageName": "Telugu",
+  "languageId": "gaAwu8LCKzs4zkGvbzEuTW"
+},{
+  "languageCode": "th",
+  "languageName": "Thai",
+  "languageId": "gaBAQkHGJZP6sRZ1LaLpTZ",
+  "nativeName": null
+},{
+  "languageCode": "bo",
+  "languageName": "Tibetan",
+  "languageId": "gaCuBFvqoQBcrbgnSQghC2"
+},{
+  "languageCode": "ti",
+  "languageName": "Tigrinya",
+  "languageId": "gaDyXTsuoeYhxQUGvDhLhc"
+},{
+  "languageCode": "to",
+  "languageName": "Tongan",
+  "languageId": "gaEsKdfd35Lpvviccz8VRJ"
+},{
+  "languageCode": "tr",
+  "languageName": "Turkish",
+  "languageId": "gaF0pPJf2NrsbiNkBSgDZ7"
+},{
+  "languageCode": "tk",
+  "languageName": "Turkmen",
+  "languageId": "gaFHDhmCn4Fwp7AJG0ie9M",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "uk",
+  "languageName": "Ukrainian",
+  "languageId": "gaGBqC9m1Vty3gRqS1HJFG"
+},{
+  "languageCode": "ur",
+  "languageName": "Urdu",
+  "languageId": "gaHvcXX4FLgA97eHtFvAWP",
+  "nativeName": null,
+  "rtl": true
+},{
+  "languageCode": "ug",
+  "languageName": "Uyghur",
+  "languageId": "gaJdrqzs12vEWgkF0TjfXV"
+},{
+  "languageCode": "uz",
+  "languageName": "Uzbek (Latin)",
+  "languageId": "gaK7dLnaETiG0XQ9tzZW2T"
+},{
+  "languageCode": "vi",
+  "languageName": "Vietnamese",
+  "languageId": "gaKQse0y09xMguvvLfLrc2"
+},{
+  "languageCode": "cy",
+  "languageName": "Welsh",
+  "languageId": "gaLJeyNgE0kKJNBxYQR4Yc"
+},{
+  "languageCode": "yua",
+  "languageName": "Yucatec Maya",
+  "languageId": "gaMNzLKkDpGXWJ7aisu9m9"
+}]

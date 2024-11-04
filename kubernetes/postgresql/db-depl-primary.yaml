@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: izdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: izdb
+  template:
+    metadata:
+      labels:
+        type: deployment
+        app: izdb
+    spec:
+      containers:
+      - image: postgres:10
+        imagePullPolicy: IfNotPresent
+        name: izdb
+        ports:
+          - containerPort: 5432
+        envFrom:
+          - configMapRef:
+              name: izdb-config
+        volumeMounts:
+          - name: izdbmnt
+            mountPath: /var/lib/postgresql/data
+            subPath: izdb/data
+      volumes:
+      - name: izdbmnt
+        persistentVolumeClaim:
+          claimName: nfs

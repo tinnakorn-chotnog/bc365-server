@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "sxQPpL6UpJKno1orcurmZn",
+    "pdCateId": "sxQPpL6UpJKno1orcurmZn",
+    "pdCateCode": "01",
+    "pdCateName": "กรองทุกชนิด"
+  },
+  {
+    "_id": "jmPaZhMrfXbQN6JZf7PheD",
+    "pdCateId": "jmPaZhMrfXbQN6JZf7PheD",
+    "pdCateCode": "02",
+    "pdCateName": "ซีล"
+  },
+  {
+    "_id": "qAZMkpDfZBoN4kMV9Tp2oj",
+    "pdCateId": "qAZMkpDfZBoN4kMV9Tp2oj",
+    "pdCateCode": "03",
+    "pdCateName": "ท่อยาง"
+  },
+  {
+    "_id": "nRNN4dRi7thiWJfMCRBZNE",
+    "pdCateId": "nRNN4dRi7thiWJfMCRBZNE",
+    "pdCateCode": "04",
+    "pdCateName": "น้ำมันและน้ำยาทุกชนิด"
+  },
+  {
+    "_id": "iVVhrUm2zS6nzBDqMTyQdZ",
+    "pdCateId": "iVVhrUm2zS6nzBDqMTyQdZ",
+    "pdCateCode": "05",
+    "pdCateName": "บอดี้"
+  },
+  {
+    "_id": "8RatWQVWsX7GDT9cCwLRe9",
+    "pdCateId": "8RatWQVWsX7GDT9cCwLRe9",
+    "pdCateCode": "06",
+    "pdCateName": "ระบบช่วงล่าง"
+  },
+  {
+    "_id": "mXesh6DZgdQR7DDJ8zySRD",
+    "pdCateId": "mXesh6DZgdQR7DDJ8zySRD",
+    "pdCateCode": "07",
+    "pdCateName": "ระบบเกียร์"
+  },
+  {
+    "_id": "xamq7UDwco37RUpRkfHqCy",
+    "pdCateId": "xamq7UDwco37RUpRkfHqCy",
+    "pdCateCode": "08",
+    "pdCateName": "ระบบเครื่องยนต์"
+  },
+  {
+    "_id": "1hS7jPcKTsuzFjwjrou8Ye",
+    "pdCateId": "1hS7jPcKTsuzFjwjrou8Ye",
+    "pdCateCode": "09",
+    "pdCateName": "ระบบเบรค"
+  },
+  {
+    "_id": "srL34bTFyUYR9GM8doTR46",
+    "pdCateId": "srL34bTFyUYR9GM8doTR46",
+    "pdCateCode": "10",
+    "pdCateName": "ระบบแอร์"
+  },
+  {
+    "_id": "747NdrbHrKqth7uBLLLe6j",
+    "pdCateId": "747NdrbHrKqth7uBLLLe6j",
+    "pdCateCode": "11",
+    "pdCateName": "ระบบไฟ"
+  },
+  {
+    "_id": "8fdvPBBCasoi9jNH4K6FCs",
+    "pdCateId": "8fdvPBBCasoi9jNH4K6FCs",
+    "pdCateCode": "12",
+    "pdCateName": "ลูกปืน"
+  },
+  {
+    "_id": "kSB2gg7YMKPJ7XvMa4bTat",
+    "pdCateId": "kSB2gg7YMKPJ7XvMa4bTat",
+    "pdCateCode": "13",
+    "pdCateName": "หม้อน้ำรถยนต์"
+  },
+  {
+    "_id": "8DLygqpfAFR9bPBc6xhsee",
+    "pdCateId": "8DLygqpfAFR9bPBc6xhsee",
+    "pdCateCode": "14",
+    "pdCateName": "อุปกรณ์ฉีดน้ำและใบปัด"
+  }
+]

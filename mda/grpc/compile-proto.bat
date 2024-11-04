@@ -1,0 +1,1 @@
+protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto.cmd --experimental_allow_proto3_optional --proto_path=libs/demo1/src/lib/generated/protos --ts_proto_out=libs/demo1/src/lib/generated/types --ts_proto_opt=nestJs=true libs/demo1/src/lib/generated/protos/%1.proto

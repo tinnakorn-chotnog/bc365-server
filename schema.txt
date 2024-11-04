@@ -1,0 +1,1903 @@
+CREATE TABLE IF NOT EXISTS  "korato24"."Biz" (
+	"bizId" INTEGER PRIMARY KEY,
+	"bizNo" VARCHAR,
+	"bizName" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"branchCode" VARCHAR,
+	"taxid" VARCHAR,
+	"contact" OBJECT(STRICT) AS (
+		"telephone" varchar,
+		"mobile" varchar,
+		"email" varchar
+	),
+	"preference" OBJECT(STRICT) AS (
+		"purchasePreference" OBJECT(STRICT) AS (
+			"field0" integer
+		),
+		"salePreference" OBJECT(STRICT) AS (
+			"field0" integer
+		),
+		"inventoryPreference" OBJECT(STRICT) AS (
+			"field0" integer
+		)
+	)
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."User" (
+	"userId" INTEGER PRIMARY KEY,
+	"name" VARCHAR,
+	"email" VARCHAR,
+	"password" VARCHAR,
+	"company" VARCHAR,
+	"tfaEnabled" BOOLEAN,
+	"tfaSecret" VARCHAR,
+	"agreements" BOOLEAN,
+	"avatar" VARCHAR,
+	"profile" OBJECT(STRICT) AS (
+		"addr" OBJECT(STRICT) AS (
+			"addr1" varchar,
+			"addr2" varchar,
+			"country" varchar,
+			"province" varchar,
+			"district" varchar,
+			"town" varchar,
+			"zip" varchar
+		),
+		"contact" OBJECT(STRICT) AS (
+			"telephone" varchar,
+			"mobile" varchar,
+			"email" varchar
+		)
+	),
+	"preferLang" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BizUser" (
+	"bizUserId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"userId" INTEGER,
+	"bizUserGrpId" INTEGER,
+	"preferLanguageId" INTEGER,
+	"allowedBranches" ARRAY(OBJECT(STRICT) AS (
+		"branchId" varchar,
+		"branchNo" varchar,
+		"branchName" varchar,
+		"active" boolean
+	)),
+	"allowAllBranches" BOOLEAN,
+	"active" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PaymentMethod" (
+	"paymentMethodId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"paymentMethodCode" VARCHAR,
+	"paymentMethodDesc" VARCHAR,
+	"applyImmediately" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Cust" (
+	"custId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"custCode" VARCHAR,
+	"custName" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"contact" OBJECT(STRICT) AS (
+		"telephone" varchar,
+		"mobile" varchar,
+		"email" varchar
+	),
+	"custGroupId" INTEGER,
+	"discGroupId" INTEGER,
+	"logoUrl" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Country" (
+	"countryId" INTEGER PRIMARY KEY,
+	"countryCode" VARCHAR,
+	"countryName" VARCHAR,
+	"iso3" VARCHAR,
+	"iso2" VARCHAR,
+	"numericCode" VARCHAR,
+	"phoneCode" VARCHAR,
+	"captital" VARCHAR,
+	"currency" VARCHAR,
+	"currencyName" VARCHAR,
+	"currencySymbol" VARCHAR,
+	"tld" VARCHAR,
+	"native" VARCHAR,
+	"region" VARCHAR,
+	"subregion" VARCHAR,
+	"timezones" ARRAY(OBJECT(STRICT) AS (
+		"zoneName" varchar,
+		"gmtOffset" varchar,
+		"gmtOffsetName" varchar,
+		"abbreviation" varchar,
+		"tzName" varchar
+	)),
+	"latitude" VARCHAR,
+	"longitude" VARCHAR,
+	"emoji" VARCHAR,
+	"emojiu" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Province" (
+	"provinceId" INTEGER PRIMARY KEY,
+	"provinceCode" VARCHAR,
+	"provinceName" VARCHAR,
+	"type" VARCHAR,
+	"latitude" VARCHAR,
+	"longitude" VARCHAR,
+	"countryId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Districts" (
+	"districtsId" INTEGER PRIMARY KEY,
+	"districtsCode" VARCHAR,
+	"districtsName" VARCHAR,
+	"latitude" VARCHAR,
+	"longitude" VARCHAR,
+	"wikiDataId" VARCHAR,
+	"provinceId" INTEGER,
+	"countryId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Town" (
+	"townId" INTEGER PRIMARY KEY,
+	"townCode" VARCHAR,
+	"townName" VARCHAR,
+	"districtsId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Language" (
+	"languageId" INTEGER PRIMARY KEY,
+	"languageCode" VARCHAR,
+	"languageName" VARCHAR,
+	"nativeName" VARCHAR,
+	"rtl" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."StatusType" (
+	"statusId" INTEGER PRIMARY KEY,
+	"statusType" VARCHAR,
+	"statusName" VARCHAR,
+	"statuses" ARRAY(OBJECT(STRICT) AS (
+		"statusCode" varchar,
+		"statusName" varchar,
+		"prevStatus" varchar,
+		"nextStatus" varchar,
+		"defaultStatus" boolean
+	)),
+	"defaultStatus" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Status" (
+	"statusId" INTEGER PRIMARY KEY,
+	"statusCode" VARCHAR,
+	"statusName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Title" (
+	"titleId" INTEGER PRIMARY KEY,
+	"titleCode" VARCHAR,
+	"titleName" VARCHAR,
+	"bizId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DataType" (
+	"dataTypeId" INTEGER PRIMARY KEY,
+	"typeCode" VARCHAR,
+	"typeName" VARCHAR,
+	"standardType" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Pd" (
+	"pdId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdNo" VARCHAR,
+	"pdName" VARCHAR,
+	"uomId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"rop" INTEGER,
+	"pdTypeId" INTEGER,
+	"pdGroupId" INTEGER,
+	"pdCateId" INTEGER,
+	"pdSubcateId" INTEGER,
+	"priceGroupId" INTEGER,
+	"cateId" INTEGER,
+	"subcateId" INTEGER,
+	"variantParentId" INTEGER,
+	"allocatedQty" INTEGER,
+	"reservedQty" INTEGER,
+	"onOrderQty" INTEGER,
+	"attribute" ARRAY(OBJECT(STRICT) AS (
+		"pdAttributeId" varchar,
+		"variantGroupId" varchar,
+		"variantInfo" ARRAY(OBJECT(STRICT) AS (
+			"variantCode" varchar,
+			"variantDesc" varchar,
+			"variantId" varchar
+		)),
+		"generated" boolean
+	)),
+	"lotSn" OBJECT(STRICT) AS (
+		"useLot" boolean,
+		"useSn" boolean,
+		"lotMask" varchar,
+		"snMask" varchar,
+		"shelfLife" integer,
+		"retestInterval" integer
+	),
+	"package" ARRAY(OBJECT(STRICT) AS (
+		"pdId" varchar,
+		"qty" integer
+	)),
+	"bundle" ARRAY(OBJECT(STRICT) AS (
+		"pdId" varchar,
+		"qty" integer
+	)),
+	"stdPrice" DOUBLE PRECISION,
+	"stdCost" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Loc" (
+	"locId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locNo" VARCHAR,
+	"locName" VARCHAR,
+	"suppId" INTEGER,
+	"custId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdLoc" (
+	"pdLocId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locId" INTEGER,
+	"pdId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"ropQty" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"pdWhId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."CreditTerm" (
+	"creditTermId" INTEGER PRIMARY KEY,
+	"creditTermCode" VARCHAR,
+	"creditTermDesc" VARCHAR,
+	"creditTermDay" INTEGER,
+	"bizId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Uom" (
+	"uomId" INTEGER PRIMARY KEY,
+	"uomCode" VARCHAR,
+	"uomDesc" VARCHAR,
+	"bizId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Tax" (
+	"taxId" INTEGER PRIMARY KEY,
+	"taxCode" VARCHAR,
+	"taxName" VARCHAR,
+	"taxRate" DOUBLE PRECISION,
+	"bizId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."CustGroup" (
+	"custGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"custGroupCode" VARCHAR,
+	"custGroupName" VARCHAR,
+	"discGroupId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."SuppGroup" (
+	"suppGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"suppGroupCode" VARCHAR,
+	"suppGroupName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdCust" (
+	"pdCustId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"custId" INTEGER,
+	"pdId" INTEGER,
+	"custPdNo" VARCHAR,
+	"custPdName" VARCHAR,
+	"ohQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"usePriceIncludeTax" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Skill" (
+	"skillId" INTEGER PRIMARY KEY,
+	"skillCode" VARCHAR,
+	"skillName" VARCHAR,
+	"bizId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BizUserGrp" (
+	"bizUserGrpId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"grpCode" VARCHAR,
+	"grpName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BizUserRole" (
+	"bizUserRoleId" INTEGER PRIMARY KEY,
+	"roleCode" VARCHAR,
+	"roleName" VARCHAR,
+	"bizId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocAriv" (
+	"docArivId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"custName" VARCHAR,
+	"billtoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"shiptoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"subtotalAmt" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"whtAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"docShipId" INTEGER,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocArivItem" (
+	"docArivItemId" INTEGER PRIMARY KEY,
+	"pdId" INTEGER,
+	"pdDesc" VARCHAR,
+	"invoicedQty" DOUBLE PRECISION,
+	"shippedQty" DOUBLE PRECISION,
+	"pdUomId" INTEGER,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"docArivId" INTEGER,
+	"bizId" INTEGER,
+	"docSoId" INTEGER,
+	"docSoItemId" INTEGER,
+	"docShipItemId" INTEGER,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DiscGroup" (
+	"discGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"code" VARCHAR,
+	"name" VARCHAR,
+	"priceType" VARCHAR,
+	"discRate" DOUBLE PRECISION,
+	"rounded" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPo" (
+	"docPoId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"dueDate" TIMESTAMP WITH TIME ZONE,
+	"suppId" INTEGER,
+	"billtoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"shiptoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"subtotalAmt" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"whtAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPoItem" (
+	"docPoItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"suppId" INTEGER,
+	"docPoId" INTEGER,
+	"orderDate" TIMESTAMP WITH TIME ZONE,
+	"dueDate" TIMESTAMP WITH TIME ZONE,
+	"pdId" INTEGER,
+	"orderedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"qtyToReceive" DOUBLE PRECISION,
+	"receivedQty" DOUBLE PRECISION,
+	"qtyToReturn" DOUBLE PRECISION,
+	"returnedQty" DOUBLE PRECISION,
+	"qtyToInvoice" DOUBLE PRECISION,
+	"invoicedQty" DOUBLE PRECISION,
+	"backlogQty" DOUBLE PRECISION,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."RefDoc" (
+	"refDocId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"refDocCode" VARCHAR,
+	"refDocDesc" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."ChequeDisbursed" (
+	"chequeDisbursedId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"chequeNo" VARCHAR,
+	"chequeDate" TIMESTAMP WITH TIME ZONE,
+	"chequeAmt" DOUBLE PRECISION,
+	"chequeTypeId" INTEGER,
+	"bankId" INTEGER,
+	"docPaymentItemId" INTEGER,
+	"payeeName" VARCHAR,
+	"note" TEXT,
+	"status" VARCHAR,
+	"custId" INTEGER,
+	"suppId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Bank" (
+	"bankId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"bankCode" VARCHAR,
+	"bankName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."ChequeReceived" (
+	"chequeReceivedId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"chequeNo" VARCHAR,
+	"chequeDate" TIMESTAMP WITH TIME ZONE,
+	"chequeAmt" DOUBLE PRECISION,
+	"chequeTypeId" INTEGER,
+	"bankId" INTEGER,
+	"bankBranch" VARCHAR,
+	"payerName" VARCHAR,
+	"note" TEXT,
+	"status" VARCHAR,
+	"custId" INTEGER,
+	"suppId" INTEGER,
+	"receiveDate" TIMESTAMP WITH TIME ZONE,
+	"depositDate" TIMESTAMP WITH TIME ZONE,
+	"returnDate" TIMESTAMP WITH TIME ZONE,
+	"redepositDate" TIMESTAMP WITH TIME ZONE,
+	"voidDate" TIMESTAMP WITH TIME ZONE
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."ChequeType" (
+	"chequeTypeId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"chequeTypeCode" VARCHAR,
+	"chequeTypeDesc" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocGrn" (
+	"docGrnId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"whId" INTEGER,
+	"suppId" INTEGER,
+	"suppName" VARCHAR,
+	"refNo" VARCHAR,
+	"status" VARCHAR,
+	"docPoId" INTEGER,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocGrnItem" (
+	"docGrnItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docGrnId" INTEGER,
+	"pdId" INTEGER,
+	"receivedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"pdLocId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"returnedQty" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"docPoItemId" INTEGER,
+	"refTransId" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRunningGroup" (
+	"docRunningGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"runningGroupName" VARCHAR,
+	"defaultSeq" INTEGER,
+	"selectionJs" TEXT,
+	"contextJs" TEXT,
+	"runningItem" ARRAY(OBJECT(STRICT) AS (
+		"seq" integer,
+		"desc" varchar,
+		"pattern" varchar,
+		"resetType" varchar
+	))
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."TranslationOption" (
+	"translationOptionId" INTEGER PRIMARY KEY,
+	"languageId" INTEGER,
+	"name" VARCHAR,
+	"baseLanguageId" INTEGER,
+	"labels" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"messages" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"countries" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"provinces" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"districts" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"status" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"version" VARCHAR,
+	"releaseDate" TIMESTAMP WITH TIME ZONE,
+	"releaseNote" TEXT,
+	"credit" TEXT
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BizLanguage" (
+	"bizLanguageId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"languageId" INTEGER,
+	"useCustomTranslation" BOOLEAN,
+	"useAsDefault" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocAsc" (
+	"docAscId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" VARCHAR,
+	"name" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"taxid" VARCHAR,
+	"contact" OBJECT(STRICT) AS (
+		"telephone" varchar,
+		"mobile" varchar,
+		"email" varchar
+	),
+	"status" VARCHAR,
+	"bid" VARCHAR,
+	"userId" INTEGER,
+	"acceptedNotified" BOOLEAN,
+	"approvedNotified" BOOLEAN,
+	"rejectedNotified" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdType" (
+	"pdTypeId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdTypeCode" VARCHAR,
+	"pdTypeDesc" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdGroup" (
+	"pdGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdGroupCode" VARCHAR,
+	"pdGroupName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocGin" (
+	"docGinId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"whId" INTEGER,
+	"refNo" VARCHAR,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocGinItem" (
+	"docGinItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docGinId" INTEGER,
+	"pdId" INTEGER,
+	"pdLocId" INTEGER,
+	"issuedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"status" VARCHAR,
+	"refTransId" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DataFormConfig" (
+	"dataFormConfigId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"formCode" VARCHAR,
+	"formName" VARCHAR,
+	"formTpl" ARRAY(OBJECT(STRICT) AS (
+		"tplName" varchar,
+		"tplValues" varchar
+	)),
+	"formFilter" ARRAY(OBJECT(STRICT) AS (
+		"filterName" varchar,
+		"filterParams" varchar,
+		"sortDirection" varchar,
+		"sortBy" varchar,
+		"default" boolean
+	)),
+	"formTag" ARRAY(OBJECT(STRICT) AS (
+		"tagName" varchar,
+		"tagValue" varchar,
+		"tagColor" varchar
+	)),
+	"formWfStatus" ARRAY(OBJECT(STRICT) AS (
+		"wfStatusName" varchar,
+		"wfStatusValue" varchar
+	)),
+	"displayAsTab" BOOLEAN,
+	"tabPosition" VARCHAR,
+	"tableAsList" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocSoItem" (
+	"docSoItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docSoId" INTEGER,
+	"pdId" INTEGER,
+	"orderedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"qtyToShip" DOUBLE PRECISION,
+	"shippedQty" DOUBLE PRECISION,
+	"qtyToInvoice" DOUBLE PRECISION,
+	"qtyInvoiced" DOUBLE PRECISION,
+	"qtyToReturn" DOUBLE PRECISION,
+	"returnedQty" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdUom" (
+	"pdUomId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdId" INTEGER,
+	"uomId" INTEGER,
+	"convFactor" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocIva" (
+	"docIvaId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"whId" INTEGER,
+	"refNo" VARCHAR,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocIvaItem" (
+	"docIvaItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docIvaId" INTEGER,
+	"pdId" INTEGER,
+	"pdLocId" INTEGER,
+	"adjustedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"status" VARCHAR,
+	"refTransId" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocApivItem" (
+	"docApivItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docApivId" INTEGER,
+	"pdId" INTEGER,
+	"pdDesc" VARCHAR,
+	"invoicedQty" DOUBLE PRECISION,
+	"pdUomId" INTEGER,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocApiv" (
+	"docApivId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"suppId" INTEGER,
+	"suppName" VARCHAR,
+	"billtoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"shiptoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"subtotalAmt" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"whtAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocShipItem" (
+	"docShipItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docShipId" INTEGER,
+	"docSoId" INTEGER,
+	"pdId" INTEGER,
+	"shippedQty" DOUBLE PRECISION,
+	"pdLocId" INTEGER,
+	"uomId" INTEGER,
+	"status" VARCHAR,
+	"docSoItemId" INTEGER,
+	"refTransId" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPos" (
+	"docPosId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"custName" VARCHAR,
+	"subtotalAmt" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"posDeviceId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPosItem" (
+	"docPosItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docPosId" INTEGER,
+	"pdId" INTEGER,
+	"pdLocId" INTEGER,
+	"pdLotId" INTEGER,
+	"pdLocLotId" INTEGER,
+	"billedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"posDeviceId" INTEGER,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Currency" (
+	"currencyId" INTEGER PRIMARY KEY,
+	"currencyCode" VARCHAR,
+	"currencyName" VARCHAR,
+	"symbol" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdBal" (
+	"pdBalId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdId" INTEGER,
+	"beginingOhQty" DOUBLE PRECISION,
+	"endingOhQty" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdLocBal" (
+	"pdLocBalId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdLocId" INTEGER,
+	"pdId" INTEGER,
+	"beginingOhQty" DOUBLE PRECISION,
+	"endingOhQty" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocShip" (
+	"docShipId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"docSoId" INTEGER,
+	"refNo" VARCHAR,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PosDevice" (
+	"posDeviceId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"posDeviceNo" VARCHAR,
+	"posDeviceDesc" VARCHAR,
+	"brand" VARCHAR,
+	"modelVariant" VARCHAR,
+	"sn" VARCHAR,
+	"posType" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Branch" (
+	"branchId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchNo" VARCHAR,
+	"branchName" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	)
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdCate" (
+	"pdCateId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdCateCode" VARCHAR,
+	"pdCateName" VARCHAR,
+	"pdGroupId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdSubcate" (
+	"pdSubcateId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdSubcateCode" VARCHAR,
+	"pdSubcateName" VARCHAR,
+	"pdCateId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PriceGroup" (
+	"priceGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"priceGroupCode" VARCHAR,
+	"priceGroupName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PriceBook" (
+	"priceBookId" INTEGER PRIMARY KEY,
+	"priceBookCode" VARCHAR,
+	"priceBookName" VARCHAR,
+	"bizId" INTEGER,
+	"priceGroupId" INTEGER,
+	"inEffectiveDate" TIMESTAMP WITH TIME ZONE,
+	"outEffectiveDate" TIMESTAMP WITH TIME ZONE,
+	"custGroupId" INTEGER,
+	"custSubgroupId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PriceBookItem" (
+	"priceBookItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"priceBookId" INTEGER,
+	"pdId" INTEGER,
+	"stdPrice" DOUBLE PRECISION,
+	"unitPrice" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PriceBookCascade" (
+	"priceBookCascadeId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"priceBookItemId" INTEGER,
+	"fromQty" INTEGER,
+	"toQty" INTEGER,
+	"discRate" DOUBLE PRECISION,
+	"unitPrice" DOUBLE PRECISION,
+	"useType" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Cate" (
+	"cateId" INTEGER PRIMARY KEY,
+	"cateCode" VARCHAR,
+	"cateName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Subcate" (
+	"subcateId" INTEGER PRIMARY KEY,
+	"subcateCode" VARCHAR,
+	"subcateName" VARCHAR,
+	"cateId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRtc" (
+	"docRtcId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"rentalTypeId" INTEGER,
+	"periodId" INTEGER,
+	"rentalPeriod" INTEGER,
+	"deliveryMethodId" INTEGER,
+	"paymentConditionId" INTEGER,
+	"renterAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"workSite" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"attachedDoc" OBJECT(STRICT) AS (
+		"citizenCard" boolean,
+		"houseRegistration" boolean,
+		"bankBook" boolean,
+		"legalEntityRegister" boolean,
+		"vatRegister" boolean,
+		"constructionContract" boolean,
+		"purchaseContract" boolean,
+		"grtContract" boolean
+	),
+	"contact" OBJECT(STRICT) AS (
+		"telephone" varchar,
+		"mobile" varchar,
+		"email" varchar
+	),
+	"rentalPurpose" VARCHAR,
+	"startDate" TIMESTAMP WITH TIME ZONE,
+	"endDate" TIMESTAMP WITH TIME ZONE,
+	"stotalRtp" DOUBLE PRECISION,
+	"discRate" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"stotalAfd" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"gtotalRtp" DOUBLE PRECISION,
+	"gtotalGrtAmt" DOUBLE PRECISION,
+	"note" TEXT,
+	"assessedGrtAmt" DOUBLE PRECISION,
+	"receiveGrtAmt" DOUBLE PRECISION,
+	"deliveryCharges" DOUBLE PRECISION,
+	"applyVat" BOOLEAN,
+	"excludeVat" BOOLEAN,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRtcItem" (
+	"docRtcItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docRtcId" INTEGER,
+	"assetId" INTEGER,
+	"rentalPeriod" INTEGER,
+	"periodId" INTEGER,
+	"rentedQty" INTEGER,
+	"rtp" DOUBLE PRECISION,
+	"totalRtp" DOUBLE PRECISION,
+	"grtAmt" DOUBLE PRECISION,
+	"totalGrtAmt" DOUBLE PRECISION,
+	"schdrd" TIMESTAMP WITH TIME ZONE,
+	"returnedDate" TIMESTAMP WITH TIME ZONE,
+	"returnedQty" INTEGER,
+	"damagedQty" INTEGER,
+	"lostQty" INTEGER,
+	"note" TEXT,
+	"status" VARCHAR,
+	"assetLocId" INTEGER,
+	"uomId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Period" (
+	"periodId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"periodCode" VARCHAR,
+	"periodName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Rtp" (
+	"rtpId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"assetId" INTEGER,
+	"periodId" INTEGER,
+	"priceIncludeTax" BOOLEAN,
+	"rtp" DOUBLE PRECISION,
+	"grtAmt" DOUBLE PRECISION,
+	"price1" DOUBLE PRECISION,
+	"price2" DOUBLE PRECISION,
+	"price3" DOUBLE PRECISION,
+	"price4" DOUBLE PRECISION,
+	"price5" DOUBLE PRECISION,
+	"remark" VARCHAR,
+	"cascadedRtp" ARRAY(OBJECT(STRICT) AS (
+		"numOfPeriods" integer,
+		"rtp" double precision,
+		"price1" double precision,
+		"price2" double precision,
+		"price3" double precision,
+		"price4" double precision,
+		"price5" double precision
+	))
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."CountryTranslationOption" (
+	"countryTranslationOptionId" INTEGER PRIMARY KEY,
+	"languageId" INTEGER,
+	"name" VARCHAR,
+	"baseLanguageId" INTEGER,
+	"labels" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"messages" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"countries" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"provinces" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"districts" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"status" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"version" VARCHAR,
+	"releaseDate" TIMESTAMP WITH TIME ZONE,
+	"releaseNote" TEXT,
+	"credit" TEXT,
+	"countryId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BizTranslationOption" (
+	"bizTranslationOptionId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"languageId" INTEGER,
+	"name" VARCHAR,
+	"baseLanguageId" INTEGER,
+	"labels" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"messages" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"countries" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"provinces" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"districts" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"status" ARRAY(OBJECT(STRICT) AS (
+		"translationKey" varchar,
+		"translationBase" varchar,
+		"translate" varchar
+	)),
+	"version" VARCHAR,
+	"releaseDate" TIMESTAMP WITH TIME ZONE,
+	"releaseNote" TEXT,
+	"credit" TEXT
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."AppMenu" (
+	"appMenuId" INTEGER PRIMARY KEY,
+	"title" VARCHAR,
+	"subtitle" VARCHAR,
+	"type" VARCHAR,
+	"icon" VARCHAR,
+	"children" ARRAY(OBJECT(STRICT) AS (
+		"title" varchar,
+		"subtitle" varchar,
+		"type" varchar,
+		"icon" varchar,
+		"children" ARRAY(OBJECT(STRICT) AS (
+			"title" varchar,
+			"subtitle" varchar,
+			"type" varchar,
+			"hidden" boolean,
+			"active" boolean,
+			"disabled" boolean,
+			"tooltip" varchar,
+			"fragment" varchar,
+			"preserveFragment" varchar,
+			"queryParams" OBJECT,
+			"queryParamsHandling" text,
+			"externalLink" boolean,
+			"target" varchar,
+			"exectMatch" boolean,
+			"isActiveMatchOption" text,
+			"function" text,
+			"classes" OBJECT(STRICT) AS (
+				"title" integer,
+				"subtitle" integer,
+				"icon" integer,
+				"wrapper" integer
+			),
+			"icon" varchar,
+			"badge" OBJECT(STRICT) AS (
+				"title" integer,
+				"classes" integer
+			),
+			"meta" text,
+			"link" varchar
+		))
+	))
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."UserToken" (
+	"userTokenId" INTEGER PRIMARY KEY,
+	"userId" INTEGER,
+	"refreshToken" VARCHAR,
+	"bid" VARCHAR,
+	"brid" VARCHAR,
+	"deviceInfo" OBJECT(STRICT) AS (
+		"platform" varchar
+	)
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Asset" (
+	"assetId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"assetNo" VARCHAR,
+	"assetName" VARCHAR,
+	"uomId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"orQty" DOUBLE PRECISION,
+	"pcfLost" DOUBLE PRECISION,
+	"pcfDamaged" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"pdCateId" INTEGER,
+	"pdSubcateId" INTEGER,
+	"brandId" INTEGER,
+	"colorId" INTEGER,
+	"remark" VARCHAR,
+	"defaultImgUrl" VARCHAR,
+	"defaultWhId" INTEGER,
+	"defaultLocId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."AssetLoc" (
+	"assetLocId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locId" INTEGER,
+	"assetId" INTEGER,
+	"ohQty" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."AppType" (
+	"appTypeId" INTEGER PRIMARY KEY,
+	"appTypeCode" VARCHAR,
+	"appTypeName" VARCHAR,
+	"monthlyRate" DOUBLE PRECISION,
+	"yearlyRate" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Supp" (
+	"suppId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"suppCode" VARCHAR,
+	"suppName" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"contact" OBJECT(STRICT) AS (
+		"telephone" varchar,
+		"mobile" varchar,
+		"email" varchar
+	),
+	"suppGroupId" INTEGER,
+	"logoUrl" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdSupp" (
+	"pdSuppId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"suppId" INTEGER,
+	"pdId" INTEGER,
+	"suppPdNo" VARCHAR,
+	"suppPdName" VARCHAR,
+	"ohQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"usePriceIncludeTax" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocSo" (
+	"docSoId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"dueDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"billtoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"shiptoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"subtotalAmt" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"whtAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"salesChannelId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DeliveryMethod" (
+	"deliveryMethodId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"deliveryMethodCode" VARCHAR,
+	"deliveryMethodName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."RentalType" (
+	"rentalTypeId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"rentalTypeCode" VARCHAR,
+	"rentalTypeName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PaymentCondition" (
+	"paymentConditionId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"paymentConditionCode" VARCHAR,
+	"paymentConditionName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Brand" (
+	"brandId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"brandCode" VARCHAR,
+	"brandName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Color" (
+	"colorId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"colorCode" VARCHAR,
+	"colorName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocCdj" (
+	"docCdjId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"suppId" INTEGER,
+	"payeeName" VARCHAR,
+	"payerName" VARCHAR,
+	"subtotalAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Expense" (
+	"expenseId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"expenseCode" VARCHAR,
+	"expenseName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Revenue" (
+	"revenueId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"revenueCode" VARCHAR,
+	"revenueName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocCdjItem" (
+	"docCdjItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docCdjId" INTEGER,
+	"expenseId" INTEGER,
+	"qty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocCrj" (
+	"docCrjId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"payerName" VARCHAR,
+	"payeeName" VARCHAR,
+	"subtotalAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocCrjItem" (
+	"docCrjItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docCrjId" INTEGER,
+	"revenueId" INTEGER,
+	"qty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgr" (
+	"docRgrId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"docRtcId" INTEGER,
+	"stotalRtp" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"gtotalRtp" DOUBLE PRECISION,
+	"gtotalGrtAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgm" (
+	"docRgmId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"docRtcId" INTEGER,
+	"stotalAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgd" (
+	"docRgdId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"docRtcId" INTEGER,
+	"stotalAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgmItem" (
+	"docRgmItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docRgmId" INTEGER,
+	"assetId" INTEGER,
+	"lostQty" DOUBLE PRECISION,
+	"pcfLost" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"refId" VARCHAR,
+	"branchId" INTEGER,
+	"uomId" INTEGER,
+	"docRtcItemId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgdItem" (
+	"docRgdItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docRgdId" INTEGER,
+	"assetId" INTEGER,
+	"damagedQty" DOUBLE PRECISION,
+	"pcfDamaged" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"refId" VARCHAR,
+	"branchId" INTEGER,
+	"uomId" INTEGER,
+	"docRtcItemId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocNar" (
+	"docNarId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"docDesc" VARCHAR,
+	"status" VARCHAR,
+	"branchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocNarItem" (
+	"docNarItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNarId" INTEGER,
+	"assetId" INTEGER,
+	"receivedQty" DOUBLE PRECISION,
+	"branchId" INTEGER,
+	"uomId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdBranch" (
+	"pdBranchId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"pdId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"ropQty" INTEGER,
+	"uomId" INTEGER,
+	"defaultPdLocId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."AssetBranch" (
+	"assetBranchId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"assetId" INTEGER,
+	"assetNo" VARCHAR,
+	"assetName" VARCHAR,
+	"uomId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"orQty" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgrItem" (
+	"docRgrItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docRgrId" INTEGER,
+	"assetId" INTEGER,
+	"rentalPeriod" INTEGER,
+	"periodId" INTEGER,
+	"rentedQty" INTEGER,
+	"rtp" DOUBLE PRECISION,
+	"totalRtp" DOUBLE PRECISION,
+	"grtAmt" DOUBLE PRECISION,
+	"totalGrtAmt" DOUBLE PRECISION,
+	"schdrd" TIMESTAMP WITH TIME ZONE,
+	"returnedDate" TIMESTAMP WITH TIME ZONE,
+	"dateDiff" INTEGER,
+	"returnedQty" INTEGER,
+	"qtyDiff" INTEGER,
+	"note" TEXT,
+	"status" VARCHAR,
+	"assetLocId" INTEGER,
+	"branchId" INTEGER,
+	"uomId" INTEGER,
+	"docRtcItemId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocReceipt" (
+	"docReceiptId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"custId" INTEGER,
+	"paymentChannelId" INTEGER,
+	"refSrc" VARCHAR,
+	"refId" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"bankTransfer" ARRAY(OBJECT(STRICT) AS (
+		"fromBankId" varchar,
+		"bankAccountId" varchar,
+		"transferDate" TIMESTAMP WITH TIME ZONE,
+		"slipImgUrl" varchar,
+		"transferAmt" double precision,
+		"note" text
+	)),
+	"paymentGateway" ARRAY(OBJECT(STRICT) AS (
+		"paymentGatewayId" varchar,
+		"paymentDate" TIMESTAMP WITH TIME ZONE,
+		"slipImgUrl" varchar,
+		"paidAmt" double precision,
+		"note" text
+	)),
+	"creditCard" ARRAY(OBJECT(STRICT) AS (
+		"cardTypeId" varchar,
+		"cardNo" varchar,
+		"cardHolderName" varchar,
+		"slipNo" varchar,
+		"paidAmt" double precision,
+		"note" text
+	)),
+	"cheque" ARRAY(OBJECT(STRICT) AS (
+		"chequeNo" varchar,
+		"chequeDate" TIMESTAMP WITH TIME ZONE,
+		"chequeAmt" double precision,
+		"chequeTypeId" varchar,
+		"payerName" varchar,
+		"bankId" varchar,
+		"bankBranch" varchar,
+		"note" text
+	)),
+	"status" VARCHAR,
+	"cashAmt" DOUBLE PRECISION,
+	"subtotalAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"discRate" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"totalReceiptAmt" DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BankAccountType" (
+	"bankAccountTypeId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"bankAccountTypeCode" VARCHAR,
+	"bankAccountTypeName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BankAccount" (
+	"bankAccountId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"bankAccountCode" VARCHAR,
+	"bankAccountName" VARCHAR,
+	"bankAccountTypeId" INTEGER,
+	"bankId" INTEGER,
+	"branchName" VARCHAR,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."CardType" (
+	"cardTypeId" INTEGER PRIMARY KEY,
+	"cardTypeCode" VARCHAR,
+	"cardTypeName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PaymentGateway" (
+	"paymentGatewayId" INTEGER PRIMARY KEY,
+	"paymentGatewayCode" VARCHAR,
+	"paymentGatewayName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocReceiptItem" (
+	"docReceiptItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docReceiptId" INTEGER,
+	"code" VARCHAR,
+	"desc" VARCHAR,
+	"qty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"refDocNo" VARCHAR,
+	"refDocDate" TIMESTAMP WITH TIME ZONE,
+	"refDueDate" TIMESTAMP WITH TIME ZONE,
+	"note" TEXT,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PaymentChannel" (
+	"paymentChannelId" INTEGER PRIMARY KEY,
+	"paymentChannelCode" VARCHAR,
+	"paymentChannelName" VARCHAR,
+	"channelType" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."AppRoute" (
+	"appRouteId" INTEGER PRIMARY KEY,
+	"routeCode" VARCHAR,
+	"title" VARCHAR,
+	"subtitle" VARCHAR,
+	"link" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Attribute" (
+	"attributeId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"attributeCode" VARCHAR,
+	"attributeName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Wh" (
+	"whId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whCode" VARCHAR,
+	"whName" VARCHAR,
+	"addr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"contact" OBJECT(STRICT) AS (
+		"telephone" varchar,
+		"mobile" varchar,
+		"email" varchar
+	),
+	"virtual" BOOLEAN,
+	"suspended" BOOLEAN
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdWh" (
+	"pdWhId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"pdId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"ropQty" DOUBLE PRECISION,
+	"status" VARCHAR,
+	"pdBranchId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."SalesChannel" (
+	"salesChannelId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"salesChannelCode" VARCHAR,
+	"salesChannelName" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdLot" (
+	"pdLotId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdId" INTEGER,
+	"lotNo" VARCHAR,
+	"ohQty" DOUBLE PRECISION,
+	"mfgDate" TIMESTAMP WITH TIME ZONE,
+	"expireDate" TIMESTAMP WITH TIME ZONE,
+	"suppLotNo" VARCHAR,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdLotLoc" (
+	"pdLotLocId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"pdId" INTEGER,
+	"pdLotId" INTEGER,
+	"locId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"pdLocId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdSn" (
+	"pdSnId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"pdId" INTEGER,
+	"sn" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPl" (
+	"docPlId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"whId" INTEGER,
+	"custId" INTEGER,
+	"docSoId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPlItem" (
+	"docPlItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docPlId" INTEGER,
+	"pdId" INTEGER,
+	"pickQty" DOUBLE PRECISION,
+	"uomId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPlSo" (
+	"docPlSoId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docPlItemId" INTEGER,
+	"docNo" VARCHAR,
+	"custName" VARCHAR,
+	"orderedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"dueDate" TIMESTAMP WITH TIME ZONE
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocPlLot" (
+	"docPlLotId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docPlItemId" INTEGER,
+	"pdLotLocId" INTEGER,
+	"pickQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."Variant" (
+	"variantId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"variantCode" VARCHAR,
+	"variantName" VARCHAR,
+	"variantGroupId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."VariantGroup" (
+	"variantGroupId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"variantGroupCode" VARCHAR,
+	"variantGroupName" VARCHAR,
+	"pdGroupId" INTEGER,
+	"pdCateId" INTEGER,
+	"pdSubcateId" INTEGER,
+	"attributeId" INTEGER
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdCustLoc" (
+	"pdCustLocId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locId" INTEGER,
+	"pdCustId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"ropQty" DOUBLE PRECISION,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."PdSuppLoc" (
+	"pdSuppLocId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locId" INTEGER,
+	"pdSuppId" INTEGER,
+	"ohQty" DOUBLE PRECISION,
+	"ropQty" DOUBLE PRECISION,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocDso" (
+	"docDsoId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"dueDate" TIMESTAMP WITH TIME ZONE,
+	"suppId" INTEGER,
+	"billtoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"custId" INTEGER,
+	"shiptoAddr" OBJECT(STRICT) AS (
+		"addr1" varchar,
+		"addr2" varchar,
+		"country" varchar,
+		"province" varchar,
+		"district" varchar,
+		"town" varchar,
+		"zip" varchar
+	),
+	"subtotalAmt" DOUBLE PRECISION,
+	"discAmt" DOUBLE PRECISION,
+	"taxRate" DOUBLE PRECISION,
+	"taxAmt" DOUBLE PRECISION,
+	"totalAmt" DOUBLE PRECISION,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocDsoItem" (
+	"docDsoItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"docDsoId" INTEGER,
+	"pdId" INTEGER,
+	"orderedQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"unitPrice" DOUBLE PRECISION,
+	"totalPrice" DOUBLE PRECISION,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."BizAllowed" (
+	"bizAllowedId" INTEGER PRIMARY KEY,
+	"userId" INTEGER,
+	"refBizId" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."InvMms" (
+	"invMmsId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locId" INTEGER,
+	"pdId" INTEGER,
+	"pdLotId" INTEGER,
+	"transDate" TIMESTAMP WITH TIME ZONE,
+	"transSrc" VARCHAR,
+	"refNo" VARCHAR,
+	"refPdNo" VARCHAR,
+	"refId" INTEGER,
+	"refItemId" INTEGER,
+	"origQty" DOUBLE PRECISION,
+	"origUomId" INTEGER,
+	"cnvFactor" DOUBLE PRECISION,
+	"transQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"sn" VARCHAR,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."AssetMms" (
+	"assetMmsId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"whId" INTEGER,
+	"locId" INTEGER,
+	"assetId" INTEGER,
+	"transDate" TIMESTAMP WITH TIME ZONE,
+	"transSrc" VARCHAR,
+	"transQty" DOUBLE PRECISION,
+	"uomId" INTEGER,
+	"refNo" VARCHAR,
+	"refAssetNo" VARCHAR,
+	"refId" INTEGER,
+	"refItemId" INTEGER,
+	"status" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgs" (
+	"docRgsId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docNo" VARCHAR,
+	"docDate" TIMESTAMP WITH TIME ZONE,
+	"docRtcId" INTEGER,
+	"status" VARCHAR,
+	"mmsStatus" VARCHAR
+);
+CREATE TABLE IF NOT EXISTS  "korato24"."DocRgsItem" (
+	"docRgsItemId" INTEGER PRIMARY KEY,
+	"bizId" INTEGER,
+	"branchId" INTEGER,
+	"docRgsId" INTEGER,
+	"assetId" INTEGER,
+	"shippedQty" INTEGER,
+	"uomId" INTEGER,
+	"assetLocId" INTEGER,
+	"docRtcItemId" INTEGER,
+	"status" VARCHAR,
+	"mmsStatus" VARCHAR
+);
+

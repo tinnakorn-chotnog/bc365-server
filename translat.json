@@ -1,0 +1,3152 @@
+[
+  {
+    "text": "Basic Info"
+  },
+  {
+    "text": "General Info"
+  },
+  {
+    "text": "Seq."
+  },
+  {
+    "text": "Filter"
+  },
+  {
+    "text": "Filter word"
+  },
+  {
+    "text": "New"
+  },
+  {
+    "text": "Add"
+  },
+  {
+    "text": "Add new"
+  },
+  {
+    "text": "Create"
+  },
+  {
+    "text": "Cancel"
+  },
+  {
+    "text": "Remove"
+  },
+  {
+    "text": "Save"
+  },
+  {
+    "text": "Save data"
+  },
+  {
+    "text": "Save form"
+  },
+  {
+    "text": "Submit form"
+  },
+  {
+    "text": "Done"
+  },
+  {
+    "text": "Copy"
+  },
+  {
+    "text": "Paste"
+  },
+  {
+    "text": "Import"
+  },
+  {
+    "text": "Export"
+  },
+  {
+    "text": "Duplicate"
+  },
+  {
+    "text": "Clone"
+  },
+  {
+    "text": "Edit"
+  },
+  {
+    "text": "Delete"
+  },
+  {
+    "text": "Select"
+  },
+  {
+    "text": "Setting"
+  },
+  {
+    "text": "Layout Setting"
+  },
+  {
+    "text": "Form Setting"
+  },
+  {
+    "text": "Query Setting"
+  },
+  {
+    "text": "Field Setting"
+  },
+  {
+    "text": "View"
+  },
+  {
+    "text": "Info"
+  },
+  {
+    "text": "Warning"
+  },
+  {
+    "text": "Error"
+  },
+  {
+    "text": "Search Word"
+  },
+  {
+    "text": "Headers"
+  },
+  {
+    "text": "Master"
+  },
+  {
+    "text": "Detail"
+  },
+  {
+    "text": "Items"
+  },
+  {
+    "text": "Messages"
+  },
+  {
+    "text": "Shortcuts"
+  },
+  {
+    "text": "Toggle Fullscreen"
+  },
+  {
+    "text": "Back to list"
+  },
+  {
+    "text": "Business"
+  },
+  {
+    "text": "Business"
+  },
+  {
+    "text": "Business Code"
+  },
+  {
+    "text": "Business Name"
+  },
+  {
+    "text": "Address"
+  },
+  {
+    "text": "Branch Code"
+  },
+  {
+    "text": "Tax ID."
+  },
+  {
+    "text": "Contact"
+  },
+  {
+    "text": "Preference"
+  },
+  {
+    "text": "User"
+  },
+  {
+    "text": "User"
+  },
+  {
+    "text": "Name"
+  },
+  {
+    "text": "Email"
+  },
+  {
+    "text": "Password"
+  },
+  {
+    "text": "Enable Two Factors"
+  },
+  {
+    "text": "Profile"
+  },
+  {
+    "text": "Business Allowed"
+  },
+  {
+    "text": "Business User"
+  },
+  {
+    "text": "Business User"
+  },
+  {
+    "text": "Telephone"
+  },
+  {
+    "text": "Mobile Phone"
+  },
+  {
+    "text": "Avatar"
+  },
+  {
+    "text": "Active"
+  },
+  {
+    "text": "Business User Group"
+  },
+  {
+    "text": "Prefer Language"
+  },
+  {
+    "text": "Payment Method"
+  },
+  {
+    "text": "Payment Method"
+  },
+  {
+    "text": "Payment Method Code"
+  },
+  {
+    "text": "Payment Method Description"
+  },
+  {
+    "text": "Apply Immediately"
+  },
+  {
+    "text": "Business Partner"
+  },
+  {
+    "text": "Business Partner"
+  },
+  {
+    "text": "Business Partner Code"
+  },
+  {
+    "text": "Business Partner Name"
+  },
+  {
+    "text": "Business Partner Address"
+  },
+  {
+    "text": "Customer Group"
+  },
+  {
+    "text": "Customer Subgroup"
+  },
+  {
+    "text": "Is Customer"
+  },
+  {
+    "text": "Is Supplier"
+  },
+  {
+    "text": "Is Employee"
+  },
+  {
+    "text": "Discount Group"
+  },
+  {
+    "text": "Logo Url"
+  },
+  {
+    "text": "Country"
+  },
+  {
+    "text": "Country"
+  },
+  {
+    "text": "Country Code"
+  },
+  {
+    "text": "Country Name"
+  },
+  {
+    "text": "Iso3"
+  },
+  {
+    "text": "Iso2"
+  },
+  {
+    "text": "Numeric Code"
+  },
+  {
+    "text": "Phone Code"
+  },
+  {
+    "text": "Captital"
+  },
+  {
+    "text": "Currency"
+  },
+  {
+    "text": "Currency Name"
+  },
+  {
+    "text": "Currency Symbol"
+  },
+  {
+    "text": "Tld"
+  },
+  {
+    "text": "Native"
+  },
+  {
+    "text": "Region"
+  },
+  {
+    "text": "Subregion"
+  },
+  {
+    "text": "Timezones"
+  },
+  {
+    "text": "Latitude"
+  },
+  {
+    "text": "Longitude"
+  },
+  {
+    "text": "Emoji"
+  },
+  {
+    "text": "Emojiu"
+  },
+  {
+    "text": "State"
+  },
+  {
+    "text": "State"
+  },
+  {
+    "text": "State Code"
+  },
+  {
+    "text": "State Name"
+  },
+  {
+    "text": "Type"
+  },
+  {
+    "text": "City"
+  },
+  {
+    "text": "City"
+  },
+  {
+    "text": "City Code"
+  },
+  {
+    "text": "City Name"
+  },
+  {
+    "text": "Wiki Data"
+  },
+  {
+    "text": "Town"
+  },
+  {
+    "text": "Town"
+  },
+  {
+    "text": "Town Code"
+  },
+  {
+    "text": "Town Name"
+  },
+  {
+    "text": "Language"
+  },
+  {
+    "text": "Language"
+  },
+  {
+    "text": "Language Code"
+  },
+  {
+    "text": "Language Name"
+  },
+  {
+    "text": "Native Name"
+  },
+  {
+    "text": "Rtl-to-left"
+  },
+  {
+    "text": "Title"
+  },
+  {
+    "text": "Title"
+  },
+  {
+    "text": "Title Code"
+  },
+  {
+    "text": "Title Name"
+  },
+  {
+    "text": "Data Type"
+  },
+  {
+    "text": "Data Type"
+  },
+  {
+    "text": "Type Code"
+  },
+  {
+    "text": "Type Name"
+  },
+  {
+    "text": "Standard Type"
+  },
+  {
+    "text": "Make"
+  },
+  {
+    "text": "Make"
+  },
+  {
+    "text": "Make Name"
+  },
+  {
+    "text": "Model"
+  },
+  {
+    "text": "Model"
+  },
+  {
+    "text": "Model Name"
+  },
+  {
+    "text": "Vehicle Size"
+  },
+  {
+    "text": "Model Variant"
+  },
+  {
+    "text": "Model Variant"
+  },
+  {
+    "text": "Model Variant Name"
+  },
+  {
+    "text": "Vehicle Type"
+  },
+  {
+    "text": "Body Type"
+  },
+  {
+    "text": "Fuel Type"
+  },
+  {
+    "text": "Assignment Group"
+  },
+  {
+    "text": "Assignment Group"
+  },
+  {
+    "text": "Assignment Group Name"
+  },
+  {
+    "text": "Product"
+  },
+  {
+    "text": "Product"
+  },
+  {
+    "text": "Standard Product"
+  },
+  {
+    "text": "Product Number"
+  },
+  {
+    "text": "Product Name"
+  },
+  {
+    "text": "Base Unit Of Measure"
+  },
+  {
+    "text": "Default Warehouse"
+  },
+  {
+    "text": "Default Storage Location"
+  },
+  {
+    "text": "Reorder Point"
+  },
+  {
+    "text": "Base Price"
+  },
+  {
+    "text": "Retail Price"
+  },
+  {
+    "text": "Wholesale Price"
+  },
+  {
+    "text": "Price Include Tax"
+  },
+  {
+    "text": "Tax Exempt"
+  },
+  {
+    "text": "Product Type"
+  },
+  {
+    "text": "Product Group"
+  },
+  {
+    "text": "Product Subgroup"
+  },
+  {
+    "text": "Supplier"
+  },
+  {
+    "text": "Use Lot Number"
+  },
+  {
+    "text": "Use Serial Number"
+  },
+  {
+    "text": "Lot Number Mask"
+  },
+  {
+    "text": "Serial Number Mask"
+  },
+  {
+    "text": "On Hand Quantity"
+  },
+  {
+    "text": "Last Transaction Date"
+  },
+  {
+    "text": "Product Category"
+  },
+  {
+    "text": "Product Subcategory"
+  },
+  {
+    "text": "Price Group"
+  },
+  {
+    "text": "Category"
+  },
+  {
+    "text": "Subcategory"
+  },
+  {
+    "text": "Borrowable"
+  },
+  {
+    "text": "Rentable"
+  },
+  {
+    "text": "Salable"
+  },
+  {
+    "text": "Borrowed Quantity"
+  },
+  {
+    "text": "Rented Quantity"
+  },
+  {
+    "text": "Work In Process Quantity"
+  },
+  {
+    "text": "Allocated Quantity"
+  },
+  {
+    "text": "Reserved Quantity"
+  },
+  {
+    "text": "Storage Location"
+  },
+  {
+    "text": "Storage Location"
+  },
+  {
+    "text": "Storage Location Number"
+  },
+  {
+    "text": "Storage Location Description"
+  },
+  {
+    "text": "Warehouse"
+  },
+  {
+    "text": "Stype"
+  },
+  {
+    "text": "Ssection"
+  },
+  {
+    "text": "Branch"
+  },
+  {
+    "text": "Product Location"
+  },
+  {
+    "text": "Product Location"
+  },
+  {
+    "text": "Reorder Point Quantity"
+  },
+  {
+    "text": "Location Type"
+  },
+  {
+    "text": "Status"
+  },
+  {
+    "text": "Vehicle"
+  },
+  {
+    "text": "Vehicle"
+  },
+  {
+    "text": "Register Number"
+  },
+  {
+    "text": "Register State"
+  },
+  {
+    "text": "Chassis Number"
+  },
+  {
+    "text": "Engine Number"
+  },
+  {
+    "text": "Vehicle Year"
+  },
+  {
+    "text": "Register Year"
+  },
+  {
+    "text": "Transmission Type"
+  },
+  {
+    "text": "Color"
+  },
+  {
+    "text": "Credit Term"
+  },
+  {
+    "text": "Credit Term"
+  },
+  {
+    "text": "Credit Term Code"
+  },
+  {
+    "text": "Credit Term Description"
+  },
+  {
+    "text": "Credit Term Day"
+  },
+  {
+    "text": "Unit Of Measure"
+  },
+  {
+    "text": "Unit Of Measure"
+  },
+  {
+    "text": "Unit Of Measure Code"
+  },
+  {
+    "text": "Unit Of Measure Description"
+  },
+  {
+    "text": "Std Code"
+  },
+  {
+    "text": "Std Type"
+  },
+  {
+    "text": "Tax"
+  },
+  {
+    "text": "Tax"
+  },
+  {
+    "text": "Tax Code"
+  },
+  {
+    "text": "Tax Name"
+  },
+  {
+    "text": "Tax Rate"
+  },
+  {
+    "text": "Customer Group"
+  },
+  {
+    "text": "Customer Group Code"
+  },
+  {
+    "text": "Customer Group Name"
+  },
+  {
+    "text": "Supplier Group"
+  },
+  {
+    "text": "Supplier Group"
+  },
+  {
+    "text": "Supplier Group Code"
+  },
+  {
+    "text": "Supplier Group Name"
+  },
+  {
+    "text": "Product Business Partner"
+  },
+  {
+    "text": "Product Business Partner"
+  },
+  {
+    "text": "Product Business Partner Number"
+  },
+  {
+    "text": "Product Business Partner Name"
+  },
+  {
+    "text": "Product Unit Of Measure"
+  },
+  {
+    "text": "Unit Price"
+  },
+  {
+    "text": "Use Price Include Tax"
+  },
+  {
+    "text": "Operation"
+  },
+  {
+    "text": "Operation"
+  },
+  {
+    "text": "Operation Code"
+  },
+  {
+    "text": "Operation Name"
+  },
+  {
+    "text": "Operation Category"
+  },
+  {
+    "text": "Operation Unit Of Measure"
+  },
+  {
+    "text": "Labor Cost"
+  },
+  {
+    "text": "Labor Cost1"
+  },
+  {
+    "text": "Labor Cost2"
+  },
+  {
+    "text": "Labor Cost3"
+  },
+  {
+    "text": "Labor Cost4"
+  },
+  {
+    "text": "Use Make Labor Cost"
+  },
+  {
+    "text": "Use Model Labor Cost"
+  },
+  {
+    "text": "Skill"
+  },
+  {
+    "text": "Skill"
+  },
+  {
+    "text": "Skill Code"
+  },
+  {
+    "text": "Skill Name"
+  },
+  {
+    "text": "Application Module"
+  },
+  {
+    "text": "Application Module"
+  },
+  {
+    "text": "Module Code"
+  },
+  {
+    "text": "Module Name"
+  },
+  {
+    "text": "Application Function"
+  },
+  {
+    "text": "Application Function"
+  },
+  {
+    "text": "Application Function Code"
+  },
+  {
+    "text": "Application Function Name"
+  },
+  {
+    "text": "Use Business Process Management"
+  },
+  {
+    "text": "Link"
+  },
+  {
+    "text": "Business User Group"
+  },
+  {
+    "text": "Group Code"
+  },
+  {
+    "text": "Group Name"
+  },
+  {
+    "text": "Business User Role"
+  },
+  {
+    "text": "Business User Role"
+  },
+  {
+    "text": "Role Code"
+  },
+  {
+    "text": "Role Name"
+  },
+  {
+    "text": "Ar Invoice"
+  },
+  {
+    "text": "Ar Invoice"
+  },
+  {
+    "text": "Document Number"
+  },
+  {
+    "text": "Document Date"
+  },
+  {
+    "text": "Bill-to Address"
+  },
+  {
+    "text": "Ship-to Address"
+  },
+  {
+    "text": "Subtotal Amount"
+  },
+  {
+    "text": "Discount Amount"
+  },
+  {
+    "text": "Withholding Tax Amount"
+  },
+  {
+    "text": "Tax Amount"
+  },
+  {
+    "text": "Total Amount"
+  },
+  {
+    "text": "Sales Order"
+  },
+  {
+    "text": "Ship"
+  },
+  {
+    "text": "Ar Invoice Item"
+  },
+  {
+    "text": "Ar Invoice Item"
+  },
+  {
+    "text": "Product Description"
+  },
+  {
+    "text": "Invoiced Quantity"
+  },
+  {
+    "text": "Shipped Quantity"
+  },
+  {
+    "text": "Sales Order Item"
+  },
+  {
+    "text": "Ship Item"
+  },
+  {
+    "text": "Field Config"
+  },
+  {
+    "text": "Field Config"
+  },
+  {
+    "text": "Code"
+  },
+  {
+    "text": "Fullname"
+  },
+  {
+    "text": "Label"
+  },
+  {
+    "text": "Translation Base"
+  },
+  {
+    "text": "Data Type Variants"
+  },
+  {
+    "text": "English"
+  },
+  {
+    "text": "Thai"
+  },
+  {
+    "text": "Form Config"
+  },
+  {
+    "text": "Form Config"
+  },
+  {
+    "text": "Primary Key"
+  },
+  {
+    "text": "Basic Label"
+  },
+  {
+    "text": "Layout Type"
+  },
+  {
+    "text": "Header Image Field"
+  },
+  {
+    "text": "Header Title Field"
+  },
+  {
+    "text": "Header Subtitle Field"
+  },
+  {
+    "text": "Primary Image Field"
+  },
+  {
+    "text": "Use Document Running"
+  },
+  {
+    "text": "Scope"
+  },
+  {
+    "text": "Edit As Spread Sheet"
+  },
+  {
+    "text": "Query Config"
+  },
+  {
+    "text": "Fields"
+  },
+  {
+    "text": "Sections"
+  },
+  {
+    "text": "Embedded Forms"
+  },
+  {
+    "text": "Item Forms"
+  },
+  {
+    "text": "Buttons"
+  },
+  {
+    "text": "Query Config"
+  },
+  {
+    "text": "Table Name"
+  },
+  {
+    "text": "Graphql Query"
+  },
+  {
+    "text": "Display Columns"
+  },
+  {
+    "text": "Query Source"
+  },
+  {
+    "text": "Query Javascript"
+  },
+  {
+    "text": "Array Javascript"
+  },
+  {
+    "text": "Discount Group"
+  },
+  {
+    "text": "Price Type"
+  },
+  {
+    "text": "Discount Rate"
+  },
+  {
+    "text": "Rounded"
+  },
+  {
+    "text": "Color"
+  },
+  {
+    "text": "Color Code"
+  },
+  {
+    "text": "Color Name"
+  },
+  {
+    "text": "Model Variant Color"
+  },
+  {
+    "text": "Model Variant Color"
+  },
+  {
+    "text": "Model Variant Color Code"
+  },
+  {
+    "text": "Model Variant Color Description"
+  },
+  {
+    "text": "Color Recipe"
+  },
+  {
+    "text": "Color Recipe"
+  },
+  {
+    "text": "Color Recipe Code"
+  },
+  {
+    "text": "Color Recipe Description"
+  },
+  {
+    "text": "Yield"
+  },
+  {
+    "text": "Color Recipe Item"
+  },
+  {
+    "text": "Color Recipe Item"
+  },
+  {
+    "text": "Usage Quantity"
+  },
+  {
+    "text": "Service Order"
+  },
+  {
+    "text": "Service Order"
+  },
+  {
+    "text": "Due Date"
+  },
+  {
+    "text": "Insurance"
+  },
+  {
+    "text": "Policy Number"
+  },
+  {
+    "text": "Insurance Start"
+  },
+  {
+    "text": "Insurance End"
+  },
+  {
+    "text": "Claim Number"
+  },
+  {
+    "text": "Insured Name"
+  },
+  {
+    "text": "Claim Type"
+  },
+  {
+    "text": "Total Labor Cost"
+  },
+  {
+    "text": "Total Sparepart Cost"
+  },
+  {
+    "text": "Labor Discount Rate"
+  },
+  {
+    "text": "Labor Discount Amount"
+  },
+  {
+    "text": "Sparepart Discount Rate"
+  },
+  {
+    "text": "Sparepart Discount Amount"
+  },
+  {
+    "text": "Withholding Tax Rate"
+  },
+  {
+    "text": "Service Order Operation"
+  },
+  {
+    "text": "Service Order Operation"
+  },
+  {
+    "text": "Remark"
+  },
+  {
+    "text": "Estimate Price"
+  },
+  {
+    "text": "Service Order"
+  },
+  {
+    "text": "Vehicle Size"
+  },
+  {
+    "text": "Vehicle Size Code"
+  },
+  {
+    "text": "Vehicle Size Description"
+  },
+  {
+    "text": "Service Order Item"
+  },
+  {
+    "text": "Service Order Item"
+  },
+  {
+    "text": "Required Quantity"
+  },
+  {
+    "text": "Issued Quantity"
+  },
+  {
+    "text": "Purchase Order"
+  },
+  {
+    "text": "Total Price"
+  },
+  {
+    "text": "Service Order"
+  },
+  {
+    "text": "Service Order Operation"
+  },
+  {
+    "text": "Service Order Operation"
+  },
+  {
+    "text": "Supply Product"
+  },
+  {
+    "text": "Service Order Item"
+  },
+  {
+    "text": "Service Order Item"
+  },
+  {
+    "text": "Purchase Order"
+  },
+  {
+    "text": "Account Period"
+  },
+  {
+    "text": "Purchase Order Item"
+  },
+  {
+    "text": "Purchase Order Item"
+  },
+  {
+    "text": "Ordered Quantity"
+  },
+  {
+    "text": "Received Quantity"
+  },
+  {
+    "text": "Returned Quantity"
+  },
+  {
+    "text": "Payment"
+  },
+  {
+    "text": "Payment"
+  },
+  {
+    "text": "Reference Document"
+  },
+  {
+    "text": "Reference Number"
+  },
+  {
+    "text": "Reference Document Type"
+  },
+  {
+    "text": "Payment Item"
+  },
+  {
+    "text": "Payment Item"
+  },
+  {
+    "text": "Paid Amount"
+  },
+  {
+    "text": "Applied Amount"
+  },
+  {
+    "text": "Unapplied Amount"
+  },
+  {
+    "text": "Reference Document Number"
+  },
+  {
+    "text": "Reference Document Date"
+  },
+  {
+    "text": "Reference Document Time"
+  },
+  {
+    "text": "Reference Note"
+  },
+  {
+    "text": "Reference Document"
+  },
+  {
+    "text": "Reference Document Code"
+  },
+  {
+    "text": "Reference Document Description"
+  },
+  {
+    "text": "Receipt"
+  },
+  {
+    "text": "Receipt"
+  },
+  {
+    "text": "Receipt Item"
+  },
+  {
+    "text": "Receipt Item"
+  },
+  {
+    "text": "Receipt Amount"
+  },
+  {
+    "text": "Business Partner Deposit"
+  },
+  {
+    "text": "Business Partner Deposit"
+  },
+  {
+    "text": "Cheque Paid"
+  },
+  {
+    "text": "Cheque Paid"
+  },
+  {
+    "text": "Cheque Number"
+  },
+  {
+    "text": "Cheque Date"
+  },
+  {
+    "text": "Cheque Amount"
+  },
+  {
+    "text": "Cheque Type"
+  },
+  {
+    "text": "Bank"
+  },
+  {
+    "text": "Cheque Note"
+  },
+  {
+    "text": "Bank"
+  },
+  {
+    "text": "Bank Code"
+  },
+  {
+    "text": "Bank Name"
+  },
+  {
+    "text": "Cheque Receipt"
+  },
+  {
+    "text": "Cheque Receipt"
+  },
+  {
+    "text": "Cheque Type"
+  },
+  {
+    "text": "Cheque Type Code"
+  },
+  {
+    "text": "Cheque Type Description"
+  },
+  {
+    "text": "Cheque Deposit"
+  },
+  {
+    "text": "Cheque Deposit"
+  },
+  {
+    "text": "Cheque Deposit Item"
+  },
+  {
+    "text": "Cheque Deposit Item"
+  },
+  {
+    "text": "Redeposit"
+  },
+  {
+    "text": "Good Receive Note"
+  },
+  {
+    "text": "Good Receive Note"
+  },
+  {
+    "text": "Operation Type"
+  },
+  {
+    "text": "Good Receive Note Item"
+  },
+  {
+    "text": "Good Receive Note Item"
+  },
+  {
+    "text": "Product Lot Number"
+  },
+  {
+    "text": "Expired Date"
+  },
+  {
+    "text": "Reference Transaction"
+  },
+  {
+    "text": "Running Group"
+  },
+  {
+    "text": "Running Group"
+  },
+  {
+    "text": "Running Group Name"
+  },
+  {
+    "text": "Default Sequence"
+  },
+  {
+    "text": "Selection Javascript"
+  },
+  {
+    "text": "Context Javascript"
+  },
+  {
+    "text": "Running Item"
+  },
+  {
+    "text": "Report Config"
+  },
+  {
+    "text": "Report Config"
+  },
+  {
+    "text": "Criteria Fields"
+  },
+  {
+    "text": "Transform Javascript"
+  },
+  {
+    "text": "Pdfmake Javascript"
+  },
+  {
+    "text": "Graph Config"
+  },
+  {
+    "text": "Graph Config"
+  },
+  {
+    "text": "Criteria Javascript"
+  },
+  {
+    "text": "Summary Config"
+  },
+  {
+    "text": "Summary Config"
+  },
+  {
+    "text": "Translation Option"
+  },
+  {
+    "text": "Translation Option"
+  },
+  {
+    "text": "Base Language"
+  },
+  {
+    "text": "Labels"
+  },
+  {
+    "text": "Messages"
+  },
+  {
+    "text": "Countries"
+  },
+  {
+    "text": "States"
+  },
+  {
+    "text": "Cities"
+  },
+  {
+    "text": "Version"
+  },
+  {
+    "text": "Release Date"
+  },
+  {
+    "text": "Release Note"
+  },
+  {
+    "text": "Credit"
+  },
+  {
+    "text": "Label Config"
+  },
+  {
+    "text": "Label Config"
+  },
+  {
+    "text": "Tag"
+  },
+  {
+    "text": "Business Language"
+  },
+  {
+    "text": "Business Language"
+  },
+  {
+    "text": "Use Custom Translation"
+  },
+  {
+    "text": "Use As Default"
+  },
+  {
+    "text": "Business Register"
+  },
+  {
+    "text": "Business Register"
+  },
+  {
+    "text": "Business Register Name"
+  },
+  {
+    "text": "Approved"
+  },
+  {
+    "text": "Business Id"
+  },
+  {
+    "text": "Product Type"
+  },
+  {
+    "text": "Product Type Code"
+  },
+  {
+    "text": "Product Type Description"
+  },
+  {
+    "text": "Product Group"
+  },
+  {
+    "text": "Product Group Code"
+  },
+  {
+    "text": "Product Group Name"
+  },
+  {
+    "text": "Good Issue Note"
+  },
+  {
+    "text": "Good Issue Note"
+  },
+  {
+    "text": "Data Form Config"
+  },
+  {
+    "text": "Data Form Config"
+  },
+  {
+    "text": "Form Code"
+  },
+  {
+    "text": "Form Name"
+  },
+  {
+    "text": "Form Template"
+  },
+  {
+    "text": "Form Filter"
+  },
+  {
+    "text": "Form Tag"
+  },
+  {
+    "text": "Form Workflow Status"
+  },
+  {
+    "text": "Display As Tab"
+  },
+  {
+    "text": "Tab Position"
+  },
+  {
+    "text": "Table As List"
+  },
+  {
+    "text": "Good Issue Note Item"
+  },
+  {
+    "text": "Good Issue Note Item"
+  },
+  {
+    "text": "Product Location Lot Number"
+  },
+  {
+    "text": "Product Serial Number"
+  },
+  {
+    "text": "Inventory Movements"
+  },
+  {
+    "text": "Inventory Movements"
+  },
+  {
+    "text": "Transaction Date"
+  },
+  {
+    "text": "Orig Unit Of Measure"
+  },
+  {
+    "text": "Orig Quantity"
+  },
+  {
+    "text": "Orig Unit Price"
+  },
+  {
+    "text": "Conversion Factor"
+  },
+  {
+    "text": "Transaction Quantity"
+  },
+  {
+    "text": "Lot Number Number"
+  },
+  {
+    "text": "Serial Number"
+  },
+  {
+    "text": "Reference Business Partner Name"
+  },
+  {
+    "text": "Reference Product Number"
+  },
+  {
+    "text": "Reference Product Name"
+  },
+  {
+    "text": "Service Order Issue"
+  },
+  {
+    "text": "Inventory Adjustment"
+  },
+  {
+    "text": "Inventory Adjustment Item"
+  },
+  {
+    "text": "Service Order Issue"
+  },
+  {
+    "text": "Job"
+  },
+  {
+    "text": "Job Receive"
+  },
+  {
+    "text": "Job Bill Of Material"
+  },
+  {
+    "text": "Job Issue"
+  },
+  {
+    "text": "Production Schedule"
+  },
+  {
+    "text": "Production Schedule Item"
+  },
+  {
+    "text": "Production Schedule Release"
+  },
+  {
+    "text": "Production Schedule Receive"
+  },
+  {
+    "text": "Production Schedule Release Bill Of Material"
+  },
+  {
+    "text": "Production Schedule Issue"
+  },
+  {
+    "text": "Product Bal"
+  },
+  {
+    "text": "Product Warehouse Bal"
+  },
+  {
+    "text": "Product Location Bal"
+  },
+  {
+    "text": "Product Location Lot Number Bal"
+  },
+  {
+    "text": "Product Lot Number Bal"
+  },
+  {
+    "text": "Sales Order"
+  },
+  {
+    "text": "Sales Order Item"
+  },
+  {
+    "text": "Product Lot Number"
+  },
+  {
+    "text": "Shelf Life"
+  },
+  {
+    "text": "Manufacturing Date"
+  },
+  {
+    "text": "Next Retest Date"
+  },
+  {
+    "text": "Product Location Lot Number"
+  },
+  {
+    "text": "Product Serial Number"
+  },
+  {
+    "text": "Job"
+  },
+  {
+    "text": "Scrapped Quantity"
+  },
+  {
+    "text": "Production Schedule"
+  },
+  {
+    "text": "Production Schedule Release"
+  },
+  {
+    "text": "Schedule Date"
+  },
+  {
+    "text": "Completed Quantity"
+  },
+  {
+    "text": "Job Bill Of Material"
+  },
+  {
+    "text": "Production Schedule Release Bill Of Material"
+  },
+  {
+    "text": "Product Unit Of Measure"
+  },
+  {
+    "text": "Warehouse"
+  },
+  {
+    "text": "Warehouse Number"
+  },
+  {
+    "text": "Warehouse Name"
+  },
+  {
+    "text": "Inventory Adjustment"
+  },
+  {
+    "text": "Inventory Adjustment Item"
+  },
+  {
+    "text": "Adjusted Quantity"
+  },
+  {
+    "text": "Product Warehouse"
+  },
+  {
+    "text": "Product Warehouse"
+  },
+  {
+    "text": "Default Receive Storage Location"
+  },
+  {
+    "text": "Default Ship Storage Location"
+  },
+  {
+    "text": "Production Schedule Item"
+  },
+  {
+    "text": "Ap Invoice Item"
+  },
+  {
+    "text": "Ap Invoice Item"
+  },
+  {
+    "text": "Ap Invoice"
+  },
+  {
+    "text": "Ap Invoice"
+  },
+  {
+    "text": "Service Order Issue"
+  },
+  {
+    "text": "Service Order Issue"
+  },
+  {
+    "text": "Job Receive"
+  },
+  {
+    "text": "Reference Transaction Date"
+  },
+  {
+    "text": "Job Issue"
+  },
+  {
+    "text": "Production Schedule Item Bill Of Material"
+  },
+  {
+    "text": "Production Schedule Item Bill Of Material"
+  },
+  {
+    "text": "Production Schedule Receive"
+  },
+  {
+    "text": "Production Schedule Issue"
+  },
+  {
+    "text": "Ship Item"
+  },
+  {
+    "text": "Point Of Sales"
+  },
+  {
+    "text": "Point Of Sales"
+  },
+  {
+    "text": "Point Of Sales Device"
+  },
+  {
+    "text": "Point Of Sales Item"
+  },
+  {
+    "text": "Point Of Sales Item"
+  },
+  {
+    "text": "Billed Quantity"
+  },
+  {
+    "text": "Currency"
+  },
+  {
+    "text": "Currency Code"
+  },
+  {
+    "text": "Symbol"
+  },
+  {
+    "text": "Account"
+  },
+  {
+    "text": "Account"
+  },
+  {
+    "text": "Account Number"
+  },
+  {
+    "text": "Account Name"
+  },
+  {
+    "text": "Normally"
+  },
+  {
+    "text": "Account Statement Type"
+  },
+  {
+    "text": "Account Group"
+  },
+  {
+    "text": "Account Subgroup"
+  },
+  {
+    "text": "Account Statement Type"
+  },
+  {
+    "text": "Account Statement Type Number"
+  },
+  {
+    "text": "Account Statement Type Name"
+  },
+  {
+    "text": "Account Group"
+  },
+  {
+    "text": "Account Group Number"
+  },
+  {
+    "text": "Account Group Name"
+  },
+  {
+    "text": "Account Subgroup"
+  },
+  {
+    "text": "Account Subgroup Number"
+  },
+  {
+    "text": "Account Subgroup Name"
+  },
+  {
+    "text": "Account Period"
+  },
+  {
+    "text": "Account Year"
+  },
+  {
+    "text": "Period Start Date"
+  },
+  {
+    "text": "Period End Date"
+  },
+  {
+    "text": "Period Closed"
+  },
+  {
+    "text": "Vehicle Type"
+  },
+  {
+    "text": "Vehicle Type Code"
+  },
+  {
+    "text": "Vehicle Type Name"
+  },
+  {
+    "text": "Body Type"
+  },
+  {
+    "text": "Body Type Code"
+  },
+  {
+    "text": "Body Type Name"
+  },
+  {
+    "text": "Fuel Type"
+  },
+  {
+    "text": "Fuel Type Code"
+  },
+  {
+    "text": "Fuel Type Name"
+  },
+  {
+    "text": "Transmission Type"
+  },
+  {
+    "text": "Transmission Type Code"
+  },
+  {
+    "text": "Transmission Type Name"
+  },
+  {
+    "text": "Claim Type"
+  },
+  {
+    "text": "Claim Type Code"
+  },
+  {
+    "text": "Claim Type Name"
+  },
+  {
+    "text": "Product Bal"
+  },
+  {
+    "text": "Begining On Hand Quantity"
+  },
+  {
+    "text": "Ending On Hand Quantity"
+  },
+  {
+    "text": "Product Warehouse Bal"
+  },
+  {
+    "text": "Product Location Bal"
+  },
+  {
+    "text": "Product Location Lot Number Bal"
+  },
+  {
+    "text": "Product Lot Number Bal"
+  },
+  {
+    "text": "Account Year"
+  },
+  {
+    "text": "Num Of Period"
+  },
+  {
+    "text": "Ship"
+  },
+  {
+    "text": "Point Of Sales Device"
+  },
+  {
+    "text": "Point Of Sales Device Number"
+  },
+  {
+    "text": "Point Of Sales Device Description"
+  },
+  {
+    "text": "Brand"
+  },
+  {
+    "text": "Point Of Sales Type"
+  },
+  {
+    "text": "Stype"
+  },
+  {
+    "text": "Stype Code"
+  },
+  {
+    "text": "Stype Name"
+  },
+  {
+    "text": "Ssection"
+  },
+  {
+    "text": "Ssection Code"
+  },
+  {
+    "text": "Ssection Name"
+  },
+  {
+    "text": "Branch"
+  },
+  {
+    "text": "Branch Number"
+  },
+  {
+    "text": "Branch Name"
+  },
+  {
+    "text": "Product Category"
+  },
+  {
+    "text": "Product Category Code"
+  },
+  {
+    "text": "Product Category Name"
+  },
+  {
+    "text": "Product Subcategory"
+  },
+  {
+    "text": "Product Subcategory Code"
+  },
+  {
+    "text": "Product Subcategory Name"
+  },
+  {
+    "text": "Product Model"
+  },
+  {
+    "text": "Product Model"
+  },
+  {
+    "text": "Operation Category"
+  },
+  {
+    "text": "Operation Category Name"
+  },
+  {
+    "text": "Operation Unit Of Measure"
+  },
+  {
+    "text": "Operation Unit Of Measure Code"
+  },
+  {
+    "text": "Operation Unit Of Measure Name"
+  },
+  {
+    "text": "Operation Make"
+  },
+  {
+    "text": "Operation Make"
+  },
+  {
+    "text": "Operation Model"
+  },
+  {
+    "text": "Operation Model"
+  },
+  {
+    "text": "Price Group"
+  },
+  {
+    "text": "Price Group Code"
+  },
+  {
+    "text": "Price Group Name"
+  },
+  {
+    "text": "Price Book"
+  },
+  {
+    "text": "Price Book"
+  },
+  {
+    "text": "Price Book Code"
+  },
+  {
+    "text": "Price Book Name"
+  },
+  {
+    "text": "In Effective Date"
+  },
+  {
+    "text": "Out Effective Date"
+  },
+  {
+    "text": "Price Book Item"
+  },
+  {
+    "text": "Price Book Item"
+  },
+  {
+    "text": "Customer Subgroup"
+  },
+  {
+    "text": "Customer Subgroup Code"
+  },
+  {
+    "text": "Customer Subgroup Name"
+  },
+  {
+    "text": "Price Book Cascade"
+  },
+  {
+    "text": "Price Book Cascade"
+  },
+  {
+    "text": "From Quantity"
+  },
+  {
+    "text": "To Quantity"
+  },
+  {
+    "text": "Use Type"
+  },
+  {
+    "text": "Product Subgroup"
+  },
+  {
+    "text": "Product Subgroup Code"
+  },
+  {
+    "text": "Product Subgroup Name"
+  },
+  {
+    "text": "Category"
+  },
+  {
+    "text": "Category Code"
+  },
+  {
+    "text": "Category Name"
+  },
+  {
+    "text": "Subcategory"
+  },
+  {
+    "text": "Subcategory Code"
+  },
+  {
+    "text": "Subcategory Name"
+  },
+  {
+    "text": "User Register"
+  },
+  {
+    "text": "User Register"
+  },
+  {
+    "text": "Status Type"
+  },
+  {
+    "text": "Status"
+  },
+  {
+    "text": "Status Name"
+  },
+  {
+    "text": "Statuses"
+  },
+  {
+    "text": "Default Status"
+  },
+  {
+    "text": "Status Code"
+  },
+  {
+    "text": "Rental"
+  },
+  {
+    "text": "Rental"
+  },
+  {
+    "text": "Billing Address"
+  },
+  {
+    "text": "Work Site Address"
+  },
+  {
+    "text": "Rental Period"
+  },
+  {
+    "text": "Period Quantity"
+  },
+  {
+    "text": "Pay When"
+  },
+  {
+    "text": "Gross Amount"
+  },
+  {
+    "text": "Note"
+  },
+  {
+    "text": "Rental Item"
+  },
+  {
+    "text": "Rental Item"
+  },
+  {
+    "text": "Rental Price"
+  },
+  {
+    "text": "Returned Date"
+  },
+  {
+    "text": "Damaged Quantity"
+  },
+  {
+    "text": "Lost Quantity"
+  },
+  {
+    "text": "Rental Period"
+  },
+  {
+    "text": "Rental Period Code"
+  },
+  {
+    "text": "Rental Perod Name"
+  },
+  {
+    "text": "Rental Price"
+  },
+  {
+    "text": "Property Type"
+  },
+  {
+    "text": "Property Type"
+  },
+  {
+    "text": "Property Type Code"
+  },
+  {
+    "text": "Property Type Name"
+  },
+  {
+    "text": "Num Of Property"
+  },
+  {
+    "text": "Property"
+  },
+  {
+    "text": "Property"
+  },
+  {
+    "text": "Property Number"
+  },
+  {
+    "text": "Property Description"
+  },
+  {
+    "text": "Subunit Rental"
+  },
+  {
+    "text": "Property Building"
+  },
+  {
+    "text": "Property Floor"
+  },
+  {
+    "text": "Property Floor Zone"
+  },
+  {
+    "text": "Property Group"
+  },
+  {
+    "text": "Facilities"
+  },
+  {
+    "text": "Property Building"
+  },
+  {
+    "text": "Property Building Number"
+  },
+  {
+    "text": "Property Building Name"
+  },
+  {
+    "text": "Num Of Floor"
+  },
+  {
+    "text": "Num Of Unit"
+  },
+  {
+    "text": "Property Floor"
+  },
+  {
+    "text": "Property Floor Number"
+  },
+  {
+    "text": "Property Floor Description"
+  },
+  {
+    "text": "Property Floor Zone"
+  },
+  {
+    "text": "Property Floor Zone Code"
+  },
+  {
+    "text": "Property Floor Zone Name"
+  },
+  {
+    "text": "Property Rental"
+  },
+  {
+    "text": "Property Rental"
+  },
+  {
+    "text": "Property Subunit"
+  },
+  {
+    "text": "Guest Title"
+  },
+  {
+    "text": "Guest First Name"
+  },
+  {
+    "text": "Guest Last Name"
+  },
+  {
+    "text": "Guest Gender"
+  },
+  {
+    "text": "Guest Age"
+  },
+  {
+    "text": "Citizen Id. Visa Passport"
+  },
+  {
+    "text": "Check In Date"
+  },
+  {
+    "text": "Check Out Date"
+  },
+  {
+    "text": "Guest Address"
+  },
+  {
+    "text": "Guest Contact"
+  },
+  {
+    "text": "Relation Contact"
+  },
+  {
+    "text": "Additional Guest"
+  },
+  {
+    "text": "Vehicles"
+  },
+  {
+    "text": "In Room Facilities"
+  },
+  {
+    "text": "Bill Period"
+  },
+  {
+    "text": "Property Subunit"
+  },
+  {
+    "text": "Property Subunit Number"
+  },
+  {
+    "text": "Property Subunit Description"
+  },
+  {
+    "text": "Property Group"
+  },
+  {
+    "text": "Property Group Number"
+  },
+  {
+    "text": "Property Group Name"
+  },
+  {
+    "text": "Bill Period"
+  },
+  {
+    "text": "Bill Period Code"
+  },
+  {
+    "text": "Bill Period Name"
+  },
+  {
+    "text": "Misc Charge"
+  },
+  {
+    "text": "Misc Charge"
+  },
+  {
+    "text": "Misc Charge Code"
+  },
+  {
+    "text": "Misc Charge Name"
+  },
+  {
+    "text": "Property Group Price"
+  },
+  {
+    "text": "Property Group Price"
+  },
+  {
+    "text": "Property Price"
+  },
+  {
+    "text": "Property Price"
+  },
+  {
+    "text": "Country Translation Option"
+  },
+  {
+    "text": "Country Translation Option"
+  },
+  {
+    "text": "Business Translation Option"
+  },
+  {
+    "text": "Business Translation Option"
+  },
+  {
+    "text": "Facility"
+  },
+  {
+    "text": "Facility"
+  },
+  {
+    "text": "Facility Number"
+  },
+  {
+    "text": "Facility Name"
+  },
+  {
+    "text": "Application Menu"
+  },
+  {
+    "text": "Application Menu"
+  },
+  {
+    "text": "Subtitle"
+  },
+  {
+    "text": "Icon"
+  },
+  {
+    "text": "Meta"
+  },
+  {
+    "text": "Parent"
+  },
+  {
+    "text": "Application Module Menu"
+  },
+  {
+    "text": "Application Module Menu"
+  },
+  {
+    "text": "Fruit"
+  },
+  {
+    "text": "Fruit"
+  },
+  {
+    "text": "Fruit Name"
+  },
+  {
+    "text": "User Token"
+  },
+  {
+    "text": "User Token"
+  },
+  {
+    "text": "Refresh Token"
+  },
+  {
+    "text": "Device Info"
+  },
+  {
+    "text": "Address Info"
+  },
+  {
+    "text": "Address 1"
+  },
+  {
+    "text": "Address 2"
+  },
+  {
+    "text": "Zip Code"
+  },
+  {
+    "text": "Autocomplete Control Info"
+  },
+  {
+    "text": "Display Field"
+  },
+  {
+    "text": "Value Field"
+  },
+  {
+    "text": "Assign Fields"
+  },
+  {
+    "text": "Master Field Name"
+  },
+  {
+    "text": "Link Field Name"
+  },
+  {
+    "text": "Query Script"
+  },
+  {
+    "text": "Context Key"
+  },
+  {
+    "text": "Master Query Config"
+  },
+  {
+    "text": "Allow Add"
+  },
+  {
+    "text": "Allow Edit"
+  },
+  {
+    "text": "Autocomplete List Info"
+  },
+  {
+    "text": "Column Width"
+  },
+  {
+    "text": "Brackets"
+  },
+  {
+    "text": "Visible"
+  },
+  {
+    "text": "Body Info"
+  },
+  {
+    "text": "Layout Column"
+  },
+  {
+    "text": "Contact Info"
+  },
+  {
+    "text": "Mobile"
+  },
+  {
+    "text": "Data Form Filter Info"
+  },
+  {
+    "text": "Filter Name"
+  },
+  {
+    "text": "Filter Params"
+  },
+  {
+    "text": "Sort Direction"
+  },
+  {
+    "text": "Sort By"
+  },
+  {
+    "text": "Default"
+  },
+  {
+    "text": "Data Form Tag Info"
+  },
+  {
+    "text": "Tag Name"
+  },
+  {
+    "text": "Tag Value"
+  },
+  {
+    "text": "Tag Color"
+  },
+  {
+    "text": "Data Form Template Info"
+  },
+  {
+    "text": "Template Name"
+  },
+  {
+    "text": "Template Values"
+  },
+  {
+    "text": "Data Form Workflow Status Info"
+  },
+  {
+    "text": "Workflow Status Name"
+  },
+  {
+    "text": "Workflow Status Value"
+  },
+  {
+    "text": "Datatable Control Info"
+  },
+  {
+    "text": "Column Sequence"
+  },
+  {
+    "text": "Column Minimum Width"
+  },
+  {
+    "text": "Allow Filter"
+  },
+  {
+    "text": "Allow Sort"
+  },
+  {
+    "text": "Default Control Info"
+  },
+  {
+    "text": "Default Source"
+  },
+  {
+    "text": "Default Value"
+  },
+  {
+    "text": "Default Function"
+  },
+  {
+    "text": "Editor Control Info"
+  },
+  {
+    "text": "Theme Name"
+  },
+  {
+    "text": "Embedded Form Info"
+  },
+  {
+    "text": "Input Type"
+  },
+  {
+    "text": "Freeze Column Index"
+  },
+  {
+    "text": "Pinned Columns"
+  },
+  {
+    "text": "Display As Section"
+  },
+  {
+    "text": "View Style"
+  },
+  {
+    "text": "List Panel Size"
+  },
+  {
+    "text": "View Panel Size"
+  },
+  {
+    "text": "Tabs Position"
+  },
+  {
+    "text": "Buttons Position"
+  },
+  {
+    "text": "Embedded Form Visibility Info"
+  },
+  {
+    "text": "Embedded Form Name"
+  },
+  {
+    "text": "Field Assignment Info"
+  },
+  {
+    "text": "Assign Source"
+  },
+  {
+    "text": "Assign From"
+  },
+  {
+    "text": "Assign To"
+  },
+  {
+    "text": "Assign Function"
+  },
+  {
+    "text": "Field Validation Info"
+  },
+  {
+    "text": "Required"
+  },
+  {
+    "text": "Required True"
+  },
+  {
+    "text": "Minimum"
+  },
+  {
+    "text": "Maximum"
+  },
+  {
+    "text": "Minimum Length"
+  },
+  {
+    "text": "Maximum Length"
+  },
+  {
+    "text": "Pattern"
+  },
+  {
+    "text": "Validator Script"
+  },
+  {
+    "text": "Field Visibility Info"
+  },
+  {
+    "text": "Field Name"
+  },
+  {
+    "text": "Form Button Info"
+  },
+  {
+    "text": "Enable"
+  },
+  {
+    "text": "Icon Family"
+  },
+  {
+    "text": "Icon Name"
+  },
+  {
+    "text": "Icon Url"
+  },
+  {
+    "text": "Form Field Info"
+  },
+  {
+    "text": "Virtual Field"
+  },
+  {
+    "text": "Form Section Info"
+  },
+  {
+    "text": "Display As Embedded Form"
+  },
+  {
+    "text": "Header"
+  },
+  {
+    "text": "Large Screen"
+  },
+  {
+    "text": "Medium Screen"
+  },
+  {
+    "text": "Small Screen"
+  },
+  {
+    "text": "Grid Config Info"
+  },
+  {
+    "text": "Row Span"
+  },
+  {
+    "text": "Column Span"
+  },
+  {
+    "text": "Column Padding Left"
+  },
+  {
+    "text": "Column Padding Right"
+  },
+  {
+    "text": "Inventory Preference Info"
+  },
+  {
+    "text": "Field0"
+  },
+  {
+    "text": "Item Form Info"
+  },
+  {
+    "text": "Link Field"
+  },
+  {
+    "text": "Item Form Visibility Info"
+  },
+  {
+    "text": "Item Form Name"
+  },
+  {
+    "text": "Layout Field Info"
+  },
+  {
+    "text": "Input Visibility"
+  },
+  {
+    "text": "Readonly"
+  },
+  {
+    "text": "Writable When Create"
+  },
+  {
+    "text": "In Data Table"
+  },
+  {
+    "text": "Force Upper Case"
+  },
+  {
+    "text": "Datatable Control"
+  },
+  {
+    "text": "Readonly Control"
+  },
+  {
+    "text": "Value Control"
+  },
+  {
+    "text": "Visibility Control"
+  },
+  {
+    "text": "Autocomplete Control"
+  },
+  {
+    "text": "Option Control"
+  },
+  {
+    "text": "Validation Control"
+  },
+  {
+    "text": "Editor Control"
+  },
+  {
+    "text": "Default Control"
+  },
+  {
+    "text": "Virtual Field Control"
+  },
+  {
+    "text": "Menu Info"
+  },
+  {
+    "text": "Menu Name"
+  },
+  {
+    "text": "Submenu"
+  },
+  {
+    "text": "Operation Assignment Info"
+  },
+  {
+    "text": "Employee"
+  },
+  {
+    "text": "Employee Name"
+  },
+  {
+    "text": "Job Description"
+  },
+  {
+    "text": "Start Date"
+  },
+  {
+    "text": "End Date"
+  },
+  {
+    "text": "Operation Price Info"
+  },
+  {
+    "text": "Easy Price"
+  },
+  {
+    "text": "Average Price"
+  },
+  {
+    "text": "Difficult Price"
+  },
+  {
+    "text": "Option Control Info"
+  },
+  {
+    "text": "Option Source"
+  },
+  {
+    "text": "Source Field"
+  },
+  {
+    "text": "Options"
+  },
+  {
+    "text": "Source Function"
+  },
+  {
+    "text": "Option State Info"
+  },
+  {
+    "text": "Description"
+  },
+  {
+    "text": "Purchase Preference Info"
+  },
+  {
+    "text": "Readonly Control Info"
+  },
+  {
+    "text": "Value"
+  },
+  {
+    "text": "Effect Fields"
+  },
+  {
+    "text": "Readonly State Info"
+  },
+  {
+    "text": "Running Info"
+  },
+  {
+    "text": "Sequence"
+  },
+  {
+    "text": "Reset Type"
+  },
+  {
+    "text": "Sale Preference Info"
+  },
+  {
+    "text": "Section Visibility Info"
+  },
+  {
+    "text": "Section Name"
+  },
+  {
+    "text": "Status Info"
+  },
+  {
+    "text": "Previous Status"
+  },
+  {
+    "text": "Next Status"
+  },
+  {
+    "text": "Submenu Info"
+  },
+  {
+    "text": "System Preference Info"
+  },
+  {
+    "text": "Purchase Preference"
+  },
+  {
+    "text": "Sale Preference"
+  },
+  {
+    "text": "Inventory Preference"
+  },
+  {
+    "text": "Translation Info"
+  },
+  {
+    "text": "Translation Key"
+  },
+  {
+    "text": "Translate"
+  },
+  {
+    "text": "Translation Scope Info"
+  },
+  {
+    "text": "Scope Name"
+  },
+  {
+    "text": "Translation"
+  },
+  {
+    "text": "Type Field Info"
+  },
+  {
+    "text": "Virtual"
+  },
+  {
+    "text": "Type Variant Info"
+  },
+  {
+    "text": "Udf Info"
+  },
+  {
+    "text": "Int 1"
+  },
+  {
+    "text": "Int 2"
+  },
+  {
+    "text": "Int 3"
+  },
+  {
+    "text": "Int 4"
+  },
+  {
+    "text": "Int 5"
+  },
+  {
+    "text": "Numeric 1"
+  },
+  {
+    "text": "Numeric 2"
+  },
+  {
+    "text": "Numeric 3"
+  },
+  {
+    "text": "Numeric 4"
+  },
+  {
+    "text": "Numeric 5"
+  },
+  {
+    "text": "String 1"
+  },
+  {
+    "text": "String 2"
+  },
+  {
+    "text": "String 3"
+  },
+  {
+    "text": "String 4"
+  },
+  {
+    "text": "String 5"
+  },
+  {
+    "text": "Date 1"
+  },
+  {
+    "text": "Date 2"
+  },
+  {
+    "text": "Date 3"
+  },
+  {
+    "text": "Date 4"
+  },
+  {
+    "text": "Date 5"
+  },
+  {
+    "text": "Value Control Info"
+  },
+  {
+    "text": "Value State Info"
+  },
+  {
+    "text": "Source"
+  },
+  {
+    "text": "Script"
+  },
+  {
+    "text": "Virtual Field Control Info"
+  },
+  {
+    "text": "Trigger Field 1"
+  },
+  {
+    "text": "Trigger Field 2"
+  },
+  {
+    "text": "Trigger Field 3"
+  },
+  {
+    "text": "Value Script"
+  },
+  {
+    "text": "Visibility Control Info"
+  },
+  {
+    "text": "Effect Sections"
+  },
+  {
+    "text": "Effect Embedded Forms"
+  },
+  {
+    "text": "Effect Item Forms"
+  },
+  {
+    "text": "Timezone Info"
+  },
+  {
+    "text": "Zone Name"
+  },
+  {
+    "text": "Gmt Offset"
+  },
+  {
+    "text": "Gmt Offset Name"
+  },
+  {
+    "text": "Abbreviation"
+  },
+  {
+    "text": "Timezone Name"
+  },
+  {
+    "text": "Account Period Info"
+  },
+  {
+    "text": "Period Number"
+  },
+  {
+    "text": "Closed"
+  },
+  {
+    "text": "Guest Info"
+  },
+  {
+    "text": "First Name"
+  },
+  {
+    "text": "Middle Name"
+  },
+  {
+    "text": "Last Name"
+  },
+  {
+    "text": "Gender"
+  },
+  {
+    "text": "Age"
+  },
+  {
+    "text": "Mobilephone Number"
+  },
+  {
+    "text": "Facility Info"
+  },
+  {
+    "text": "Lot Number Serial Info"
+  },
+  {
+    "text": "Vehicle Info"
+  },
+  {
+    "text": "Plate Number"
+  },
+  {
+    "text": "Parking Slot"
+  },
+  {
+    "text": "User Profile Info"
+  },
+  {
+    "text": "Platform"
+  },
+  {
+    "text": "User Allowed Business Info"
+  },
+  {
+    "text": "Hidden"
+  },
+  {
+    "text": "Disbled"
+  },
+  {
+    "text": "Tootltip"
+  },
+  {
+    "text": "Fragment"
+  },
+  {
+    "text": "Preserve Fragment"
+  },
+  {
+    "text": "Query Params"
+  },
+  {
+    "text": "Query Params Handling"
+  },
+  {
+    "text": "External Link"
+  },
+  {
+    "text": "Target"
+  },
+  {
+    "text": "Exact Match"
+  },
+  {
+    "text": "Is Active Match Option"
+  },
+  {
+    "text": "Function"
+  },
+  {
+    "text": "Classes"
+  },
+  {
+    "text": "Badge"
+  },
+  {
+    "text": "Navigation Classes Info"
+  },
+  {
+    "text": "Wrapper"
+  },
+  {
+    "text": "Navigation Badge Info"
+  }
+]

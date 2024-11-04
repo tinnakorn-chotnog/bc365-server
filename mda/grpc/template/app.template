@@ -1,0 +1,10 @@
+import { Module } from '@nestjs/common';
+import { @camelSchemaNameTriggerModule } from './@filename/@filename-trigger.module';
+
+@Module({
+  imports: [
+    @camelSchemaNameTriggerModule
+  ],
+})
+
+export class AppModule {}

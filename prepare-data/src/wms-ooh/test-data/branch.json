@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "q8e4GqhJJDKM7SthdkxxEA",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "001",
+    "branchName": "Branch 001"
+  },
+  {
+    "_id": "x2hafRizWYNBk8BUYehZPk",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "112",
+    "branchName": "Branch 112"
+  },
+  {
+    "_id": "pT8XaunUJQHn5rEgELE9qM",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "223",
+    "branchName": "Branch 223"
+  },
+  {
+    "_id": "daX1du5pxgJR7xzuniEpjN",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "334",
+    "branchName": "Branch 334"
+  },
+  {
+    "_id": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "445",
+    "branchName": "Branch 445"
+  },
+  {
+    "_id": "bqK5T4svXqZWW3tbNwBx7a",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "556",
+    "branchName": "Branch 556"
+  },
+  {
+    "_id": "4xeGPsVcwJxdkbFEmkF3im",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "667",
+    "branchName": "Branch 667"
+  },
+  {
+    "_id": "knCS5GV1VEpDw28V1FJYv8",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "778",
+    "branchName": "Branch 778"
+  },
+  {
+    "_id": "nmyoGKriQL7LNVwyNXSeP1",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "889",
+    "branchName": "Branch 889"
+  },
+  {
+    "_id": "57WQgWhd6eYqtd3kPXBgbo",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "910",
+    "branchName": "Branch 910"
+  }
+]

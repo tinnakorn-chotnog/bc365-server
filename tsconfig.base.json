@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@bc365-server/auth": ["libs/auth/src/index.ts"],
+      "@bc365-server/common/*": ["libs/common/src/lib/*"],
+      "@bc365-server/demo1": ["libs/demo1/src/index.ts"],
+      "@bc365-server/demo1/*": ["libs/demo1/src/lib/*"],
+      "@bc365-server/shared/*": ["libs/shared/src/lib/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

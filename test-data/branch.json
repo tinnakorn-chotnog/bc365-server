@@ -1,0 +1,49 @@
+[
+  {
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "002",
+    "branchName": "สระบุรี",
+    "addr": {},
+    "tags": null,
+    "lotNoPart": null,
+    "snNoPart": null,
+    "inventoryPreference": {
+      "applyHu": false,
+      "applySu": false,
+      "pickFromAvailableStorage": true
+    }
+  },
+  {
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "000",
+    "branchName": "พระราม 3",
+    "addr": {},
+    "tags": null,
+    "lotNoPart": null,
+    "snNoPart": null,
+    "inventoryPreference": {
+      "applyHu": false,
+      "applySu": false,
+      "pickFromAvailableStorage": true,
+      "pickingControllerId": "s8EG1SqPDcb6GJRc1LixTq",
+      "rpnControllerId": "qZn8GgibswQVnVCMgqAU3S"
+    }
+  },
+  {
+    "branchId": "uBu9JHarojbdr4scUtxAqe",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchNo": "001",
+    "branchName": "ลาดพร้าว",
+    "addr": {},
+    "tags": null,
+    "lotNoPart": null,
+    "snNoPart": null,
+    "inventoryPreference": {
+      "applyHu": false,
+      "applySu": false,
+      "pickFromAvailableStorage": true
+    }
+  }
+]

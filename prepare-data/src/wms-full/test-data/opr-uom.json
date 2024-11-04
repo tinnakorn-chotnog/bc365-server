@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "n2XXS5gAXEn5CbFxdfu8fT",
+    "oprUomId": "n2XXS5gAXEn5CbFxdfu8fT",
+    "oprUomCode": "T",
+    "oprUomName": "ครั้ง"
+  },
+  {
+    "_id": "41Q2d4Y2SavbWH9cSpXaQw",
+    "oprUomId": "41Q2d4Y2SavbWH9cSpXaQw",
+    "oprUomCode": "S",
+    "oprUomName": "ข้าง"
+  },
+  {
+    "_id": "rst6NaSTrH1mvEb6z49oa2",
+    "oprUomId": "rst6NaSTrH1mvEb6z49oa2",
+    "oprUomCode": "H",
+    "oprUomName": "ชั่วโมง"
+  },
+  {
+    "_id": "ednb6co7HDWhTBsGXxroUP",
+    "oprUomId": "ednb6co7HDWhTBsGXxroUP",
+    "oprUomCode": "M",
+    "oprUomName": "นาที"
+  }
+]

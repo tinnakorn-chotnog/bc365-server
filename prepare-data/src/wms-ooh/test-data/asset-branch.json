@@ -1,0 +1,3302 @@
+[
+  {
+    "_id": "fKUGvdJLB6jsAEiAEYHSF2",
+    "assetBranchId": "fKUGvdJLB6jsAEiAEYHSF2",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9aPYNYWbkVJeBxpCDWMQBU",
+    "assetBranchId": "9aPYNYWbkVJeBxpCDWMQBU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "74sZBMZpKTDnuPms1BnC94",
+    "assetBranchId": "74sZBMZpKTDnuPms1BnC94",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1uqcSFUywiVt5yeM13y3qo",
+    "assetBranchId": "1uqcSFUywiVt5yeM13y3qo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9x3A5Dguyb3TvKUEkBgBY6",
+    "assetBranchId": "9x3A5Dguyb3TvKUEkBgBY6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "eXTrJNzkV1rrjwduy6cTWu",
+    "assetBranchId": "eXTrJNzkV1rrjwduy6cTWu",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hsRjEPQ6qQijtkdX1wb9Qz",
+    "assetBranchId": "hsRjEPQ6qQijtkdX1wb9Qz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qt4JC5aw6LDbhs2UdibjrZ",
+    "assetBranchId": "qt4JC5aw6LDbhs2UdibjrZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nTWKGaCtFqQEQnhN48D7Bk",
+    "assetBranchId": "nTWKGaCtFqQEQnhN48D7Bk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "6FzivkyBF9bGi839hnbZnq",
+    "assetBranchId": "6FzivkyBF9bGi839hnbZnq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jFCsZNU8P5rvBZrrkd8bEq",
+    "assetBranchId": "jFCsZNU8P5rvBZrrkd8bEq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kCAXXYZ4pEvmk8cDHuDW1n",
+    "assetBranchId": "kCAXXYZ4pEvmk8cDHuDW1n",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1HPc9GfXdipoNBchZUcfSG",
+    "assetBranchId": "1HPc9GfXdipoNBchZUcfSG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "23w6R6fgjx49PgzaKmNDZq",
+    "assetBranchId": "23w6R6fgjx49PgzaKmNDZq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "iKP3gbEY2CGiyxFqprBTbX",
+    "assetBranchId": "iKP3gbEY2CGiyxFqprBTbX",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tMsxsJn1QSBmj3KugsGkd8",
+    "assetBranchId": "tMsxsJn1QSBmj3KugsGkd8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "pNr8WFiGeBp75w8zeYsHUR",
+    "assetBranchId": "pNr8WFiGeBp75w8zeYsHUR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qz3q7gpNFW1MoNQaNAjH9S",
+    "assetBranchId": "qz3q7gpNFW1MoNQaNAjH9S",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vYFA7MTstxcqdVTMj6sn6N",
+    "assetBranchId": "vYFA7MTstxcqdVTMj6sn6N",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bagjZjXjnh3Ggmyku23Pf6",
+    "assetBranchId": "bagjZjXjnh3Ggmyku23Pf6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7kXzUQNcCAzHpqYq66TDnL",
+    "assetBranchId": "7kXzUQNcCAzHpqYq66TDnL",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "98XCxjk4Qxvd8eUXVVGfYL",
+    "assetBranchId": "98XCxjk4Qxvd8eUXVVGfYL",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "4boS7WenokBz3kjtF5Py16",
+    "assetBranchId": "4boS7WenokBz3kjtF5Py16",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "t9WNYS2sykA3z9vU2X3cPr",
+    "assetBranchId": "t9WNYS2sykA3z9vU2X3cPr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ui5Va6is9RGjqV24T43UND",
+    "assetBranchId": "ui5Va6is9RGjqV24T43UND",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kLUBhWtNqhDqLGceKUMFGS",
+    "assetBranchId": "kLUBhWtNqhDqLGceKUMFGS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uraJgftrMLtqqy5HDmtrwy",
+    "assetBranchId": "uraJgftrMLtqqy5HDmtrwy",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tGmSR5gt2EHnS7QDfMP4WF",
+    "assetBranchId": "tGmSR5gt2EHnS7QDfMP4WF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7rRua9JjmeFbQp8tRu5qSP",
+    "assetBranchId": "7rRua9JjmeFbQp8tRu5qSP",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "u3Bdoqe7dDmqQZhmWtNPgN",
+    "assetBranchId": "u3Bdoqe7dDmqQZhmWtNPgN",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tjB8ygezABYGnM2Q2e63Wo",
+    "assetBranchId": "tjB8ygezABYGnM2Q2e63Wo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3Eosa9RiGZRc1aor4nuae6",
+    "assetBranchId": "3Eosa9RiGZRc1aor4nuae6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "4CrsHYwKrVuvKoKmYX58n9",
+    "assetBranchId": "4CrsHYwKrVuvKoKmYX58n9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3hS4mQbdoN7vHURwL85EF1",
+    "assetBranchId": "3hS4mQbdoN7vHURwL85EF1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "8ytmBLxPk9p2aLWZKMhStL",
+    "assetBranchId": "8ytmBLxPk9p2aLWZKMhStL",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "4zgeTqSU9ahDze1p2pK4zF",
+    "assetBranchId": "4zgeTqSU9ahDze1p2pK4zF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nRQoS5KWKt5j84MiHgzbMd",
+    "assetBranchId": "nRQoS5KWKt5j84MiHgzbMd",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1hBsmd8HAmVSRJE9K7pAT3",
+    "assetBranchId": "1hBsmd8HAmVSRJE9K7pAT3",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "xt36ngr9Z7q8nXn8NhFn88",
+    "assetBranchId": "xt36ngr9Z7q8nXn8NhFn88",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gKVuc9utBzAZZ6LPBTngvt",
+    "assetBranchId": "gKVuc9utBzAZZ6LPBTngvt",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nDraUiEjJznTddGTc3t1Sj",
+    "assetBranchId": "nDraUiEjJznTddGTc3t1Sj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tzXCgRSqjuedMxHLi5WXaF",
+    "assetBranchId": "tzXCgRSqjuedMxHLi5WXaF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fvA5mfW2ZUftXPpyXMGDTU",
+    "assetBranchId": "fvA5mfW2ZUftXPpyXMGDTU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tKM8x5y99Mu5jmPnceZYUW",
+    "assetBranchId": "tKM8x5y99Mu5jmPnceZYUW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "72iA4cp3LDMW188C7nWGSg",
+    "assetBranchId": "72iA4cp3LDMW188C7nWGSg",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ongyGGmoUutheUdkkUdYdx",
+    "assetBranchId": "ongyGGmoUutheUdkkUdYdx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mY6ck3PbSS692FLsy7Nn7m",
+    "assetBranchId": "mY6ck3PbSS692FLsy7Nn7m",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "enwDqHsoWS98YE8wTA9f41",
+    "assetBranchId": "enwDqHsoWS98YE8wTA9f41",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fj8HHX1ytAbiUk4qPx9JdG",
+    "assetBranchId": "fj8HHX1ytAbiUk4qPx9JdG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1LNc9NTWVDLpnofjgRUfZL",
+    "assetBranchId": "1LNc9NTWVDLpnofjgRUfZL",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "4of4RndLZbJ5GnKgLzZGpf",
+    "assetBranchId": "4of4RndLZbJ5GnKgLzZGpf",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "v7gKjHNPidSZXpGtezJFRs",
+    "assetBranchId": "v7gKjHNPidSZXpGtezJFRs",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "f3wJzsXyMt6rwYJE5G2pbp",
+    "assetBranchId": "f3wJzsXyMt6rwYJE5G2pbp",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5TUnJNJ2zCR76n1rkaeWE7",
+    "assetBranchId": "5TUnJNJ2zCR76n1rkaeWE7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3YKmjbbriDgs2U34kgixsk",
+    "assetBranchId": "3YKmjbbriDgs2U34kgixsk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uaDXNcLDEheyMweNUvG8cF",
+    "assetBranchId": "uaDXNcLDEheyMweNUvG8cF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "x89PFyVceJ8aiRestbZRVR",
+    "assetBranchId": "x89PFyVceJ8aiRestbZRVR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3YnsQiPftVDkjFT157bZWz",
+    "assetBranchId": "3YnsQiPftVDkjFT157bZWz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1uQumvrTeePX2PyuuQQPc4",
+    "assetBranchId": "1uQumvrTeePX2PyuuQQPc4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gRf3f3iyBycvYnbdQ72ZUV",
+    "assetBranchId": "gRf3f3iyBycvYnbdQ72ZUV",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "q5dLAd9xtUs9ye2mWyKKBc",
+    "assetBranchId": "q5dLAd9xtUs9ye2mWyKKBc",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1m9mV51m2RM4aYrhHTuMXF",
+    "assetBranchId": "1m9mV51m2RM4aYrhHTuMXF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hh33ZkXs5BeHaTYZrAr3VA",
+    "assetBranchId": "hh33ZkXs5BeHaTYZrAr3VA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "pA8eEZbR29nMQDnab4t53Q",
+    "assetBranchId": "pA8eEZbR29nMQDnab4t53Q",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "961GqX9peG1YFhuMhdpX1B",
+    "assetBranchId": "961GqX9peG1YFhuMhdpX1B",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gAcvu4eEnjfhTkX8aGPSxL",
+    "assetBranchId": "gAcvu4eEnjfhTkX8aGPSxL",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "x2hafRizWYNBk8BUYehZPk",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vqhbRaqRuxrT4k5foAwjMR",
+    "assetBranchId": "vqhbRaqRuxrT4k5foAwjMR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nKCNTo4G3LXF6WinKQS8Xx",
+    "assetBranchId": "nKCNTo4G3LXF6WinKQS8Xx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1cTwQuLEgULZrzVu2qiLb4",
+    "assetBranchId": "1cTwQuLEgULZrzVu2qiLb4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3dkGwM33ShAWx3qKN64Rnp",
+    "assetBranchId": "3dkGwM33ShAWx3qKN64Rnp",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "iZGYAcpbA5ZPtb7iadUV7J",
+    "assetBranchId": "iZGYAcpbA5ZPtb7iadUV7J",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7mbzdCHE9KpAm9QABkPWTB",
+    "assetBranchId": "7mbzdCHE9KpAm9QABkPWTB",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mxStbMuGpBaTNt3Lv41XHQ",
+    "assetBranchId": "mxStbMuGpBaTNt3Lv41XHQ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "m7p2HwboEv5TPLLSZQFwso",
+    "assetBranchId": "m7p2HwboEv5TPLLSZQFwso",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ibHF3TUDiG3JuwaSouFQma",
+    "assetBranchId": "ibHF3TUDiG3JuwaSouFQma",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5bPgqoQ9uW4jMoAndnxXk7",
+    "assetBranchId": "5bPgqoQ9uW4jMoAndnxXk7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vUAe4yadhmbe8ZsngUyvNR",
+    "assetBranchId": "vUAe4yadhmbe8ZsngUyvNR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uAPkojzuuq7vABoUnYcjdU",
+    "assetBranchId": "uAPkojzuuq7vABoUnYcjdU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "dNYTcfzfgazy5kviWDcGwz",
+    "assetBranchId": "dNYTcfzfgazy5kviWDcGwz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3hT14F1Yv9217z72EJSP2P",
+    "assetBranchId": "3hT14F1Yv9217z72EJSP2P",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mCbrTFn1Ep3q7bdX3WSLXW",
+    "assetBranchId": "mCbrTFn1Ep3q7bdX3WSLXW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jfoR2YsWbNEj7q6wjBvSdY",
+    "assetBranchId": "jfoR2YsWbNEj7q6wjBvSdY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "berEVE9PPi3FrgVsKbs2kb",
+    "assetBranchId": "berEVE9PPi3FrgVsKbs2kb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nA9mocFeEgZhKqmZpVJubz",
+    "assetBranchId": "nA9mocFeEgZhKqmZpVJubz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "iEq1hXn2gjVmd8qdSfDX5b",
+    "assetBranchId": "iEq1hXn2gjVmd8qdSfDX5b",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bemWQHqMXEhjNdzeBGDWAo",
+    "assetBranchId": "bemWQHqMXEhjNdzeBGDWAo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nSrkoiUFpgfgJa9eqirVSh",
+    "assetBranchId": "nSrkoiUFpgfgJa9eqirVSh",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vfWdVSB2LFcxzt2HtRyp4u",
+    "assetBranchId": "vfWdVSB2LFcxzt2HtRyp4u",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "94LX7MGzQvwAfBLW9vt3Qg",
+    "assetBranchId": "94LX7MGzQvwAfBLW9vt3Qg",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "d36tZfZrgYm7jDT4hErRbA",
+    "assetBranchId": "d36tZfZrgYm7jDT4hErRbA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "x6gyK3tzsHFyLSmPV8ePGH",
+    "assetBranchId": "x6gyK3tzsHFyLSmPV8ePGH",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kjuN5hppHdv1hV7Mny8n2C",
+    "assetBranchId": "kjuN5hppHdv1hV7Mny8n2C",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "4vcDPCmgraXqZGE2YwA1ED",
+    "assetBranchId": "4vcDPCmgraXqZGE2YwA1ED",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uigg3XPuhcsyJcjiQ38F9E",
+    "assetBranchId": "uigg3XPuhcsyJcjiQ38F9E",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7hCmk5WNYstobbEyWuvw63",
+    "assetBranchId": "7hCmk5WNYstobbEyWuvw63",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "eUeLzEJzVBbbYBEuvJrmvc",
+    "assetBranchId": "eUeLzEJzVBbbYBEuvJrmvc",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "rzSpN1Y9bxjmzV45TPQDJn",
+    "assetBranchId": "rzSpN1Y9bxjmzV45TPQDJn",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gYskbXfZCuoi95m14umcoE",
+    "assetBranchId": "gYskbXfZCuoi95m14umcoE",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "sn7bxwzQH3JQ7RXfSKwGFg",
+    "assetBranchId": "sn7bxwzQH3JQ7RXfSKwGFg",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "pT8XaunUJQHn5rEgELE9qM",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5J2fXLRFMP2Ssj76u3NSKj",
+    "assetBranchId": "5J2fXLRFMP2Ssj76u3NSKj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5fhsnFzdHTRxKZJ3hyiZjn",
+    "assetBranchId": "5fhsnFzdHTRxKZJ3hyiZjn",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5GLrLu2842tq7mizVtNE2C",
+    "assetBranchId": "5GLrLu2842tq7mizVtNE2C",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "amSNb1BYfoY4JQjJsXtTov",
+    "assetBranchId": "amSNb1BYfoY4JQjJsXtTov",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5bvU65QkCmzFKBABQqteWx",
+    "assetBranchId": "5bvU65QkCmzFKBABQqteWx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "h3ViQD8Dw9Aq2iiiMo4jpi",
+    "assetBranchId": "h3ViQD8Dw9Aq2iiiMo4jpi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kd979n1cERbebYaJG6FTmT",
+    "assetBranchId": "kd979n1cERbebYaJG6FTmT",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7hquRQMjjmeuokviFXifP4",
+    "assetBranchId": "7hquRQMjjmeuokviFXifP4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "x63Uqz87gsoq7tqFETd8Vm",
+    "assetBranchId": "x63Uqz87gsoq7tqFETd8Vm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "eEQtydhf2aEfdfu211PyJK",
+    "assetBranchId": "eEQtydhf2aEfdfu211PyJK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "8oTuUw7r81UaiXJNqDi8au",
+    "assetBranchId": "8oTuUw7r81UaiXJNqDi8au",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "m4RJ5rRpPDLNRoh5fHK1EB",
+    "assetBranchId": "m4RJ5rRpPDLNRoh5fHK1EB",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9gJAF4mGiPJfb6snPDzFNr",
+    "assetBranchId": "9gJAF4mGiPJfb6snPDzFNr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wqB7av7pNQK5eLMdkeVqYi",
+    "assetBranchId": "wqB7av7pNQK5eLMdkeVqYi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "n3mP5zjaYpqkt1MKcpMTdP",
+    "assetBranchId": "n3mP5zjaYpqkt1MKcpMTdP",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "duCJ9xFo4zMJTintZ9vKTm",
+    "assetBranchId": "duCJ9xFo4zMJTintZ9vKTm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nBdgwaLCArj8h6CeayKMR3",
+    "assetBranchId": "nBdgwaLCArj8h6CeayKMR3",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hXSEum2cp25DVX62MRua56",
+    "assetBranchId": "hXSEum2cp25DVX62MRua56",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gf79kAcpxLg6w3bvEHgMR8",
+    "assetBranchId": "gf79kAcpxLg6w3bvEHgMR8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "siLFDDc4NPVP6zMLd4khUS",
+    "assetBranchId": "siLFDDc4NPVP6zMLd4khUS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "8fKgjPRJsrJBKuQAA5QLbr",
+    "assetBranchId": "8fKgjPRJsrJBKuQAA5QLbr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bUoBW9qHpXsoaSzbMajKmu",
+    "assetBranchId": "bUoBW9qHpXsoaSzbMajKmu",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7FgJKDK6ZkwYR17ejgZ9gw",
+    "assetBranchId": "7FgJKDK6ZkwYR17ejgZ9gw",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9hNhmLM14nFUc6N6vJGdR6",
+    "assetBranchId": "9hNhmLM14nFUc6N6vJGdR6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hK1ZqwzHHDsGHXM1qpiZeJ",
+    "assetBranchId": "hK1ZqwzHHDsGHXM1qpiZeJ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jGu5MJie1n3357Yy9Cfx79",
+    "assetBranchId": "jGu5MJie1n3357Yy9Cfx79",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gfY95MZdERqXhmHZiVejmr",
+    "assetBranchId": "gfY95MZdERqXhmHZiVejmr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fNj66AR2oXEExLigxXg4ZV",
+    "assetBranchId": "fNj66AR2oXEExLigxXg4ZV",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "n5fvkH48rVxRhB4c54RSkD",
+    "assetBranchId": "n5fvkH48rVxRhB4c54RSkD",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7bok15548F6H2L5UKy5M4X",
+    "assetBranchId": "7bok15548F6H2L5UKy5M4X",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "cx2GNr7zVT9qWCVeHwygEc",
+    "assetBranchId": "cx2GNr7zVT9qWCVeHwygEc",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "oLu5sBfYLsPaisQqLraHqm",
+    "assetBranchId": "oLu5sBfYLsPaisQqLraHqm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ktC6ETzCgU7DrVV1rscvbf",
+    "assetBranchId": "ktC6ETzCgU7DrVV1rscvbf",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "daX1du5pxgJR7xzuniEpjN",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9dqsSpvihHQ5DMDZ58Eecq",
+    "assetBranchId": "9dqsSpvihHQ5DMDZ58Eecq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "upXY1sZ4uxTjgizcNQuEwe",
+    "assetBranchId": "upXY1sZ4uxTjgizcNQuEwe",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qwGDE2npM9P6HnBAcM3anq",
+    "assetBranchId": "qwGDE2npM9P6HnBAcM3anq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "xASujF57ZVqoQTWYTSiwDd",
+    "assetBranchId": "xASujF57ZVqoQTWYTSiwDd",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "iUjBKrCVx1nNPkrTnV2k9A",
+    "assetBranchId": "iUjBKrCVx1nNPkrTnV2k9A",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2wUfPZCWhL5pff5D2zBK9c",
+    "assetBranchId": "2wUfPZCWhL5pff5D2zBK9c",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "251p2wM6PmguduwD4r9xyT",
+    "assetBranchId": "251p2wM6PmguduwD4r9xyT",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "msM5SdpLJ9Npcx1dNUeLfh",
+    "assetBranchId": "msM5SdpLJ9Npcx1dNUeLfh",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tNVjWFoMQwik96HiY5Dzuq",
+    "assetBranchId": "tNVjWFoMQwik96HiY5Dzuq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "aJzsgwXgKjEmZ125ZiPafh",
+    "assetBranchId": "aJzsgwXgKjEmZ125ZiPafh",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5gA534bFjVZNLMbpMu395f",
+    "assetBranchId": "5gA534bFjVZNLMbpMu395f",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uzpxbKjoFFbuZ9HTmb73e6",
+    "assetBranchId": "uzpxbKjoFFbuZ9HTmb73e6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vX9ti7sLZL7dWFCRfDG9gZ",
+    "assetBranchId": "vX9ti7sLZL7dWFCRfDG9gZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "cnmujHAHMiD7M5U59UxdmN",
+    "assetBranchId": "cnmujHAHMiD7M5U59UxdmN",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "upgUMah5RooCFZcM4DcM2q",
+    "assetBranchId": "upgUMah5RooCFZcM4DcM2q",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uQiZobbPtZuSVeXftHdQ95",
+    "assetBranchId": "uQiZobbPtZuSVeXftHdQ95",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "idq3KZKn3qTrHqEnm6w6vB",
+    "assetBranchId": "idq3KZKn3qTrHqEnm6w6vB",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "i4aVdgVYKwHr9wS54mXEPG",
+    "assetBranchId": "i4aVdgVYKwHr9wS54mXEPG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ibCxdUhBbw9biPajUeQTDa",
+    "assetBranchId": "ibCxdUhBbw9biPajUeQTDa",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qr8Vo5NcYEvNQ2mVmGtZFo",
+    "assetBranchId": "qr8Vo5NcYEvNQ2mVmGtZFo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "rD3kuaJCdAK9emedmtudLo",
+    "assetBranchId": "rD3kuaJCdAK9emedmtudLo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wuER3EeimyKwxFsrT6sKhV",
+    "assetBranchId": "wuER3EeimyKwxFsrT6sKhV",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1fxajSQf1aVvDJ8dBtXrEN",
+    "assetBranchId": "1fxajSQf1aVvDJ8dBtXrEN",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "idCfxXDT7yytoxXKdGRGYX",
+    "assetBranchId": "idCfxXDT7yytoxXKdGRGYX",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "pBe2Uk3HZ2ViyBBCnQNMsi",
+    "assetBranchId": "pBe2Uk3HZ2ViyBBCnQNMsi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "b24Z3ntUreEZ5w4i4wu1pv",
+    "assetBranchId": "b24Z3ntUreEZ5w4i4wu1pv",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "cLym1Nffrwhh3FLCj75vy4",
+    "assetBranchId": "cLym1Nffrwhh3FLCj75vy4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "oHDNfqa6srpQF7rJQFbVnm",
+    "assetBranchId": "oHDNfqa6srpQF7rJQFbVnm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "6AYZaYDem4RPiAdosnzm2y",
+    "assetBranchId": "6AYZaYDem4RPiAdosnzm2y",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "j8ff66L7R5FxAdUQ1od7z7",
+    "assetBranchId": "j8ff66L7R5FxAdUQ1od7z7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hfvVvgeUK5E62xHUt32ftB",
+    "assetBranchId": "hfvVvgeUK5E62xHUt32ftB",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2WRve4SsCJq5QjwN1U4hyU",
+    "assetBranchId": "2WRve4SsCJq5QjwN1U4hyU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "i6erNiVY5TmpvidAFWvw6R",
+    "assetBranchId": "i6erNiVY5TmpvidAFWvw6R",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "bnDBdkvpKc4Ws6T1FPJfLE",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gHh58ovMU7bw4zu6RTEMXe",
+    "assetBranchId": "gHh58ovMU7bw4zu6RTEMXe",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "p1kcazTuaLHysx8X65ntbC",
+    "assetBranchId": "p1kcazTuaLHysx8X65ntbC",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9PJaQ2VAiFpkSBsQn5vzbQ",
+    "assetBranchId": "9PJaQ2VAiFpkSBsQn5vzbQ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "q1kPDnDgthHdjQQ7qtgxtW",
+    "assetBranchId": "q1kPDnDgthHdjQQ7qtgxtW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "emSpQHY13R9iMMKr79atoz",
+    "assetBranchId": "emSpQHY13R9iMMKr79atoz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kPu9QMsx9a7nvCqBW7LMLr",
+    "assetBranchId": "kPu9QMsx9a7nvCqBW7LMLr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2xDra9zXayjN4ThsLG2S1J",
+    "assetBranchId": "2xDra9zXayjN4ThsLG2S1J",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "aMmo7PNzdd5p1zL7WmRA3x",
+    "assetBranchId": "aMmo7PNzdd5p1zL7WmRA3x",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "j3qM9Bd4HVL2mGHpV31vo5",
+    "assetBranchId": "j3qM9Bd4HVL2mGHpV31vo5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kXEmJnJLFJmVs5EmVZE1PD",
+    "assetBranchId": "kXEmJnJLFJmVs5EmVZE1PD",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5a9sS7VmNNJfWbJWXroNDp",
+    "assetBranchId": "5a9sS7VmNNJfWbJWXroNDp",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "dtBKacU6nRrUUkVmbTGke3",
+    "assetBranchId": "dtBKacU6nRrUUkVmbTGke3",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "t4cXZ5Aoi6441rSDomGWnS",
+    "assetBranchId": "t4cXZ5Aoi6441rSDomGWnS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "35WD4qEoZPJW8uG1p9jaKe",
+    "assetBranchId": "35WD4qEoZPJW8uG1p9jaKe",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "iXLe8gPnhTQ9Gw8sskPJRU",
+    "assetBranchId": "iXLe8gPnhTQ9Gw8sskPJRU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bKeWUS6SJNVVGK7ysD3VVW",
+    "assetBranchId": "bKeWUS6SJNVVGK7ysD3VVW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "rtyap2idnSdhtcCyEjh7R4",
+    "assetBranchId": "rtyap2idnSdhtcCyEjh7R4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qAeede1LCdybZ9P1B7kF2i",
+    "assetBranchId": "qAeede1LCdybZ9P1B7kF2i",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nrzK7tdLZzpUTuXncXk9bU",
+    "assetBranchId": "nrzK7tdLZzpUTuXncXk9bU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "a1sKPT9Sw3TGwoLJ3krPJe",
+    "assetBranchId": "a1sKPT9Sw3TGwoLJ3krPJe",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2erpNKe4H9utgJGddHfrFb",
+    "assetBranchId": "2erpNKe4H9utgJGddHfrFb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3Gg98g5whDDbbiy1JxTVuo",
+    "assetBranchId": "3Gg98g5whDDbbiy1JxTVuo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tcHyTJpn1cXLJ7uKAbSTgR",
+    "assetBranchId": "tcHyTJpn1cXLJ7uKAbSTgR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "sL79RKdHXNZBd7BmxNooHx",
+    "assetBranchId": "sL79RKdHXNZBd7BmxNooHx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2Tqc9tw8eCLddUsgXBKdg7",
+    "assetBranchId": "2Tqc9tw8eCLddUsgXBKdg7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fp8ttAxeYYFEcjmMB9E2yx",
+    "assetBranchId": "fp8ttAxeYYFEcjmMB9E2yx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1ohAhtLJGdfAweqFHn94A2",
+    "assetBranchId": "1ohAhtLJGdfAweqFHn94A2",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hGPtEqXEtt7cweDxLCoPgR",
+    "assetBranchId": "hGPtEqXEtt7cweDxLCoPgR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "otGs9z9qXV1W1q6tvWBaBG",
+    "assetBranchId": "otGs9z9qXV1W1q6tvWBaBG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uynTs9LafH1rnmbsuKHVCv",
+    "assetBranchId": "uynTs9LafH1rnmbsuKHVCv",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1Da7qAU1ELBj7ri8x9pnB7",
+    "assetBranchId": "1Da7qAU1ELBj7ri8x9pnB7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jTyLve8VaVLUntvUZNb7Gb",
+    "assetBranchId": "jTyLve8VaVLUntvUZNb7Gb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9oq2bDUt6u7a9G5EzDvNdh",
+    "assetBranchId": "9oq2bDUt6u7a9G5EzDvNdh",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "bqK5T4svXqZWW3tbNwBx7a",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nzQza6XrCTxHVaDDdXndxB",
+    "assetBranchId": "nzQza6XrCTxHVaDDdXndxB",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vVLJkJ88faW3feuP3RK8wK",
+    "assetBranchId": "vVLJkJ88faW3feuP3RK8wK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "dA2KDuni4cw1JTgThMbRci",
+    "assetBranchId": "dA2KDuni4cw1JTgThMbRci",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vXUht2DzMJphtyhAsDRFE7",
+    "assetBranchId": "vXUht2DzMJphtyhAsDRFE7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mwvijYwB5d4DTu6VnwDmBR",
+    "assetBranchId": "mwvijYwB5d4DTu6VnwDmBR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "oq6vLq7bK8zAi5YDSQkY4n",
+    "assetBranchId": "oq6vLq7bK8zAi5YDSQkY4n",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "d49eGLaPNuC9HVwKL9y1es",
+    "assetBranchId": "d49eGLaPNuC9HVwKL9y1es",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5ukH2Jv1nfqtzFvqoAVvf8",
+    "assetBranchId": "5ukH2Jv1nfqtzFvqoAVvf8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7wFBVH7s24732QMnusgWt5",
+    "assetBranchId": "7wFBVH7s24732QMnusgWt5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ryi7zTPkEdpfYR5zrVbHAU",
+    "assetBranchId": "ryi7zTPkEdpfYR5zrVbHAU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9zgy4Fo423AJw6JzdxSA9f",
+    "assetBranchId": "9zgy4Fo423AJw6JzdxSA9f",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "aPCdt6Q72wKJ3uY5eDrTjG",
+    "assetBranchId": "aPCdt6Q72wKJ3uY5eDrTjG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bvdfhubgxJ8F3rPxVu5pwo",
+    "assetBranchId": "bvdfhubgxJ8F3rPxVu5pwo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bpqKxtxLLngGB9BWpHmwaA",
+    "assetBranchId": "bpqKxtxLLngGB9BWpHmwaA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wcNPSYh3r2zcjhyffAnbBa",
+    "assetBranchId": "wcNPSYh3r2zcjhyffAnbBa",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "o9qgTmUJyDRdV5VhVBL39S",
+    "assetBranchId": "o9qgTmUJyDRdV5VhVBL39S",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nasA79wgCLcx5BDp1X5oVi",
+    "assetBranchId": "nasA79wgCLcx5BDp1X5oVi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bFSxZkUmd1wbTeJPa5wtpZ",
+    "assetBranchId": "bFSxZkUmd1wbTeJPa5wtpZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fBKHAqxzfDYZFE2n8N339p",
+    "assetBranchId": "fBKHAqxzfDYZFE2n8N339p",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "64vWx4qceMd3KTdJr7cuZV",
+    "assetBranchId": "64vWx4qceMd3KTdJr7cuZV",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "rBWvExaPehmbfvjULz7Uxe",
+    "assetBranchId": "rBWvExaPehmbfvjULz7Uxe",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "8saSwjFxG4rcVBEQoWEnXb",
+    "assetBranchId": "8saSwjFxG4rcVBEQoWEnXb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jRBXevj7mAVnCnv2hQxLBF",
+    "assetBranchId": "jRBXevj7mAVnCnv2hQxLBF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "oY1AT4n9tbgHxQ2HfxJXMr",
+    "assetBranchId": "oY1AT4n9tbgHxQ2HfxJXMr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mhqpaZduS8mEv4LsTpZJ5b",
+    "assetBranchId": "mhqpaZduS8mEv4LsTpZJ5b",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "45EdmmejDANaTzyLtyqaxC",
+    "assetBranchId": "45EdmmejDANaTzyLtyqaxC",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "57hDWtD84S3moD6fXimneM",
+    "assetBranchId": "57hDWtD84S3moD6fXimneM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vi7pMqz16GmfHQYVySRwM2",
+    "assetBranchId": "vi7pMqz16GmfHQYVySRwM2",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "91s4qyw6QE62KTJr85oXnH",
+    "assetBranchId": "91s4qyw6QE62KTJr85oXnH",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "ppPZtu5SAHQR4P1XxdxWEZ",
+    "assetBranchId": "ppPZtu5SAHQR4P1XxdxWEZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hw8oobtnEvxx95fxijVxKA",
+    "assetBranchId": "hw8oobtnEvxx95fxijVxKA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9prFEqNg42PmskTEfKSMMt",
+    "assetBranchId": "9prFEqNg42PmskTEfKSMMt",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "57buEMrWpp15Akz8GYDRxZ",
+    "assetBranchId": "57buEMrWpp15Akz8GYDRxZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "4xeGPsVcwJxdkbFEmkF3im",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "6i19j3DbVXsWioQDuQVb2Z",
+    "assetBranchId": "6i19j3DbVXsWioQDuQVb2Z",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "xwh3M34QnerUiY7mzYAGbo",
+    "assetBranchId": "xwh3M34QnerUiY7mzYAGbo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "rkF1g756saFW64YQfSt4NE",
+    "assetBranchId": "rkF1g756saFW64YQfSt4NE",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tHxCdsmtPZkdqtCyqigDio",
+    "assetBranchId": "tHxCdsmtPZkdqtCyqigDio",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "dfo3V9QzoL2b29yyniLXsS",
+    "assetBranchId": "dfo3V9QzoL2b29yyniLXsS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "np8SR1TeyL68JQepUcCei9",
+    "assetBranchId": "np8SR1TeyL68JQepUcCei9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3grmj7MnTNib2nDHYjv6BJ",
+    "assetBranchId": "3grmj7MnTNib2nDHYjv6BJ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3oppQ7FqSzEbpPagY2oV72",
+    "assetBranchId": "3oppQ7FqSzEbpPagY2oV72",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vdJL2Cx9BTUyR6HjbZjUvF",
+    "assetBranchId": "vdJL2Cx9BTUyR6HjbZjUvF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "sVm6aDHn191ba7vdy1mJbS",
+    "assetBranchId": "sVm6aDHn191ba7vdy1mJbS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qexu8rsJzfkFg7L4Wa5WdB",
+    "assetBranchId": "qexu8rsJzfkFg7L4Wa5WdB",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "erCpCCsJ7tcnq1WPCyjkJU",
+    "assetBranchId": "erCpCCsJ7tcnq1WPCyjkJU",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "xen1tHXgS9tKcn1hmeBhSi",
+    "assetBranchId": "xen1tHXgS9tKcn1hmeBhSi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "socNzMTSjqFqXzf6L7k9gy",
+    "assetBranchId": "socNzMTSjqFqXzf6L7k9gy",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "txm82ey2NP18uXuCyGQyvm",
+    "assetBranchId": "txm82ey2NP18uXuCyGQyvm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "oHZ7M4iKS2c6toUbAF5ZS3",
+    "assetBranchId": "oHZ7M4iKS2c6toUbAF5ZS3",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "cegAZ94EFqrg3EDwAocJpa",
+    "assetBranchId": "cegAZ94EFqrg3EDwAocJpa",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "kc4q975bPREBw2YYXTnuqQ",
+    "assetBranchId": "kc4q975bPREBw2YYXTnuqQ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uRT2QgRxzHqEGjgAcvzjjN",
+    "assetBranchId": "uRT2QgRxzHqEGjgAcvzjjN",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "m1ChMW4XbAszE4e32jmoDM",
+    "assetBranchId": "m1ChMW4XbAszE4e32jmoDM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "iVLot5m7HLh9Dvgdma4s8X",
+    "assetBranchId": "iVLot5m7HLh9Dvgdma4s8X",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "34FAiDEkX4fVcTNnaojMkW",
+    "assetBranchId": "34FAiDEkX4fVcTNnaojMkW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "6LehrR1SuXrE5VCgzikRUm",
+    "assetBranchId": "6LehrR1SuXrE5VCgzikRUm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "cnFSv1k3RAAoC7S9XYiomA",
+    "assetBranchId": "cnFSv1k3RAAoC7S9XYiomA",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "g2vqHjMueb6iCB1YYEunu8",
+    "assetBranchId": "g2vqHjMueb6iCB1YYEunu8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fuJcFnSpaiZgHg5bBqZFC8",
+    "assetBranchId": "fuJcFnSpaiZgHg5bBqZFC8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7j2LESKwYz31efhbWyecFZ",
+    "assetBranchId": "7j2LESKwYz31efhbWyecFZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vKoJbvpuR6SQcXwHN4BzR8",
+    "assetBranchId": "vKoJbvpuR6SQcXwHN4BzR8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "etfRyUGbfBTx6A35bZAihv",
+    "assetBranchId": "etfRyUGbfBTx6A35bZAihv",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hpfssYUT3xYP7931Ta5BVC",
+    "assetBranchId": "hpfssYUT3xYP7931Ta5BVC",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "cWyxyQFdyVRQm6hKH9t8RG",
+    "assetBranchId": "cWyxyQFdyVRQm6hKH9t8RG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jPFLiqGG375EjkRbiUcb84",
+    "assetBranchId": "jPFLiqGG375EjkRbiUcb84",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "4ppGhnHrWe7Mt9KZCbWSTi",
+    "assetBranchId": "4ppGhnHrWe7Mt9KZCbWSTi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "knCS5GV1VEpDw28V1FJYv8",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9b9mH6qESf8anv7bgq85i1",
+    "assetBranchId": "9b9mH6qESf8anv7bgq85i1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "6X3RKVjwc9jGH2nEMrv7A8",
+    "assetBranchId": "6X3RKVjwc9jGH2nEMrv7A8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7XZJdS6d9vEQgJVqzP47Ji",
+    "assetBranchId": "7XZJdS6d9vEQgJVqzP47Ji",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1nfG64m7Yon35WD6chCRuR",
+    "assetBranchId": "1nfG64m7Yon35WD6chCRuR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gGjEAZzka5rByxRudKMRHm",
+    "assetBranchId": "gGjEAZzka5rByxRudKMRHm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wopk7cJYM8RR9bUo22FHcy",
+    "assetBranchId": "wopk7cJYM8RR9bUo22FHcy",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qFhJPZpQAr9FftH3i6ZNi5",
+    "assetBranchId": "qFhJPZpQAr9FftH3i6ZNi5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "opfRTfCsYeck7iJwuLcjK8",
+    "assetBranchId": "opfRTfCsYeck7iJwuLcjK8",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7PAe49ybnMLJZ16Ak9b4Dc",
+    "assetBranchId": "7PAe49ybnMLJZ16Ak9b4Dc",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9MZFZfFbaQ4xzhnJfZDeqw",
+    "assetBranchId": "9MZFZfFbaQ4xzhnJfZDeqw",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "m41b1zsJpSyqcLP3yPvt11",
+    "assetBranchId": "m41b1zsJpSyqcLP3yPvt11",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "1N9HmjrgGuQmwuMYmF1uCz",
+    "assetBranchId": "1N9HmjrgGuQmwuMYmF1uCz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mCupXRHMLthDzAg5oiprXs",
+    "assetBranchId": "mCupXRHMLthDzAg5oiprXs",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "xeUHN19fFtFvYHMb2wJUKi",
+    "assetBranchId": "xeUHN19fFtFvYHMb2wJUKi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "jofvNpWybQoABekGfT7pH7",
+    "assetBranchId": "jofvNpWybQoABekGfT7pH7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "oh1tPqho3YVMrKofLghG5e",
+    "assetBranchId": "oh1tPqho3YVMrKofLghG5e",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hzoQ2iJPwZzd2JcZbs2v2R",
+    "assetBranchId": "hzoQ2iJPwZzd2JcZbs2v2R",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "de7vfFwkb3mA6ZJh98xs65",
+    "assetBranchId": "de7vfFwkb3mA6ZJh98xs65",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qYLpM6QNDgPH5QELM22XKT",
+    "assetBranchId": "qYLpM6QNDgPH5QELM22XKT",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2oEGtDSPfo89egN1FtGTCq",
+    "assetBranchId": "2oEGtDSPfo89egN1FtGTCq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mpjcrHXM1RazabvvBP9Kw9",
+    "assetBranchId": "mpjcrHXM1RazabvvBP9Kw9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "pN8cRSni4Bp4qNnpF4ite6",
+    "assetBranchId": "pN8cRSni4Bp4qNnpF4ite6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "bwSSFQHErncYZzKWqkdigM",
+    "assetBranchId": "bwSSFQHErncYZzKWqkdigM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9psfEdwiUKgXob6JUZucM6",
+    "assetBranchId": "9psfEdwiUKgXob6JUZucM6",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vVJs4JHbYRHFCoRze1vksh",
+    "assetBranchId": "vVJs4JHbYRHFCoRze1vksh",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7uPyQAbBJTd8zUC3Bd8gNK",
+    "assetBranchId": "7uPyQAbBJTd8zUC3Bd8gNK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3NjDLkB5QxR2Eah76p7TQy",
+    "assetBranchId": "3NjDLkB5QxR2Eah76p7TQy",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "8jygYJ2UMeHdf8BTKwXZky",
+    "assetBranchId": "8jygYJ2UMeHdf8BTKwXZky",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "eNfrmz1mkR1Evbw6aZc4MG",
+    "assetBranchId": "eNfrmz1mkR1Evbw6aZc4MG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "smDNyXsWeifXyTk3Lee84g",
+    "assetBranchId": "smDNyXsWeifXyTk3Lee84g",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "2njb1sV1YHJ3kW1tR7AWvb",
+    "assetBranchId": "2njb1sV1YHJ3kW1tR7AWvb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "b84g5vJqFXhxeCR5qz3qKj",
+    "assetBranchId": "b84g5vJqFXhxeCR5qz3qKj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "gE3sb12e8ii1CL6h6XHLZR",
+    "assetBranchId": "gE3sb12e8ii1CL6h6XHLZR",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "nmyoGKriQL7LNVwyNXSeP1",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "sNzCWJpzWLbWVsyibcW6Xb",
+    "assetBranchId": "sNzCWJpzWLbWVsyibcW6Xb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "p9bBuVKm1RWYk76btX16Gz",
+    "assetBranchId": "p9bBuVKm1RWYk76btX16Gz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qCyg75UCkzda4pKCi6MoBs",
+    "assetBranchId": "qCyg75UCkzda4pKCi6MoBs",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qt3Hzqdc4V2Ze4HHBoqnNT",
+    "assetBranchId": "qt3Hzqdc4V2Ze4HHBoqnNT",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wZrMS4VBTrRguknvGuyv7u",
+    "assetBranchId": "wZrMS4VBTrRguknvGuyv7u",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fnqVVbCnZ3Ca8PXxBr3Ls7",
+    "assetBranchId": "fnqVVbCnZ3Ca8PXxBr3Ls7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "t8cHzn7ihaHTzH5pCvcAWc",
+    "assetBranchId": "t8cHzn7ihaHTzH5pCvcAWc",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "v9adbJBy4WsBUYPAtacD8n",
+    "assetBranchId": "v9adbJBy4WsBUYPAtacD8n",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "hRdGCBoHSxJPy974DQtVvw",
+    "assetBranchId": "hRdGCBoHSxJPy974DQtVvw",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vS3jrF3XWPXEgbSZvMEYgD",
+    "assetBranchId": "vS3jrF3XWPXEgbSZvMEYgD",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7QyXmzcTTZddSNYkt7vcH7",
+    "assetBranchId": "7QyXmzcTTZddSNYkt7vcH7",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "mbiTMG1M8KakNaGrVmXnb9",
+    "assetBranchId": "mbiTMG1M8KakNaGrVmXnb9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "qK4w5WmuYSwQyQABVhwGw1",
+    "assetBranchId": "qK4w5WmuYSwQyQABVhwGw1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "xuXCcwnWxHYka4PhYMp7Cb",
+    "assetBranchId": "xuXCcwnWxHYka4PhYMp7Cb",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "8ZSJi2H4TaMKeFySiaFokh",
+    "assetBranchId": "8ZSJi2H4TaMKeFySiaFokh",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "beqvi4ma2bFw83ekcYqhCv",
+    "assetBranchId": "beqvi4ma2bFw83ekcYqhCv",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "3CU7xMkw9tboH9fXo1dYMF",
+    "assetBranchId": "3CU7xMkw9tboH9fXo1dYMF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "tbkBk6PttCBorMfP9BTBXK",
+    "assetBranchId": "tbkBk6PttCBorMfP9BTBXK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7nngL2HYnZDmwD2SxSRri2",
+    "assetBranchId": "7nngL2HYnZDmwD2SxSRri2",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wdvvet46UsQdGYCkTEa2Z9",
+    "assetBranchId": "wdvvet46UsQdGYCkTEa2Z9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uJxUzwpPoWVzFjQkpEapSG",
+    "assetBranchId": "uJxUzwpPoWVzFjQkpEapSG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "koD3h88Vj2PbaFUFa676aF",
+    "assetBranchId": "koD3h88Vj2PbaFUFa676aF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "9noMpNFkwQX51rorwAfXef",
+    "assetBranchId": "9noMpNFkwQX51rorwAfXef",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "vXPKoHZHxrcK1v4ui3a4fu",
+    "assetBranchId": "vXPKoHZHxrcK1v4ui3a4fu",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "a28T7Tccfq27GwDypZRyT5",
+    "assetBranchId": "a28T7Tccfq27GwDypZRyT5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "j1vzq3SijUnaj1FEuMCGdq",
+    "assetBranchId": "j1vzq3SijUnaj1FEuMCGdq",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wogvzxJ8Dvs7q6r5X2MWK1",
+    "assetBranchId": "wogvzxJ8Dvs7q6r5X2MWK1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "fHnZjbaW3JhJecmb8JCCDZ",
+    "assetBranchId": "fHnZjbaW3JhJecmb8JCCDZ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "nHwroJf591XkoxzTuETUmC",
+    "assetBranchId": "nHwroJf591XkoxzTuETUmC",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "wx96UxkPVpvH6Ribp5tGig",
+    "assetBranchId": "wx96UxkPVpvH6Ribp5tGig",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "7ZFxnjD21iS89ERmwdTnAt",
+    "assetBranchId": "7ZFxnjD21iS89ERmwdTnAt",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "uGDZBCK311Mi9qc81dGKeE",
+    "assetBranchId": "uGDZBCK311Mi9qc81dGKeE",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  },
+  {
+    "_id": "5C3MJBAfRapLSFFhx1jL5k",
+    "assetBranchId": "5C3MJBAfRapLSFFhx1jL5k",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "branchId": "57WQgWhd6eYqtd3kPXBgbo",
+    "ohQty": 0,
+    "ropQty": 0
+  }
+]

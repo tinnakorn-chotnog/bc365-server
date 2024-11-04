@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "3njNZgr8aAAaVfGmYdu8iQ",
+    "cateId": "3njNZgr8aAAaVfGmYdu8iQ",
+    "cateCode": "01",
+    "cateName": "Food"
+  },
+  {
+    "_id": "24AsRMDwCAorFsgFF16AoN",
+    "cateId": "24AsRMDwCAorFsgFF16AoN",
+    "cateCode": "02",
+    "cateName": "Home Appliances"
+  },
+  {
+    "_id": "s6ouFsKo8hBjkrECF8i7kg",
+    "cateId": "s6ouFsKo8hBjkrECF8i7kg",
+    "cateCode": "03",
+    "cateName": "Computer & Office"
+  },
+  {
+    "_id": "dSG1r7zupsVBtEkbFmCSCg",
+    "cateId": "dSG1r7zupsVBtEkbFmCSCg",
+    "cateCode": "04",
+    "cateName": "Home Improvement"
+  },
+  {
+    "_id": "r3mt3svA7ymDs1RJNFCGzv",
+    "cateId": "r3mt3svA7ymDs1RJNFCGzv",
+    "cateCode": "05",
+    "cateName": "Home & Garden"
+  },
+  {
+    "_id": "mmRPyBPuKPdv4ghEBiELv5",
+    "cateId": "mmRPyBPuKPdv4ghEBiELv5",
+    "cateCode": "06",
+    "cateName": "Sports & Entertainment"
+  },
+  {
+    "_id": "efB3ktMFXHYHqbUpnx2DxF",
+    "cateId": "efB3ktMFXHYHqbUpnx2DxF",
+    "cateCode": "07",
+    "cateName": "Education & Office Supplies"
+  },
+  {
+    "_id": "taaYXcgU9WEJGJFdJQUsFu",
+    "cateId": "taaYXcgU9WEJGJFdJQUsFu",
+    "cateCode": "08",
+    "cateName": "Toys & Hobbies"
+  },
+  {
+    "_id": "8rBcG45HJnsq9DDctovvPm",
+    "cateId": "8rBcG45HJnsq9DDctovvPm",
+    "cateCode": "09",
+    "cateName": "Security & Protection"
+  },
+  {
+    "_id": "7LjAcrDRnwSpeLonsduPpw",
+    "cateId": "7LjAcrDRnwSpeLonsduPpw",
+    "cateCode": "10",
+    "cateName": "Automobiles & Motorcycles"
+  },
+  {
+    "_id": "vWveUpSUEpEp93o24G3b6f",
+    "cateId": "vWveUpSUEpEp93o24G3b6f",
+    "cateCode": "11",
+    "cateName": "Lights & Lighting"
+  },
+  {
+    "_id": "7o7DEtjQUpyPenu285EcqP",
+    "cateId": "7o7DEtjQUpyPenu285EcqP",
+    "cateCode": "12",
+    "cateName": "Consumer Electronics"
+  },
+  {
+    "_id": "e2V5PymQVhJdLUn1AJiVu7",
+    "cateId": "e2V5PymQVhJdLUn1AJiVu7",
+    "cateCode": "13",
+    "cateName": "Beauty & Health"
+  },
+  {
+    "_id": "qJo2E6aGukBUru5aVQpaUK",
+    "cateId": "qJo2E6aGukBUru5aVQpaUK",
+    "cateCode": "14",
+    "cateName": "Shoes"
+  },
+  {
+    "_id": "8UXFdVEohvwEkX6aNwebVW",
+    "cateId": "8UXFdVEohvwEkX6aNwebVW",
+    "cateCode": "15",
+    "cateName": "Electronic Components & Supplies"
+  },
+  {
+    "_id": "oYfXkw6ywZ5fZsmetYwQv4",
+    "cateId": "oYfXkw6ywZ5fZsmetYwQv4",
+    "cateCode": "16",
+    "cateName": "Cellphones & Telecommunications"
+  },
+  {
+    "_id": "qi9vYJF3aXHhtmpMk5ipK1",
+    "cateId": "qi9vYJF3aXHhtmpMk5ipK1",
+    "cateCode": "17",
+    "cateName": "Tools"
+  },
+  {
+    "_id": "i5tiCNkY7mBZ79VNf764Qf",
+    "cateId": "i5tiCNkY7mBZ79VNf764Qf",
+    "cateCode": "18",
+    "cateName": "Mother & Kids"
+  },
+  {
+    "_id": "q1agi3sQevdSFeoJjf7r1P",
+    "cateId": "q1agi3sQevdSFeoJjf7r1P",
+    "cateCode": "19",
+    "cateName": "Furniture"
+  },
+  {
+    "_id": "4JddECA8S5GBSKvHvskE7e",
+    "cateId": "4JddECA8S5GBSKvHvskE7e",
+    "cateCode": "20",
+    "cateName": "Jewelry & Accessories"
+  },
+  {
+    "_id": "39JD11F9xx1CCf1rsSfbpd",
+    "cateId": "39JD11F9xx1CCf1rsSfbpd",
+    "cateCode": "21",
+    "cateName": "Watches"
+  },
+  {
+    "_id": "wwgFBXVzLwBCiKtU7DHPS5",
+    "cateId": "wwgFBXVzLwBCiKtU7DHPS5",
+    "cateCode": "22",
+    "cateName": "Luggage & Bags"
+  },
+  {
+    "_id": "32iGEwbJqDqw2sSvGWsvE6",
+    "cateId": "32iGEwbJqDqw2sSvGWsvE6",
+    "cateCode": "23",
+    "cateName": "Hair Extensions & Wigs"
+  },
+  {
+    "_id": "3LjUFEKau7Nr4hg6jLckL9",
+    "cateId": "3LjUFEKau7Nr4hg6jLckL9",
+    "cateCode": "24",
+    "cateName": "Virtual Goods"
+  },
+  {
+    "_id": "9k5FQUNC9RWvWyF1mCcxLt",
+    "cateId": "9k5FQUNC9RWvWyF1mCcxLt",
+    "cateCode": "25",
+    "cateName": "Novelty & Special Use"
+  },
+  {
+    "_id": "dkKn6xQxHYAZ89PnN5SGeF",
+    "cateId": "dkKn6xQxHYAZ89PnN5SGeF",
+    "cateCode": "26",
+    "cateName": "Weddings & Events"
+  },
+  {
+    "_id": "pEXPrhdXBPxCzeS7s2P5Uo",
+    "cateId": "pEXPrhdXBPxCzeS7s2P5Uo",
+    "cateCode": "27",
+    "cateName": "Women's Clothing"
+  },
+  {
+    "_id": "qiZfUory23pjgqxM7X7udj",
+    "cateId": "qiZfUory23pjgqxM7X7udj",
+    "cateCode": "28",
+    "cateName": "Men's Clothing"
+  },
+  {
+    "_id": "6N8s86e1q3coJAPXhDYN1t",
+    "cateId": "6N8s86e1q3coJAPXhDYN1t",
+    "cateCode": "29",
+    "cateName": "Apparel Accessories"
+  },
+  {
+    "_id": "opPF7KsRPpFLd81AHpxTVw",
+    "cateId": "opPF7KsRPpFLd81AHpxTVw",
+    "cateCode": "30",
+    "cateName": "Underwear & Sleepwears"
+  }
+]

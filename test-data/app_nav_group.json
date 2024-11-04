@@ -1,0 +1,103 @@
+[
+    {
+        "appNavGroupId": "erAvn4yAuLeSvqkyj5FqcC",
+        "groupNo": "DS01",
+        "groupName": "Dashboard",
+        "isRoot": true
+    },
+    {
+        "appNavGroupId": "8cEJUfS3jpbp645qZjHjnH",
+        "groupNo": "SL01",
+        "groupName": "Sales"
+    },
+    {
+        "appNavGroupId": "2ErpFjvPm8kQtNTC6Dtff9",
+        "groupNo": "PC01",
+        "groupName": "Purchase"
+    },
+    {
+        "appNavGroupId": "3ai4RCyZy8gAASzNLyWYyj",
+        "groupNo": "APM01",
+        "groupName": "Apartment"
+    },
+    {
+        "appNavGroupId": "25YnbhGxWNcKxCyjppEWnZ",
+        "groupNo": "AUTH01",
+        "groupName": "Authorization"
+    },
+    {
+        "appNavGroupId": "fKAMx2BMasMcSq3rip6EKd",
+        "groupNo": "CLINIC01",
+        "groupName": "Clinic"
+    },
+    {
+        "appNavGroupId": "tUgtkoDgr2BLXW83SfY6ra",
+        "groupNo": "FIN01",
+        "groupName": "Financial"
+    },
+    {
+        "appNavGroupId": "anhPUK8KZDjqGhpoErj7zY",
+        "groupNo": "FFM01",
+        "groupName": "Fulfillment"
+    },
+    {
+        "appNavGroupId": "4BHBzV68BRa4JXpMPNE27r",
+        "groupNo": "HOTEL01",
+        "groupName": "Hotel"
+    },
+    {
+        "appNavGroupId": "coLvJULEe9K3aCWQv6Wjcd",
+        "groupNo": "01",
+        "groupName": "Human Resource"
+    },
+    {
+        "appNavGroupId": "2MMzZkqaaTTu8NKKvpytQn",
+        "groupNo": "PLN01",
+        "groupName": "Planning"
+    },
+    {
+        "appNavGroupId": "j4e11ok6LKPPEYdz9JC5yS",
+        "groupNo": "POS01",
+        "groupName": "Point Of Sales"
+    },
+    {
+        "appNavGroupId": "vmRS4FfzsjEJzNAmiQ9MHs",
+        "groupNo": "CRM01",
+        "groupName": "CRM"
+    },
+    {
+        "appNavGroupId": "oJDyvs4t8v9wDLf9zQMiCz",
+        "groupNo": "MFG01",
+        "groupName": "Production"
+    },
+    {
+        "appNavGroupId": "g8pSVq91pM5t5ryEfXGZPD",
+        "groupNo": "RMS01",
+        "groupName": "Restuarant"
+    },
+    {
+        "appNavGroupId": "cEEa1FtACduNrv33Zez7L1",
+        "groupNo": "TSL01",
+        "groupName": "Translation"
+    },
+    {
+        "appNavGroupId": "8cEJUfS3jpbp645qZjHjnH",
+        "groupNo": "WRC01",
+        "groupName": "Warrany Claim"
+    },
+    {
+        "appNavGroupId": "oQRgJfwBR5FVUd7ZfQCCvc",
+        "groupNo": "01",
+        "groupName": "Repair Shop"
+    },
+    {
+        "appNavGroupId": "nbkPDDKdrNriRQ8Qheqkb1",
+        "groupNo": "SNM01",
+        "groupName": "Service and maintenance"
+    },
+    {
+        "appNavGroupId": "obphWdRk7GJvymQc4Fn9qS",
+        "groupNo": "GRG01",
+        "groupName": "Garage"
+    }
+]

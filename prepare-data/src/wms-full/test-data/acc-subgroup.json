@@ -1,0 +1,184 @@
+[
+  {
+    "_id": "x4zM6LDdScWNnmp7d8HbcJ",
+    "accSubgroupId": "x4zM6LDdScWNnmp7d8HbcJ",
+    "accSubgroupName": "Cash and cash equivalents",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupCode": "01"
+  },
+  {
+    "_id": "dew9WJojUDpx4Rn1xdQRzG",
+    "accSubgroupId": "dew9WJojUDpx4Rn1xdQRzG",
+    "accSubgroupName": "Short term marketable securities",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupCode": "02"
+  },
+  {
+    "_id": "7Ek19VvMTaZTnc4qngyWCd",
+    "accSubgroupId": "7Ek19VvMTaZTnc4qngyWCd",
+    "accSubgroupName": "Accounts receivable",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupCode": "03"
+  },
+  {
+    "_id": "rUUEGJJuRJEPrzPEJxoYZb",
+    "accSubgroupId": "rUUEGJJuRJEPrzPEJxoYZb",
+    "accSubgroupName": "Inventory",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupCode": "04"
+  },
+  {
+    "_id": "4ifeceBj8fFMAPivCXmYLX",
+    "accSubgroupId": "4ifeceBj8fFMAPivCXmYLX",
+    "accSubgroupName": "Other current assets",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupCode": "05"
+  },
+  {
+    "_id": "aqubNhsdzsRkKEyEa331Et",
+    "accSubgroupId": "aqubNhsdzsRkKEyEa331Et",
+    "accSubgroupName": "Long term marketable securities",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupCode": "06"
+  },
+  {
+    "_id": "cTNNEUiJEdbyJLjRkDh12T",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T",
+    "accSubgroupName": "Property, plant and equipment",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupCode": "07"
+  },
+  {
+    "_id": "2dLSNuE1K8E6ckfGtUgSn4",
+    "accSubgroupId": "2dLSNuE1K8E6ckfGtUgSn4",
+    "accSubgroupName": "Goodwill",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupCode": "08"
+  },
+  {
+    "_id": "bLxDwb8iNE2o99fvD8qKoi",
+    "accSubgroupId": "bLxDwb8iNE2o99fvD8qKoi",
+    "accSubgroupName": "Intellectual property",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupCode": "09"
+  },
+  {
+    "_id": "tsAKXxVjpUf8GvZ4eBofTf",
+    "accSubgroupId": "tsAKXxVjpUf8GvZ4eBofTf",
+    "accSubgroupName": "Other long term assets",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupCode": "10"
+  },
+  {
+    "_id": "tSdbm8tzdrfuJTaeG9DSPu",
+    "accSubgroupId": "tSdbm8tzdrfuJTaeG9DSPu",
+    "accSubgroupName": "Notes payable",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupCode": "11"
+  },
+  {
+    "_id": "fLPTLotbtw9nvy3Y7EraCY",
+    "accSubgroupId": "fLPTLotbtw9nvy3Y7EraCY",
+    "accSubgroupName": "Accounts payable",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupCode": "12"
+  },
+  {
+    "_id": "qW9F6PZRtEjSpm6DGRcBVw",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw",
+    "accSubgroupName": "Other current liabilities",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupCode": "13"
+  },
+  {
+    "_id": "5x5nPaa7DAX4jM2Cdmdvpp",
+    "accSubgroupId": "5x5nPaa7DAX4jM2Cdmdvpp",
+    "accSubgroupName": "Mortgages",
+    "accGroupId": "8cMY4DpEkWSiYSoNN5mnHV",
+    "accSubgroupCode": "14"
+  },
+  {
+    "_id": "sX9Kt2eYmyZrCZnbENtUMQ",
+    "accSubgroupId": "sX9Kt2eYmyZrCZnbENtUMQ",
+    "accSubgroupName": "Bonds",
+    "accGroupId": "8cMY4DpEkWSiYSoNN5mnHV",
+    "accSubgroupCode": "15"
+  },
+  {
+    "_id": "xiz8vy7EAtUrDSc385KQUS",
+    "accSubgroupId": "xiz8vy7EAtUrDSc385KQUS",
+    "accSubgroupName": "Capital",
+    "accGroupId": "rxq9f5bz6yQK8oLSgqUkJ3",
+    "accSubgroupCode": "16"
+  },
+  {
+    "_id": "n8i15oBCC3RuB5DLgzCEeh",
+    "accSubgroupId": "n8i15oBCC3RuB5DLgzCEeh",
+    "accSubgroupName": "Retained earnings",
+    "accGroupId": "rxq9f5bz6yQK8oLSgqUkJ3",
+    "accSubgroupCode": "17"
+  },
+  {
+    "_id": "hesPjnnqSzVkvcXFaC1Vn1",
+    "accSubgroupId": "hesPjnnqSzVkvcXFaC1Vn1",
+    "accSubgroupName": "Revenue",
+    "accGroupId": "3cDsYynPNo7zHiG35zPyis",
+    "accSubgroupCode": "18"
+  },
+  {
+    "_id": "nKhaMJP7iGUDJzsgFh1woV",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV",
+    "accSubgroupName": "Cost of sales",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupCode": "19"
+  },
+  {
+    "_id": "bRk3kYonH4MBfEwzktcbZU",
+    "accSubgroupId": "bRk3kYonH4MBfEwzktcbZU",
+    "accSubgroupName": "Research and development",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupCode": "20"
+  },
+  {
+    "_id": "jq2GX1RFmZvLuQBDat46h8",
+    "accSubgroupId": "jq2GX1RFmZvLuQBDat46h8",
+    "accSubgroupName": "Sales and marketing",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupCode": "21"
+  },
+  {
+    "_id": "h13QdmPzz3wxnmUmKJfDJv",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv",
+    "accSubgroupName": "General and administrative",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupCode": "22"
+  },
+  {
+    "_id": "hX9SUfCJuxpc1J2o6WtAhA",
+    "accSubgroupId": "hX9SUfCJuxpc1J2o6WtAhA",
+    "accSubgroupName": "Depreciation",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupCode": "23"
+  },
+  {
+    "_id": "nP69Y4UAwSCr3nhz5x45KH",
+    "accSubgroupId": "nP69Y4UAwSCr3nhz5x45KH",
+    "accSubgroupName": "Finance costs",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupCode": "24"
+  },
+  {
+    "_id": "6enyJjBWbedofn85vjSjAa",
+    "accSubgroupId": "6enyJjBWbedofn85vjSjAa",
+    "accSubgroupName": "Other Income",
+    "accGroupId": "rpPjBQFoB6H8FsevC9yL1L",
+    "accSubgroupCode": "25"
+  },
+  {
+    "_id": "bpmrRczvTAAdAXeswZf1fE",
+    "accSubgroupId": "bpmrRczvTAAdAXeswZf1fE",
+    "accSubgroupName": "Income tax expense",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupCode": "26"
+  }
+]

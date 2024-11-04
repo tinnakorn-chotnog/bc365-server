@@ -1,0 +1,84 @@
+{
+  "name": "demo1-graphql",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/demo1/graphql/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/demo1/graphql",
+        "main": "apps/demo1/graphql/src/main.ts",
+        "tsConfig": "apps/demo1/graphql/tsconfig.app.json",
+        "assets": [
+          "apps/demo1/graphql/src/assets",
+          "apps/demo1/graphql/src/cert",
+          {
+            "glob": "**/*",
+            "input": "libs/demo1/src/lib/generated/protos",
+            "output": "./protos"
+          },
+          {
+            "glob": "**/*",
+            "input": "apps/demo1/graphql/src/app/templates",
+            "output": "./templates"
+          }
+        ],
+        "isolatedConfig": true,
+        "generatePackageJson": true,
+        "webpackConfig": "apps/demo1/graphql/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "demo1-graphql:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "demo1-graphql:build:development"
+        },
+        "production": {
+          "buildTarget": "demo1-graphql:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/demo1/graphql/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/demo1/graphql/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "pack": {
+      "executor": "@bc365-server/plugins:build",
+      "options": {
+        "outputPath": "./output"
+      }
+    }
+  },
+  "tags": []
+}

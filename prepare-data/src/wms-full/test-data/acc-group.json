@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accGroupName": "Current assets",
+    "accGroupCode": "01"
+  },
+  {
+    "_id": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accGroupName": "Long term assets",
+    "accGroupCode": "02"
+  },
+  {
+    "_id": "8YSHEfyAFFnEQgqcujR76Z",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accGroupName": "Current liabilities",
+    "accGroupCode": "03"
+  },
+  {
+    "_id": "8cMY4DpEkWSiYSoNN5mnHV",
+    "accGroupId": "8cMY4DpEkWSiYSoNN5mnHV",
+    "accGroupName": "Long-term liabilities",
+    "accGroupCode": "04"
+  },
+  {
+    "_id": "rxq9f5bz6yQK8oLSgqUkJ3",
+    "accGroupId": "rxq9f5bz6yQK8oLSgqUkJ3",
+    "accGroupName": "Equity",
+    "accGroupCode": "05"
+  },
+  {
+    "_id": "3cDsYynPNo7zHiG35zPyis",
+    "accGroupId": "3cDsYynPNo7zHiG35zPyis",
+    "accGroupName": "Income",
+    "accGroupCode": "06"
+  },
+  {
+    "_id": "hZEMJWwTPtttwCQyDdeNPT",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accGroupName": "Cost of sales",
+    "accGroupCode": "07"
+  },
+  {
+    "_id": "8ku9obr4P7rt4qRSUGQRYa",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accGroupName": "Expense",
+    "accGroupCode": "08"
+  },
+  {
+    "_id": "rpPjBQFoB6H8FsevC9yL1L",
+    "accGroupId": "rpPjBQFoB6H8FsevC9yL1L",
+    "accGroupName": "Income",
+    "accGroupCode": "09"
+  }
+]

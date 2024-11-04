@@ -1,0 +1,121 @@
+[
+  {
+    "_id": "59WJDDYUUkmo5TQUKAbqZc",
+    "locId": "59WJDDYUUkmo5TQUKAbqZc",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "000",
+    "locName": "Receiving Area"
+  },
+  {
+    "_id": "72swG9gvx6TbgWv3u72idt",
+    "locId": "72swG9gvx6TbgWv3u72idt",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "000-01",
+    "locName": "Loc 1"
+  },
+  {
+    "_id": "jrxZh5EwoSeBtYE5zWM7zM",
+    "locId": "jrxZh5EwoSeBtYE5zWM7zM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "000-02",
+    "locName": "Loc 2"
+  },
+  {
+    "_id": "izF6kb3d1LEaWt8xZhYL32",
+    "locId": "izF6kb3d1LEaWt8xZhYL32",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "000-03",
+    "locName": "Loc 3"
+  },
+  {
+    "_id": "doSRwVatrrFmbs25mbhazK",
+    "locId": "doSRwVatrrFmbs25mbhazK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "000-04",
+    "locName": "Loc 4"
+  },
+  {
+    "_id": "2uRxN2TbJPw6SSiNdACspp",
+    "locId": "2uRxN2TbJPw6SSiNdACspp",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W01-01",
+    "locName": "Loc 1"
+  },
+  {
+    "_id": "9KyopwZNZNttXpeT7jkEBS",
+    "locId": "9KyopwZNZNttXpeT7jkEBS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W01-02",
+    "locName": "Loc 2"
+  },
+  {
+    "_id": "72KbPvTeVEz3DGNjdmLGzz",
+    "locId": "72KbPvTeVEz3DGNjdmLGzz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W01-03",
+    "locName": "Loc 3"
+  },
+  {
+    "_id": "azcEu1AoDMRsVF1B6d9njx",
+    "locId": "azcEu1AoDMRsVF1B6d9njx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W01-04",
+    "locName": "Loc 4"
+  },
+  {
+    "_id": "n4RHBuTPobKZqFe44YBnqo",
+    "locId": "n4RHBuTPobKZqFe44YBnqo",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W02-01",
+    "locName": "Loc 1"
+  },
+  {
+    "_id": "ariAir5WtpE2R65N4jeFnm",
+    "locId": "ariAir5WtpE2R65N4jeFnm",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W02-02",
+    "locName": "Loc 2"
+  },
+  {
+    "_id": "mWKhzwtdQB43LeJ6C7mBwN",
+    "locId": "mWKhzwtdQB43LeJ6C7mBwN",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W02-03",
+    "locName": "Loc 3"
+  },
+  {
+    "_id": "2XPgGftvtRhqo926TtnP5q",
+    "locId": "2XPgGftvtRhqo926TtnP5q",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W02-04",
+    "locName": "Loc 4"
+  },
+  {
+    "_id": "rhbdU6EhpYm5fVjBF8AFuF",
+    "locId": "rhbdU6EhpYm5fVjBF8AFuF",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W03-01",
+    "locName": "Loc 1"
+  },
+  {
+    "_id": "8uPkazNdLyBFLaP4PxJ5DK",
+    "locId": "8uPkazNdLyBFLaP4PxJ5DK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W03-02",
+    "locName": "Loc 2"
+  },
+  {
+    "_id": "ehx8qRaqZ3KYB3yKtGx4is",
+    "locId": "ehx8qRaqZ3KYB3yKtGx4is",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W03-03",
+    "locName": "Loc 3"
+  },
+  {
+    "_id": "mc4AueLwhSazMsceqMXwfd",
+    "locId": "mc4AueLwhSazMsceqMXwfd",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "locNo": "W03-04",
+    "locName": "Loc 4"
+  }
+]

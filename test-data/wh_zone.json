@@ -1,0 +1,338 @@
+[
+  {
+    "whZoneId": "6N7hvv8coVUQGy8de7drLX",
+    "whZoneNo": "Z01",
+    "whZoneName": "WhZone 1",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "6ngsHJGHdxrEQ4KCDnRJ8J",
+    "whZoneNo": "Z02",
+    "whZoneName": "WhZone 2",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "aZhLJhGxKRykJ36Xf5Jfhs",
+    "whZoneNo": "Z03",
+    "whZoneName": "WhZone 3",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "jpoAbxxVYYoRZ8AwV2x9Ji",
+    "whZoneNo": "Z04",
+    "whZoneName": "WhZone 4",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "tcgayHCbnNETft7uYKAUPf",
+    "whZoneNo": "Z05",
+    "whZoneName": "WhZone 5",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "tiS5DgqU6vWQ9jvsrHCUwX",
+    "whZoneNo": "Z06",
+    "whZoneName": "WhZone 6",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "2oVw9es6QkJsyFNeacnFtE",
+    "whZoneNo": "Z07",
+    "whZoneName": "WhZone 7",
+    "whId": "ex8Neqb4LYByRV3Ta4kSxk",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "cMg6a21S3GR1WzwLZAWBh8",
+    "whZoneNo": "Z01",
+    "whZoneName": "WhZone 1",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "eHNjvAt6GBzsWeEmUK1qbh",
+    "whZoneNo": "Z02",
+    "whZoneName": "WhZone 2",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "eaCdb3VRMaRWT5uY4yM7g8",
+    "whZoneNo": "Z03",
+    "whZoneName": "WhZone 3",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "x5EMdKxeR5JGGYzAnwwmzq",
+    "whZoneNo": "Z04",
+    "whZoneName": "WhZone 4",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "cm36eTkTGyP8Cg3L2EX4r1",
+    "whZoneNo": "Z05",
+    "whZoneName": "WhZone 5",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "xnuB2iLwhrsAzpMU7rHsvW",
+    "whZoneNo": "Z06",
+    "whZoneName": "WhZone 6",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "cWjDz8BZvunfdDCXQXZsBB",
+    "whZoneNo": "Z07",
+    "whZoneName": "WhZone 7",
+    "whId": "hVKhD7QuKmzhR52XNCkRev",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "m5aoPfjGrTvevSPUXBXEkD"
+  },
+  {
+    "whZoneId": "jj6xKrfSb59hadoMsRigV1",
+    "whZoneNo": "Z01",
+    "whZoneName": "WhZone 1",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "woAMfhKtCEZ9pYmZoqV1rn",
+    "whZoneNo": "Z02",
+    "whZoneName": "WhZone 2",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "hrc5NUZGgnKNLPiahd1nRd",
+    "whZoneNo": "Z03",
+    "whZoneName": "WhZone 3",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "kWHgfiMaNGN9sVY7oJT1Nz",
+    "whZoneNo": "Z04",
+    "whZoneName": "WhZone 4",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "eGsuZKvYedAn42RWZswUtb",
+    "whZoneNo": "Z05",
+    "whZoneName": "WhZone 5",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "fc43BqCYx4p39ivhjsS9pY",
+    "whZoneNo": "Z06",
+    "whZoneName": "WhZone 6",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "wYq38tpXWHwRpW3i8oedtw",
+    "whZoneNo": "Z07",
+    "whZoneName": "WhZone 7",
+    "whId": "9uHqwBGVKa8WHAZmrwWtEY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "6azgUiT3VeiidwmUN6z1zD",
+    "whZoneNo": "Z01",
+    "whZoneName": "WhZone 1",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "2xMWkY66sZnsDfK5Rfgsdn",
+    "whZoneNo": "Z02",
+    "whZoneName": "WhZone 2",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "1kMW3p9ZMKWL3S7xK5SLUw",
+    "whZoneNo": "Z03",
+    "whZoneName": "WhZone 3",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "jSWrsjUD3hxLtdBo4JmyWW",
+    "whZoneNo": "Z04",
+    "whZoneName": "WhZone 4",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "kWZaqnYwWPRJRkjffTB3R7",
+    "whZoneNo": "Z05",
+    "whZoneName": "WhZone 5",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "a3ix3U5jWZxDQtB8gdRyES",
+    "whZoneNo": "Z06",
+    "whZoneName": "WhZone 6",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "d6YxTs8kaPwa6fr68wkRMX",
+    "whZoneNo": "Z07",
+    "whZoneName": "WhZone 7",
+    "whId": "dxNxD8gwLPTVsVN3BC6q1j",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "q8e4GqhJJDKM7SthdkxxEA"
+  },
+  {
+    "whZoneId": "eCJAGUdAXMsVAK2V8NF9Ce",
+    "whZoneNo": "Z01",
+    "whZoneName": "WhZone 1",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "ktbStmMRMny5ZZXg4bGStQ",
+    "whZoneNo": "Z02",
+    "whZoneName": "WhZone 2",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "jKxUro2ApBQWm1YSxMMfpr",
+    "whZoneNo": "Z03",
+    "whZoneName": "WhZone 3",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "maMzNKzwDS6B9kX8Pw5onT",
+    "whZoneNo": "Z04",
+    "whZoneName": "WhZone 4",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "9o1xrvQCvQzV8qSCFuD1rR",
+    "whZoneNo": "Z05",
+    "whZoneName": "WhZone 5",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "dDKtCrP7ASYE4LUNp8LzaY",
+    "whZoneNo": "Z06",
+    "whZoneName": "WhZone 6",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "ucaJrEM468vZfkfp3D69pR",
+    "whZoneNo": "Z07",
+    "whZoneName": "WhZone 7",
+    "whId": "pvChthxLgrGkY5fLurXzwi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "mPAuWn3AEHcyreuPNqSxZr",
+    "whZoneNo": "Z01",
+    "whZoneName": "WhZone 1",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "gQT5tC7QMnXxgADHE2jepV",
+    "whZoneNo": "Z02",
+    "whZoneName": "WhZone 2",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "3MuXcapPy1dFrKdijCvZvv",
+    "whZoneNo": "Z03",
+    "whZoneName": "WhZone 3",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "5dVVS1nfU43WzhuHMksLzr",
+    "whZoneNo": "Z04",
+    "whZoneName": "WhZone 4",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "hgWA4JEaV7f1ZWaAayDCTQ",
+    "whZoneNo": "Z05",
+    "whZoneName": "WhZone 5",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "hz83HM3LJb5fpdqkUyLJ95",
+    "whZoneNo": "Z06",
+    "whZoneName": "WhZone 6",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  },
+  {
+    "whZoneId": "5pJPzaFfkYuxDBSECFy5t6",
+    "whZoneNo": "Z07",
+    "whZoneName": "WhZone 7",
+    "whId": "oAATEBGfjjJXAWiugZsLRK",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "branchId": "uBu9JHarojbdr4scUtxAqe"
+  }
+]

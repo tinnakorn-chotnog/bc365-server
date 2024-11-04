@@ -1,0 +1,303 @@
+import { Test } from '@nestjs/testing';
+import { ConfigModule } from '@nestjs/config';
+import { ApolloAccessModule, configSchema, ConnectionInfo, newClient, RedisLockService, RedisSequenceService } from '../../../../../../../libs/shared/src';
+import { InventoryService } from './inventory.service';
+import { PdLot } from 'apps/demo1/models/interfaces/pd-lot.model';
+import { Pd } from 'apps/demo1/models/interfaces/pd.model';
+import { PdLoc } from 'apps/demo1/models/interfaces/pd-loc.model';
+import { PdLocLot } from 'apps/demo1/models/interfaces/pd-loc-lot.model';
+import { PdWh } from 'apps/demo1/models/interfaces/pd-wh.model';
+const Joi = require('joi');
+const short = require('short-uuid');
+const bizId = 'mnuz6SU4ncbMmBrutWioae';
+
+describe('Test Inventory Service', () => {
+
+    const cinf: ConnectionInfo = { client: newClient() }
+    let inventoryService: InventoryService;
+
+    beforeAll(async () => {
+        const moduleRef = await Test.createTestingModule({
+            imports: [
+                ConfigModule.forRoot({
+                    envFilePath: '.env',
+                    isGlobal: true,
+                    validationSchema: Joi.object(configSchema)
+                }),
+                ApolloAccessModule,
+            ],
+            
+            providers: [
+                RedisSequenceService,
+                RedisLockService,
+                InventoryService
+            ],
+
+        }).compile();
+
+        inventoryService = moduleRef.get<InventoryService>(InventoryService)
+
+    });
+
+    describe('TEST TRANSACTION FROM *GRN', () => {        
+        const docGrn = require('./test-data/doc-grn.json');
+        let doc;
+        let item;
+        
+        beforeAll(async () => {
+            await cinf.client.connect()
+            doc = { ...docGrn[0] };
+            item = { ...doc.docItem[0] };
+            delete doc.docItem;
+        })
+
+        afterAll( async () => {
+            await cinf.client.close();
+        })
+        
+        describe('GRN RECEIVE', () => {
+            let pd: Pd, pdLot: PdLot, pdLoc: PdLoc, pdLocLot: PdLocLot, pdWh: PdWh;
+            let _pd: Pd, _pdLot: PdLot, _pdLoc: PdLoc, _pdLocLot: PdLocLot, _pdWh: PdWh;
+
+            beforeAll( async () => {
+                pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;            
+                if (pd.useLot) {
+                    pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                }
+                pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;    
+            })
+
+            it('DO RECEIVE', async () => { 
+                try {
+                    const c1 = await inventoryService.createTrans(null, bizId, 'GRN', item, doc)
+                } catch (e) {
+                    console.log(e);
+                }
+            });
+            it('PD ON-HAND INCREASE', async () => { 
+                _pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;
+                const testPdQty = (pd.ohQty + item.receivedQty) === _pd.ohQty;
+                expect(testPdQty).toBe(true);
+            })
+            it('PD-LOC ON-HAND INCREASE', async () => { 
+                _pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                const testPdLocQty = (pdLoc.ohQty + item.receivedQty) === _pdLoc.ohQty;
+                expect(testPdLocQty).toBe(true);
+            })
+            it('PD-WH ON-HAND INCREASE', async () => { 
+                _pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;
+                const testPdWhQty = (pdWh.ohQty + item.receivedQty) === _pdWh.ohQty;
+                expect(testPdWhQty).toBe(true);
+            })
+            it('PD-LOT ON-HAND INCREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    const testPdLotQty = (pdLot.ohQty + item.receivedQty) === _pdLot.ohQty;
+                    expect(testPdLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+            it('PD-LOC-LOT ON-HAND INCREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                    const testPdLocLotQty = (pdLocLot.ohQty + item.receivedQty) === _pdLocLot.ohQty;
+                    expect(testPdLocLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+        })
+        
+        describe('GRN CANCEL', () => {    
+            let pd: Pd, pdLot: PdLot, pdLoc: PdLoc, pdLocLot: PdLocLot, pdWh: PdWh;
+            let _pd: Pd, _pdLot: PdLot, _pdLoc: PdLoc, _pdLocLot: PdLocLot, _pdWh: PdWh;
+            
+            beforeAll( async () => {
+                pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;            
+                if (pd.useLot) {
+                    pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                }
+                pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;    
+            })
+
+            it('DO CANCEL', async () => { 
+                try {
+                    const c1 = await inventoryService.createTrans(null, bizId, 'GRNC', item, doc)
+                } catch (e) {
+                    console.log(e);
+                }
+            });
+            it('PD ON-HAND DECREASE', async () => { 
+                _pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;
+                const testPdQty = (pd.ohQty - item.receivedQty) === _pd.ohQty;
+                expect(testPdQty).toBe(true);
+            })
+            it('PD-LOC ON-HAND DECREASE', async () => { 
+                _pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                const testPdLocQty = (pdLoc.ohQty - item.receivedQty) === _pdLoc.ohQty;
+                expect(testPdLocQty).toBe(true);
+            })
+            it('PD-WH ON-HAND DECREASE', async () => { 
+                _pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;
+                const testPdWhQty = (pdWh.ohQty - item.receivedQty) === _pdWh.ohQty;
+                expect(testPdWhQty).toBe(true);
+            })
+            it('PD-LOT ON-HAND DECREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    const testPdLotQty = (pdLot.ohQty - item.receivedQty) === _pdLot.ohQty;
+                    expect(testPdLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+            it('PD-LOC-LOT ON-HAND DECREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                    const testPdLocLotQty = (pdLocLot.ohQty - item.receivedQty) === _pdLocLot.ohQty;
+                    expect(testPdLocLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+        });
+    });
+    describe('TEST TRANSACTION FROM *GIN', () => {        
+        const docGin = require('./test-data/doc-gin.json');
+
+        let doc;
+        let item;
+        
+        beforeAll(async () => {
+            await cinf.client.connect()
+            doc = { ...docGin[0] };
+            item = { ...doc.docItem[0] };
+            delete doc.docItem;
+        })
+
+        afterAll( async () => {
+            await cinf.client.close();
+        })
+
+        describe('GIN ISSUE', () => {    
+            let pd: Pd, pdLot: PdLot, pdLoc: PdLoc, pdLocLot: PdLocLot, pdWh: PdWh;
+            let _pd: Pd, _pdLot: PdLot, _pdLoc: PdLoc, _pdLocLot: PdLocLot, _pdWh: PdWh;
+            
+            beforeAll( async () => {
+                pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;            
+                if (pd.useLot) {
+                    pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                }
+                pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;    
+            })
+
+            it('DO ISSUE', async () => { 
+                try {
+                    const c1 = await inventoryService.createTrans(null, bizId, 'GIN', item, doc)
+                } catch (e) {
+                    console.log(e);
+                }
+            });
+            it('PD ON-HAND DECREASE', async () => { 
+                _pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;
+                const testPdQty = (pd.ohQty - item.issuedQty) === _pd.ohQty;
+                expect(testPdQty).toBe(true);
+            })
+            it('PD-LOC ON-HAND DECREASE', async () => { 
+                _pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                const testPdLocQty = (pdLoc.ohQty - item.issuedQty) === _pdLoc.ohQty;
+                expect(testPdLocQty).toBe(true);
+            })
+            it('PD-WH ON-HAND DECREASE', async () => { 
+                _pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;
+                const testPdWhQty = (pdWh.ohQty - item.issuedQty) === _pdWh.ohQty;
+                expect(testPdWhQty).toBe(true);
+            })
+            it('PD-LOT ON-HAND DECREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    const testPdLotQty = (pdLot.ohQty - item.issuedQty) === _pdLot.ohQty;
+                    expect(testPdLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+            it('PD-LOC-LOT ON-HAND DECREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                    const testPdLocLotQty = (pdLocLot.ohQty - item.issuedQty) === _pdLocLot.ohQty;
+                    expect(testPdLocLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+        });
+
+        
+        describe('GIN CANCEL', () => {
+            let pd: Pd, pdLot: PdLot, pdLoc: PdLoc, pdLocLot: PdLocLot, pdWh: PdWh;
+            let _pd: Pd, _pdLot: PdLot, _pdLoc: PdLoc, _pdLocLot: PdLocLot, _pdWh: PdWh;
+
+            beforeAll( async () => {
+                pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;            
+                if (pd.useLot) {
+                    pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                }
+                pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;    
+            })
+
+    
+            it('DO CANCEL', async () => { 
+                try {
+                    const c1 = await inventoryService.createTrans(null, bizId, 'GINC', item, doc)
+                } catch (e) {
+                    console.log(e);
+                }
+            });
+            it('PD ON-HAND INCREASE', async () => { 
+                _pd = await inventoryService.pdService.getById(null, bizId, { id: item.pdId }, cinf) as Pd;
+                const testPdQty = (pd.ohQty + item.issuedQty) === _pd.ohQty;
+                expect(testPdQty).toBe(true);
+            })
+            it('PD-LOC ON-HAND INCREASE', async () => { 
+                _pdLoc = await inventoryService.pdLocService.getById(null, bizId, { id: item.pdLocId }, cinf) as PdLoc;
+                const testPdLocQty = (pdLoc.ohQty + item.issuedQty) === _pdLoc.ohQty;
+                expect(testPdLocQty).toBe(true);
+            })
+            it('PD-WH ON-HAND INCREASE', async () => { 
+                _pdWh = await inventoryService.pdWhService.getOne(null, bizId, { _and: [{ pdId: item.pdId }, { whId: doc.whId }] }, cinf) as PdWh;
+                const testPdWhQty = (pdWh.ohQty + item.issuedQty) === _pdWh.ohQty;
+                expect(testPdWhQty).toBe(true);
+            })
+            it('PD-LOT ON-HAND INCREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLot = await inventoryService.pdLotService.getById(null, bizId, { id: item.pdLotId }, cinf) as PdLot;
+                    const testPdLotQty = (pdLot.ohQty + item.issuedQty) === _pdLot.ohQty;
+                    expect(testPdLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+            it('PD-LOC-LOT ON-HAND INCREASE', async () => { 
+                if (pd.useLot) {
+                    _pdLocLot = await inventoryService.pdLocLotService.getOne(null, bizId, { _and: [{ pdLotId: item.pdLotId }, { pdLocId: item.pdLocId }] }, cinf) as PdLocLot
+                    const testPdLocLotQty = (pdLocLot.ohQty + item.issuedQty) === _pdLocLot.ohQty;
+                    expect(testPdLocLotQty).toBe(true);
+                } else {
+                    expect(true).toBe(true);
+                }
+            })
+        })
+        
+    });
+
+})

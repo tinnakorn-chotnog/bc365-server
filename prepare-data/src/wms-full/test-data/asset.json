@@ -1,0 +1,332 @@
+[
+  {
+    "_id": "r4AJjt3dBKGnqtyVr1BXrj",
+    "assetId": "r4AJjt3dBKGnqtyVr1BXrj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1001",
+    "assetName": "แบบเหล็ก 20*60",
+    "ohQty": 124,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "1G3kyDo5aCBz6tYuh5TXcj",
+    "assetId": "1G3kyDo5aCBz6tYuh5TXcj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1002",
+    "assetName": "แบบเหล็ก 20*100",
+    "ohQty": 94,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "4HeNXmYVFiQ1Qh7woVoMwu",
+    "assetId": "4HeNXmYVFiQ1Qh7woVoMwu",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1003",
+    "assetName": "แบบเหล็ก 20*120",
+    "ohQty": 245,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "bXudSUd2rYku4fkNfWykAj",
+    "assetId": "bXudSUd2rYku4fkNfWykAj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1004",
+    "assetName": "แบบเหล็ก 30*40",
+    "ohQty": 46,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "7A29ycFAo8mnYC4UBgYQ3W",
+    "assetId": "7A29ycFAo8mnYC4UBgYQ3W",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1005",
+    "assetName": "แบบเหล็ก 30*50",
+    "ohQty": 50,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "sZyhshEdSEwJKtEAzQ2wuS",
+    "assetId": "sZyhshEdSEwJKtEAzQ2wuS",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1006",
+    "assetName": "แบบเหล็ก 30*100",
+    "ohQty": 197,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "2drxjSDetdC1L3ArBgEYuT",
+    "assetId": "2drxjSDetdC1L3ArBgEYuT",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1007",
+    "assetName": "แบบเหล็ก 30*120",
+    "ohQty": 247,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "g3ZyDMaDWMu1bE9gSPq2D4",
+    "assetId": "g3ZyDMaDWMu1bE9gSPq2D4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1008",
+    "assetName": "แบบเหล็ก 40*40",
+    "ohQty": 52,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "2Tp2K7gG4cHv92MMeWDXsj",
+    "assetId": "2Tp2K7gG4cHv92MMeWDXsj",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1009",
+    "assetName": "แบบเหล็ก 40*50",
+    "ohQty": 100,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "3k3oAuGQ1N2m6S9j18LCFz",
+    "assetId": "3k3oAuGQ1N2m6S9j18LCFz",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1010",
+    "assetName": "แบบเหล็ก 40*60",
+    "ohQty": 148,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "i4VEj587XKXbRVH6ia67UM",
+    "assetId": "i4VEj587XKXbRVH6ia67UM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1011",
+    "assetName": "แบบเหล็ก 40*100",
+    "ohQty": 506,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "qJX5ubYfFMPvZfgUwLAx2D",
+    "assetId": "qJX5ubYfFMPvZfgUwLAx2D",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1012",
+    "assetName": "แบบเหล็ก 40*120",
+    "ohQty": 450,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "mYWhR3NmyAHLwVzHAEkRR4",
+    "assetId": "mYWhR3NmyAHLwVzHAEkRR4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1013",
+    "assetName": "แบบเหล็ก 50*50",
+    "ohQty": 149,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "1gEGN8NcX8pxtpqqoTaJCM",
+    "assetId": "1gEGN8NcX8pxtpqqoTaJCM",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1014",
+    "assetName": "แบบเหล็ก 50*60",
+    "ohQty": 150,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "g44omXRjxX3iD2Dx3LHRkE",
+    "assetId": "g44omXRjxX3iD2Dx3LHRkE",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1015",
+    "assetName": "แบบเหล็ก 50*100",
+    "ohQty": 294,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "6g4KFk4LWuL5pfURgfPBJV",
+    "assetId": "6g4KFk4LWuL5pfURgfPBJV",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1016",
+    "assetName": "แบบเหล็ก 50*120",
+    "ohQty": 400,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "msTe9aV3uZWcNNcSyeqzga",
+    "assetId": "msTe9aV3uZWcNNcSyeqzga",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1017",
+    "assetName": "แบบเหล็ก 60*60",
+    "ohQty": 96,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "hqZTHGVUW3S5MtFvMGkYmi",
+    "assetId": "hqZTHGVUW3S5MtFvMGkYmi",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1018",
+    "assetName": "แบบเหล็ก 60*100",
+    "ohQty": 95,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "1pZd6dbABrDQYy5eMe55KG",
+    "assetId": "1pZd6dbABrDQYy5eMe55KG",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R1019",
+    "assetName": "แบบเหล็ก 60*120",
+    "ohQty": 89,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "prK8ZPW7fuKHNySnNnMbK1",
+    "assetId": "prK8ZPW7fuKHNySnNnMbK1",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2001",
+    "assetName": "แบบเสา 15*15*3.00",
+    "ohQty": 16,
+    "orQty": 0,
+    "remark": " 2 ซีก = 1 เสา"
+  },
+  {
+    "_id": "bzQkJMv4TyMrLaosRGhCQt",
+    "assetId": "bzQkJMv4TyMrLaosRGhCQt",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2002",
+    "assetName": "แบบเสา 20*20*1.50",
+    "ohQty": 39,
+    "orQty": 0,
+    "remark": " 2 ซีก = 1 เสา"
+  },
+  {
+    "_id": "qJBH4REKp8TkTAvMgeb1Ex",
+    "assetId": "qJBH4REKp8TkTAvMgeb1Ex",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2003",
+    "assetName": "แบบเสา 20*20*3.00",
+    "ohQty": 30,
+    "orQty": 0,
+    "remark": " 2 ซีก = 1 เสา"
+  },
+  {
+    "_id": "pi4Q8xQ4m1MKcofQ3CkU11",
+    "assetId": "pi4Q8xQ4m1MKcofQ3CkU11",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2004",
+    "assetName": "แบบเสา 25*25*1.00",
+    "ohQty": 21,
+    "orQty": 0,
+    "remark": " 2 ซีก = 1 เสา"
+  },
+  {
+    "_id": "5e2MEQGLTv9dT7ebXyLAcW",
+    "assetId": "5e2MEQGLTv9dT7ebXyLAcW",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2005",
+    "assetName": "แบบเสา 25*25*3.00",
+    "ohQty": 28,
+    "orQty": 0,
+    "remark": "เศษ1   (2 ซีก = 1 เสา)"
+  },
+  {
+    "_id": "3666JuDZXoPuSkkNKMBSi5",
+    "assetId": "3666JuDZXoPuSkkNKMBSi5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R2006",
+    "assetName": "แบบเสา 30*30*3.00",
+    "ohQty": 17,
+    "orQty": 0,
+    "remark": "เศษ1 (2 ซีก = 1 เสา)"
+  },
+  {
+    "_id": "74Hvgbd1TV6JJPx4nKLidx",
+    "assetId": "74Hvgbd1TV6JJPx4nKLidx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3001",
+    "assetName": "ฉากมุม 60",
+    "ohQty": 94,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "9M1EmgovutWMStAujyojWY",
+    "assetId": "9M1EmgovutWMStAujyojWY",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3002",
+    "assetName": "ฉากมุม 100",
+    "ohQty": 293,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "aKWnPbAYoQJqTwpvt3rSi9",
+    "assetId": "aKWnPbAYoQJqTwpvt3rSi9",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R3003",
+    "assetName": "ฉากมุม 120",
+    "ohQty": 142,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "xeYViYjWexXtLEcwcSWo8U",
+    "assetId": "xeYViYjWexXtLEcwcSWo8U",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "นั่งร้าน 1.7 ม.",
+    "ohQty": 0,
+    "orQty": 0,
+    "remark": "ขาตั้ง231 กากบาท112 ฝาครอบ72 ข้อต่อ213 แบบยืน 4"
+  },
+  {
+    "_id": "oMUYVxRssnWWnt9ZZJRBj4",
+    "assetId": "oMUYVxRssnWWnt9ZZJRBj4",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9001",
+    "assetName": "ล้อนั่งร้าน",
+    "ohQty": 6,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "vcci5Ys5Zub6a2Q1W5wicx",
+    "assetId": "vcci5Ys5Zub6a2Q1W5wicx",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9002",
+    "assetName": "แจ็คเบส 0.6 (ฐานปรับลด)",
+    "ohQty": 30,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "kYoiTKLrN3hK9Wuf2EVwTr",
+    "assetId": "kYoiTKLrN3hK9Wuf2EVwTr",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9003",
+    "assetName": "ยูคลิพ(ดำ)",
+    "ohQty": 3000,
+    "orQty": 0,
+    "remark": null
+  },
+  {
+    "_id": "sCm7zbknZzYCzEgxbx9Yo5",
+    "assetId": "sCm7zbknZzYCzEgxbx9Yo5",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "assetNo": "R9004",
+    "assetName": "แบบถนน 150 * 200 * 3 ม.",
+    "ohQty": 87,
+    "orQty": 0,
+    "remark": null
+  }
+]

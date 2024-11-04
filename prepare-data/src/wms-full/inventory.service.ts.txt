@@ -1,0 +1,555 @@
+import { ModuleRef } from "@nestjs/core";
+import { ReadPreference, ReadPreferenceMode } from "mongodb";
+import { ConnectionInfo, newClient } from "../../../../../../../libs/shared/src";
+import { Uom } from '../../../../../models/interfaces/uom.model';
+import { Pd } from '../../../../../models/interfaces/pd.model';
+import { PdUom } from '../../../../../models/interfaces/pd-uom.model';
+import { PdWh } from '../../../../../models/interfaces/pd-wh.model';
+import { PdLocLot } from '../../../../../models/interfaces/pd-loc-lot.model';
+import { PdLoc } from '../../../../../models/interfaces/pd-loc.model';
+import { PdLot } from '../../../../../models/interfaces/pd-lot.model';
+import { InvMms } from '../../../../../models/interfaces/inv-mms.model';
+import { DocGrnExtService } from '../../generated/trigger/doc-grn/doc-grn-ext.service';
+import { PdExtService } from '../../generated/trigger/pd/pd-ext.service';
+import { PdUomExtService } from '../../generated/trigger/pd-uom/pd-uom-ext.service';
+import { PdLotExtService } from '../../generated/trigger/pd-lot/pd-lot-ext.service';
+import { PdLocExtService } from '../../generated/trigger/pd-loc/pd-loc-ext.service';
+import { PdLocLotExtService } from '../../generated/trigger/pd-loc-lot/pd-loc-lot-ext.service';
+import { PdSnExtService } from '../../generated/trigger/pd-sn/pd-sn-ext.service';
+import { PdWhExtService } from '../../generated/trigger/pd-wh/pd-wh-ext.service';
+import { UomExtService } from '../../generated/trigger/uom/uom-ext.service';
+import { BpnExtService } from '../../generated/trigger/bpn/bpn-ext.service';
+import { SlocExtService } from '../../generated/trigger/sloc/sloc-ext.service';
+import { InvMmsExtService } from '../../generated/trigger/inv-mms/inv-mms-ext.service';
+import shortUUID from "short-uuid";
+import { Injectable, NotFoundException, PreconditionFailedException } from "@nestjs/common";
+
+@Injectable()
+export class InventoryService {
+
+    constructor(
+        public moduleRef: ModuleRef
+    ) {
+    }
+
+    get docGrnService() {
+        return this.moduleRef.get<DocGrnExtService>(DocGrnExtService, { strict: false });
+    }
+
+    get pdService() {
+        return this.moduleRef.get<PdExtService>(PdExtService, { strict: false });
+    }
+
+    get sLocService() {
+        return this.moduleRef.get<SlocExtService>(SlocExtService, { strict: false });
+    }
+
+    get pdLotService() {
+        return this.moduleRef.get<PdLotExtService>(PdLotExtService, { strict: false });
+    }
+
+    get pdLocService() {
+        return this.moduleRef.get<PdLocExtService>(PdLocExtService, { strict: false });
+    }
+
+    get pdWhService() {
+        return this.moduleRef.get<PdWhExtService>(PdWhExtService, { strict: false });
+    }
+
+    get pdLocLotService() {
+        return this.moduleRef.get<PdLocLotExtService>(PdLocLotExtService, { strict: false });
+    }
+
+    get pdLocSnService() {
+        return this.moduleRef.get<PdSnExtService>(PdSnExtService, { strict: false });
+    }
+
+    get pdUomService() {
+        return this.moduleRef.get<PdUomExtService>(PdUomExtService, { strict: false });
+    }
+
+    get uomService() {
+        return this.moduleRef.get<UomExtService>(UomExtService, { strict: false });
+    }
+
+    get bpnService() {
+        return this.moduleRef.get<BpnExtService>(BpnExtService, { strict: false })
+    }
+
+    get invMmsService() {
+        return this.moduleRef.get<InvMmsExtService>(InvMmsExtService, { strict: false })
+    }
+
+    hello() {
+        return 'hello'
+    }
+
+    grnTrans(keyspace: string, bid: string, oprType: string, docTrans: any, docHeader: any) {
+
+    }
+
+    createTrans(keyspace: string, bid: string, oprType: string, docTrans: any, docHeader: any) {
+        return new Promise(async (resolve, reject) => {
+            // CREATE CONNECTION INFO, TO FORCE ALL RELATED SERVICES USE THE SAME CONNECTION INSTANCE
+            const cinf: ConnectionInfo = { client: newClient() }
+            try {
+                // CONNECT TO DATABASE
+                await cinf.client.connect()
+
+                // Get product unit of meature if not found then throw error message
+                let pdUom: PdUom;
+                let origUom: Uom;
+                if (docTrans.uomId) {
+                    origUom = await this.uomService.getById(keyspace, bid, { id: docTrans.uomId }, cinf);
+                    if (!origUom) {
+                        throw new PreconditionFailedException(`Required field "uomId #"${docTrans.uomId} not found in database.`);
+                    }
+                } else
+                if (docTrans.pdUomId) {
+                    pdUom = await this.pdUomService.getById(keyspace, bid, { id: docTrans.pdUomId }, cinf);
+                    if (!pdUom) {
+                        throw new PreconditionFailedException(`Required field "pdUomId" not found in database.`);
+                    } else {
+                        origUom = await this.uomService.getById(keyspace, bid, { id: pdUom.uomId }, cinf);
+                        if (!origUom) {
+                            throw new PreconditionFailedException(`Required field "uomId #"${pdUom.uomId} not found in database.`);
+                        }
+                    }
+                } else {
+                    throw new PreconditionFailedException('Required field "pdUomId" or "uomId" not specified in document item');
+                } 
+
+                const invMms: InvMms = { invMmsId: shortUUID.generate() };
+
+                if (!['GRN', 'GRNC', 'GIN', 'GINC', 'JORV', 'JORVC', 'JOIS', 'JOISC', 'PSRV', 'PSRVC', 'PSIS', 'PSISC', 'SHIP','SHIPC', 'INVA'].includes(oprType)) {
+                    throw new PreconditionFailedException(`Required field "oprType" [${oprType}] not allowed`);
+                }
+                if (!docHeader.whId) {
+                    throw new PreconditionFailedException(`Required field "whId" not specified in document header`);
+                }
+                if (!docTrans.pdId) {
+                    throw new PreconditionFailedException(`Required field "whId" not specified in document item`);
+                }
+                if (!docTrans.pdLocId) {
+                    throw new PreconditionFailedException(`Required field "pdLocId" not specified in document item`);
+                }
+
+                // Operation Type
+                invMms.oprType = oprType;                
+                // Warehouse
+                invMms.whId = docHeader.whId;
+                // Product
+                invMms.pdId = docTrans.pdId;
+                // Product Location
+                invMms.pdLocId = docTrans.pdLocId;
+                // Transaction Date
+                invMms.transDate = docHeader.docDate || new Date().getTime();
+                // Other uom reference in transaction as original uom
+                invMms.origUomId = origUom?.uomId;
+                switch (oprType) {
+                    // GOODS RECEIVE NOTE
+                    case "GRN": {
+                        if (!docTrans.receivedQty || docTrans.receivedQty <= 0) {
+                            throw new PreconditionFailedException(`receivedQty must greated than zero.`);
+                        }
+                        if (!docTrans.unitPrice || docTrans.unitPrice <= 0) {
+                            throw new PreconditionFailedException(`unitPrice must greated than zero.`);
+                        }
+                        invMms.origQty = docTrans.receivedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.bpnId = docHeader.bpnId;
+                        invMms.refBpnName = docHeader.bpnName;
+                        invMms.docGrnId = docHeader.docGrnId;
+                        invMms.docPoId = docHeader.docPoId;
+                        invMms.docGrnItemId = docTrans.docGrnItemId;
+                        break;
+                    }
+                    // GOODS RECEIVE NOTE CANCEL
+                    case "GRNC": {
+                        if (!docTrans.receivedQty || docTrans.receivedQty <= 0) {
+                            throw new PreconditionFailedException(`receivedQty must greated than zero.`);
+                        }
+                        if (!docTrans.unitPrice || docTrans.unitPrice <= 0) {
+                            throw new PreconditionFailedException(`unitPrice must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.receivedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.bpnId = docHeader.bpnId;
+                        invMms.refBpnName = docHeader.bpnName;
+                        invMms.docGrnId = docHeader.docGrnId;
+                        invMms.docGrnItemId = docTrans.docGrnItemId;
+                        break;
+                    }
+                    // JOB RECEIVE
+                    case "JORV": {
+                        if (!docTrans.receivedQty || docTrans.receivedQty <= 0) {
+                            throw new PreconditionFailedException(`receivedQty must greated than zero.`);
+                        }
+                        if (!docTrans.unitPrice || docTrans.unitPrice <= 0) {
+                            throw new PreconditionFailedException(`unitPrice must greated than zero.`);
+                        }
+                        invMms.origQty = docTrans.receivedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docJobId = docHeader.docJobId;
+                        break;
+                    }
+                    // JOB RECEIVE CANCEL
+                    case "JORVC": {
+                        if (!docTrans.receivedQty || docTrans.receivedQty <= 0) {
+                            throw new PreconditionFailedException(`receivedQty must greated than zero.`);
+                        }
+                        if (!docTrans.unitPrice || docTrans.unitPrice <= 0) {
+                            throw new PreconditionFailedException(`unitPrice must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.receivedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docJobId = docHeader.docJobId;
+                        break;
+                    }
+                    // JOB ISSUE
+                    case "JOIS": {
+                        if (!docTrans.issuedQty || docTrans.issuedQty <= 0) {
+                            throw new PreconditionFailedException(`issuedQty must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.issuedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docJobId = docHeader.docJobId;
+                        invMms.docJobBomId = docTrans.docJobBomId;
+                        break;
+                    }
+                    // JOB ISSUE CANCEL
+                    case "JOISC": {
+                        if (!docTrans.issuedQty || docTrans.issuedQty <= 0) {
+                            throw new PreconditionFailedException(`issuedQty must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.issuedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docJobId = docHeader.docJobId;
+                        invMms.docJobBomId = docTrans.docJobBomId;
+                        break;
+                    }
+                    // PS RECEIVE
+                    case "PSRV": {
+                        if (!docTrans.receivedQty || docTrans.receivedQty <= 0) {
+                            throw new PreconditionFailedException(`receivedQty must greated than zero.`);
+                        }
+                        if (!docTrans.unitPrice || docTrans.unitPrice <= 0) {
+                            throw new PreconditionFailedException(`unitPrice must greated than zero.`);
+                        }
+                        invMms.origQty = docTrans.receivedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docPsId = docHeader.docPsId;
+                        invMms.docPsItemId = docHeader.docPsItemId;
+                        invMms.docPsReleaseId = docHeader.docPsReleaseId;
+                        invMms.docPsReceiveId = docTrans.docPsReceiveId;
+                        break;
+                    }
+                    // PS RECEIVE CANCEL
+                    case "PSRVC": {
+                        if (!docTrans.receivedQty || docTrans.receivedQty <= 0) {
+                            throw new PreconditionFailedException(`receivedQty must greated than zero.`);
+                        }
+                        if (!docTrans.unitPrice || docTrans.unitPrice <= 0) {
+                            throw new PreconditionFailedException(`unitPrice must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.receivedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docPsId = docHeader.docPsId;
+                        invMms.docPsItemId = docHeader.docPsItemId;
+                        invMms.docPsReleaseId = docHeader.docPsReleaseId;
+                        invMms.docPsReceiveId = docTrans.docPsReceiveId;
+                        break;
+                    }
+                    // PS ISSUE
+                    case "PSIS": {
+                        if (!docTrans.issuedQty || docTrans.issuedQty <= 0) {
+                            throw new PreconditionFailedException(`issuedQty must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.issuedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docPsId = docHeader.docPsId;
+                        invMms.docPsItemId = docHeader.docPsItemId;
+                        invMms.docPsReleaseId = docHeader.docPsReleaseId;
+                        invMms.docPsReleaseBomId = docHeader.docPsReleaseBomId;
+                        invMms.docPsIssueId = docTrans.docPsIssueId;
+                        break;
+                    }
+                    // PS ISSUE CANCEL
+                    case "PSISC": {
+                        if (!docTrans.issuedQty || docTrans.issuedQty <= 0) {
+                            throw new PreconditionFailedException(`issuedQty must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.issuedQty;
+                        invMms.origUnitPrice = docTrans.unitPrice;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.docPsId = docHeader.docPsId;
+                        invMms.docPsItemId = docHeader.docPsItemId;
+                        invMms.docPsReleaseId = docHeader.docPsReleaseId;
+                        invMms.docPsReleaseBomId = docHeader.docPsReleaseBomId;
+                        invMms.docPsIssueId = docTrans.docPsIssueId;
+                        break;
+                    }
+                    // SHIP
+                    case "SHIP": {
+                        if (!docTrans.shippedQty || docTrans.shippedQty <= 0) {
+                            throw new PreconditionFailedException(`shippedQty must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.shippedQty;
+                        invMms.origUnitPrice = 0; // get current unit cost from product;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.refBpnName = null;
+                        invMms.docSoId = docHeader.docSoId;
+                        invMms.docSoItemId = docHeader.docSoItemId;
+                        invMms.docShipId = docTrans.docShipId;
+                        invMms.docShipItemId = docTrans.docShipItemId;
+                        break;
+                    }
+                    // SHIP CANCEL
+                    case "SHIPC": {
+                        if (!docTrans.shippedQty || docTrans.shippedQty <= 0) {
+                            throw new PreconditionFailedException(`shippedQty must greated than zero.`);
+                        }
+                        invMms.origQty = docTrans.shippedQty;
+                        invMms.origUnitPrice = 0; // get current unit cost from product;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.refBpnName = null;
+                        invMms.docSoId = docHeader.docSoId;
+                        invMms.docSoItemId = docHeader.docSoItemId;
+                        invMms.docShipId = docTrans.docShipId;
+                        invMms.docShipItemId = docTrans.docShipItemId;
+                        break;
+                    }
+                    // GOODS ISSUE
+                    case "GIN": {
+                        if (!docTrans.issuedQty || docTrans.issuedQty <= 0) {
+                            throw new PreconditionFailedException(`issuedQty must greated than zero.`);
+                        }
+                        invMms.origQty = -docTrans.issuedQty;
+                        invMms.origUnitPrice = 0; // get current unit cost from product;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.refBpnName = null;
+                        invMms.docGinId = docHeader.docGinId;
+                        invMms.docGinItemId = docTrans.docGinItemId;
+                        break;
+                    }
+                    // GOODS ISSUE CANCEL
+                    case "GINC": {
+                        if (!docTrans.issuedQty || docTrans.issuedQty <= 0) {
+                            throw new PreconditionFailedException(`issuedQty must greated than zero.`);
+                        }
+                        invMms.origQty = docTrans.issuedQty;
+                        invMms.origUnitPrice = 0; // get current unit cost from product;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.refBpnName = null;
+                        invMms.docGinId = docHeader.docGinId;
+                        invMms.docGinItemId = docTrans.docGinItemId;
+                        break;
+                    }
+
+                    // INVENTORY ADJUSTMENT
+                    case "IVA": {
+                        invMms.origQty = docTrans.adjustQty;
+                        invMms.origUnitPrice = 0; // get current unit cost from product;
+                        // Reference values
+                        invMms.refNo = docHeader.docNo;
+                        invMms.refBpnName = null;
+                        invMms.docIvaId = docHeader.docIvaId;
+                        invMms.docIvaItemId = docTrans.docIvaItemId;
+                        break;
+                    }
+                }
+
+
+                
+                let pdLot: PdLot;
+                let pdLoc: PdLoc;
+                let pdWh: PdWh;
+                let pdLocLot: PdLocLot;
+                let pd: Pd = await this.pdService.getByIdAndLock(keyspace, bid, { id: docTrans.pdId }, cinf) as Pd;
+                
+                if (pd.useLot) {
+                    pdLot = await this.pdLotService.getByIdAndLock(keyspace, bid, { id: docTrans.pdLotId }, cinf) as PdLot;
+                    pdLoc = await this.pdLocService.getByIdAndLock(keyspace, bid, { id: docTrans.pdLocId }, cinf) as PdLoc;
+                    pdLocLot = await this.pdLocLotService.getOneAndLock(keyspace, bid, { _and: [{ pdLotId: docTrans.pdLotId }, { pdLocId: docTrans.pdLocId }] }, cinf) as PdLocLot
+                    pdWh = await this.pdWhService.getOneAndLock(keyspace, bid, { _and: [{ pdId: docTrans.pdId }, { whId: docHeader.whId }] }, cinf) as PdWh;
+                }
+
+                // If transaction uom is as same as base uom of product then set conversion factor to 1
+                if (docTrans.uomId === pd.baseUomId) {
+                    invMms.convFactor = 1
+                } else {
+                    const pdUom: PdUom = await this.pdUomService.getById(keyspace, bid, { id: docTrans.uomId }, cinf);
+                    invMms.convFactor = pdUom?.convFactor || 1
+                }
+                invMms.transQty = invMms.origQty * invMms.convFactor;
+                
+                const unlockAll = async () => {
+                    await this.pdService.unlock(keyspace, bid, pd.pdId);
+                    await this.pdLotService.unlock(keyspace, bid, pdLot.pdLotId);
+                    await this.pdLocService.unlock(keyspace, bid, pdLoc.pdLocId);
+                    await this.pdLocLotService.unlock(keyspace, bid, pdLocLot.pdLocLotId)
+                    await this.pdWhService.unlock(keyspace, bid, pdWh.pdWhId);
+                }
+
+                // CHECK AVAILABILITY BEFORE DEDUCT QUANTITY FROM EACH TABLE                
+                if (oprType !== 'IVA' && invMms.transQty < 0) {
+
+                    const msg = `On-hand quantity is not enough ${oprType} operation.`
+                    
+                    if (pd.useLot && pdLocLot! && (pdLocLot.ohQty + invMms.transQty) < 0) {
+                        unlockAll()
+                        reject(msg);
+                        return;
+                    }
+
+                    if (pd.useLot && pdLot! && (pdLot.ohQty + invMms.transQty) < 0) {
+                        unlockAll()
+                        reject(msg);
+                        return;
+                    }
+
+                    if (pdLoc! && (pdLoc.ohQty + invMms.transQty) < 0) {
+                        unlockAll()
+                        reject(msg);
+                        return;
+                    }
+
+                    if (pdWh! && (pdWh.ohQty + invMms.transQty) < 0) {
+                        unlockAll()
+                        reject(msg);
+                        return;
+                    }
+
+                    if (pd! && (pd.ohQty + invMms.transQty) < 0) {
+                        unlockAll()
+                        reject(msg);
+                        return;
+                    }
+
+                }
+
+                // START SESSION
+                cinf.session = cinf.client.startSession();
+                // START TRANSACTION
+                cinf.session.startTransaction({
+                    readConcern: { level: 'snapshot' },
+                    writeConcern: { w: 'majority' },
+                    readPreference: new ReadPreference('primary')
+                });
+
+                if (pd.useLot) {
+                    invMms.lotNo = pdLot!.lotNo || 'DEFAULT';
+
+                    if (oprType === 'IVA') {
+                        const diffQty = invMms.transQty - (pdLocLot!.ohQty);
+                        invMms.transQty = diffQty;
+                    }
+
+                    if (pdLocLot!) {
+                        invMms.pdLocLotId = pdLocLot.pdLocLotId;
+
+                        // **** UPDATE ON-HAND QTY OF PRODUCT LOT IN SPECIFIC LOCATION 
+                        await this.pdLocLotService.update(keyspace, bid, { pdLocLotId: pdLocLot!.pdLocLotId, ohQty: pdLocLot!.ohQty + invMms.transQty }, cinf)
+                        await this.pdLocLotService.unlock(keyspace, bid, pdLocLot.pdLocLotId)
+
+                    } else {
+                        const pdLocLot = { pdLocId: docTrans.pdLocId, pdLotId: pdLot!.pdLotId, ohQty: invMms.transQty }
+                        await this.pdLocLotService.add(keyspace, bid, pdLocLot, null, cinf);
+                    }
+
+                    await this.pdLotService.update(keyspace, bid, { pdLotId: pdLot!.pdLotId, ohQty: pdLot!.ohQty + invMms.transQty }, cinf)
+                    await this.pdLotService.unlock(keyspace, bid, pdLot!.pdLotId)
+
+                }
+
+
+                // **** UPDATE ON-HAND QTY OF PRODUCT LOCATION
+
+
+                if (!pd.useLot && oprType === 'IVA') {
+                    const diffQty = invMms.transQty - (pdLoc!.ohQty);
+                    invMms.transQty = diffQty;
+                }
+
+                await this.pdLocService.update(keyspace, bid, { pdLocId: pdLoc!.pdLocId, ohQty: pdLoc!.ohQty + invMms.transQty }, cinf)
+                await this.pdLocService.unlock(keyspace, bid, pdLoc!.pdLocId)
+
+                // **** UPDATE ON-HAND QTY OF PRODUCT WAREHOUSE
+
+                await this.pdWhService.update(keyspace, bid, { pdWhId: pdWh!.pdWhId, ohQty: pdWh!.ohQty + invMms.transQty }, cinf)
+                await this.pdWhService.unlock(keyspace, bid, pdWh!.pdWhId)
+
+                // **** UPDATE ON-HAND QTY OF PRODUCT
+                await this.pdService.update(keyspace, bid, { pdId: pd.pdId, ohQty: pd!.ohQty + invMms.transQty, lastTransDate: docHeader.docDate }, cinf)
+                await this.pdService.unlock(keyspace, bid, pd.pdId)
+
+
+                if (pd.useSn) {
+                    invMms.sn = docTrans.sn;
+                }
+
+                invMms.unitPrice = invMms!.origUnitPrice / invMms.convFactor;
+                invMms.uomId = pd?.baseUomId || invMms.origUomId;
+
+                /* Update inventory in batch mode
+                    status:
+                        0 - Draft
+                        1 - Release
+                        - History
+                */
+
+                invMms.status = '0'
+
+                const invMmsRes = await this.invMmsService.add(keyspace, bid, invMms, null, cinf);
+                invMms.invMmsId = invMmsRes.invMmsId;
+                resolve(invMms)
+
+                // COMMIT TRANSACTION AFTER COMPLETED WITHOUT ERROR
+                cinf.session.commitTransaction()
+
+            } catch (e) {
+                
+                // ABORT TRANSACTION OR ROLLBACK IF ANY ERRORS
+                if (cinf.session) {
+                    cinf.session.abortTransaction();
+                }
+
+                reject(e)
+
+            } finally {
+
+                // FINNALY END SESSION AND CLOSE CONNECTION
+                if (cinf.session) {
+                    cinf.session.endSession();
+                }
+
+                cinf.client.close();
+            }
+        })
+    }
+
+}
+

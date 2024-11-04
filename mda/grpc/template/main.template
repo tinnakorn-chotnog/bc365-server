@@ -1,0 +1,20 @@
+import { NestFactory } from '@nestjs/core';
+
+import { AppModule } from './app/app.module';
+import { MicroserviceOptions, Transport, GrpcOptions } from '@nestjs/microservices';
+import { join } from 'path';
+import { KORATO_PACKAGE_NAME } from '@bc365-server/demo1/generated/types/common';
+
+var s: GrpcOptions;
+async function bootstrap() {
+    const app = await NestFactory.createMicroservice<MicroserviceOptions>(AppModule, {
+        transport: Transport.GRPC,
+        options: {
+            package: KORATO_PACKAGE_NAME,
+            protoPath: join(__dirname, 'protos/@filename.proto')
+        },
+    });
+    app.listen();
+}
+
+bootstrap();

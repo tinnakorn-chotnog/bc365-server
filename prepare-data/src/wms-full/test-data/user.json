@@ -1,0 +1,21 @@
+[
+    {
+        "_id": "616d2903a4cd30cf127e1fdb",
+        "name": "Tinnakorn Chotnog",
+        "email": "chotnog.tinnakorn@gmail.com",
+        "password": "$2a$10$M.UazfOg5bjwjOhTGZFL9Od7O2/UUsMnlmIQtNumXF7Mceh00peT2",
+        "company": "Wisdomplus Innovation Tech Co.Ltd.",
+        "agreements": true,
+        "currentHashedRefreshToken": "$2a$10$i8ff22pO8dWyRMQKLSu4buxf8iywRJoc1ef9D5yf38CfzAc2a.luC",
+        "currentBizId": "mnuz6SU4ncbMmBrutWioae"
+    },
+    {
+        "_id": "6290326b614c9a556d1b1701",
+        "name": "rmq1",
+        "email": "rmq1@gmail.com",
+        "password": "$2a$10$M.UazfOg5bjwjOhTGZFL9Od7O2/UUsMnlmIQtNumXF7Mceh00peT2",
+        "company": "Wisdomplus Innovation Tech Co.Ltd.",
+        "agreements": true,
+        "currentHashedRefreshToken": "$2a$10$BK/nWJs.HH42fRnCP5bKru9NDrvV5psyWwt2xlvLWLzhIwcsJ15r6"
+    }    
+]

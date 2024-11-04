@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package korato;
+
+import "common.proto";
+
+service @camelSchemaNameService {
+  rpc Get@camelSchemaName (GetParams) returns (ResultArray) {}
+  rpc GetOne@camelSchemaName (GetOneParams) returns (Result) {}
+  rpc Get@camelSchemaNameById (GetByIdParams) returns (Result) {}
+  rpc Add@camelSchemaName (AddParams) returns (Result) {}
+  rpc Add@camelSchemaNameList (AddListParams) returns (ResultArray) {}
+  rpc Update@camelSchemaName (UpdateParams) returns (Result) {}
+  rpc Update@camelSchemaNameList (UpdateListParams) returns (ResultArray) {}
+  rpc Delete@camelSchemaName (DeleteParams) returns (Result) {}
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "suTypeId": "dZuV77P6TLCeZrw2HSj18H",
+    "suTypeNo": "01",
+    "suTypeName": "Container",
+    "bizId": "mnuz6SU4ncbMmBrutWioae"
+  },
+  {
+    "suTypeId": "wVpQmsjubFVpzjfxvFLBJH",
+    "suTypeNo": "02",
+    "suTypeName": "Pallet",
+    "bizId": "mnuz6SU4ncbMmBrutWioae"
+  },
+  {
+    "suTypeId": "kU1y7qyUDRGzARCoB63e6Q",
+    "suTypeNo": "03",
+    "suTypeName": "Crate",
+    "bizId": "mnuz6SU4ncbMmBrutWioae"
+  },
+  {
+    "suTypeId": "1o4bGqgzvFqr3sZGbApaUA",
+    "suTypeNo": "04",
+    "suTypeName": "Tote",
+    "bizId": "mnuz6SU4ncbMmBrutWioae"
+  },
+  {
+    "suTypeId": "x3o7nd1BkUpGw6VsJXANVi",
+    "suTypeNo": "05",
+    "suTypeName": "Single tote picking cart",
+    "bizId": "mnuz6SU4ncbMmBrutWioae"
+  },
+  {
+    "suTypeId": "kzLTFk9h2y6eLnCWXcD7Jb",
+    "suTypeNo": "06",
+    "suTypeName": "Multi-tote picking cart",
+    "bizId": "mnuz6SU4ncbMmBrutWioae"
+  }
+]

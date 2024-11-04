@@ -1,0 +1,1152 @@
+[
+  {
+    "_id": "qLokcYkXKE2ULFbdcMT6Mc",
+    "accId": "qLokcYkXKE2ULFbdcMT6Mc",
+    "accName": "Bank checking account",
+    "accNo": "100",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "x4zM6LDdScWNnmp7d8HbcJ"
+  },
+  {
+    "_id": "v1bfuyDJXNLfGL3kNScWd5",
+    "accId": "v1bfuyDJXNLfGL3kNScWd5",
+    "accName": "Bank savings account",
+    "accNo": "110",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "x4zM6LDdScWNnmp7d8HbcJ"
+  },
+  {
+    "_id": "usVmMZP4iCqcCtGzQjQLV7",
+    "accId": "usVmMZP4iCqcCtGzQjQLV7",
+    "accName": "Online savings account",
+    "accNo": "120",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "x4zM6LDdScWNnmp7d8HbcJ"
+  },
+  {
+    "_id": "2wZPMSdNw1mL2skTCZiiLU",
+    "accId": "2wZPMSdNw1mL2skTCZiiLU",
+    "accName": "Petty cash account",
+    "accNo": "130",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "x4zM6LDdScWNnmp7d8HbcJ"
+  },
+  {
+    "_id": "3EXVteALbGAFoF7cyKcdaR",
+    "accId": "3EXVteALbGAFoF7cyKcdaR",
+    "accName": "Paypal account",
+    "accNo": "140",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "x4zM6LDdScWNnmp7d8HbcJ"
+  },
+  {
+    "_id": "6tygunqYRGUSfiUFyFfFbs",
+    "accId": "6tygunqYRGUSfiUFyFfFbs",
+    "accName": "Short term marketable securities",
+    "accNo": "200",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "dew9WJojUDpx4Rn1xdQRzG"
+  },
+  {
+    "_id": "7brMmPrSk9r52vnvWtn8a1",
+    "accId": "7brMmPrSk9r52vnvWtn8a1",
+    "accName": "Accounts receivable",
+    "accNo": "300",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "7Ek19VvMTaZTnc4qngyWCd"
+  },
+  {
+    "_id": "1YC1mbo5SvMntjEcHvU8DP",
+    "accId": "1YC1mbo5SvMntjEcHvU8DP",
+    "accName": "Allowance for doubtful debts account",
+    "accNo": "310",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "7Ek19VvMTaZTnc4qngyWCd"
+  },
+  {
+    "_id": "g1NojcjdZrLmVbzLx1opUm",
+    "accId": "g1NojcjdZrLmVbzLx1opUm",
+    "accName": "Raw materials",
+    "accNo": "400",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "rUUEGJJuRJEPrzPEJxoYZb"
+  },
+  {
+    "_id": "rcHJwYe4QoZDYuEMHAP7k6",
+    "accId": "rcHJwYe4QoZDYuEMHAP7k6",
+    "accName": "Work in progress",
+    "accNo": "410",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "rUUEGJJuRJEPrzPEJxoYZb"
+  },
+  {
+    "_id": "eQjquRtKabdwPuz6KzEbeJ",
+    "accId": "eQjquRtKabdwPuz6KzEbeJ",
+    "accName": "Finished goods",
+    "accNo": "420",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "rUUEGJJuRJEPrzPEJxoYZb"
+  },
+  {
+    "_id": "a4LbamBrL1nFsLigoRHSnL",
+    "accId": "a4LbamBrL1nFsLigoRHSnL",
+    "accName": "Other receivables",
+    "accNo": "500",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "4ifeceBj8fFMAPivCXmYLX"
+  },
+  {
+    "_id": "x5FJqmASAcnSLQMPg3mdDn",
+    "accId": "x5FJqmASAcnSLQMPg3mdDn",
+    "accName": "Prepayments",
+    "accNo": "510",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "9KGRiMDbkXdoG8vAdT1bRk",
+    "accSubgroupId": "4ifeceBj8fFMAPivCXmYLX"
+  },
+  {
+    "_id": "6X9VV3YX5p2m7VSoespy8c",
+    "accId": "6X9VV3YX5p2m7VSoespy8c",
+    "accName": "Long term marketable securities",
+    "accNo": "600",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "aqubNhsdzsRkKEyEa331Et"
+  },
+  {
+    "_id": "f9b8XHCUpo5TN7GbrWAW3f",
+    "accId": "f9b8XHCUpo5TN7GbrWAW3f",
+    "accName": "Property",
+    "accNo": "700",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T"
+  },
+  {
+    "_id": "6RuHjfdmYeAuU27jVVpXv5",
+    "accId": "6RuHjfdmYeAuU27jVVpXv5",
+    "accName": "Property Depreciation",
+    "accNo": "710",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T"
+  },
+  {
+    "_id": "7bBKJhAHMa1QBPXvDEN3a3",
+    "accId": "7bBKJhAHMa1QBPXvDEN3a3",
+    "accName": "Plant",
+    "accNo": "720",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T"
+  },
+  {
+    "_id": "7qSGqdK7z4PWindHpX8QF9",
+    "accId": "7qSGqdK7z4PWindHpX8QF9",
+    "accName": "Plant depreciation",
+    "accNo": "730",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T"
+  },
+  {
+    "_id": "vR4xk6qPHmQqPMVfWEEH6V",
+    "accId": "vR4xk6qPHmQqPMVfWEEH6V",
+    "accName": "Equipment",
+    "accNo": "740",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T"
+  },
+  {
+    "_id": "cikSw3hRnYycKiFLLYCrQa",
+    "accId": "cikSw3hRnYycKiFLLYCrQa",
+    "accName": "Equipment depreciation",
+    "accNo": "750",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "cTNNEUiJEdbyJLjRkDh12T"
+  },
+  {
+    "_id": "rKd8dHGxXuZxi6eyCEgqdP",
+    "accId": "rKd8dHGxXuZxi6eyCEgqdP",
+    "accName": "Goodwill",
+    "accNo": "800",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "2dLSNuE1K8E6ckfGtUgSn4"
+  },
+  {
+    "_id": "sjqN34iE47Crwdittp3ZTq",
+    "accId": "sjqN34iE47Crwdittp3ZTq",
+    "accName": "Intellectual property",
+    "accNo": "810",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "bLxDwb8iNE2o99fvD8qKoi"
+  },
+  {
+    "_id": "2jqBQopmCrEuaVBhHLZTv2",
+    "accId": "2jqBQopmCrEuaVBhHLZTv2",
+    "accName": "Intellectual property amortization",
+    "accNo": "820",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "bLxDwb8iNE2o99fvD8qKoi"
+  },
+  {
+    "_id": "782nwZ9DLorBaviy2J1Q6o",
+    "accId": "782nwZ9DLorBaviy2J1Q6o",
+    "accName": "Other assets",
+    "accNo": "840",
+    "normally": "Debit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "43o2Mk3tkcPZBPnAvtFEU1",
+    "accSubgroupId": "tsAKXxVjpUf8GvZ4eBofTf"
+  },
+  {
+    "_id": "b1pHKSdqqB3uBqmwF7EmrJ",
+    "accId": "b1pHKSdqqB3uBqmwF7EmrJ",
+    "accName": "Notes payable",
+    "accNo": "900",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "tSdbm8tzdrfuJTaeG9DSPu"
+  },
+  {
+    "_id": "vW3AR3E9qfX5SHurLsATAK",
+    "accId": "vW3AR3E9qfX5SHurLsATAK",
+    "accName": "Accounts payable",
+    "accNo": "1000",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "fLPTLotbtw9nvy3Y7EraCY"
+  },
+  {
+    "_id": "rFh6MpTRL5CqbdTkSy6gGT",
+    "accId": "rFh6MpTRL5CqbdTkSy6gGT",
+    "accName": "Payroll payable",
+    "accNo": "1100",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "qjUV5vVscVfzrQTLznasGa",
+    "accId": "qjUV5vVscVfzrQTLznasGa",
+    "accName": "Interest payable",
+    "accNo": "1110",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "bpYjywHyL1u65a6h8ANQXe",
+    "accId": "bpYjywHyL1u65a6h8ANQXe",
+    "accName": "Accrued expenses",
+    "accNo": "1120",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "1TyS45ysNqQCwPtQD9aATD",
+    "accId": "1TyS45ysNqQCwPtQD9aATD",
+    "accName": "Unearned revenue",
+    "accNo": "1130",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "5gvv5Z4V222ViAwdyZxqrb",
+    "accId": "5gvv5Z4V222ViAwdyZxqrb",
+    "accName": "Sales Tax payable",
+    "accNo": "1140",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "u2RPhvH86nE3moyjsrotV4",
+    "accId": "u2RPhvH86nE3moyjsrotV4",
+    "accName": "Purchase Tax payable",
+    "accNo": "1150",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "nXFW9eeFpSni7ctGhKso1t",
+    "accId": "nXFW9eeFpSni7ctGhKso1t",
+    "accName": "Payroll tax payable",
+    "accNo": "1160",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "qKcMxpKYdsgeMmUDXWC1dW",
+    "accId": "qKcMxpKYdsgeMmUDXWC1dW",
+    "accName": "Income tax payable",
+    "accNo": "1170",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8YSHEfyAFFnEQgqcujR76Z",
+    "accSubgroupId": "qW9F6PZRtEjSpm6DGRcBVw"
+  },
+  {
+    "_id": "3U3YfvV3JZSgpPDbp2m5mf",
+    "accId": "3U3YfvV3JZSgpPDbp2m5mf",
+    "accName": "Mortgage loan",
+    "accNo": "1200",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8cMY4DpEkWSiYSoNN5mnHV",
+    "accSubgroupId": "5x5nPaa7DAX4jM2Cdmdvpp"
+  },
+  {
+    "_id": "9UC7RQ5aS7Zv6ddgTZZGZX",
+    "accId": "9UC7RQ5aS7Zv6ddgTZZGZX",
+    "accName": "Bonds payable",
+    "accNo": "1210",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "8cMY4DpEkWSiYSoNN5mnHV",
+    "accSubgroupId": "sX9Kt2eYmyZrCZnbENtUMQ"
+  },
+  {
+    "_id": "5RyCL8pYpsBWEAaFuciuSW",
+    "accId": "5RyCL8pYpsBWEAaFuciuSW",
+    "accName": "Common stock",
+    "accNo": "1300",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "rxq9f5bz6yQK8oLSgqUkJ3",
+    "accSubgroupId": "xiz8vy7EAtUrDSc385KQUS"
+  },
+  {
+    "_id": "t98iXc376oRA7diQiXGvQo",
+    "accId": "t98iXc376oRA7diQiXGvQo",
+    "accName": "Retained earnings",
+    "accNo": "1400",
+    "normally": "Credit",
+    "accStatementTypeId": "vCmwQ7Kaf9JyH8kqy9FCkM",
+    "accGroupId": "rxq9f5bz6yQK8oLSgqUkJ3",
+    "accSubgroupId": "n8i15oBCC3RuB5DLgzCEeh"
+  },
+  {
+    "_id": "qxoiDHcdzkFx9NARi84o2n",
+    "accId": "qxoiDHcdzkFx9NARi84o2n",
+    "accName": "Sales",
+    "accNo": "2000",
+    "normally": "Credit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "3cDsYynPNo7zHiG35zPyis",
+    "accSubgroupId": "hesPjnnqSzVkvcXFaC1Vn1"
+  },
+  {
+    "_id": "vjN2oedq6ie4mMwixjtLyM",
+    "accId": "vjN2oedq6ie4mMwixjtLyM",
+    "accName": "Discounts allowed",
+    "accNo": "2100",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "3cDsYynPNo7zHiG35zPyis",
+    "accSubgroupId": "hesPjnnqSzVkvcXFaC1Vn1"
+  },
+  {
+    "_id": "or5jCDz99usXZ39RVzgX4C",
+    "accId": "or5jCDz99usXZ39RVzgX4C",
+    "accName": "Materials purchased",
+    "accNo": "2200",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "ahuMZGQdD5y3Ubzy4BR8Tx",
+    "accId": "ahuMZGQdD5y3Ubzy4BR8Tx",
+    "accName": "Packaging",
+    "accNo": "2210",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "tRWiqfyRCzpiYcyyaQTugF",
+    "accId": "tRWiqfyRCzpiYcyyaQTugF",
+    "accName": "Discounts taken",
+    "accNo": "2220",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "axrwh3DmG1MYHca4aUbiro",
+    "accId": "axrwh3DmG1MYHca4aUbiro",
+    "accName": "Carriage",
+    "accNo": "2230",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "uycKGXgbW54Ncwqdb3uGzY",
+    "accId": "uycKGXgbW54Ncwqdb3uGzY",
+    "accName": "Import duty",
+    "accNo": "2240",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "4yqt4vKpgqWkXoCa6wiYwD",
+    "accId": "4yqt4vKpgqWkXoCa6wiYwD",
+    "accName": "Transport insurance",
+    "accNo": "2250",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "nj9NPAydV1QK219j59LhWH",
+    "accId": "nj9NPAydV1QK219j59LhWH",
+    "accName": "Opening inventory",
+    "accNo": "2260",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "8dBh7fdfRZKsVbyzZx2pnF",
+    "accId": "8dBh7fdfRZKsVbyzZx2pnF",
+    "accName": "Closing inventory",
+    "accNo": "2270",
+    "normally": "Credit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "dWqcXwM6D263otaH4Fb4wW",
+    "accId": "dWqcXwM6D263otaH4Fb4wW",
+    "accName": "Productive Labour",
+    "accNo": "2280",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "hZEMJWwTPtttwCQyDdeNPT",
+    "accSubgroupId": "nKhaMJP7iGUDJzsgFh1woV"
+  },
+  {
+    "_id": "mRqUF5oADLF2yuuMZwueo1",
+    "accId": "mRqUF5oADLF2yuuMZwueo1",
+    "accName": "Research and development",
+    "accNo": "2300",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "bRk3kYonH4MBfEwzktcbZU"
+  },
+  {
+    "_id": "2aYoVK6uom2nfQwgsXzgJM",
+    "accId": "2aYoVK6uom2nfQwgsXzgJM",
+    "accName": "Sales commissions",
+    "accNo": "2400",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "jq2GX1RFmZvLuQBDat46h8"
+  },
+  {
+    "_id": "6WdzedGmAytfBHifaX48Mt",
+    "accId": "6WdzedGmAytfBHifaX48Mt",
+    "accName": "Sales promotion",
+    "accNo": "2410",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "jq2GX1RFmZvLuQBDat46h8"
+  },
+  {
+    "_id": "imNCEx2XV4fs5RfeJ5G4YQ",
+    "accId": "imNCEx2XV4fs5RfeJ5G4YQ",
+    "accName": "Advertising",
+    "accNo": "2420",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "jq2GX1RFmZvLuQBDat46h8"
+  },
+  {
+    "_id": "8BFx8ZKq9Vx6A2VcQwgS7m",
+    "accId": "8BFx8ZKq9Vx6A2VcQwgS7m",
+    "accName": "Gifts & samples",
+    "accNo": "2430",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "jq2GX1RFmZvLuQBDat46h8"
+  },
+  {
+    "_id": "wyXw2aE2WL9k92PHFUEmnW",
+    "accId": "wyXw2aE2WL9k92PHFUEmnW",
+    "accName": "Marketing expenses",
+    "accNo": "2440",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "jq2GX1RFmZvLuQBDat46h8"
+  },
+  {
+    "_id": "2EEyZvNMm77X68qmPZ9nNn",
+    "accId": "2EEyZvNMm77X68qmPZ9nNn",
+    "accName": "Payroll",
+    "accNo": "2500",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "mTi6PZaUnrAW9hYghivKLj",
+    "accId": "mTi6PZaUnrAW9hYghivKLj",
+    "accName": "Payroll expenses",
+    "accNo": "2510",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "uQoVdF4tWdSCH5szRH6m6C",
+    "accId": "uQoVdF4tWdSCH5szRH6m6C",
+    "accName": "Payroll benefits",
+    "accNo": "2530",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "6kyjXUdpdZYVQtXuB1WWub",
+    "accId": "6kyjXUdpdZYVQtXuB1WWub",
+    "accName": "Payroll taxes",
+    "accNo": "2540",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "qp22mLY8nEPqAC8Dn3wGyE",
+    "accId": "qp22mLY8nEPqAC8Dn3wGyE",
+    "accName": "Pensions",
+    "accNo": "2570",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "jyYNQg7YEXLyYMJT6QCuVo",
+    "accId": "jyYNQg7YEXLyYMJT6QCuVo",
+    "accName": "Recruitment expenses",
+    "accNo": "2580",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "osWVSuuiJg6nJ2MFX5JiBD",
+    "accId": "osWVSuuiJg6nJ2MFX5JiBD",
+    "accName": "Rent",
+    "accNo": "2620",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "7BgthpB3auBi6WkU5X9FV8",
+    "accId": "7BgthpB3auBi6WkU5X9FV8",
+    "accName": "Water",
+    "accNo": "2630",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "x8vRN4fkwLk3AwxtbeEZmQ",
+    "accId": "x8vRN4fkwLk3AwxtbeEZmQ",
+    "accName": "Property taxes",
+    "accNo": "2640",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "fzev1nMvFneJ8E1oJP4HDJ",
+    "accId": "fzev1nMvFneJ8E1oJP4HDJ",
+    "accName": "Premises insurance",
+    "accNo": "2650",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "kUWLfM9TdKfissyT8pAZyZ",
+    "accId": "kUWLfM9TdKfissyT8pAZyZ",
+    "accName": "Electricity",
+    "accNo": "2660",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "71Ym7WLJNwNZM8JzPzAyo9",
+    "accId": "71Ym7WLJNwNZM8JzPzAyo9",
+    "accName": "Gas",
+    "accNo": "2670",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "iDnviqwHRxwgneJX8GpiHi",
+    "accId": "iDnviqwHRxwgneJX8GpiHi",
+    "accName": "Oil",
+    "accNo": "2680",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "t4gfPpLkaYhXZAB8bzNXdn",
+    "accId": "t4gfPpLkaYhXZAB8bzNXdn",
+    "accName": "Other heating costs",
+    "accNo": "2690",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "jkhRqpEfzowovZegc3c5z4",
+    "accId": "jkhRqpEfzowovZegc3c5z4",
+    "accName": "Motor fuel",
+    "accNo": "2700",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "bcWZXsjZPi9UnHYtLBUNWA",
+    "accId": "bcWZXsjZPi9UnHYtLBUNWA",
+    "accName": "Motor repairs",
+    "accNo": "2710",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "vThuFMqPMnt9oi3tHWVyVN",
+    "accId": "vThuFMqPMnt9oi3tHWVyVN",
+    "accName": "Licenses",
+    "accNo": "2720",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "8mr5TyaJUEHA3ewgco9GB3",
+    "accId": "8mr5TyaJUEHA3ewgco9GB3",
+    "accName": "Vehicle insurance",
+    "accNo": "2730",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "dLMaXzhfC2JmhGYzvvw4D3",
+    "accId": "dLMaXzhfC2JmhGYzvvw4D3",
+    "accName": "Miscellaneous motor",
+    "accNo": "2740",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "byHeobyoriV5f1c6mu1sut",
+    "accId": "byHeobyoriV5f1c6mu1sut",
+    "accName": "Travelling",
+    "accNo": "2760",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "4ea9eYvKLFpYfZWXe8cs25",
+    "accId": "4ea9eYvKLFpYfZWXe8cs25",
+    "accName": "Car hire",
+    "accNo": "2770",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "dgxqi83KHdMnjFj86pZtVR",
+    "accId": "dgxqi83KHdMnjFj86pZtVR",
+    "accName": "Hotels",
+    "accNo": "2780",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "cBQBZEh3djqqBUubmtQdGe",
+    "accId": "cBQBZEh3djqqBUubmtQdGe",
+    "accName": "Entertainment",
+    "accNo": "2790",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "rs9QAfqivkaqYKLFEehamz",
+    "accId": "rs9QAfqivkaqYKLFEehamz",
+    "accName": "Subsistence",
+    "accNo": "2800",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "x9tKJmjb2mnupSpJijB2Uz",
+    "accId": "x9tKJmjb2mnupSpJijB2Uz",
+    "accName": "Printing",
+    "accNo": "2810",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "61ytiQg8W5LnjNYEnTQEgT",
+    "accId": "61ytiQg8W5LnjNYEnTQEgT",
+    "accName": "Postage & carriage",
+    "accNo": "2820",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "n1GnTH6BDuAJv9V97XqC3v",
+    "accId": "n1GnTH6BDuAJv9V97XqC3v",
+    "accName": "Telephone",
+    "accNo": "2830",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "okA2Lm1LEaV6DNmUUKXYjX",
+    "accId": "okA2Lm1LEaV6DNmUUKXYjX",
+    "accName": "Office stationery",
+    "accNo": "2840",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "nBm1CbezZwC4iqDFHQeJN4",
+    "accId": "nBm1CbezZwC4iqDFHQeJN4",
+    "accName": "Books",
+    "accNo": "2850",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "nj9fh9GFXfZCRmtuWQ1zr9",
+    "accId": "nj9fh9GFXfZCRmtuWQ1zr9",
+    "accName": "Legal fees",
+    "accNo": "2860",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "oUmzgwGdAEXoNpj7KcV3CT",
+    "accId": "oUmzgwGdAEXoNpj7KcV3CT",
+    "accName": "Audit & accountancy fees",
+    "accNo": "2870",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "gKsRaaQ2383w8x2JEZSzdy",
+    "accId": "gKsRaaQ2383w8x2JEZSzdy",
+    "accName": "Consultancy fees",
+    "accNo": "2880",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "w41CPgqc4nhPWa3q7LvBpk",
+    "accId": "w41CPgqc4nhPWa3q7LvBpk",
+    "accName": "Professional fees",
+    "accNo": "2890",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "3bm4yaMT8s7gtvhqr8PT56",
+    "accId": "3bm4yaMT8s7gtvhqr8PT56",
+    "accName": "Equipment hire",
+    "accNo": "2900",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "aNM5oHh9gMQd7NiADuYy1M",
+    "accId": "aNM5oHh9gMQd7NiADuYy1M",
+    "accName": "Equipment maintenance",
+    "accNo": "2910",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "x9fSmvZR5jMhG349584uHp",
+    "accId": "x9fSmvZR5jMhG349584uHp",
+    "accName": "Repairs & renewals",
+    "accNo": "2920",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "bZvHu3mo9FvXUMowRepiQV",
+    "accId": "bZvHu3mo9FvXUMowRepiQV",
+    "accName": "Cleaning",
+    "accNo": "2930",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "wPAEaXAT1bYL2bfnEYrEzC",
+    "accId": "wPAEaXAT1bYL2bfnEYrEzC",
+    "accName": "Laundry",
+    "accNo": "2940",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "4TzqA33Cp2Au7aJUsGR9iF",
+    "accId": "4TzqA33Cp2Au7aJUsGR9iF",
+    "accName": "Premises expenses",
+    "accNo": "2950",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "m2VTsMEtKXc9QVZws8tdHk",
+    "accId": "m2VTsMEtKXc9QVZws8tdHk",
+    "accName": "Bad debt expense",
+    "accNo": "2960",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "o1mc3UMVefJYpyhxvkPZRA",
+    "accId": "o1mc3UMVefJYpyhxvkPZRA",
+    "accName": "Donations",
+    "accNo": "2970",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "e2ZF6f2KPZt9bSpq2CTY2m",
+    "accId": "e2ZF6f2KPZt9bSpq2CTY2m",
+    "accName": "Subscriptions",
+    "accNo": "2980",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "hXMt1fPWW6bfQk8bcb7pXy",
+    "accId": "hXMt1fPWW6bfQk8bcb7pXy",
+    "accName": "Clothing costs",
+    "accNo": "2990",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "hVYx3mgHKJiZsNqCwN9hMA",
+    "accId": "hVYx3mgHKJiZsNqCwN9hMA",
+    "accName": "Training costs",
+    "accNo": "3000",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "aJ3328q7jVtHyV4Chgbtnt",
+    "accId": "aJ3328q7jVtHyV4Chgbtnt",
+    "accName": "Insurance",
+    "accNo": "3010",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "3VAhGxirkYFBjF4TM2ytDn",
+    "accId": "3VAhGxirkYFBjF4TM2ytDn",
+    "accName": "Refreshments",
+    "accNo": "3020",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "kZ3mrnVEUv5jXfusjXgpnY",
+    "accId": "kZ3mrnVEUv5jXfusjXgpnY",
+    "accName": "Suspense account",
+    "accNo": "3030",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "ueWNhHotLfE8rqM75MT9YW",
+    "accId": "ueWNhHotLfE8rqM75MT9YW",
+    "accName": "Mispostings account",
+    "accNo": "3040",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "h13QdmPzz3wxnmUmKJfDJv"
+  },
+  {
+    "_id": "7yCCAJWusf3TMCd41Z93Jf",
+    "accId": "7yCCAJWusf3TMCd41Z93Jf",
+    "accName": "Property depreciation",
+    "accNo": "3100",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "hX9SUfCJuxpc1J2o6WtAhA"
+  },
+  {
+    "_id": "gu6sfBESM8m7jo7uWHPzGv",
+    "accId": "gu6sfBESM8m7jo7uWHPzGv",
+    "accName": "Plant depreciation",
+    "accNo": "3110",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "hX9SUfCJuxpc1J2o6WtAhA"
+  },
+  {
+    "_id": "nUANZk1Uqq1TdxdopPLSCn",
+    "accId": "nUANZk1Uqq1TdxdopPLSCn",
+    "accName": "Equipment depreciation",
+    "accNo": "3120",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "hX9SUfCJuxpc1J2o6WtAhA"
+  },
+  {
+    "_id": "7r87fzqtKnUhQdGir3godf",
+    "accId": "7r87fzqtKnUhQdGir3godf",
+    "accName": "Intellectal property amortization",
+    "accNo": "3130",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "hX9SUfCJuxpc1J2o6WtAhA"
+  },
+  {
+    "_id": "b41uFjzoPiKvJhitWQubAS",
+    "accId": "b41uFjzoPiKvJhitWQubAS",
+    "accName": "Interest expense",
+    "accNo": "3200",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "nP69Y4UAwSCr3nhz5x45KH"
+  },
+  {
+    "_id": "cKaHBzNeLgjz81pZp6WAqA",
+    "accId": "cKaHBzNeLgjz81pZp6WAqA",
+    "accName": "Bank fees",
+    "accNo": "3210",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "nP69Y4UAwSCr3nhz5x45KH"
+  },
+  {
+    "_id": "6ZDzwR8AExG7Ce59EZii9x",
+    "accId": "6ZDzwR8AExG7Ce59EZii9x",
+    "accName": "Currency charges",
+    "accNo": "3220",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "nP69Y4UAwSCr3nhz5x45KH"
+  },
+  {
+    "_id": "tWarphZVTaXd7GVMSic2pR",
+    "accId": "tWarphZVTaXd7GVMSic2pR",
+    "accName": "Gain on sale of assets",
+    "accNo": "3300",
+    "normally": "Credit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "rpPjBQFoB6H8FsevC9yL1L",
+    "accSubgroupId": "6enyJjBWbedofn85vjSjAa"
+  },
+  {
+    "_id": "gCsbjn3n4fAac7RcgxBtyK",
+    "accId": "gCsbjn3n4fAac7RcgxBtyK",
+    "accName": "Interest income",
+    "accNo": "3310",
+    "normally": "Credit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "rpPjBQFoB6H8FsevC9yL1L",
+    "accSubgroupId": "6enyJjBWbedofn85vjSjAa"
+  },
+  {
+    "_id": "a5HfcQXcxnuXweYVfVChNE",
+    "accId": "a5HfcQXcxnuXweYVfVChNE",
+    "accName": "Insurance claims",
+    "accNo": "3320",
+    "normally": "Credit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "rpPjBQFoB6H8FsevC9yL1L",
+    "accSubgroupId": "6enyJjBWbedofn85vjSjAa"
+  },
+  {
+    "_id": "qWDsRPgN76fpTQrbyV7Ekm",
+    "accId": "qWDsRPgN76fpTQrbyV7Ekm",
+    "accName": "Rent income",
+    "accNo": "3330",
+    "normally": "Credit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "rpPjBQFoB6H8FsevC9yL1L",
+    "accSubgroupId": "6enyJjBWbedofn85vjSjAa"
+  },
+  {
+    "_id": "8J52VqnT5pqURTh6zt2Q14",
+    "accId": "8J52VqnT5pqURTh6zt2Q14",
+    "accName": "Income tax expense",
+    "accNo": "3400",
+    "normally": "Debit",
+    "accStatementTypeId": "gY9RiRJbybBFRa16f48ydC",
+    "accGroupId": "8ku9obr4P7rt4qRSUGQRYa",
+    "accSubgroupId": "bpmrRczvTAAdAXeswZf1fE"
+  }
+]

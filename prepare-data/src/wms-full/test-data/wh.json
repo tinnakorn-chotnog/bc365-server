@@ -1,0 +1,30 @@
+[
+    {
+    "_id": "nw2G84KkeFdmTozciNJkcP",
+    "whId": "nw2G84KkeFdmTozciNJkcP",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "whNo": "000",
+    "whName": "DEFAULT"
+    },
+    {
+    "_id": "9nzXwzyFReXUvaA2f5X1xp",
+    "whId": "9nzXwzyFReXUvaA2f5X1xp",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "whNo": "W01",
+    "whName": "wh 1"
+    },
+    {
+    "_id": "oHLPTwQatcBYuGwTGTF8Vs",
+    "whId": "oHLPTwQatcBYuGwTGTF8Vs",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "whNo": "W02",
+    "whName": "wh 2"
+    },
+    {
+    "_id": "qTwDuBLFmWiz3h64YaRPhJ",
+    "whId": "qTwDuBLFmWiz3h64YaRPhJ",
+    "bizId": "mnuz6SU4ncbMmBrutWioae",
+    "whNo": "W03",
+    "whName": "wh 3"
+    }
+]

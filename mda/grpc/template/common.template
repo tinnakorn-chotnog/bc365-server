@@ -1,0 +1,79 @@
+syntax = "proto3";
+
+package korato;
+
+import "google/protobuf/struct.proto";
+
+message GetParams {
+  string bid = 1;
+  string brid = 2;
+  optional uint32 page = 3;
+  optional uint32 limit = 4;
+  optional bool pageInfo = 5;
+  optional bool skipBidCheck = 6;
+  optional bool skipBridCheck = 7;
+  optional google.protobuf.Struct filter = 8;
+  optional google.protobuf.Struct sort = 9;
+}
+
+message GetOneParams {
+  string bid = 1;
+  string brid = 2;
+  optional bool skipBridCheck = 3;
+  optional google.protobuf.Struct filter = 4;
+}
+
+message GetByIdParams {
+  string bid = 1;
+  google.protobuf.Struct ido = 3;
+}
+
+message Result {
+  google.protobuf.Struct result = 1;
+}
+
+message ResultArray {
+  repeated google.protobuf.Struct result = 1;
+}
+
+message Numbering {
+	optional string docNumberingId = 1;
+	string seq = 2;
+	string pattern = 3;
+	optional string resetType = 4;
+	string fieldName = 5;
+	optional google.protobuf.Struct context = 6;
+
+}
+
+message AddParams {
+  string bid = 1;
+  string brid = 2;
+  google.protobuf.Struct data = 3;
+  Numbering numbering = 4;
+}
+
+message AddListParams {
+  string bid = 1;
+  string brid = 2;
+  repeated google.protobuf.Struct data = 3;
+  Numbering numbering = 4;
+}
+
+message UpdateParams {
+  string bid = 1;
+  string brid = 2;
+  google.protobuf.Struct data = 3;
+}
+
+message UpdateListParams {
+  string bid = 1;
+  string brid = 2;
+  repeated google.protobuf.Struct data = 3;
+}
+
+message DeleteParams {
+  string bid = 1;
+  string brid = 2;
+  google.protobuf.Struct data = 3;
+}

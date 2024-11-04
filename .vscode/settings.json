@@ -1,0 +1,8 @@
+{
+  "eslint.validate": ["json"],
+  "protoc": {
+    "options": [
+        "--proto_path=libs/demo1/src/lib/generated/protos"
+    ]
+}  
+}
